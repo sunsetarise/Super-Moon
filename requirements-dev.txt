@@ -7,5 +7,5 @@ fastapi>=0.115
 pydantic>=2.10
 reportlab>=4
 httpx>=0.28
-python-multipart>=0.0.20
+python-multipart>=0.0.32
 

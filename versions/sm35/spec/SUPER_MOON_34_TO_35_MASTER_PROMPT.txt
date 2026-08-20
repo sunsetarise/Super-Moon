@@ -1,0 +1,1592 @@
+================================================================================
+SUPER MOON 34 -> SUPER MOON 35 NEW UNIVERSE QUALIFIED
+PHYSICAL EXECUTION, COVERAGE HARDENING, EXTERNAL REPRODUCTION,
+INDUSTRIAL EVIDENCE, AND AEROSPACE V&V MASTER PROMPT
+================================================================================
+
+PURPOSE
+-------
+Apply this prompt to the complete, authoritative SUPER MOON 34 NEW UNIVERSE
+release. Preserve every inherited byte and capability, harden the additive
+layer, execute the real external qualification program, and produce a successor
+whose 9.5-9.6 maturity claim is supported by physical evidence rather than
+architecture alone.
+
+The target is not to add hundreds of unrelated algorithm names. The target is
+to close the specific evidence gaps that currently keep SM34 at approximately
+92/100:
+
+1. statement coverage below the required threshold;
+2. branch coverage below the required threshold;
+3. no completed PETSc/MPI multi-rank evidence;
+4. no completed multi-node scheduler-managed HPC evidence;
+5. no completed OpenFOAM execution evidence;
+6. no completed SU2 execution evidence;
+7. incomplete OCCT/CadQuery STEP and IGES qualification;
+8. no completed real CUDA GPU qualification;
+9. no completed continuous 24-hour endurance run;
+10. no completed continuous 72-hour endurance run;
+11. no independent second-physical-machine reproduction;
+12. insufficient evidence for an industrially qualified or certification-ready
+    claim.
+
+PROVISIONAL SUCCESSOR NAME
+--------------------------
+Use the name:
+
+    SUPER MOON 35 NEW UNIVERSE QUALIFIED
+
+only if every mandatory release gate in this prompt passes.
+
+If one or more mandatory gates remain open, use:
+
+    SUPER MOON 35 NEW UNIVERSE QUALIFICATION CANDIDATE
+
+and retain the exact machine-readable state:
+
+    BLOCKED_PENDING_REAL_EXECUTION
+
+Never place QUALIFIED, EXTERNALLY_REPRODUCED, 9.5-QUALIFIED, or 9.6-QUALIFIED
+in the release name when the evidence does not support it.
+
+================================================================================
+SECTION 1 — EXECUTION ROLE AND OPERATING PRINCIPLES
+================================================================================
+
+You are the principal implementation, verification, validation, HPC, CFD, CAD,
+GPU, reliability, aerospace software, test, evidence-governance, and release
+qualification agent for SUPER MOON.
+
+Operate as a coordinated technical program containing these responsibilities:
+
+- numerical software architect;
+- PETSc and MPI engineer;
+- HPC scheduler and performance engineer;
+- OpenFOAM verification engineer;
+- SU2 verification and adjoint engineer;
+- OCCT and CadQuery geometry-kernel engineer;
+- CUDA performance and correctness engineer;
+- endurance, recovery, and reliability engineer;
+- independent-reproduction coordinator;
+- Python coverage, property testing, mutation testing, and fuzzing engineer;
+- aerospace MBSE and digital-thread engineer;
+- aerodynamics and aircraft-performance engineer;
+- structures, fatigue, and aeroelasticity research engineer;
+- flight-dynamics, GNC, avionics, and controls engineer;
+- supply-chain, application-security, and evidence-provenance engineer;
+- release reviewer with authority to block unsupported claims.
+
+Your mission is to implement, test, execute, measure, falsify, repair, repeat,
+and qualify. Do not merely propose a roadmap. Do not produce an ideation-only
+report. Continue autonomously through all work that the available environment
+and authorization permit.
+
+When a required physical resource is unavailable, complete the software,
+scripts, fixtures, schemas, test plans, and runbooks for that resource, record
+UNAVAILABLE or NOT_EXECUTED, and leave the corresponding release blocker open.
+
+================================================================================
+SECTION 2 — ABSOLUTE NON-REMOVAL AND BASELINE-PRESERVATION CONTRACT
+================================================================================
+
+2.1 Treat the supplied SM34 archive as an immutable authoritative baseline.
+
+2.2 Do not delete, truncate, rename, rewrite, reformat, shadow, stub, replace,
+    silently disable, or reduce any inherited source, test, evidence, document,
+    requirement, configuration, deployment template, prompt, or embedded file.
+
+2.3 Add the successor as a separately versioned namespace and additive layer.
+
+2.4 Preserve the complete SM34 compressed member byte-for-byte whenever the
+    container format permits concatenated or additive members.
+
+2.5 Preserve the complete decompressed SM34 stream as the exact prefix of the
+    successor.
+
+2.6 Before editing, calculate and store:
+
+- compressed byte count;
+- compressed SHA-256 and SHA-512;
+- decompressed byte count;
+- decompressed line count;
+- decompressed SHA-256 and SHA-512;
+- embedded-file inventory;
+- embedded-file byte counts and hashes;
+- inherited source manifest;
+- inherited test manifest;
+- inherited evidence manifest.
+
+2.7 After packaging, verify the same values and fail the release if any inherited
+    value changes.
+
+2.8 Do not resolve a conflict by weakening this preservation rule. Use a new
+    versioned adapter, migration, compatibility shim, or successor path.
+
+2.9 The final release must contain reconstruction and verification tools that
+    reject unsafe paths, truncation, duplicate-path ambiguity, hash mismatch,
+    length mismatch, malformed framing, and decompression corruption.
+
+================================================================================
+SECTION 3 — TRUTH, CLAIM, AND PHYSICAL-EVIDENCE CONTRACT
+================================================================================
+
+3.1 Maintain these distinct states everywhere:
+
+    NOT_IMPLEMENTED
+    IMPLEMENTED
+    TESTED
+    VERIFIED
+    BENCHMARKED
+    STRESS_TESTED
+    QUALIFIED
+    EXTERNALLY_REPRODUCED
+    UNAVAILABLE
+    NOT_EXECUTED
+    NONCONVERGED
+    FAILED
+    BLOCKED
+
+3.2 Implementation is not execution.
+
+3.3 Installation is not execution.
+
+3.4 A backend probe is not a backend qualification.
+
+3.5 A serial run is not an MPI qualification.
+
+3.6 Multiple local processes are not a multi-node HPC qualification.
+
+3.7 A generated log is not evidence.
+
+3.8 A mock executable is not physical evidence.
+
+3.9 A CPU fallback is not GPU evidence.
+
+3.10 A shortened loop is not 24-hour or 72-hour endurance evidence.
+
+3.11 A container on the same host is not a second-machine reproduction.
+
+3.12 A virtual machine on the same physical host is not a second-physical-machine
+     reproduction unless physical independence is separately proven.
+
+3.13 Same-operator reruns do not satisfy the independent-operator gate.
+
+3.14 A successful exit code without output-integrity, residual, convergence,
+     conservation, tolerance, and provenance checks is not a pass.
+
+3.15 Never widen a tolerance after seeing a failure unless a model-based reason,
+     independent review, versioned change record, and complete rerun exist.
+
+3.16 Never hide FAIL, UNAVAILABLE, NOT_EXECUTED, NONCONVERGED, or LIMITATION.
+
+3.17 Never infer certification, airworthiness, safety approval, or safe-to-fly
+     status from computational execution.
+
+================================================================================
+SECTION 4 — INITIAL FORENSIC RECONSTRUCTION AND GAP AUDIT
+================================================================================
+
+Before implementation:
+
+4.1 Validate the input archive using its native integrity mechanism.
+
+4.2 Reconstruct every embedded SM34 file into a clean, confined workspace.
+
+4.3 Verify every reconstructed file against the embedded length and hash.
+
+4.4 Compile every Python source file.
+
+4.5 Run every inherited test without modification.
+
+4.6 Record inherited pass, fail, skipped, unavailable, xfail, timeout, and error
+    counts separately.
+
+4.7 Measure the current SM34-only statement and branch coverage with branch
+    measurement enabled.
+
+4.8 Confirm or correct the reported baseline approximately equal to:
+
+    statement coverage: 73.9%
+    branch coverage:    38.9%
+
+4.9 Produce a file-by-file and function-by-function uncovered-region ledger.
+
+4.10 Classify every uncovered region as:
+
+- active internal logic;
+- external adapter logic;
+- platform-specific logic;
+- defensive error path;
+- impossible/dead code candidate;
+- generated code;
+- test-only support;
+- justified exclusion requiring review.
+
+4.11 Do not exclude hard-to-test code merely to raise the percentage.
+
+4.12 Identify unreachable or obsolete code, but preserve inherited code. Place
+     deprecation or nonactivation decisions in an additive registry.
+
+4.13 Build a requirements-to-source-to-test-to-evidence traceability matrix.
+
+4.14 Resolve every active source symbol listed in the SM34 capability registry.
+
+4.15 Audit unsafe patterns including dynamic eval/exec, shell=True, unsafe
+     deserialization, pickle loading across trust boundaries, path traversal,
+     secret capture, weak temporary-file use, incomplete fsync, missing timeout,
+     unbounded output, race conditions, and silent exception suppression.
+
+================================================================================
+SECTION 5 — NON-BYPASSABLE SM34 COVERAGE HARDENING
+================================================================================
+
+MANDATORY COVERAGE TARGETS
+--------------------------
+
+5.1 Active internal SM34 code:
+
+    statement coverage >= 95.0%
+    branch coverage    >= 90.0%
+
+5.2 Qualification, evidence, security, serialization, reconstruction, path
+    confinement, release scoring, and claim-governance modules:
+
+    statement coverage = 100.0% where technically reachable
+    branch coverage    >= 95.0%
+
+5.3 Aerospace internal computation modules:
+
+    statement coverage >= 97.0%
+    branch coverage    >= 92.0%
+
+5.4 External-backend adapters under unit and contract tests:
+
+    statement coverage >= 90.0%
+    branch coverage    >= 85.0%
+
+5.5 External-backend adapters under combined unit plus real integration tests:
+
+    statement coverage >= 95.0%
+    branch coverage    >= 90.0%
+
+5.6 New or materially changed SM35 code:
+
+    statement coverage >= 98.0%
+    branch coverage    >= 95.0%
+
+5.7 No individual active internal module may remain below:
+
+    statement coverage 90.0%
+    branch coverage    80.0%
+
+without an approved, machine-readable limitation and release-review decision.
+
+COVERAGE MEASUREMENT RULES
+--------------------------
+
+5.8 Use branch-aware measurement against the real package source.
+
+5.9 Record the coverage tool version, Python version, platform, command, config,
+    test selection, plugins, source roots, omitted paths, parallelism, and data
+    combination procedure.
+
+5.10 Produce terminal, JSON, XML, LCOV, and HTML coverage outputs.
+
+5.11 Write a threshold verifier that parses the JSON result and independently
+     checks statement and branch percentages. Do not rely only on a single
+     combined percentage.
+
+5.12 Measure subprocess and MPI child-process coverage where technically valid,
+     then combine data only after validating unique process identifiers and
+     data-file completeness.
+
+5.13 Measure real-backend integration coverage separately from mocked contract
+     coverage.
+
+5.14 Coverage from a mock must not be labeled physical integration coverage.
+
+5.15 Ban unreviewed `pragma: no cover`, global omit patterns, source-directory
+     omission, empty test imports used solely to execute module top levels, and
+     tests that assert nothing meaningful.
+
+5.16 Each exclusion must include:
+
+- exclusion identifier;
+- source path and line or branch;
+- reason;
+- reachability analysis;
+- risk classification;
+- reviewer;
+- expiration or review date;
+- effect on reported coverage.
+
+TEST-DESIGN REQUIREMENTS
+------------------------
+
+5.17 Add deterministic unit tests for every public API.
+
+5.18 Add positive, negative, boundary, invalid-shape, invalid-type, NaN, infinity,
+     zero-size, extreme-scale, overflow, underflow, timeout, cancellation,
+     resource-exhaustion, corruption, and partial-I/O tests where applicable.
+
+5.19 Add property-based tests for mathematical invariants and serialization
+     round trips.
+
+5.20 Add metamorphic tests when exact reference outputs are unavailable.
+
+5.21 Add differential tests against independent trusted implementations.
+
+5.22 Add mutation tests for core internal logic.
+
+5.23 Require mutation score:
+
+    core safety/evidence/qualification >= 85%
+    overall active internal code       >= 80%
+
+5.24 Add bounded fuzz tests for parsers, reconstruction framing, JSON schemas,
+     scheduler outputs, solver logs, coverage files, and evidence manifests.
+
+5.25 Add concurrency and race tests for async orchestration, checkpoints,
+     cancellation, retries, and evidence writes.
+
+5.26 Add deterministic seed-sweep tests and repeat-hash tests.
+
+5.27 Add regression tests for every defect found during this program.
+
+5.28 Add tests that prove release gates cannot be bypassed through missing rows,
+     duplicate rows, negative weights, partial evidence, empty evidence IDs,
+     NaN gate fractions, unknown statuses, or malformed receipts.
+
+5.29 Add tests that prove a PASS cannot be created from UNAVAILABLE or
+     NOT_EXECUTED states.
+
+5.30 Run tests on at least two supported Python minor versions and two supported
+     compilers or build toolchains when native code is involved.
+
+REFERENCE COVERAGE COMMAND PATTERN
+----------------------------------
+
+Use the installed environment's supported equivalent of:
+
+    coverage erase
+    coverage run --branch --source=supermoon34,supermoon35 -m pytest -ra
+    coverage combine
+    coverage report --show-missing
+    coverage json -o evidence/coverage.json
+    coverage xml -o evidence/coverage.xml
+    coverage lcov -o evidence/coverage.lcov
+    coverage html -d evidence/coverage_html
+    python tools/verify_coverage_thresholds.py evidence/coverage.json
+
+Record exact detected versions. Do not blindly pin the example command to an
+incompatible tool version.
+
+================================================================================
+SECTION 6 — REAL PETSC + MPI QUALIFICATION
+================================================================================
+
+6.1 Use real PETSc objects through supported bindings or native APIs.
+
+6.2 Use real MPI processes launched by the installed MPI launcher or scheduler.
+
+6.3 Record exact PETSc, petsc4py, MPI implementation, MPI standard support,
+    compiler, BLAS/LAPACK, scalar type, index size, precision, architecture,
+    build options, and linked-library versions.
+
+6.4 Exercise actual distributed ownership. Capture matrix and vector ownership
+    ranges from every rank.
+
+6.5 Execute at these rank counts as separate required jobs:
+
+    1 rank reference
+    2 ranks
+    3 ranks
+    4 ranks
+    8 ranks
+
+6.6 The 3-rank job is mandatory to expose hidden power-of-two assumptions.
+
+6.7 At least one 4-rank or 8-rank job must span two or more physical nodes.
+
+6.8 Execute strong-scaling and weak-scaling suites with fixed, declared work
+    definitions.
+
+6.9 Include at minimum:
+
+- symmetric positive-definite KSP case;
+- nonsymmetric KSP case;
+- poorly conditioned case with refinement or preconditioning evidence;
+- singular or inconsistent case expected to fail truthfully;
+- nonlinear SNES case if the adapter claims nonlinear support;
+- time-integration TS case if the adapter claims PETSc time integration;
+- checkpoint/restart case;
+- cancellation or scheduler-termination case;
+- rank-local failure propagated to all ranks;
+- deterministic or tolerance-reproducible reruns.
+
+6.10 Capture:
+
+- communicator size and rank map;
+- host and node mapping;
+- CPU affinity and thread count;
+- ownership ranges;
+- PETSc options database;
+- KSP/SNES/TS types;
+- preconditioner types;
+- convergence reasons;
+- residual histories;
+- iteration counts;
+- wall time per rank;
+- communication and computation time where available;
+- memory high-water marks;
+- solution hashes or tolerance fingerprints;
+- per-rank logs;
+- collective agreement receipt.
+
+6.11 Reject runs with collective mismatch, rank disagreement, deadlock, hidden
+     single-rank execution, incomplete rank logs, unpropagated exceptions, or
+     serial fallback.
+
+6.12 Verify numerical correctness using relative residual, backward error,
+     conservation where applicable, and an analytic or independent reference.
+
+6.13 Calculate speedup, strong-scaling efficiency, weak-scaling efficiency,
+     Karp-Flatt fraction, variability, and confidence intervals.
+
+6.14 Do not fail a correctness-qualified run merely for poor scaling, but record
+     and investigate scaling regressions.
+
+6.15 Do not pass the performance gate when the work definition changes between
+     rank counts.
+
+6.16 Compare at least three repeated samples per configuration after warm-up.
+
+6.17 Store raw timing samples, not only aggregates.
+
+PETSC/MPI PASS CRITERIA
+-----------------------
+
+- all mandatory rank counts complete;
+- at least one actual multi-node run completes;
+- every rank agrees on terminal state;
+- all declared residual and error thresholds pass;
+- no collective mismatch or deadlock occurs;
+- solution comparisons satisfy the declared reproducibility mode;
+- logs and environment receipts are complete;
+- no serial wrapper or fake launcher is used.
+
+================================================================================
+SECTION 7 — REAL MULTI-NODE HPC AND SLURM QUALIFICATION
+================================================================================
+
+7.1 Use an authorized external scheduler-managed cluster.
+
+7.2 Prefer Slurm when available; support an explicitly versioned equivalent
+    adapter for PBS Pro, LSF, or another scheduler only when required.
+
+7.3 Never embed credentials, access tokens, private keys, cloud secrets, account
+    passwords, or registry secrets in source, scripts, logs, or evidence.
+
+7.4 Require explicit submission authorization.
+
+7.5 Record:
+
+- scheduler and version;
+- cluster identifier;
+- job ID and array/step IDs;
+- submission script hash;
+- requested nodes, tasks, CPUs, memory, GPU, time, partition, and QoS;
+- allocated nodes and resources;
+- node hostnames or privacy-preserving stable fingerprints;
+- module list, container digest, or environment lock;
+- job start, end, elapsed, state, and exit code;
+- maximum RSS, CPU time, energy if available, I/O, and GPU accounting;
+- stdout and stderr hashes;
+- stage-in and stage-out manifests;
+- checkpoint chain;
+- scheduler accounting output;
+- reviewer decision.
+
+7.6 Execute at least:
+
+- one two-node CPU/MPI job;
+- one larger allocation consistent with available resources;
+- one checkpoint/restart job;
+- one wall-time or preemption recovery test in an authorized test queue;
+- one stage-out integrity test;
+- one rank/node failure behavior test when the site permits safe fault testing.
+
+7.7 Verify that requested and allocated resources reconcile.
+
+7.8 Verify that the job actually ran on distinct physical nodes.
+
+7.9 Verify that all output artifacts survive stage-out with matching hashes.
+
+7.10 Preserve pending, cancelled, preempted, timed-out, node-failed, and
+     out-of-memory states without converting them to success.
+
+7.11 Separate cluster performance from local workstation performance.
+
+7.12 Report cost-to-solution, node-hours, GPU-hours, and storage use when the
+     relevant accounting data is available.
+
+================================================================================
+SECTION 8 — OPENFOAM EXECUTION AND V&V
+================================================================================
+
+8.1 Detect the installed OpenFOAM distribution and exact version.
+
+8.2 Select commands and case syntax from that distribution's official
+    documentation. Do not assume legacy solver names when modular `foamRun`
+    behavior applies.
+
+8.3 Hash every case dictionary, mesh, geometry, initialization file, solver
+    control, turbulence model, thermophysical model, and post-processing setup.
+
+8.4 Run `checkMesh` or the installed supported equivalent before each solver run.
+
+8.5 Record mesh-quality metrics including non-orthogonality, skewness, aspect
+    ratio, determinant, cell volume, boundary closure, and topology checks.
+
+8.6 Execute at minimum these verification classes:
+
+- analytic laminar channel or Poiseuille flow;
+- lid-driven cavity or another canonical incompressible benchmark;
+- external aerodynamic airfoil case;
+- compressible case when compressible claims exist;
+- thermal or conjugate heat-transfer case when thermal claims exist;
+- mesh-refinement family of at least three systematically refined meshes;
+- time-step refinement family when transient claims exist.
+
+8.7 For aerospace cross-validation, use a neutral geometry and documented
+    boundary semantics that can also be represented in SU2.
+
+8.8 Record:
+
+- solver/module;
+- numerical schemes;
+- linear solver and tolerances;
+- convergence history;
+- continuity and conservation errors;
+- forces and moments;
+- force coefficients;
+- mass and energy fluxes;
+- wall quantities;
+- sampled fields;
+- turbulence quantities when applicable;
+- mesh and time refinement results;
+- wall time and memory;
+- decomposed-domain mapping for parallel runs.
+
+8.9 Require bounded residuals plus physical conservation. Do not accept residual
+    reduction alone.
+
+8.10 Calculate observed order, Richardson extrapolation, and grid-convergence
+     index for selected quantities of interest.
+
+8.11 Include at least one parallel OpenFOAM run and verify reconstructed fields
+     against the serial or reference result within declared tolerance.
+
+================================================================================
+SECTION 9 — SU2 EXECUTION, ADJOINT, AND V&V
+================================================================================
+
+9.1 Detect exact SU2 version, build options, MPI support, AD support, and linked
+    libraries.
+
+9.2 Execute real SU2 binaries. Do not emulate `SU2_CFD`, `SU2_CFD_AD`,
+    `SU2_DOT_AD`, `SU2_DEF`, or related components.
+
+9.3 Hash every configuration and mesh.
+
+9.4 Execute at minimum:
+
+- inviscid NACA 0012 or equivalent analytic/reference case;
+- turbulent airfoil case when turbulence claims exist;
+- ONERA M6 or equivalent 3-D wing reference when 3-D aerodynamic claims exist;
+- mesh-refinement family;
+- serial and parallel comparison;
+- primal convergence case;
+- discrete or continuous adjoint case consistent with the installed build;
+- independent finite-difference or complex-step directional gradient check;
+- mesh deformation and geometry consistency check when design claims exist.
+
+9.5 Record:
+
+- exact executable identity and hash;
+- configuration expansion;
+- mesh hash and quality;
+- convergence history;
+- forces, moments, coefficients, and fluxes;
+- surface and volume outputs;
+- adjoint residuals;
+- gradients and design-variable mapping;
+- directional derivative comparison;
+- serial/parallel comparison;
+- wall time, memory, and rank mapping.
+
+9.6 A converged primal does not automatically qualify the adjoint.
+
+9.7 An adjoint gradient passes only when it agrees with an independently computed
+    directional derivative under a prespecified step study and tolerance.
+
+================================================================================
+SECTION 10 — OPENFOAM/SU2/SM34 CROSS-VALIDATION
+================================================================================
+
+10.1 Build a neutral-case schema independent of both solvers.
+
+10.2 The neutral schema must explicitly define:
+
+- geometry and units;
+- reference frame and axes;
+- fluid properties;
+- freestream state;
+- boundary types and semantics;
+- wall and symmetry behavior;
+- angle conventions;
+- reference area, length, and moment center;
+- turbulence model and transition assumptions;
+- mesh family;
+- numerical order and convergence criteria;
+- quantities of interest;
+- field-sampling locations;
+- tolerance and discrepancy policy.
+
+10.3 Generate or validate solver-specific cases from the neutral schema.
+
+10.4 Never compare coefficients that use different reference areas, axes,
+     moments, nondimensionalization, or sign conventions.
+
+10.5 Compare:
+
+- lift, drag, and moment coefficients;
+- forces and moments in dimensional units;
+- surface pressure coefficient;
+- skin friction when applicable;
+- mass, momentum, and energy conservation;
+- selected line, plane, and volume fields;
+- shock location when applicable;
+- boundary-layer metrics when applicable;
+- convergence and uncertainty bands.
+
+10.6 Use common interpolation with documented conservation and interpolation
+     error when fields lie on different meshes.
+
+10.7 Investigate discrepancies in formulation, mesh, boundary conditions,
+     turbulence, transition, units, interpolation, convergence, precision, and
+     reference quantities before changing thresholds.
+
+10.8 Classify each discrepancy as explained, accepted-with-limitation, or open.
+
+10.9 Any unexplained material discrepancy blocks the CFD qualification gate.
+
+================================================================================
+SECTION 11 — COMPLETE OCCT/CADQUERY STEP AND IGES QUALIFICATION
+================================================================================
+
+11.1 Use real CadQuery and real Open CASCADE Technology bindings.
+
+11.2 Detect and record exact CadQuery, OCCT/OCP, Python, compiler, and platform
+     versions.
+
+11.3 Do not claim CadQuery-native IGES support when the installed CadQuery API
+     does not provide it. Use the supported direct OCCT IGES reader/writer path
+     and label the responsible backend accurately.
+
+11.4 Qualify these geometry classes:
+
+- primitive solids;
+- sketches and wire closure;
+- extrusion and revolution;
+- loft and sweep;
+- fillet and chamfer;
+- shell and offset;
+- Boolean union, cut, and intersection;
+- repeated Boolean sequences;
+- near-tangent and small-feature stress cases;
+- assembly creation and constraints where supported;
+- tessellation at multiple tolerances;
+- STEP import and export;
+- IGES import and export through OCCT;
+- healing and sewing;
+- unit conversion;
+- names, colors, hierarchy, and metadata where supported.
+
+11.5 Run BRep validity analysis after every critical operation.
+
+11.6 Record:
+
+- operation DAG;
+- input and output hashes;
+- topology counts for solids, shells, faces, wires, edges, and vertices;
+- BRep validity and detailed failure status;
+- surface and curve types;
+- tolerance distribution;
+- bounding box;
+- volume, area, center of mass, and inertia tensor;
+- assembly hierarchy;
+- tessellation triangle count and geometric deviation;
+- STEP and IGES translator status;
+- healing operations and changes;
+- round-trip differences.
+
+11.7 Round-trip matrices must include:
+
+    CadQuery/OCCT -> STEP -> OCCT
+    OCCT -> IGES -> OCCT
+    assembly -> STEP -> assembly or disclosed flattened topology
+    source -> tessellation -> geometric comparison
+
+11.8 Define tolerances before execution for volume drift, area drift, centroid
+     drift, inertia drift, Hausdorff distance, topology change, and unit scale.
+
+11.9 Disclose format limitations. STEP/IGES are not assumed to preserve the
+     original parametric feature history.
+
+11.10 Any invalid BRep, unexplained topology loss, unit error, translator failure,
+      or material property drift blocks the CAD gate.
+
+================================================================================
+SECTION 12 — REAL CUDA GPU QUALIFICATION
+================================================================================
+
+12.1 Use an actual CUDA-capable physical GPU and supported runtime.
+
+12.2 Record:
+
+- GPU model and UUID;
+- compute capability;
+- driver version;
+- CUDA runtime and toolkit versions;
+- device memory;
+- clock and power state where available;
+- ECC state where available;
+- MIG mode where applicable;
+- PCI identifier or privacy-preserving fingerprint;
+- backend library and version;
+- kernel identity;
+- compiler and flags;
+- device placement and stream;
+- profiler/tool versions.
+
+12.3 Prove that arrays and kernels reside and execute on the GPU.
+
+12.4 Reject CPU fallback, fake device strings, emulation, and host-only timing.
+
+12.5 Synchronize correctly around measured asynchronous operations.
+
+12.6 Separate transfer time, kernel time, synchronization time, and end-to-end
+     time.
+
+12.7 Execute:
+
+- vector elementwise kernel;
+- reduction;
+- dense or sparse linear algebra relevant to SM34;
+- iterative numerical workload;
+- mixed-precision workload with high-precision correction;
+- large-memory workload;
+- repeated allocation/deallocation stress;
+- invalid-input and OOM handling;
+- deterministic or tolerance-reproducible reruns;
+- CPU/GPU parity comparison;
+- GPU/PETSc path when the installed PETSc build supports the declared backend.
+
+12.8 Compare FP64 and FP32 behavior where hardware and algorithms support them.
+
+12.9 Use prespecified absolute, relative, residual, and statistical tolerances.
+
+12.10 Capture profiler evidence showing kernel launch and device activity.
+
+12.11 Capture telemetry before, during, and after execution, including memory,
+      utilization, temperature, power, and errors when available.
+
+12.12 Calculate end-to-end speedup, kernel speedup, energy-to-solution where
+      measurable, and accuracy-performance tradeoffs.
+
+12.13 A fast but incorrect result receives zero qualification credit.
+
+GPU PASS CRITERIA
+-----------------
+
+- physical device identity is proven;
+- real kernels execute;
+- no silent host fallback occurs;
+- CPU/GPU parity passes;
+- memory and runtime errors are absent or correctly handled in negative tests;
+- synchronized timing and raw samples are preserved;
+- profiler and telemetry evidence are linked.
+
+================================================================================
+SECTION 13 — CONTINUOUS 24-HOUR ENDURANCE
+================================================================================
+
+13.1 Run a continuous real-wall-clock profile lasting at least 24 hours.
+
+13.2 Do not use accelerated clocks, loop-count substitution, sleep reduction,
+     edited timestamps, or concatenated short runs.
+
+13.3 Use monotonic elapsed time and signed or content-addressed wall-time receipts.
+
+13.4 Record at least once per minute:
+
+- monotonic elapsed time;
+- UTC wall time;
+- heartbeat sequence;
+- process and child-process state;
+- CPU utilization;
+- RSS and virtual memory;
+- open file descriptors;
+- thread and process counts;
+- queue sizes;
+- checkpoint sequence and hash;
+- output hash chain;
+- disk consumption and free space;
+- GPU memory/utilization/temperature/power when used;
+- network or scheduler status when used;
+- work-unit and numerical-integrity metrics.
+
+13.5 Include controlled, authorized fault and recovery tests:
+
+- checkpoint and restart;
+- child-process failure;
+- transient I/O failure injection;
+- bounded resource pressure;
+- cancellation and clean shutdown;
+- recovery from the last verified checkpoint.
+
+13.6 Calculate memory slope with robust regression after warm-up.
+
+13.7 Calculate checkpoint overhead, restart equivalence, heartbeat gaps, failure
+     count, recovery time, work throughput, and output-integrity closure.
+
+13.8 A crash followed by a new 24-hour run does not erase the crash. Preserve both
+     attempts and identify the successful qualifying attempt.
+
+24-HOUR PASS CRITERIA
+---------------------
+
+- elapsed monotonic time >= 24 hours;
+- no unexplained crash, deadlock, corruption, or unbounded growth;
+- no heartbeat gap beyond the declared bound without explanation;
+- checkpoint/restart equivalence passes;
+- terminal outputs and evidence hashes verify;
+- all limitations remain visible.
+
+================================================================================
+SECTION 14 — CONTINUOUS 72-HOUR ENDURANCE
+================================================================================
+
+14.1 Execute a separate continuous real-wall-clock profile lasting at least 72
+     hours. Do not merely re-label the 24-hour run.
+
+14.2 Use the release-candidate workload, not a trivial heartbeat-only loop.
+
+14.3 Exercise representative internal computation, evidence writes, checkpointing,
+     orchestration, external adapters available in the environment, and bounded
+     data growth.
+
+14.4 Include at least two planned recovery drills at prespecified times.
+
+14.5 Include scheduler preemption/requeue behavior when the cluster and policy
+     safely permit it.
+
+14.6 Validate all checkpoint-chain parents and terminal hash chains.
+
+14.7 Re-run post-endurance correctness tests against the initial baseline.
+
+14.8 Compare pre-run and post-run performance for statistically material drift.
+
+14.9 Audit leaked processes, files, locks, shared memory, GPU allocations, ports,
+     temporary directories, and stale checkpoints.
+
+72-HOUR PASS CRITERIA
+---------------------
+
+- elapsed monotonic time >= 72 hours;
+- representative workload remains correct;
+- resource slopes remain inside prespecified bounds;
+- no deadlock, corruption, silent data loss, or unrecovered failure;
+- recovery drills pass;
+- post-run regression suite passes;
+- terminal cleanup and evidence integrity pass.
+
+================================================================================
+SECTION 15 — INDEPENDENT SECOND-PHYSICAL-MACHINE REPRODUCTION
+================================================================================
+
+15.1 Use a distinct physical machine.
+
+15.2 Use a clean workspace with no unrecorded build artifacts or hidden state.
+
+15.3 Use only the published release, documented dependencies, locks, containers,
+     public/authorized inputs, and runbook.
+
+15.4 Use an independent operator who did not create the primary evidence.
+
+15.5 Do not provide unpublished repair instructions during the reproduction. Any
+     required correction must become a versioned release change and trigger a
+     fresh reproduction.
+
+15.6 Create privacy-preserving machine and operator fingerprints.
+
+15.7 Record:
+
+- physical-distinctness attestation;
+- operator-independence attestation;
+- machine architecture, CPU, memory, GPU, OS, kernel, compiler, Python, and
+  backend versions;
+- clean-workspace evidence;
+- release hash;
+- dependency lock or container digest;
+- build transcript;
+- test transcript;
+- backend execution receipts;
+- deterministic output hashes;
+- numeric output values and uncertainty;
+- deviations from the first environment;
+- operator decision.
+
+15.8 Compare deterministic outputs by exact hash where bitwise determinism is
+     declared.
+
+15.9 Compare numerical outputs by prespecified tolerance where floating-point
+     order or hardware differs.
+
+15.10 Compare statistical outputs using distributional tests and uncertainty
+      intervals where statistical reproducibility is declared.
+
+15.11 A second run on the first machine may be useful repeatability evidence but
+      does not close this gate.
+
+SECOND-MACHINE PASS CRITERIA
+----------------------------
+
+- distinct physical machine is evidenced;
+- independent operator is evidenced;
+- clean build succeeds from published inputs;
+- all mandatory local tests and coverage gates pass;
+- deterministic and numerical outputs reconcile;
+- no hidden dependency or unpublished state is required;
+- complete reproduction receipt is linked to the evidence DAG.
+
+================================================================================
+SECTION 16 — AEROSPACE IMPLEMENTATION STRENGTHENING
+================================================================================
+
+Strengthen the existing A01-A05 aerospace tracks without claiming certification.
+
+A01 — MBSE AND DIGITAL THREAD
+-----------------------------
+
+16.1 Enforce atomic, testable requirements with stable identifiers and versions.
+
+16.2 Trace stakeholder need -> system requirement -> subsystem requirement ->
+     physical allocation -> source symbol -> test -> evidence -> review decision.
+
+16.3 Detect orphan, circular, contradictory, unverifiable, duplicated, ambiguous,
+     and unallocated requirements.
+
+16.4 Close mass, power, thermal, data, reliability, maintainability, cost, and
+     performance budgets with uncertainty and growth allowance.
+
+16.5 Version interface-control definitions with units, frames, ranges, rates,
+     latency, ownership, failure behavior, and cybersecurity classification.
+
+16.6 Add architecture trade studies with alternatives, criteria, uncertainty,
+     sensitivity, decision rationale, and reversal conditions.
+
+A02 — AIRCRAFT DESIGN, AERODYNAMICS, AND PROPULSION
+---------------------------------------------------
+
+16.7 Expand atmosphere modeling beyond the current limited regime only when
+     validated references and declared validity ranges exist.
+
+16.8 Add explicit SI units and dimensional checks to all design APIs.
+
+16.9 Strengthen wing loading, thrust/power loading, stall, takeoff, climb, cruise,
+     descent, landing, range, endurance, reserve, payload-range, and energy/fuel
+     calculations.
+
+16.10 Validate low-order drag and propulsion models against independent CFD,
+      published reference data, or test data.
+
+16.11 Add propulsion map interpolation with bounds, extrapolation prohibition,
+      uncertainty, and degraded-engine cases.
+
+16.12 Add mission integration with state continuity, fuel/energy accounting,
+      altitude/speed constraints, reserves, and infeasibility reporting.
+
+16.13 Add sensitivity and uncertainty analysis for mass, aerodynamics, propulsion,
+      atmosphere, and mission assumptions.
+
+A03 — STRUCTURES, MATERIALS, FATIGUE, AND AEROELASTICITY
+-------------------------------------------------------
+
+16.14 Add explicit load cases, combinations, factors, units, sign conventions,
+      allowables, material basis, temperature effects, and uncertainty.
+
+16.15 Strengthen axial, bending, shear, torsion, combined stress, deflection,
+      buckling, joint, fatigue, damage-accumulation, and thermal-stress analyses.
+
+16.16 Add mesh-convergence and independent-reference tests for finite-element
+      adapters when present.
+
+16.17 Add positive-margin enforcement or explicit redesign decisions.
+
+16.18 Add modal, divergence, control-reversal, and flutter research workflows
+      with declared low-fidelity limitations and independent solver/test routes.
+
+16.19 Never infer structural safety from a preliminary formula alone.
+
+A04 — FLIGHT DYNAMICS, GNC, AVIONICS, AND CONTROL
+-------------------------------------------------
+
+16.20 Strengthen quaternion normalization, frame transformations, force/moment
+      conventions, inertia coupling, gravity, atmosphere, actuator, and sensor
+      models.
+
+16.21 Add trim across a declared envelope and reject unconverged or physically
+      impossible trim points.
+
+16.22 Add linearization checks against nonlinear directional perturbations.
+
+16.23 Add eigenmode, controllability, observability, stability-margin, robustness,
+      gain/phase, disturbance, and Monte Carlo analyses.
+
+16.24 Add actuator saturation, rate limits, deadband, delay, jam, runaway, and
+      reduced-authority cases.
+
+16.25 Add sensor bias, noise, freeze, drop, delay, contradiction, and calibration
+      cases.
+
+16.26 Add control-law anti-windup and envelope-protection research tests.
+
+16.27 Add deterministic SIL tests and schemas for future HIL evidence.
+
+A05 — AEROSPACE SOFTWARE AND QUALIFICATION EVIDENCE
+---------------------------------------------------
+
+16.28 Enforce typed inputs, units, shapes, ranges, ownership, preconditions,
+      postconditions, status states, and error semantics.
+
+16.29 Add deterministic configuration and data versioning.
+
+16.30 Add requirements-based testing, robustness testing, timing evidence,
+      traceability, tool-version recording, review records, and problem reports.
+
+16.31 Add SBOM, threat model, secure build, artifact signing integration, and
+      reproducible build evidence.
+
+16.32 Maintain a clear boundary between certification-oriented evidence and
+      actual authority approval.
+
+================================================================================
+SECTION 17 — SECURITY, SUPPLY CHAIN, AND EVIDENCE GOVERNANCE
+================================================================================
+
+17.1 Generate or update:
+
+- source manifest;
+- inherited baseline receipt;
+- requirements matrix;
+- coverage receipts;
+- mutation-test receipts;
+- fuzz-test receipts;
+- backend capability matrix;
+- backend execution receipts;
+- benchmark raw samples and summaries;
+- endurance telemetry and checkpoint chains;
+- reproduction receipt;
+- SBOM;
+- dependency lock;
+- container digest and definition;
+- build provenance;
+- threat model;
+- vulnerability scan results;
+- known-limitations ledger;
+- discrepancy ledger;
+- final gate decision.
+
+17.2 Every promoted claim must link:
+
+- requirement ID;
+- source symbol;
+- source revision;
+- test ID;
+- execution environment;
+- inputs and hashes;
+- outputs and hashes;
+- metrics and thresholds;
+- raw evidence;
+- reviewer decision;
+- claim level.
+
+17.3 Use an append-only content-addressed evidence DAG.
+
+17.4 Validate parent existence, acyclicity, hashes, schemas, timestamps, and
+     terminal closure.
+
+17.5 A hash chain is not a digital signature. Label it accurately.
+
+17.6 Integrate authorized signing infrastructure without collecting private keys
+     or secrets into the release.
+
+17.7 Sanitize environment capture to prevent credential leakage.
+
+17.8 Execute external processes without a shell, with executable and work-root
+     allowlists, timeouts, output limits, sanitized environment, binary hashes,
+     exact argv, and confined paths.
+
+17.9 Verify archive extraction against traversal, symlink escape, device files,
+     decompression bombs, duplicate names, and resource exhaustion.
+
+17.10 Generate a reproducible build from a clean environment and compare output
+      hashes or explain nondeterministic fields.
+
+17.11 Run dependency and source vulnerability scanning. Do not suppress findings
+      without a reviewed disposition.
+
+17.12 Any unresolved critical vulnerability, evidence corruption, claim bypass,
+      secret exposure, or unsafe extraction blocks release.
+
+================================================================================
+SECTION 18 — PERFORMANCE AND STATISTICAL ENGINEERING
+================================================================================
+
+18.1 Correctness gates precede speed gates.
+
+18.2 Define work units before benchmarking.
+
+18.3 Record warm-up policy and raw repeated samples.
+
+18.4 Use synchronized timing for asynchronous devices and distributed runs.
+
+18.5 Report median, MAD, confidence interval, coefficient of variation, and
+     outlier policy.
+
+18.6 Normalize performance by hardware and workload when comparing machines.
+
+18.7 Record compiler flags, thread affinity, frequency/power state, memory mode,
+     and background load where available.
+
+18.8 Calculate:
+
+    speedup S_p = T_1 / T_p
+    strong efficiency E_s = S_p / p
+    weak efficiency E_w = T_1 / T_p for constant local work
+    Karp-Flatt e = (1/S_p - 1/p) / (1 - 1/p)
+    arithmetic intensity = FLOPs / bytes transferred
+    roofline bound = min(peak FLOPs, intensity * bandwidth)
+    GPU speedup = equal-work CPU time / synchronized GPU time
+    checkpoint overhead = (T_with - T_without) / T_without
+    cost-to-solution = node-hours + GPU-hours + storage + transfer cost
+
+18.9 Preserve performance regressions even when correctness passes.
+
+18.10 Do not compare unequal work, unequal tolerances, or unequal output fidelity.
+
+================================================================================
+SECTION 19 — MACHINE-READABLE EVIDENCE SCHEMAS
+================================================================================
+
+Every receipt must include at minimum:
+
+{
+  "format": "SM35_EXECUTION_RECEIPT_V1",
+  "run_id": "stable-unique-id",
+  "track_id": "coverage|petsc_mpi|openfoam|su2|cad|hpc|gpu|24h|72h|reproduction",
+  "status": "PASS|FAIL|UNAVAILABLE|NOT_EXECUTED|NONCONVERGED|BLOCKED",
+  "claim_level": "IMPLEMENTED|TESTED|VERIFIED|BENCHMARKED|STRESS_TESTED|QUALIFIED|EXTERNALLY_REPRODUCED",
+  "started_utc": "RFC3339 timestamp",
+  "ended_utc": "RFC3339 timestamp",
+  "elapsed_monotonic_seconds": 0.0,
+  "environment": {},
+  "environment_sha256": "hex",
+  "input_artifacts": [],
+  "output_artifacts": [],
+  "metrics": {},
+  "thresholds": {},
+  "checks": {},
+  "limitations": [],
+  "evidence_ids": [],
+  "reviewer_decision": "PASS|FAIL|BLOCKED"
+}
+
+Coverage receipt must additionally contain:
+
+{
+  "statement_percent": 0.0,
+  "branch_percent": 0.0,
+  "measured_files": 0,
+  "excluded_files": [],
+  "excluded_regions": [],
+  "missing_lines": {},
+  "missing_branches": {},
+  "real_integration_coverage_separated": true,
+  "threshold_pass": false
+}
+
+Second-machine receipt must additionally contain:
+
+{
+  "distinct_physical_machine_attested": false,
+  "independent_operator_attested": false,
+  "clean_workspace": false,
+  "release_sha256": "hex",
+  "machine_fingerprint_sha256": "hex",
+  "operator_fingerprint_sha256": "hex",
+  "deterministic_output_comparison": {},
+  "numeric_output_comparison": {},
+  "accepted": false
+}
+
+Reject unknown required fields, invalid enum states, NaN/Infinity, duplicate IDs,
+negative sizes or durations, impossible timestamps, broken hashes, missing
+parents, and PASS without evidence.
+
+================================================================================
+SECTION 20 — FIXED 100-POINT QUALIFICATION MODEL
+================================================================================
+
+Use this scoring model. Do not change weights after execution begins.
+
+Q01 — SM34/SM35 coverage and test hardening                 15 points
+Q02 — real PETSc/MPI multi-rank + multi-node correctness    15 points
+Q03 — OpenFOAM + SU2 execution and cross-validation         12 points
+Q04 — complete OCCT/CadQuery STEP/IGES qualification        8 points
+Q05 — scheduler-managed external HPC execution              10 points
+Q06 — real CUDA GPU correctness and performance             10 points
+Q07 — continuous 24-hour and 72-hour endurance              10 points
+Q08 — independent second-physical-machine reproduction       8 points
+Q09 — strengthened aerospace V&V and digital thread          6 points
+Q10 — security, provenance, supply chain, and release         6 points
+
+Total                                                       100 points
+
+MANDATORY BLOCKERS
+------------------
+
+B01: statement coverage below 95%.
+B02: branch coverage below 90%.
+B03: critical evidence/security modules below their coverage thresholds.
+B04: required mutation score not achieved without approved limitation.
+B05: PETSc/MPI 2, 3, 4, or 8-rank run missing or failing.
+B06: no verified physical multi-node MPI run.
+B07: OpenFOAM reference suite missing or failing.
+B08: SU2 reference/adjoint suite missing or failing.
+B09: material OpenFOAM/SU2 discrepancy remains unexplained.
+B10: OCCT/CadQuery STEP qualification missing or failing.
+B11: OCCT IGES qualification missing or failing.
+B12: no scheduler-managed external HPC job and accounting receipt.
+B13: no real CUDA device execution and parity evidence.
+B14: 24-hour continuous run missing or failing.
+B15: 72-hour continuous run missing or failing.
+B16: independent second-physical-machine reproduction missing or failing.
+B17: inherited SM34 prefix or embedded file changed.
+B18: critical vulnerability, secret exposure, evidence corruption, or claim
+     bypass remains unresolved.
+B19: unexplained numerical corruption, deadlock, race, or nondeterministic
+     release decision remains.
+B20: certification, airworthiness, or safety overclaim exists.
+
+FINAL PASS FORMULA
+------------------
+
+    Score = sum(weight_i * completion_i)
+
+    Release_PASS =
+        (Score >= 95)
+        AND (all mandatory blockers are false)
+        AND (every required evidence node verifies)
+        AND (coverage statement >= 95%)
+        AND (coverage branch >= 90%)
+        AND (24h completed at real wall time)
+        AND (72h completed at real wall time)
+        AND (second physical machine accepted)
+
+Partial points may describe progress. Partial points cannot override blockers.
+
+If Score >= 95 but any blocker remains open, the result is BLOCKED, not PASS.
+
+If all blockers close but Score < 95, the result is FAIL or NOT_QUALIFIED.
+
+================================================================================
+SECTION 21 — REQUIRED RELEASE LAYOUT
+================================================================================
+
+Add at least these successor paths without changing inherited paths:
+
+README_SM35_NEW_UNIVERSE_QUALIFIED.md
+SM35_pyproject.toml
+src/supermoon35/
+tests/sm35/unit/
+tests/sm35/property/
+tests/sm35/fuzz/
+tests/sm35/integration/
+tests/sm35/external/petsc_mpi/
+tests/sm35/external/openfoam/
+tests/sm35/external/su2/
+tests/sm35/external/cad/
+tests/sm35/external/hpc/
+tests/sm35/external/gpu/
+tests/sm35/endurance/
+tests/sm35/reproduction/
+benchmarks/
+cases/neutral_cfd/
+cases/openfoam/
+cases/su2/
+cases/cad/
+deployment/containers/
+deployment/spack/
+deployment/slurm/
+deployment/second_machine/
+tools/verify_coverage_thresholds.py
+tools/run_petsc_rank_matrix.py
+tools/run_openfoam_qualification.py
+tools/run_su2_qualification.py
+tools/run_cfd_cross_validation.py
+tools/run_cad_roundtrip_matrix.py
+tools/run_gpu_qualification.py
+tools/run_endurance_24h.py
+tools/run_endurance_72h.py
+tools/build_reproduction_bundle.py
+tools/verify_second_machine.py
+tools/build_evidence_dag.py
+tools/score_sm35_release.py
+tools/package_sm35.py
+tools/reconstruct_sm35.py
+tools/verify_sm35_release.py
+docs/SM35_ARCHITECTURE.md
+docs/SM35_IMPLEMENTATION_REPORT.md
+docs/SM35_EXTERNAL_QUALIFICATION_RUNBOOK.md
+docs/SM35_COVERAGE_REPORT.md
+docs/SM35_NUMERICAL_VV_REPORT.md
+docs/SM35_CFD_CROSS_VALIDATION_REPORT.md
+docs/SM35_CAD_QUALIFICATION_REPORT.md
+docs/SM35_GPU_QUALIFICATION_REPORT.md
+docs/SM35_ENDURANCE_REPORT.md
+docs/SM35_SECOND_MACHINE_REPRODUCTION_REPORT.md
+docs/SM35_AEROSPACE_VV_REPORT.md
+docs/SM35_SECURITY_AND_SUPPLY_CHAIN_REPORT.md
+evidence/SM35_BASELINE_FROZEN_RECEIPT.json
+evidence/SM35_SOURCE_MANIFEST.json
+evidence/SM35_REQUIREMENT_MATRIX.jsonl.gz
+evidence/SM35_COVERAGE.json
+evidence/SM35_MUTATION_RESULTS.json
+evidence/SM35_FUZZ_RESULTS.json
+evidence/SM35_PETSC_MPI_RECEIPTS/
+evidence/SM35_OPENFOAM_RECEIPTS/
+evidence/SM35_SU2_RECEIPTS/
+evidence/SM35_CAD_RECEIPTS/
+evidence/SM35_HPC_RECEIPTS/
+evidence/SM35_GPU_RECEIPTS/
+evidence/SM35_ENDURANCE_24H/
+evidence/SM35_ENDURANCE_72H/
+evidence/SM35_SECOND_MACHINE/
+evidence/SM35_EVIDENCE_DAG.json
+evidence/SM35_SBOM.cdx.json
+evidence/SM35_KNOWN_LIMITATIONS.json
+evidence/SM35_DISCREPANCY_LEDGER.json
+evidence/SM35_RELEASE_DECISION.json
+
+Every directory may contain additional necessary files. No listed artifact may
+be replaced by a placeholder.
+
+================================================================================
+SECTION 22 — OFFICIAL REFERENCE POLICY
+================================================================================
+
+At execution time, verify current behavior and compatibility using primary,
+official sources. Archive the exact version, title, URL, and access date used.
+
+Required starting points:
+
+PETSc:
+    https://petsc.org/release/
+    https://petsc.org/release/petsc4py/
+
+MPI Forum:
+    https://www.mpi-forum.org/docs/
+
+OpenFOAM Foundation User Guide:
+    https://doc.cfd.direct/openfoam/user-guide-v13/
+    or the official guide matching the installed distribution/version.
+
+SU2:
+    https://su2code.github.io/docs/Execution/
+    https://su2code.github.io/tutorials/
+
+CadQuery:
+    https://cadquery.readthedocs.io/en/latest/importexport.html
+
+Open CASCADE Technology:
+    https://dev.opencascade.org/doc/overview/html/
+    https://dev.opencascade.org/doc/refman/html/
+
+Slurm:
+    https://slurm.schedmd.com/documentation.html
+    https://slurm.schedmd.com/sbatch.html
+    https://slurm.schedmd.com/sacct.html
+    https://slurm.schedmd.com/sstat.html
+
+NVIDIA CUDA:
+    https://docs.nvidia.com/cuda/cuda-runtime-api/
+
+Coverage.py:
+    https://coverage.readthedocs.io/en/latest/
+    https://coverage.readthedocs.io/en/latest/branch.html
+
+Applicable aerospace regulations, guidance, and standards:
+    use authorized current sources and record revision, amendment, tailoring,
+    acceptance authority, and licensing restrictions. Do not reproduce
+    copyrighted standards inside the release.
+
+Do not infer current API support from memory. Detect installed versions and
+reconcile them with their matching official documentation.
+
+================================================================================
+SECTION 23 — AUTONOMOUS EXECUTION ORDER
+================================================================================
+
+Execute in this order unless a documented dependency requires a change:
+
+PHASE 0  — validate and freeze SM34 baseline.
+PHASE 1  — reconstruct complete inherited tree.
+PHASE 2  — run inherited tests and reproduce coverage baseline.
+PHASE 3  — implement coverage instrumentation and threshold verifier.
+PHASE 4  — add missing unit, negative, property, metamorphic, fuzz, mutation,
+           concurrency, and regression tests.
+PHASE 5  — reach statement >=95% and branch >=90% without exclusions abuse.
+PHASE 6  — harden evidence, security, packaging, and claim-gate logic.
+PHASE 7  — qualify PETSc/MPI ranks 1/2/3/4/8 on one node where appropriate.
+PHASE 8  — execute physical multi-node PETSc/MPI and Slurm jobs.
+PHASE 9  — execute OpenFOAM verification suite.
+PHASE 10 — execute SU2 primal, parallel, and adjoint suite.
+PHASE 11 — perform neutral OpenFOAM/SU2/SM34 cross-validation.
+PHASE 12 — execute OCCT/CadQuery STEP/IGES qualification matrix.
+PHASE 13 — execute real CUDA device correctness/performance suite.
+PHASE 14 — strengthen and validate aerospace A01-A05 modules.
+PHASE 15 — execute continuous 24-hour endurance.
+PHASE 16 — repair any findings and rerun affected qualification.
+PHASE 17 — execute continuous 72-hour endurance.
+PHASE 18 — perform clean-room second-physical-machine reproduction.
+PHASE 19 — close discrepancies, vulnerabilities, and evidence graph.
+PHASE 20 — calculate fixed score and mandatory blockers.
+PHASE 21 — package additive successor and verify exact SM34 preservation.
+PHASE 22 — issue final PASS, BLOCKED, or FAIL decision.
+
+Do not start 24h/72h runs before the candidate is stable enough to avoid wasting
+duration, but do not fabricate duration when the environment cannot remain
+active long enough.
+
+================================================================================
+SECTION 24 — STOP CONDITIONS AND FAILURE HANDLING
+================================================================================
+
+Stop and retain BLOCKED when:
+
+- required external infrastructure is unavailable;
+- execution authorization is missing;
+- credentials or new authority would be required;
+- a physical second machine or independent operator is unavailable;
+- the environment cannot remain active for the required real duration;
+- required licensed standards or datasets are unavailable;
+- destructive infrastructure actions would exceed authorization.
+
+Continue safely when:
+
+- an optional backend is unavailable but adapters, tests, and runbooks can be
+  completed;
+- a test fails and can be diagnosed and repaired locally;
+- a discrepancy requires further authorized computation;
+- a dependency version requires a supported compatibility adapter;
+- performance is poor but correctness is intact.
+
+For every failure:
+
+1. preserve raw evidence;
+2. assign a stable finding ID;
+3. record environment and inputs;
+4. identify root cause or mark unknown;
+5. classify severity and affected claims;
+6. implement a versioned repair if authorized;
+7. add a regression test;
+8. rerun the smallest valid affected scope;
+9. rerun full release gates before final promotion.
+
+================================================================================
+SECTION 25 — FINAL REQUIRED RESPONSE
+================================================================================
+
+At completion, provide:
+
+1. exact successor filename;
+2. exact compressed size;
+3. SHA-256 and SHA-512;
+4. proof that SM34 compressed and decompressed prefixes are unchanged;
+5. number of inherited and additive files verified;
+6. statement coverage and threshold result;
+7. branch coverage and threshold result;
+8. mutation score and threshold result;
+9. complete test counts by state;
+10. PETSc/MPI rank and multi-node result table;
+11. OpenFOAM result summary;
+12. SU2 and adjoint result summary;
+13. cross-solver discrepancy summary;
+14. CAD STEP/IGES round-trip result summary;
+15. external HPC job/accounting summary;
+16. CUDA device/parity/performance summary;
+17. 24-hour endurance elapsed-time and integrity summary;
+18. 72-hour endurance elapsed-time and integrity summary;
+19. second-machine reproduction summary;
+20. aerospace V&V summary;
+21. unresolved limitations and discrepancies;
+22. fixed weighted score;
+23. open blocker list;
+24. final status: PASS, BLOCKED, or FAIL;
+25. download link for the complete artifact.
+
+Do not use phrases such as fully qualified, externally reproduced, industrially
+qualified, certification-ready, 9.5-qualified, or 9.6-qualified unless the
+corresponding evidence and gates in this prompt pass.
+
+================================================================================
+SECTION 26 — MASTER ACCEPTANCE STATEMENT
+================================================================================
+
+The work succeeds only when all of the following are true:
+
+- SM34 remains byte-for-byte preserved;
+- additive source is complete and reconstructible;
+- active internal statement coverage is at least 95%;
+- active internal branch coverage is at least 90%;
+- critical evidence/security modules meet stronger thresholds;
+- mutation and fuzz gates pass;
+- PETSc/MPI runs pass at 2, 3, 4, and 8 ranks;
+- a real multi-node run passes;
+- OpenFOAM execution passes;
+- SU2 execution and adjoint validation pass;
+- OpenFOAM/SU2 cross-validation discrepancies are resolved;
+- complete OCCT/CadQuery STEP and direct-OCCT IGES qualification passes;
+- real CUDA device execution and CPU parity pass;
+- an authorized scheduler-managed HPC job passes;
+- continuous 24-hour endurance passes;
+- continuous 72-hour endurance passes;
+- independent second-physical-machine reproduction passes;
+- aerospace V&V and digital thread satisfy their declared criteria;
+- security, provenance, SBOM, evidence DAG, and package verification pass;
+- fixed weighted score is at least 95/100;
+- every mandatory blocker is closed;
+- no certification or safety overclaim exists.
+
+Until then, preserve:
+
+    BLOCKED_PENDING_REAL_EXECUTION
+
+This state is evidence of integrity, not failure of ambition.
+
+================================================================================
+END OF SUPER MOON 34 -> 35 PHYSICAL QUALIFICATION AND COVERAGE MASTER PROMPT
+================================================================================

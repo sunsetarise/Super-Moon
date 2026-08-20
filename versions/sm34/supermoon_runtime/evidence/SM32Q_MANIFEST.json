@@ -1,0 +1,247 @@
+{
+  "file_count": 48,
+  "files": [
+    {
+      "bytes": 1230,
+      "path": "README_SM32_QUALIFIED_CORE.md",
+      "sha256": "21a41d9df5c1ac3deff2494e6fca38e550afb8c340a1e15e6fd0d1bab966b917"
+    },
+    {
+      "bytes": 61257,
+      "path": "docs/SM32Q_MASTER_PROMPT_EN.txt",
+      "sha256": "947983489d19ac80dc918e73ba5d0772fdea9880dd2bb80ff329196afbb0cc77"
+    },
+    {
+      "bytes": 2348,
+      "path": "docs/SM32Q_QUALIFICATION_REPORT.md",
+      "sha256": "1114444a69a89dc0dcde94dea1064c12bee784e75b26a7f4493ac8322a6470ee"
+    },
+    {
+      "bytes": 185100,
+      "path": "evidence/SM32Q_COVERAGE.json",
+      "sha256": "23b2757be8d4c5bc96b1d6fcf0aa34428bc226cc0dfe0840325437e64b0dd185"
+    },
+    {
+      "bytes": 3356,
+      "path": "evidence/SM32Q_COVERAGE.txt",
+      "sha256": "eab742ea9d8c87089a2848cb0c1cefcda37f8107b460bdab9e11db78122a30d9"
+    },
+    {
+      "bytes": 2947,
+      "path": "evidence/SM32Q_ENDURANCE_10S.json",
+      "sha256": "5c1a16de4eb71a299ada60ba771e4478135a9a58ae3dd116ca9a953656949fbf"
+    },
+    {
+      "bytes": 4287,
+      "path": "evidence/SM32Q_ENDURANCE_15S.json",
+      "sha256": "c097b701418af9581799389b3a2f3060b49c9249533c8563f672b8c2b5fdf814"
+    },
+    {
+      "bytes": 292,
+      "path": "evidence/SM32Q_ENVIRONMENT.json",
+      "sha256": "fd4ac4c58f070186c1507eab38718ac1278e71e4e34f129b9374384632be6ebd"
+    },
+    {
+      "bytes": 420,
+      "path": "evidence/SM32Q_FULL_TEST_RESULTS.txt",
+      "sha256": "6d416ce9a1870a0c027d951b5358cc20124a88a0e2f604ddb35aa76faba37ab8"
+    },
+    {
+      "bytes": 9091,
+      "path": "evidence/SM32Q_IMPLEMENTATION_INVENTORY.json",
+      "sha256": "6d226f09b8df3e781bdf27dc63fcbb84a5023e733d32ed63ae61bd1899980736"
+    },
+    {
+      "bytes": 683,
+      "path": "evidence/SM32Q_KNOWN_LIMITATIONS.json",
+      "sha256": "507c9d41abe2232947d74e78a4d83269bf840c31221e058173f135b69163cacc"
+    },
+    {
+      "bytes": 786,
+      "path": "evidence/SM32Q_NUMERICAL_VALIDATION.json",
+      "sha256": "f118a1a4c4f82086376d54e2095b2ca827c3f790435468d62e8ae61914b1e9c3"
+    },
+    {
+      "bytes": 5757,
+      "path": "evidence/SM32Q_PROMPT_IMPLEMENTATION_MATRIX.json",
+      "sha256": "eb9c99b5c21a0b6d816b0e2b2900667b3411f924ab6075edcb60f2ad4c4228a3"
+    },
+    {
+      "bytes": 1040,
+      "path": "evidence/SM32Q_QUALIFICATION_SUMMARY.json",
+      "sha256": "f9fcfa5378b996ef1becab99b991fbfcd22d7f236d38b0784300a6ff67805be5"
+    },
+    {
+      "bytes": 1571,
+      "path": "evidence/SM32Q_ROUTING_VALIDATION.json",
+      "sha256": "d3454dff137965679868923ae3fdd73b608bb680504e790ec45ef4cc56ecea11"
+    },
+    {
+      "bytes": 67,
+      "path": "evidence/SM32Q_STATIC_COMPLETENESS_SCAN.json",
+      "sha256": "05aead0fe8c762e10d65f74d5b77827130b0186b02ba29bc42dd36d9e746a61e"
+    },
+    {
+      "bytes": 420,
+      "path": "evidence/SM32Q_WARNINGS_AS_ERRORS.txt",
+      "sha256": "97cc8505af2270c5b281469bb0a2c28048db3bbac27d0375e737dc746da69bfe"
+    },
+    {
+      "bytes": 822,
+      "path": "src/supermoon32/qualified/__init__.py",
+      "sha256": "d6ebcaad1d42fd9f4072fb00043897542a7f4850efdd2b9de307346c958bcbb3"
+    },
+    {
+      "bytes": 1397,
+      "path": "src/supermoon32/qualified/change_impact.py",
+      "sha256": "3a9ef788f775542dbb901c78c2b41a7102dff7b8d99daa60a0fedbc992208b22"
+    },
+    {
+      "bytes": 1477,
+      "path": "src/supermoon32/qualified/cosimulation.py",
+      "sha256": "d92aef2428058fb7ce936fb05436e7ed2b15ef9757d09c06dd0c81511a807a38"
+    },
+    {
+      "bytes": 2549,
+      "path": "src/supermoon32/qualified/domain_routes.py",
+      "sha256": "0f8ec3fa1b623ffa7ae16591d8b65bb57e189e7bea2dc9ee18a866b5ba6db08a"
+    },
+    {
+      "bytes": 2043,
+      "path": "src/supermoon32/qualified/enums.py",
+      "sha256": "4af35be4ac1b79ec398e007a7c553f141aa6fdbae47d1230aa26ec46f179e37b"
+    },
+    {
+      "bytes": 818,
+      "path": "src/supermoon32/qualified/error_budget.py",
+      "sha256": "a42a1869be6358b7655309f5c1a435a9c42e83edb3adf23a76f020ecaf40d9cb"
+    },
+    {
+      "bytes": 3375,
+      "path": "src/supermoon32/qualified/evidence.py",
+      "sha256": "aab71b2fee9752be6d37f3d305044b939180b17e323b472f5a53b0d9d577bbf1"
+    },
+    {
+      "bytes": 2856,
+      "path": "src/supermoon32/qualified/experiment.py",
+      "sha256": "51059342cf9397fed8134a4628cfc7d4c6e3d9fb8b57ea72342e9735b2d0b016"
+    },
+    {
+      "bytes": 2630,
+      "path": "src/supermoon32/qualified/governance.py",
+      "sha256": "2c42e7b7f619b2b67dc67b9abab8096d0ec70d3c43803509960f25dee34709bd"
+    },
+    {
+      "bytes": 2339,
+      "path": "src/supermoon32/qualified/hpc_routing.py",
+      "sha256": "d9b592bb4a307350174ec4c19943bbcbb27ee959e7c355b35c1991b8331a4152"
+    },
+    {
+      "bytes": 2664,
+      "path": "src/supermoon32/qualified/managers.py",
+      "sha256": "bccf4855bddfcd233e334bbc5535b2edf074b6efd244a350e4fb42b3040c2ea4"
+    },
+    {
+      "bytes": 1500,
+      "path": "src/supermoon32/qualified/model_validity.py",
+      "sha256": "992e51fb61e2751249f1a880e9efc27601342da0caf84299d2f94b43ff5cefe1"
+    },
+    {
+      "bytes": 1340,
+      "path": "src/supermoon32/qualified/multisolver.py",
+      "sha256": "d4ace068cd688b11af519755a949de5db3c301cfbf081566b683d5f320776050"
+    },
+    {
+      "bytes": 1450,
+      "path": "src/supermoon32/qualified/optimization_governance.py",
+      "sha256": "e5de4e549f5f01ca39d5f5ef98399e47c32fbd3b0766e299419d4d3ad0a2abf1"
+    },
+    {
+      "bytes": 3355,
+      "path": "src/supermoon32/qualified/orchestration.py",
+      "sha256": "7096c219f2311dfceeefc12ccee27d9ef0b34fdc994715ca6a9bbd0390cf5496"
+    },
+    {
+      "bytes": 2591,
+      "path": "src/supermoon32/qualified/physics_numbers.py",
+      "sha256": "bbdde6045b43d34585889cf71b211ac30f951ef2440257e9210d10885f71ed77"
+    },
+    {
+      "bytes": 653,
+      "path": "src/supermoon32/qualified/precision.py",
+      "sha256": "4bf07ecd9d3688000d292344c7daf09eeb71098c4c71820cd1f54c0a01dff524"
+    },
+    {
+      "bytes": 4927,
+      "path": "src/supermoon32/qualified/problem.py",
+      "sha256": "224f29b4b7e0fed0180df5493f1678748a79bfaf5138d47d6c753afaf08ed6e5"
+    },
+    {
+      "bytes": 1775,
+      "path": "src/supermoon32/qualified/provenance.py",
+      "sha256": "6a63c4368f6a16939c60e6dc8c5fbab24042cfd3fb02e36cf918395e66670363"
+    },
+    {
+      "bytes": 1272,
+      "path": "src/supermoon32/qualified/qualification.py",
+      "sha256": "5b750c82e6477ff2eacf76029824187c6463682c4e4cd60c517b4ccc0e004c60"
+    },
+    {
+      "bytes": 1061,
+      "path": "src/supermoon32/qualified/reporting.py",
+      "sha256": "abffc623a34043626d299e82bf5018ce4623a69ad760dd3ccb989e92fcac3c85"
+    },
+    {
+      "bytes": 1402,
+      "path": "src/supermoon32/qualified/reproducibility_ext.py",
+      "sha256": "1a2c66c4898453092e7e88875504246f2db547e82a73b434986ca5206089355d"
+    },
+    {
+      "bytes": 3323,
+      "path": "src/supermoon32/qualified/research_math.py",
+      "sha256": "db2998abba7c9457fd353fdaf521b979ce64b8f30020231bd5f1a22bae782b9b"
+    },
+    {
+      "bytes": 4785,
+      "path": "src/supermoon32/qualified/risk.py",
+      "sha256": "df03144068825be2efdcbc69d8e121745c1355b6bddc1c2ecb7a5270d368a6d0"
+    },
+    {
+      "bytes": 4611,
+      "path": "src/supermoon32/qualified/routing.py",
+      "sha256": "e78fd5ef5b425a6ef9c3f8992b13e57db6fd83150e91bd5aaea88026800bb856"
+    },
+    {
+      "bytes": 4040,
+      "path": "src/supermoon32/qualified/tools.py",
+      "sha256": "57ce954f64251ed039d2f45b813eb082ebabcaf3e44ec050f013d1aca8d9cab3"
+    },
+    {
+      "bytes": 2108,
+      "path": "src/supermoon32/qualified/uq_advanced.py",
+      "sha256": "497b86a05bbf7b269bfd26004fafbfce7a20b9ea9d25d809b8544ed076c5f965"
+    },
+    {
+      "bytes": 3173,
+      "path": "src/supermoon32/qualified/verification.py",
+      "sha256": "ef2ee0ee6636a701204e8057c10279be43ba0ca83bac2a94aa2b74fba0697be7"
+    },
+    {
+      "bytes": 16400,
+      "path": "tests/test_sm32_qualified_core.py",
+      "sha256": "39637b559675bf1be3f28041d71c1b49a3ab2086dffcff43bd99c9b29e9be903"
+    },
+    {
+      "bytes": 12005,
+      "path": "tests/test_sm32_qualified_edges.py",
+      "sha256": "7d9f5d7f259c4fa592af342bfe08bb4fcd793c7ad9d795fe772c216cccb20c03"
+    },
+    {
+      "bytes": 2045,
+      "path": "tools/reconstruct_sm32_qualified.py",
+      "sha256": "bdc943772aae13b5bf81848e5f8712f008a6c25c6361987bb25835ff4341cbdb"
+    }
+  ],
+  "format": "SM32Q_MANIFEST_V1",
+  "release": "SUPER MOON 32.0 OMEGA \u2014 QUALIFIED RESEARCH AUTOMATION VERIFICATION ORCHESTRATION CORE"
+}

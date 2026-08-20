@@ -1,0 +1,10 @@
+{
+  "limitations": [
+    "No real external qualified CAE/HPC/CAD/ML vendor tool was supplied or executed; registry/adapters/routing are implemented and tested with a synthetic harness record only.",
+    "Certification acceptance is not claimed; the system implements certification-support governance and mandatory escalation.",
+    "MPI multi-node and GPU/multi-GPU runtime qualification remain unexecuted in this environment.",
+    "Completed qualified-core endurance stages are 10 s and 15 s. Longer stage attempts interrupted by the execution wrapper are not counted.",
+    "Independent external-machine reproduction remains unexecuted."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

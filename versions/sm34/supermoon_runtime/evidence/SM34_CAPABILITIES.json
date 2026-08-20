@@ -1,0 +1,149 @@
+{
+  "format": "SM34_CAPABILITY_REGISTRY_V1",
+  "tracks": [
+    {
+      "backend": "PETSC_MPI",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.petsc_mpi.PetscDistributedSolver",
+      "limitation": "Qualification requires actual 2/3/4/8-rank and external multi-node receipts.",
+      "name": "PETSC_MPI_DISTRIBUTED_NUMERICS",
+      "symbol_resolved": true,
+      "track_id": "P01"
+    },
+    {
+      "backend": "OPENFOAM",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.cfd.OpenFOAMRunner",
+      "limitation": "No OpenFOAM result exists until a real case is executed.",
+      "name": "OPENFOAM_CROSS_VALIDATION",
+      "symbol_resolved": true,
+      "track_id": "P02"
+    },
+    {
+      "backend": "SU2",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.cfd.SU2Runner",
+      "limitation": "No SU2 result exists until a real independent case is executed.",
+      "name": "SU2_CROSS_VALIDATION",
+      "symbol_resolved": true,
+      "track_id": "P03"
+    },
+    {
+      "backend": "OCCT_CADQUERY",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.cad.CadQualificationRunner",
+      "limitation": "Qualification requires real BRep checks and STEP/IGES round trips.",
+      "name": "OCCT_CADQUERY_QUALIFICATION",
+      "symbol_resolved": true,
+      "track_id": "P04"
+    },
+    {
+      "backend": "EXTERNAL_HPC",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.hpc.SlurmQualification",
+      "limitation": "Local process execution cannot satisfy external HPC evidence.",
+      "name": "EXTERNAL_HPC_EXECUTION",
+      "symbol_resolved": true,
+      "track_id": "P05"
+    },
+    {
+      "backend": "GPU",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.gpu.GPUQualification",
+      "limitation": "CPU fallback is rejected as GPU evidence.",
+      "name": "GPU_ACCELERATOR_EXECUTION",
+      "symbol_resolved": true,
+      "track_id": "P06"
+    },
+    {
+      "backend": "ENDURANCE",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.endurance.EnduranceRunner",
+      "limitation": "24h/72h claims require real uninterrupted wall-clock duration.",
+      "name": "ENDURANCE_RESILIENCE_RECOVERY",
+      "symbol_resolved": true,
+      "track_id": "P07"
+    },
+    {
+      "backend": "SECOND_MACHINE",
+      "claim_level": "IMPLEMENTED",
+      "implementation_symbol": "supermoon34.reproduction.ReproductionVerifier",
+      "limitation": "A distinct physical machine and independent operator receipt are mandatory.",
+      "name": "SECOND_MACHINE_REPRODUCTION",
+      "symbol_resolved": true,
+      "track_id": "P08"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.validation.ValidationSuite",
+      "limitation": null,
+      "name": "VERIFICATION_VALIDATION_UQ",
+      "symbol_resolved": true,
+      "track_id": "P09"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.performance.BenchmarkSuite",
+      "limitation": null,
+      "name": "PERFORMANCE_SCALING_ENGINEERING",
+      "symbol_resolved": true,
+      "track_id": "P10"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.qualification.QualificationEngine",
+      "limitation": null,
+      "name": "RELEASE_SECURITY_EVIDENCE_GOVERNANCE",
+      "symbol_resolved": true,
+      "track_id": "P11"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.aerospace.systems.SystemArchitecture",
+      "limitation": "Research tooling is not certification or airworthiness approval.",
+      "name": "AEROSPACE_SYSTEMS_ARCHITECTURE_MBSE",
+      "symbol_resolved": true,
+      "track_id": "A01"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.aerospace.design.AircraftDesignModel",
+      "limitation": "Low-order models require independent CFD/test correlation.",
+      "name": "AERODYNAMICS_PROPULSION_AIRCRAFT_DESIGN",
+      "symbol_resolved": true,
+      "track_id": "A02"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.aerospace.structures.StructuralAssessment",
+      "limitation": "Preliminary sizing cannot establish safe-to-fly status.",
+      "name": "STRUCTURES_MATERIALS_AEROELASTICITY",
+      "symbol_resolved": true,
+      "track_id": "A03"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.aerospace.flight.FlightDynamicsModel",
+      "limitation": "Simulation requires SIL/HIL and independent safety review for operational use.",
+      "name": "FLIGHT_DYNAMICS_AVIONICS_CONTROL",
+      "symbol_resolved": true,
+      "track_id": "A04"
+    },
+    {
+      "backend": "INTERNAL",
+      "claim_level": "TESTED",
+      "implementation_symbol": "supermoon34.aerospace.digital_thread.DigitalThread",
+      "limitation": "Evidence-oriented software does not itself confer regulatory compliance.",
+      "name": "AEROSPACE_SOFTWARE_ENGINEERING_DIGITAL_THREAD",
+      "symbol_resolved": true,
+      "track_id": "A05"
+    }
+  ]
+}

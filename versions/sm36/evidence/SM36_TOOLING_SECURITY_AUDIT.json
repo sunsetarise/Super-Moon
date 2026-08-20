@@ -1,0 +1,8 @@
+{
+  "critical": 0,
+  "files_scanned": 21,
+  "findings": [],
+  "format": "SM36_STATIC_SECURITY_AUDIT_V1",
+  "high": 0,
+  "passed": true
+}

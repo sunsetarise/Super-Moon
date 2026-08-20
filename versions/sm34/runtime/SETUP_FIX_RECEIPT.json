@@ -1,0 +1,39 @@
+{
+  "format": "SM34_SETUP_FIX_RECEIPT_V2",
+  "release": "SUPER MOON 34 NEW UNIVERSE PROMPT STUDIO 34.0.0",
+  "fixed_utc": "2026-08-20T10:22:00Z",
+  "reported_failures": [
+    "ModuleNotFoundError: No module named 'scipy'",
+    "ModuleNotFoundError: No module named 'resource'"
+  ],
+  "root_causes": [
+    "The SM34 aerospace runtime imported scipy.linalg, but scipy was absent from the original Windows dependency profile.",
+    "The SM34 endurance runtime imported the Unix-only resource module and attempted directory fsync behavior unsupported by Windows."
+  ],
+  "correction": {
+    "dependency": "scipy==1.17.0",
+    "python314_binary_wheel_available": true,
+    "requirements_profiles_mirrored": true,
+    "windows_import_preflight_updated": true,
+    "runtime_package_metadata_updated": true,
+    "package_audit_updated": true,
+    "windows_endurance_telemetry": "psutil fallback",
+    "windows_directory_fsync": "safely skipped while file fsync and atomic replace remain enabled",
+    "sm32_qualified_telemetry_portability": true,
+    "integrity_checked_portability_overlay": true,
+    "regression_tests_added": true
+  },
+  "verification": {
+    "scipy_version": "1.17.0",
+    "scipy_linalg_import": "PASS",
+    "sm34_aerospace_import": "PASS",
+    "studio_self_test": "PASS",
+    "windows_portability_simulation": "PASS",
+    "setup_tests": "5 passed",
+    "sm34_tests": "30 passed",
+    "full_regression": "350 passed, 8 skipped",
+    "package_audit": "PASS",
+    "canonical_knowledge_integrity": "PASS"
+  },
+  "windows_recovery": "Extract the V2 corrected package and run SETUP_WINDOWS.bat again. The existing dependency downloads do not need Rust or MSVC, and the runtime no longer requires the Unix-only resource module."
+}

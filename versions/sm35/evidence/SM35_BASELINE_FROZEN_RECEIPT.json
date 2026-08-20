@@ -1,0 +1,16 @@
+{
+  "compressed": {
+    "bytes": 108689607,
+    "sha256": "0e077a7237b2bbaea1343cc73b6f025562b6a00d7a0469be78fba0ac72436a64",
+    "sha512": "9326780e0b505e0732baf8371a1205e0669f0c2b47e579f52f1ca73ed56cfeedb5a3359b46cc9847ee967cf330668a03e96e3cf8ec57ecc1e2c915e924675998"
+  },
+  "created_utc": "2026-08-20T11:12:10.021524+00:00",
+  "decompressed": {
+    "bytes": 721679960,
+    "lines": 6908632,
+    "sha256": "8d96f961541706dc8fbe419a332bace0f14648807e60eccd48dabb6a0b1330ac",
+    "sha512": "288c31ac39cd0d9044d5c899d10c8eb1a5c22d14369b6b7e8a17398fd62bc85d61d3354e460ae783e510f761de6d5f2bb60cacb4e652bcbb0498e79af5554e9d"
+  },
+  "format": "SM35_BASELINE_FROZEN_RECEIPT_V1",
+  "preservation_rule": "compressed and decompressed exact prefix"
+}

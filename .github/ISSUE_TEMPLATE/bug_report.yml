@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible source or tooling defect.
+title: "[BUG] "
+labels: [bug]
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version layer
+      options: [SM34, SM35, SM36, GitHub packaging]
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include exact commands, inputs, environment, and observed output.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Evidence boundary
+      options:
+        - label: I have not represented simulated or unavailable execution as physical evidence.
+          required: true
+

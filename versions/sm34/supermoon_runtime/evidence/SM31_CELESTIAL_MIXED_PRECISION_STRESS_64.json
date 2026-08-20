@@ -1,0 +1,329 @@
+{
+  "seeds": 64,
+  "max_residual": 2.8587903558382696e-13,
+  "mean_residual": 5.784080994252047e-14,
+  "max_iterations": 2,
+  "pass": true,
+  "rows": [
+    {
+      "seed": 0,
+      "residual": 6.278058429556767e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 1,
+      "residual": 1.0774169624431319e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 2,
+      "residual": 6.688362348528669e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 3,
+      "residual": 8.161281472359823e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 4,
+      "residual": 1.3519416441385588e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 5,
+      "residual": 3.732276308688712e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 6,
+      "residual": 6.269069722645097e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 7,
+      "residual": 2.6735636551085617e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 8,
+      "residual": 1.9974374765665628e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 9,
+      "residual": 3.551216902981526e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 10,
+      "residual": 1.2787099418340377e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 11,
+      "residual": 1.1856439911912001e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 12,
+      "residual": 6.302542596168177e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 13,
+      "residual": 6.338080346933347e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 14,
+      "residual": 5.3721818240408357e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 15,
+      "residual": 5.745871419332703e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 16,
+      "residual": 1.1206554257836315e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 17,
+      "residual": 1.6070937572137858e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 18,
+      "residual": 6.171032264338593e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 19,
+      "residual": 4.071980381338998e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 20,
+      "residual": 5.60261608317121e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 21,
+      "residual": 5.878872700811781e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 22,
+      "residual": 3.610385915190681e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 23,
+      "residual": 1.4890684211124006e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 24,
+      "residual": 2.123301534595612e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 25,
+      "residual": 1.310139377065699e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 26,
+      "residual": 7.834291349601158e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 27,
+      "residual": 2.3474560102392715e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 28,
+      "residual": 2.0039842743634874e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 29,
+      "residual": 2.57607854329696e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 30,
+      "residual": 8.444206361387798e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 31,
+      "residual": 5.719636931553437e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 32,
+      "residual": 9.563972994748203e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 33,
+      "residual": 2.8587903558382696e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 34,
+      "residual": 3.2112757182877254e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 35,
+      "residual": 2.4917350624088376e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 36,
+      "residual": 3.047390621290995e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 37,
+      "residual": 1.542607257311004e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 38,
+      "residual": 5.3835888510975566e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 39,
+      "residual": 4.89446911420088e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 40,
+      "residual": 1.1908830445313567e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 41,
+      "residual": 2.6066608609096366e-15,
+      "iterations": 2
+    },
+    {
+      "seed": 42,
+      "residual": 1.5880223245469134e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 43,
+      "residual": 5.926361756496758e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 44,
+      "residual": 1.2980703496995325e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 45,
+      "residual": 6.377929315716096e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 46,
+      "residual": 2.6923194485594298e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 47,
+      "residual": 6.867590965305627e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 48,
+      "residual": 1.8405965101278174e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 49,
+      "residual": 3.04019052732943e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 50,
+      "residual": 5.159546505000191e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 51,
+      "residual": 6.674372828344437e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 52,
+      "residual": 5.049593619394879e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 53,
+      "residual": 1.705672058035291e-13,
+      "iterations": 2
+    },
+    {
+      "seed": 54,
+      "residual": 2.0261107106120522e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 55,
+      "residual": 5.092134274847622e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 56,
+      "residual": 4.1310442469500733e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 57,
+      "residual": 1.467517497211826e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 58,
+      "residual": 5.774081893448539e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 59,
+      "residual": 6.043264964637586e-15,
+      "iterations": 2
+    },
+    {
+      "seed": 60,
+      "residual": 1.8776395604581564e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 61,
+      "residual": 1.470155619898477e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 62,
+      "residual": 2.0043215746773552e-14,
+      "iterations": 2
+    },
+    {
+      "seed": 63,
+      "residual": 3.556620079982434e-14,
+      "iterations": 2
+    }
+  ]
+}

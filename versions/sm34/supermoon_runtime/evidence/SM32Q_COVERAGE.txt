@@ -1,0 +1,39 @@
+........................................................................ [ 55%]
+..........................................................               [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Name                                                   Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------------------------------------
+src/supermoon32/qualified/__init__.py                     27      0      0      0   100%
+src/supermoon32/qualified/change_impact.py                22      0     10      0   100%
+src/supermoon32/qualified/cosimulation.py                 18      0      8      0   100%
+src/supermoon32/qualified/domain_routes.py                23      0      0      0   100%
+src/supermoon32/qualified/enums.py                        20      0      0      0   100%
+src/supermoon32/qualified/error_budget.py                 14      0      6      0   100%
+src/supermoon32/qualified/evidence.py                     38      0     20      1    98%   50->exit
+src/supermoon32/qualified/experiment.py                   35      0      8      0   100%
+src/supermoon32/qualified/governance.py                   29      0      6      0   100%
+src/supermoon32/qualified/hpc_routing.py                  35      0     14      0   100%
+src/supermoon32/qualified/managers.py                     46      4     12      1    91%   12-15, 48->50
+src/supermoon32/qualified/model_validity.py               23      0      6      0   100%
+src/supermoon32/qualified/multisolver.py                  19      0      8      0   100%
+src/supermoon32/qualified/optimization_governance.py      21      0      8      0   100%
+src/supermoon32/qualified/orchestration.py                60      0     32      1    99%   67->exit
+src/supermoon32/qualified/physics_numbers.py              27      0     30      0   100%
+src/supermoon32/qualified/precision.py                    13      0      4      0   100%
+src/supermoon32/qualified/problem.py                      84      0     34      0   100%
+src/supermoon32/qualified/provenance.py                   33      0     18      0   100%
+src/supermoon32/qualified/qualification.py                16      0      6      0   100%
+src/supermoon32/qualified/reporting.py                    12      0      2      0   100%
+src/supermoon32/qualified/reproducibility_ext.py          21      0      6      1    96%   18->exit
+src/supermoon32/qualified/research_math.py                40      0     22      2    97%   34->exit, 44->exit
+src/supermoon32/qualified/risk.py                         78      0     46      0   100%
+src/supermoon32/qualified/routing.py                      70      0     22      1    99%   20->exit
+src/supermoon32/qualified/tools.py                        69      0     22      0   100%
+src/supermoon32/qualified/uq_advanced.py                  40      0     22      0   100%
+src/supermoon32/qualified/verification.py                 39      0     12      0   100%
+--------------------------------------------------------------------------------------------------
+TOTAL                                                    972      4    384      7    99%
+Coverage JSON written to file qualified_coverage.json
+130 passed in 2.86s

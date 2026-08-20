@@ -1,0 +1,18 @@
+{
+  "format": "SM34_FROZEN_BASELINE_V1",
+  "master_prompt": {
+    "compressed_bytes": 12316555,
+    "compressed_sha256": "b301b36cbf19b23f800f3d647a5d645775500abb30c36a303d60cf7e95200f60",
+    "decompressed_bytes": 261978349,
+    "decompressed_lines": 200000,
+    "decompressed_sha256": "4c3c71bd88c32550812175184cab132a2c95472274fa869fa17f701af6c659e4"
+  },
+  "policy": "The full SM33 decompressed stream is the immutable SM34 prefix.",
+  "sm33": {
+    "compressed_bytes": 88697789,
+    "compressed_sha256": "811938f468d29653c270d2cd563250f5e084f66125556d22b13c3f839656fb15",
+    "decompressed_bytes": 699475672,
+    "decompressed_lines": 6823790,
+    "decompressed_sha256": "dcb565b0fd7dc1ae1e56efdd52816562afa4e2f3776a04f00de0736237ec0255"
+  }
+}

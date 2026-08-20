@@ -1,0 +1,35 @@
+{
+  "format": "SM34_PROMPT_STUDIO_UPGRADE_RECEIPT_V1",
+  "release": "SUPER MOON 34 NEW UNIVERSE PROMPT STUDIO 34.0.0",
+  "created_utc": "2026-08-20T09:37:41Z",
+  "canonical_knowledge": {
+    "path": "knowledge/SUPER_MOON_34_NEW_UNIVERSE_OMEGA_FULLY_IMPLEMENTED_FULL_MERGED.txt.gz",
+    "compressed_bytes": 108689607,
+    "compressed_sha256": "0e077a7237b2bbaea1343cc73b6f025562b6a00d7a0469be78fba0ac72436a64",
+    "decompressed_bytes": 721679960,
+    "decompressed_sha256": "8d96f961541706dc8fbe419a332bace0f14648807e60eccd48dabb6a0b1330ac"
+  },
+  "reconstruction": {
+    "files_verified": 62,
+    "payload_bytes": 22194081,
+    "manifest_sha256": "ad7832db2c9b2d49899bd84e83d706f7680bdc336947e358260fd23513f9cc83"
+  },
+  "index": {
+    "format": "SM34_SEEKABLE_KNOWLEDGE_INDEX_V2",
+    "chunks": 172,
+    "current": true
+  },
+  "capability_runtime": {
+    "tracks": 16,
+    "backend_probes": 9,
+    "gates": 8,
+    "local_validation": "PASS",
+    "physical_qualification": "BLOCKED_PENDING_REAL_EXECUTION"
+  },
+  "verification": {
+    "full_regression": "350 passed, 8 skipped because real CadQuery/OCCT is unavailable",
+    "package_audit": "PASS",
+    "api_contract": "PASS",
+    "javascript_syntax": "PASS"
+  }
+}

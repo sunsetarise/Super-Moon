@@ -1,0 +1,37 @@
+{
+  "blockers": {
+    "B01": true,
+    "B02": true,
+    "B03": true,
+    "B04": false,
+    "B05": true,
+    "B06": true,
+    "B07": true,
+    "B08": true,
+    "B09": true,
+    "B10": true,
+    "B11": true,
+    "B12": true,
+    "B13": true,
+    "B14": true,
+    "B15": true,
+    "B16": true,
+    "B17": false,
+    "B18": false,
+    "B19": false,
+    "B20": false
+  },
+  "completion": {
+    "Q01": 0.5,
+    "Q02": 0.0,
+    "Q03": 0.0,
+    "Q04": 0.0,
+    "Q05": 0.0,
+    "Q06": 0.0,
+    "Q07": 0.0,
+    "Q08": 0.0,
+    "Q09": 0.9,
+    "Q10": 0.85
+  },
+  "evidence_dag_valid": true
+}

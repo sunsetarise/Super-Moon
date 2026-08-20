@@ -1,0 +1,257 @@
+{
+  "external_runtime_dependent": [
+    {
+      "component": "Real qualified vendor tool execution",
+      "status": "NOT_EXECUTED_NO_TOOL_PROVIDED"
+    },
+    {
+      "component": "Real MPI multi-node qualification",
+      "status": "NOT_EXECUTED"
+    },
+    {
+      "component": "Real GPU/multi-GPU qualification",
+      "status": "NOT_EXECUTED"
+    },
+    {
+      "component": "Certification authority acceptance",
+      "status": "NOT_CLAIMED"
+    },
+    {
+      "component": "External independent reproduction",
+      "status": "NOT_EXECUTED"
+    }
+  ],
+  "implemented_components": [
+    {
+      "component": "QualifiedToolRegistry",
+      "modules": [
+        "qualified/tools.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "SolverRoutingEngine",
+      "modules": [
+        "qualified/routing.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ComputationalRiskEngine",
+      "modules": [
+        "qualified/risk.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "EquationGraph",
+      "modules": [
+        "qualified/problem.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "DimensionalAnalysisEngine",
+      "modules": [
+        "qualified/problem.py",
+        "qualified/physics_numbers.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ModelValidityEngine",
+      "modules": [
+        "qualified/model_validity.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "VerificationEngine",
+      "modules": [
+        "qualified/verification.py",
+        "qualified/research_math.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ValidationEngine",
+      "modules": [
+        "supermoon32/validation.py",
+        "qualified/verification.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "UncertaintyQuantificationEngine",
+      "modules": [
+        "supermoon32/uq.py",
+        "qualified/uq_advanced.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "DiscrepancyEngine",
+      "modules": [
+        "qualified/verification.py",
+        "qualified/multisolver.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ExperimentOrchestrator",
+      "modules": [
+        "qualified/orchestration.py",
+        "qualified/experiment.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "WorkflowGraph",
+      "modules": [
+        "qualified/orchestration.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ProvenanceGraph",
+      "modules": [
+        "qualified/provenance.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "EvidenceEngine",
+      "modules": [
+        "qualified/evidence.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "QualificationLedger",
+      "modules": [
+        "qualified/evidence.py",
+        "qualified/qualification.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ExternalToolAdapters",
+      "modules": [
+        "qualified/tools.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "HPCRoutingEngine",
+      "modules": [
+        "qualified/hpc_routing.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ModelCards",
+      "modules": [
+        "qualified/governance.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ToolCards",
+      "modules": [
+        "qualified/governance.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "DecisionCards",
+      "modules": [
+        "qualified/governance.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ReproducibilityManager",
+      "modules": [
+        "qualified/reproducibility_ext.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "BenchmarkManager",
+      "modules": [
+        "qualified/managers.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "EnduranceManager",
+      "modules": [
+        "qualified/managers.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ChangeImpactAnalyzer",
+      "modules": [
+        "qualified/change_impact.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "ReleaseEvidenceBuilder",
+      "modules": [
+        "qualified/reproducibility_ext.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "AdjointMath",
+      "modules": [
+        "qualified/research_math.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "POD_DMD",
+      "modules": [
+        "qualified/research_math.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "BayesianCalibration",
+      "modules": [
+        "qualified/research_math.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "MultiFidelitySurrogates",
+      "modules": [
+        "qualified/experiment.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "CoSimulation",
+      "modules": [
+        "qualified/cosimulation.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "PrecisionGovernance",
+      "modules": [
+        "qualified/precision.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    },
+    {
+      "component": "OptimizationGovernance",
+      "modules": [
+        "qualified/optimization_governance.py"
+      ],
+      "status": "IMPLEMENTED_TESTED"
+    }
+  ]
+}

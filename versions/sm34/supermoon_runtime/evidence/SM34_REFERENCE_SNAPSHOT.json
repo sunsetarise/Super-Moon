@@ -1,0 +1,17 @@
+{
+  "format": "SM34_OFFICIAL_REFERENCE_SNAPSHOT_V1",
+  "checked_utc_date": "2026-08-20",
+  "sources": [
+    {"topic": "PETSc KSP", "url": "https://petsc.org/release/petsc4py/reference/petsc4py.PETSc.KSP.html"},
+    {"topic": "MPI collectives", "url": "https://mpi4py.readthedocs.io/en/stable/tutorial.html"},
+    {"topic": "OpenFOAM forces and coefficients", "url": "https://doc.cfd.direct/openfoam/user-guide-v13/post-processing-functionality"},
+    {"topic": "SU2 execution", "url": "https://su2code.github.io/docs/Execution/"},
+    {"topic": "CadQuery import/export", "url": "https://cadquery.readthedocs.io/en/latest/importexport.html"},
+    {"topic": "OCCT STEP reader", "url": "https://dev.opencascade.org/doc/refman/html/class_s_t_e_p_control___reader.html"},
+    {"topic": "Slurm sbatch", "url": "https://slurm.schedmd.com/sbatch.html"},
+    {"topic": "Slurm sacct", "url": "https://slurm.schedmd.com/sacct.html"},
+    {"topic": "CUDA runtime device management", "url": "https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__DEVICE.html"}
+  ],
+  "policy": "Detected runtime versions must be recorded during each qualified execution; this snapshot does not claim backend availability."
+}
+

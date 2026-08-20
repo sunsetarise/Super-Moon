@@ -1,0 +1,14 @@
+{
+  "format": "SM34_WINDOWS_PORTABILITY_OVERLAY_V1",
+  "release": "SUPER MOON 34 NEW UNIVERSE PROMPT STUDIO 34.0.0",
+  "reason": "Replace Unix-only resource telemetry and directory fsync assumptions with cross-platform Windows-safe behavior while preserving the canonical knowledge corpus and baseline manifest.",
+  "files": [
+    {
+      "path": "src/supermoon34/endurance.py",
+      "baseline_sha256": "f3cd6f4dd5162b3d4d5e53270bc1d6d8539af4d542b040416e578b852338f0ff",
+      "baseline_size_bytes": 4009,
+      "patched_sha256": "7a554f6919183749c93fc14296af17450ce50088732f41efa27401f27d8db243",
+      "patched_size_bytes": 5247
+    }
+  ]
+}

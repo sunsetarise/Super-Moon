@@ -1,0 +1,28 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "processor": "",
+  "numpy": "2.3.5",
+  "cpu_count": 5,
+  "seed": 3200,
+  "scipy": "1.17.0",
+  "mpi": {
+    "available": false,
+    "status": "UNAVAILABLE_ENVIRONMENT"
+  },
+  "gpu": {
+    "available": false,
+    "status": "UNAVAILABLE_ENVIRONMENT"
+  },
+  "hpc_capabilities": {
+    "serial": "IMPLEMENTED",
+    "vectorized": "IMPLEMENTED",
+    "threaded_cpu": "IMPLEMENTED",
+    "multiprocess": "IMPLEMENTED",
+    "mpi": "UNAVAILABLE_ENVIRONMENT",
+    "gpu": "UNAVAILABLE_ENVIRONMENT",
+    "cpu_count": 5,
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41"
+  }
+}

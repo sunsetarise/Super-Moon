@@ -1,0 +1,47 @@
+{
+  "format": "SM31_CELESTIAL_QP1_RECEIPT_V1",
+  "release": "SUPER MOON 31.0 OMEGA CELESTIAL \u2014 QUALIFICATION PATCH 1",
+  "status": "PASS_WITH_DURATION_AND_COVERAGE_LIMITATIONS",
+  "tests": {
+    "passed": 122,
+    "failed": 0
+  },
+  "compile": "PASS",
+  "confirmed_repairs": {
+    "second_order_euler_broadcast": "FIXED",
+    "bspline_numpy_2d_cross_warning": "FIXED"
+  },
+  "coverage": {
+    "raw_statement_percent": 90.27415143603133,
+    "raw_branch_percent": 78.66161616161617,
+    "combined_coverage_percent": 86.31669535283993,
+    "covered_lines": 1383,
+    "statements": 1532,
+    "covered_branches": 623,
+    "branches": 792,
+    "target_95_90_claimed": false,
+    "reason": "preserved shadowed lineage code remains in raw denominator; no artificial exclusions used"
+  },
+  "endurance_post_patch": {
+    "requested_seconds": 30.0,
+    "elapsed_seconds": 30.000133902000016,
+    "iterations": 51296,
+    "iterations_per_second": 1709.8590348818495,
+    "cfd_first_order_iterations": 25648,
+    "cfd_second_order_iterations": 25648,
+    "rss_min": 134250496,
+    "rss_max": 134307840,
+    "rss_drift": 57344,
+    "passed": true
+  },
+  "endurance_post_patch_errors": 0,
+  "endurance_post_patch_invariant_failures": 0,
+  "endurance_1h": "NOT_EXECUTED",
+  "endurance_8h": "NOT_EXECUTED",
+  "endurance_24h": "NOT_EXECUTED",
+  "endurance_72h": "NOT_EXECUTED",
+  "external_reproduction": "NOT_EXECUTED",
+  "industrial_parity": "NOT_CLAIMED",
+  "overall_grade_absolute": 8.8,
+  "conceptual_architectural_grade": "9.5+"
+}

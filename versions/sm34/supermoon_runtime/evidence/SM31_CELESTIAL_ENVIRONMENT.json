@@ -1,0 +1,20 @@
+{
+  "OCP": "7.9.3.1",
+  "cadquery": "2.8.0",
+  "cupy": null,
+  "machine": "x86_64",
+  "mpi4py": null,
+  "numba": "0.65.1",
+  "numpy": "2.3.5",
+  "petsc4py": null,
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "processor": "",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "registry_counts": {
+    "mathematics": 320,
+    "technology": 460
+  },
+  "scipy": "1.17.0",
+  "slepc4py": null,
+  "triton": null
+}

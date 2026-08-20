@@ -1,0 +1,14 @@
+spack:
+  specs:
+  - python@3.12
+  - py-numpy
+  - py-scipy
+  - petsc +mpi
+  - openmpi
+  - openfoam
+  - su2
+  - opencascade
+  concretizer:
+    unify: true
+  view: true
+

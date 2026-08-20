@@ -1,0 +1,77 @@
+{
+  "capabilities": [
+    {
+      "available": false,
+      "commands": {},
+      "modules": {
+        "OCP": false,
+        "cadquery": false
+      },
+      "reason": "one or more components unavailable",
+      "track_id": "cad"
+    },
+    {
+      "available": false,
+      "commands": {
+        "nvcc": null,
+        "nvidia-smi": null
+      },
+      "modules": {
+        "cupy": false
+      },
+      "reason": "one or more components unavailable",
+      "track_id": "cuda"
+    },
+    {
+      "available": false,
+      "commands": {
+        "checkMesh": null,
+        "foamRun": null
+      },
+      "modules": {},
+      "reason": "one or more components unavailable",
+      "track_id": "openfoam"
+    },
+    {
+      "available": false,
+      "commands": {
+        "mpiexec": null
+      },
+      "modules": {
+        "mpi4py": false,
+        "petsc4py": false
+      },
+      "reason": "one or more components unavailable",
+      "track_id": "petsc_mpi"
+    },
+    {
+      "available": false,
+      "commands": {
+        "sacct": null,
+        "sbatch": null
+      },
+      "modules": {},
+      "reason": "one or more components unavailable",
+      "track_id": "slurm"
+    },
+    {
+      "available": false,
+      "commands": {
+        "SU2_CFD": null,
+        "SU2_CFD_AD": null
+      },
+      "modules": {},
+      "reason": "one or more components unavailable",
+      "track_id": "su2"
+    }
+  ],
+  "created_utc": "2026-08-20T12:32:39.198081+00:00",
+  "environment": {
+    "machine": "x86_64",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]"
+  },
+  "format": "SM36_PHYSICAL_CAPABILITY_PROBE_V1",
+  "qualification_credit": false,
+  "truth_boundary": "Detection and installation are not physical execution or qualification."
+}

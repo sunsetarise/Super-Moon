@@ -1,0 +1,18 @@
+[project]
+name = "supermoon36-new-universe-qualification-candidate"
+version = "36.0.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+supermoon36 = "supermoon36.cli:main"
+
+[tool.supermoon36]
+release_state = "BLOCKED_PENDING_REAL_EXECUTION"
+methodologies = 15000
+methodologies_per_phase = 2500
+combined_statement_threshold = 95.0
+combined_branch_threshold = 90.0
+new_statement_threshold = 98.0
+new_branch_threshold = 95.0
+

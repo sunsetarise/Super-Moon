@@ -1,0 +1,83 @@
+{
+  "format": "SM35_MUTATION_RESULTS_V1",
+  "killed": 12,
+  "mutants": [
+    {
+      "file": "qualification.py",
+      "killed": true,
+      "mutant_id": "M001_score_threshold",
+      "returncode": 1
+    },
+    {
+      "file": "qualification.py",
+      "killed": true,
+      "mutant_id": "M002_ignore_blockers",
+      "returncode": 1
+    },
+    {
+      "file": "qualification.py",
+      "killed": true,
+      "mutant_id": "M003_ignore_dag",
+      "returncode": 1
+    },
+    {
+      "file": "qualification.py",
+      "killed": true,
+      "mutant_id": "M004_fraction_bounds",
+      "returncode": 1
+    },
+    {
+      "file": "coverage_gate.py",
+      "killed": true,
+      "mutant_id": "M005_coverage_or",
+      "returncode": 1
+    },
+    {
+      "file": "coverage_gate.py",
+      "killed": true,
+      "mutant_id": "M006_empty_coverage",
+      "returncode": 1
+    },
+    {
+      "file": "contracts.py",
+      "killed": true,
+      "mutant_id": "M007_pass_evidence_bypass",
+      "returncode": 1
+    },
+    {
+      "file": "contracts.py",
+      "killed": true,
+      "mutant_id": "M008_duplicate_artifacts",
+      "returncode": 1
+    },
+    {
+      "file": "contracts.py",
+      "killed": true,
+      "mutant_id": "M009_reviewer_bypass",
+      "returncode": 1
+    },
+    {
+      "file": "vnv.py",
+      "killed": true,
+      "mutant_id": "M010_endurance_duration",
+      "returncode": 1
+    },
+    {
+      "file": "vnv.py",
+      "killed": true,
+      "mutant_id": "M011_machine_independence",
+      "returncode": 1
+    },
+    {
+      "file": "framing.py",
+      "killed": true,
+      "mutant_id": "M012_duplicate_frames",
+      "returncode": 1
+    }
+  ],
+  "passed": true,
+  "score_percent": 100.0,
+  "threshold_percent": 85.0,
+  "tool": "deterministic-source-replacement",
+  "total": 12
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "claim": "Dense numerical factorization/root/nonlinear infrastructure",
+    "status": "IMPLEMENTED_TESTED_VERIFIED",
+    "evidence": [
+      "SM32_NUMERICAL_VALIDATION.json",
+      "SM32_COVERAGE_REPORT.txt"
+    ]
+  },
+  {
+    "claim": "Sparse COO/CSR/CSC + CG/GMRES/BiCGSTAB",
+    "status": "IMPLEMENTED_TESTED_VERIFIED",
+    "evidence": [
+      "SM32_NUMERICAL_VALIDATION.json",
+      "SM32_BENCHMARKS.json"
+    ]
+  },
+  {
+    "claim": "Optimization GD/BFGS/L-BFGS/projected/penalty/Nelder-Mead",
+    "status": "IMPLEMENTED_TESTED",
+    "evidence": [
+      "tests/test_sm32.py",
+      "SM32_BENCHMARKS.json"
+    ]
+  },
+  {
+    "claim": "ODE and PDE integration",
+    "status": "IMPLEMENTED_TESTED_VERIFIED",
+    "evidence": [
+      "SM32_NUMERICAL_VALIDATION.json"
+    ]
+  },
+  {
+    "claim": "2-D Euler Cartesian finite-volume solver and viscous flux primitives",
+    "status": "IMPLEMENTED_TESTED_VERIFIED",
+    "evidence": [
+      "SM32_NUMERICAL_VALIDATION.json",
+      "SM32_BENCHMARKS.json"
+    ]
+  },
+  {
+    "claim": "FEA bars, triangle stiffness, assembly and constrained linear solve",
+    "status": "IMPLEMENTED_TESTED_VERIFIED",
+    "evidence": [
+      "SM32_NUMERICAL_VALIDATION.json"
+    ]
+  },
+  {
+    "claim": "B-rep topology model",
+    "status": "IMPLEMENTED_TESTED",
+    "evidence": [
+      "tests/test_sm32.py"
+    ]
+  },
+  {
+    "claim": "Digital twin state estimation",
+    "status": "IMPLEMENTED_TESTED_VERIFIED",
+    "evidence": [
+      "SM32_NUMERICAL_VALIDATION.json"
+    ]
+  },
+  {
+    "claim": "UQ/statistics/signal/graph/search/MCTS/attention/ML primitives",
+    "status": "IMPLEMENTED_TESTED",
+    "evidence": [
+      "tests/test_sm32.py"
+    ]
+  },
+  {
+    "claim": "MPI runtime",
+    "status": "UNAVAILABLE_ENVIRONMENT",
+    "evidence": [
+      "SM32_ENVIRONMENT.json"
+    ]
+  },
+  {
+    "claim": "GPU runtime",
+    "status": "UNAVAILABLE_ENVIRONMENT",
+    "evidence": [
+      "SM32_ENVIRONMENT.json"
+    ]
+  },
+  {
+    "claim": "Industrial parity",
+    "status": "NOT_CLAIMED",
+    "evidence": []
+  }
+]

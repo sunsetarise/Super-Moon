@@ -1,0 +1,101 @@
+{
+  "format": "SM36_MUTATION_CAMPAIGN_V1",
+  "killed": 13,
+  "mutants": [
+    {
+      "file": "contracts.py",
+      "id": 1,
+      "operator": "self.size_bytes < 0 -> self.size_bytes <= 0",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "contracts.py",
+      "id": 2,
+      "operator": "if end < start:\n            raise ValidationError(\"methodology result ends before it starts\") -> if end <= start:\n            raise ValidationError(\"methodology result ends before it starts\")",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "coverage.py",
+      "id": 3,
+      "operator": "self.covered_statements > self.statements -> self.covered_statements < self.statements",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "coverage.py",
+      "id": 4,
+      "operator": "mutation_total <= 0 -> mutation_total < 0",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "coverage.py",
+      "id": 5,
+      "operator": "return len(independently_demonstrated) == width -> return len(independently_demonstrated) != width",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "coverage.py",
+      "id": 6,
+      "operator": "fuzz_pass = fuzz_failures == 0 -> fuzz_pass = fuzz_failures != 0",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "framing.py",
+      "id": 7,
+      "operator": "if path in seen: -> if False and path in seen:",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "hpc.py",
+      "id": 8,
+      "operator": "0 <= self.relative_residual <= 1e-8 -> 1e-8 <= self.relative_residual <= 1",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "methodology.py",
+      "id": 9,
+      "operator": "if record.phase_id in PHYSICAL_PHASES: -> if record.phase_id not in PHYSICAL_PHASES:",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "physical.py",
+      "id": 10,
+      "operator": "self.sanitizer_errors == 0 -> self.sanitizer_errors >= 0",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "qualification.py",
+      "id": 11,
+      "operator": "gates[key].state is not ResultState.PASS -> gates[key].state is ResultState.PASS",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "registry.py",
+      "id": 12,
+      "operator": "if len(rows) != 15000: -> if len(rows) == 15000:",
+      "status": "KILLED",
+      "test_exit_code": 1
+    },
+    {
+      "file": "security.py",
+      "id": 13,
+      "operator": "if name in FORBIDDEN_CALLS: -> if False and name in FORBIDDEN_CALLS:",
+      "status": "KILLED",
+      "test_exit_code": 1
+    }
+  ],
+  "passed": true,
+  "score_percent": 100.0,
+  "survived": 0,
+  "valid_mutants": 13
+}

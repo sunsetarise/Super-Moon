@@ -1,0 +1,72 @@
+test_backend_probes_are_explicit (test_sm34.AdapterTests.test_backend_probes_are_explicit) ... ok
+test_cfd_comparison (test_sm34.AdapterTests.test_cfd_comparison) ... ok
+test_missing_cad_rejected (test_sm34.AdapterTests.test_missing_cad_rejected) ... ok
+test_missing_gpu_rejected (test_sm34.AdapterTests.test_missing_gpu_rejected) ... ok
+test_missing_petsc_rejected (test_sm34.AdapterTests.test_missing_petsc_rejected) ... ok
+test_openfoam_parser (test_sm34.AdapterTests.test_openfoam_parser) ... ok
+test_slurm_script_has_no_substitution (test_sm34.AdapterTests.test_slurm_script_has_no_substitution) ... ok
+test_atmosphere (test_sm34.AerospaceTests.test_atmosphere) ... ok
+test_design (test_sm34.AerospaceTests.test_design) ... ok
+test_digital_thread (test_sm34.AerospaceTests.test_digital_thread) ... ok
+test_flight_dynamics (test_sm34.AerospaceTests.test_flight_dynamics) ... ok
+test_structures (test_sm34.AerospaceTests.test_structures) ... ok
+test_system_budgets (test_sm34.AerospaceTests.test_system_budgets) ... ok
+test_gate_rejects_evidence_free_pass (test_sm34.ContractsTests.test_gate_rejects_evidence_free_pass) ... ok
+test_registry (test_sm34.ContractsTests.test_registry) ... ok
+test_tolerance (test_sm34.ContractsTests.test_tolerance) ... ok
+test_async_dag (test_sm34.EnduranceOrchestrationTests.test_async_dag) ... ok
+test_reproduction_requires_distinct_receipts (test_sm34.EnduranceOrchestrationTests.test_reproduction_requires_distinct_receipts) ... ok
+test_short_endurance_cannot_qualify (test_sm34.EnduranceOrchestrationTests.test_short_endurance_cannot_qualify) ... ok
+test_dag (test_sm34.EvidenceTests.test_dag) ... ok
+test_hash_chain (test_sm34.EvidenceTests.test_hash_chain) ... ok
+test_residuals (test_sm34.MathTests.test_residuals) ... ok
+test_scaling_metrics (test_sm34.MathTests.test_scaling_metrics) ... ok
+test_statistics_and_geometry (test_sm34.MathTests.test_statistics_and_geometry) ... ok
+test_complete_release_passes (test_sm34.QualificationTests.test_complete_release_passes) ... ok
+test_partial_gate_fails (test_sm34.QualificationTests.test_partial_gate_fails) ... ok
+test_unexecuted_release_blocked (test_sm34.QualificationTests.test_unexecuted_release_blocked) ... ok
+test_benchmark (test_sm34.ValidationPerformanceTests.test_benchmark) ... ok
+test_manufactured_order (test_sm34.ValidationPerformanceTests.test_manufactured_order) ... ok
+test_validation_suite (test_sm34.ValidationPerformanceTests.test_validation_suite) ... ok
+test_multiline_is_base64 (sm35.fuzz.test_sm35_framing_fuzz.FramingFuzzTests.test_multiline_is_base64) ... ok
+test_parser_rejects_malformed_corrupt_duplicate (sm35.fuzz.test_sm35_framing_fuzz.FramingFuzzTests.test_parser_rejects_malformed_corrupt_duplicate) ... ok
+test_raw_and_binary_roundtrip (sm35.fuzz.test_sm35_framing_fuzz.FramingFuzzTests.test_raw_and_binary_roundtrip) ... ok
+test_reconstruct_confined_no_overwrite (sm35.fuzz.test_sm35_framing_fuzz.FramingFuzzTests.test_reconstruct_confined_no_overwrite) ... ok
+test_safe_path_rejects_traversal (sm35.fuzz.test_sm35_framing_fuzz.FramingFuzzTests.test_safe_path_rejects_traversal) ... ok
+test_capability_matrix_is_truthful (sm35.integration.test_sm35_physical_contracts.PhysicalContractTests.test_capability_matrix_is_truthful) ... ok
+test_complete_petsc_matrix_contract (sm35.integration.test_sm35_physical_contracts.PhysicalContractTests.test_complete_petsc_matrix_contract) ... ok
+test_external_command_requires_authorization_and_allowlists (sm35.integration.test_sm35_physical_contracts.PhysicalContractTests.test_external_command_requires_authorization_and_allowlists) ... ok
+test_external_policy_limits_and_output_cap (sm35.integration.test_sm35_physical_contracts.PhysicalContractTests.test_external_policy_limits_and_output_cap) ... ok
+test_rank_receipt_negative_cases (sm35.integration.test_sm35_physical_contracts.PhysicalContractTests.test_rank_receipt_negative_cases) ... ok
+test_unavailable_receipt (sm35.integration.test_sm35_physical_contracts.PhysicalContractTests.test_unavailable_receipt) ... ok
+test_cad_row_validation_and_limits (sm35.property.test_sm35_vnv_properties.VNVPropertyTests.test_cad_row_validation_and_limits) ... ok
+test_cfd_symmetry_and_threshold (sm35.property.test_sm35_vnv_properties.VNVPropertyTests.test_cfd_symmetry_and_threshold) ... ok
+test_cfd_validation_failures (sm35.property.test_sm35_vnv_properties.VNVPropertyTests.test_cfd_validation_failures) ... ok
+test_complete_cad_matrix (sm35.property.test_sm35_vnv_properties.VNVPropertyTests.test_complete_cad_matrix) ... ok
+test_endurance_real_time_contract (sm35.property.test_sm35_vnv_properties.VNVPropertyTests.test_endurance_real_time_contract) ... ok
+test_independent_reproduction (sm35.property.test_sm35_vnv_properties.VNVPropertyTests.test_independent_reproduction) ... ok
+test_traceability_closure (sm35.property.test_sm35_vnv_properties.VNVPropertyTests.test_traceability_closure) ... ok
+test_artifact_contract (sm35.unit.test_sm35_contracts.ContractTests.test_artifact_contract) ... ok
+test_canonical_json_rejects_nonfinite (sm35.unit.test_sm35_contracts.ContractTests.test_canonical_json_rejects_nonfinite) ... ok
+test_mapping_rejects_unknown_missing_and_malformed (sm35.unit.test_sm35_contracts.ContractTests.test_mapping_rejects_unknown_missing_and_malformed) ... ok
+test_receipt_duplicate_and_truth_failures (sm35.unit.test_sm35_contracts.ContractTests.test_receipt_duplicate_and_truth_failures) ... ok
+test_receipt_time_hash_and_duration_failures (sm35.unit.test_sm35_contracts.ContractTests.test_receipt_time_hash_and_duration_failures) ... ok
+test_unavailable_receipt_is_truthful (sm35.unit.test_sm35_contracts.ContractTests.test_unavailable_receipt_is_truthful) ... ok
+test_valid_receipt_roundtrip (sm35.unit.test_sm35_contracts.ContractTests.test_valid_receipt_roundtrip) ... ok
+test_cli_commands_and_required_subcommand (sm35.unit.test_sm35_coverage_cli.CoverageRuntimeTests.test_cli_commands_and_required_subcommand) ... usage: supermoon35 [-h] {status,capabilities,score} ...
+supermoon35: error: the following arguments are required: command
+ok
+test_measure_executes_real_source (sm35.unit.test_sm35_coverage_cli.CoverageRuntimeTests.test_measure_executes_real_source) ... ok
+test_source_analysis_and_discovery (sm35.unit.test_sm35_coverage_cli.CoverageRuntimeTests.test_source_analysis_and_discovery) ... ok
+test_candidate_keeps_physical_blockers (sm35.unit.test_sm35_evidence_qualification.EvidenceQualificationTests.test_candidate_keeps_physical_blockers) ... ok
+test_coverage_gate (sm35.unit.test_sm35_evidence_qualification.EvidenceQualificationTests.test_coverage_gate) ... ok
+test_coverage_rejects_malformed_inputs (sm35.unit.test_sm35_evidence_qualification.EvidenceQualificationTests.test_coverage_rejects_malformed_inputs) ... ok
+test_evidence_dag_and_closure (sm35.unit.test_sm35_evidence_qualification.EvidenceQualificationTests.test_evidence_dag_and_closure) ... ok
+test_evidence_rejects_invalid_graph (sm35.unit.test_sm35_evidence_qualification.EvidenceQualificationTests.test_evidence_rejects_invalid_graph) ... ok
+test_score_pass_block_and_fail (sm35.unit.test_sm35_evidence_qualification.EvidenceQualificationTests.test_score_pass_block_and_fail) ... ok
+test_score_rejects_bypass_inputs (sm35.unit.test_sm35_evidence_qualification.EvidenceQualificationTests.test_score_rejects_bypass_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 65 tests in 1.026s
+
+OK

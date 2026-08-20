@@ -1,0 +1,31 @@
+{
+  "p0": [],
+  "p1": [],
+  "limitations": [
+    {
+      "id": "LIM-COV-BRANCH",
+      "description": "Literal branch coverage is below the prompt target; no exclusions used to inflate it.",
+      "status": "OPEN_QUALIFICATION_LIMITATION"
+    },
+    {
+      "id": "LIM-MPI",
+      "description": "mpi4py unavailable; MPI runtime not executed.",
+      "status": "UNAVAILABLE_ENVIRONMENT"
+    },
+    {
+      "id": "LIM-GPU",
+      "description": "CuPy/GPU backend unavailable; GPU runtime not executed.",
+      "status": "UNAVAILABLE_ENVIRONMENT"
+    },
+    {
+      "id": "LIM-LONG-ENDURANCE",
+      "description": "1h/8h/24h/72h literal endurance tiers not executed in this build session.",
+      "status": "NOT_EXECUTED"
+    },
+    {
+      "id": "LIM-EXTERNAL-REPRO",
+      "description": "Independent external-machine reproduction not executed.",
+      "status": "NOT_EXECUTED"
+    }
+  ]
+}

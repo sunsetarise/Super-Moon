@@ -1,0 +1,71 @@
+{
+  "product": "Super Moon 34 New Universe Prompt Studio",
+  "release": "SM34 New Universe Integrated Prompt Studio 34.0.0",
+  "generated_utc": "2026-08-20T09:33:40Z",
+  "required_windows_python": "C:\\Users\\zero\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "bootstrap_policy": {
+    "exact_base_interpreter": true,
+    "required_runtime": "CPython 3.14 x64",
+    "venv_base_provenance_checked": true,
+    "binary_wheels_only": true,
+    "source_build_fallback": false,
+    "scipy_runtime_pin": "1.17.0",
+    "scipy_import_preflight": true,
+    "windows_resource_module_required": false,
+    "windows_memory_telemetry": "psutil==7.2.2",
+    "windows_directory_fsync_skipped": true,
+    "automatic_start_repair": true,
+    "setup_log": "runtime/setup.log"
+  },
+  "canonical_knowledge": {
+    "filename": "SUPER_MOON_34_NEW_UNIVERSE_OMEGA_FULLY_IMPLEMENTED_FULL_MERGED.txt.gz",
+    "compressed_bytes": 108689607,
+    "compressed_sha256": "0e077a7237b2bbaea1343cc73b6f025562b6a00d7a0469be78fba0ac72436a64",
+    "decompressed_bytes": 721679960,
+    "decompressed_sha256": "8d96f961541706dc8fbe419a332bace0f14648807e60eccd48dabb6a0b1330ac",
+    "source_of_truth": true,
+    "location": "knowledge/"
+  },
+  "knowledge_index": {
+    "format": "SM34_SEEKABLE_KNOWLEDGE_INDEX_V2",
+    "chunks": 172,
+    "sqlite_bytes": 2174976,
+    "chunk_store_bytes": 124313794,
+    "source_current": true
+  },
+  "runtime": {
+    "embedded_supermoon34_import": true,
+    "embedded_supermoon32_import": true,
+    "embedded_supermoon32_qualified_import": true,
+    "sm34_reconstructed_payload_files_verified": 62,
+    "sm34_source_manifest_files_verified": 59,
+    "sm34_integrity_checked_portability_overlays": 1,
+    "capability_tracks": 16,
+    "qualification_gates": 8,
+    "backend_probes": 9,
+    "risk_engine": "Inherited SM32 Qualified Research CRI",
+    "capability_engine": "SM34 New Universe P01-P11 and A01-A05"
+  },
+  "interface": {
+    "backend": "Python/FastAPI",
+    "frontend": "HTML/CSS/JavaScript",
+    "three_dimensional_engine": "Babylon.js 9.21.2",
+    "new_universe_control_plane": true,
+    "windows_setup": "SETUP_WINDOWS.bat",
+    "windows_start": "START_SUPERMOON.bat",
+    "windows_doctor": "CHECK_INSTALLATION.bat",
+    "full_audit": "RUN_FULL_AUDIT.bat"
+  },
+  "artifact_policy": "Local implementation and deterministic tests do not count as physical PETSc/MPI, CFD, CAD, cluster, GPU, endurance, second-machine, certification, or independent-validation evidence.",
+  "validation": {
+    "sm34_local_tests": "30 passed",
+    "full_inherited_and_sm34_regression": "350 passed, 8 real-CadQuery-dependent tests skipped because the backend is unavailable",
+    "sm34_validation_suite": "PASS",
+    "package_audit": "PASS",
+    "api_contract": "PASS",
+    "python_compile": "PASS",
+    "javascript_syntax_check": "PASS",
+    "canonical_knowledge_integrity": "PASS",
+    "sm34_release_qualification": "BLOCKED_PENDING_REAL_EXECUTION"
+  }
+}

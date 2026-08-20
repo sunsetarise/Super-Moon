@@ -1,0 +1,10 @@
+{
+  "release": "SUPER MOON 34 NEW UNIVERSE PROMPT STUDIO 34.0.0",
+  "state": "PACKAGE_READY_WINDOWS_PREFLIGHT_PENDING",
+  "required_python": "C:\\Users\\zero\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "canonical_knowledge": "knowledge/SUPER_MOON_34_NEW_UNIVERSE_OMEGA_FULLY_IMPLEMENTED_FULL_MERGED.txt.gz",
+  "knowledge_index_format": "SM34_SEEKABLE_KNOWLEDGE_INDEX_V2",
+  "knowledge_index_chunks": 172,
+  "package_audit": "PASS",
+  "note": "SETUP_WINDOWS.bat replaces this package-build state with the authoritative machine-specific installation state."
+}

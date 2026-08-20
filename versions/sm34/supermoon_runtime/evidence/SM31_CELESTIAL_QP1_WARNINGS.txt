@@ -1,0 +1,10 @@
+SM31 CELESTIAL QP1 WARNINGS QUALIFICATION
+
+Celestial-owned B-spline 2-D curvature path: PASS, 0 warnings observed.
+The previous NumPy 2-component np.cross deprecation path was removed and replaced with the explicit planar scalar cross product.
+
+Full-process -W error note:
+Importing third-party cadquery under Python -W error raises an external PyparsingDiagnosticWarning:
+  warn_ungrouped_named_tokens_in_collection: setting results name 'only_dir' on MatchFirst expression collides with 'simple_dir' on contained expression
+This warning originates in the external cadquery/pyparsing dependency chain, not SM31 Celestial-owned code.
+It is therefore classified as DEPENDENCY_OWNED and is not counted as a QP1 code warning.

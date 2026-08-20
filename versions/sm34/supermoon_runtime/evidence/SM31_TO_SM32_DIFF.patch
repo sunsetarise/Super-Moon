@@ -1,0 +1,1377 @@
+diff -ruN /mnt/data/sm32_work/empty_tree/__init__.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/__init__.py
+--- /mnt/data/sm32_work/empty_tree/__init__.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/__init__.py	2026-08-19 12:47:35.340519953 +0000
+@@ -0,0 +1,4 @@
++"""SUPER MOON 32.0 OMEGA — Full Implementation Dominion."""
++__version__='32.0.0'
++from .core import *
++from . import numerics,sparse,optimization,ode,pde,cfd,fea,geometry,cad,mesh,multiphysics,digital_twin,uq,stats,signal,graph,search,ml,hpc,validation,reproducibility,serialization,registry,benchmark,endurance,autodiff,units,discovery
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/__init__.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/__init__.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/autodiff.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/autodiff.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/benchmark.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/benchmark.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/cad.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/cad.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/cfd.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/cfd.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/core.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/core.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/digital_twin.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/digital_twin.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/discovery.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/discovery.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/endurance.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/endurance.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/fea.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/fea.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/geometry.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/geometry.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/graph.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/graph.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/hpc.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/hpc.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/mesh.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/mesh.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/ml.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/ml.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/multiphysics.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/multiphysics.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/numerics.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/numerics.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/ode.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/ode.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/optimization.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/optimization.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/pde.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/pde.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/registry.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/registry.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/reproducibility.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/reproducibility.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/search.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/search.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/serialization.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/serialization.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/signal.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/signal.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/sparse.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/sparse.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/stats.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/stats.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/units.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/units.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/uq.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/uq.cpython-313.pyc differ
+Binary files /mnt/data/sm32_work/empty_tree/__pycache__/validation.cpython-313.pyc and /mnt/data/sm32_work/sm32_payload/src/supermoon32/__pycache__/validation.cpython-313.pyc differ
+diff -ruN /mnt/data/sm32_work/empty_tree/autodiff.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/autodiff.py
+--- /mnt/data/sm32_work/empty_tree/autodiff.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/autodiff.py	2026-08-19 12:47:34.782350592 +0000
+@@ -0,0 +1,31 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import math,numpy as np
++from .core import *
++@dataclass
++class Dual:
++    val: float; der: float=0.0
++    def __add__(self,o):o=o if isinstance(o,Dual) else Dual(float(o));return Dual(self.val+o.val,self.der+o.der)
++    __radd__=__add__
++    def __sub__(self,o):o=o if isinstance(o,Dual) else Dual(float(o));return Dual(self.val-o.val,self.der-o.der)
++    def __rsub__(self,o):return Dual(float(o)).__sub__(self)
++    def __mul__(self,o):o=o if isinstance(o,Dual) else Dual(float(o));return Dual(self.val*o.val,self.der*o.val+self.val*o.der)
++    __rmul__=__mul__
++    def __truediv__(self,o):o=o if isinstance(o,Dual) else Dual(float(o));return Dual(self.val/o.val,(self.der*o.val-self.val*o.der)/(o.val*o.val))
++    def __rtruediv__(self,o):return Dual(float(o)).__truediv__(self)
++    def __pow__(self,p):p=float(p);return Dual(self.val**p,p*self.val**(p-1)*self.der)
++    def __neg__(self):return Dual(-self.val,-self.der)
++def sin(x):return Dual(math.sin(x.val),math.cos(x.val)*x.der) if isinstance(x,Dual) else math.sin(x)
++def cos(x):return Dual(math.cos(x.val),-math.sin(x.val)*x.der) if isinstance(x,Dual) else math.cos(x)
++def exp(x):return Dual(math.exp(x.val),math.exp(x.val)*x.der) if isinstance(x,Dual) else math.exp(x)
++def log(x):return Dual(math.log(x.val),x.der/x.val) if isinstance(x,Dual) else math.log(x)
++def derivative(f,x):return float(f(Dual(float(x),1.)).der)
++def jvp(f,x,v,eps=None):
++    x=finite_array(x,'x',1);v=finite_array(v,'v',1)
++    if x.shape!=v.shape:raise DimensionMismatch('x/v mismatch')
++    eps=np.sqrt(np.finfo(float).eps)*(1+np.linalg.norm(x))/max(np.linalg.norm(v),np.finfo(float).tiny) if eps is None else float(eps);return (np.asarray(f(x+eps*v),float)-np.asarray(f(x-eps*v),float))/(2*eps)
++def vjp(f,x,w,eps=None):
++    x=finite_array(x,'x',1);w=finite_array(w,'w',1);eps=np.sqrt(np.finfo(float).eps) if eps is None else float(eps);g=np.empty_like(x)
++    for i in range(len(x)):
++        h=eps*max(1.,abs(x[i]));xp=x.copy();xm=x.copy();xp[i]+=h;xm[i]-=h;g[i]=w@(np.asarray(f(xp),float)-np.asarray(f(xm),float))/(2*h)
++    return g
+diff -ruN /mnt/data/sm32_work/empty_tree/benchmark.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/benchmark.py
+--- /mnt/data/sm32_work/empty_tree/benchmark.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/benchmark.py	2026-08-19 12:47:04.598746292 +0000
+@@ -0,0 +1,8 @@
++from __future__ import annotations
++import time,tracemalloc
++
++def benchmark(fn,*args,repeats=3,**kwargs):
++    times=[];peaks=[];out=None
++    for _ in range(repeats):
++        tracemalloc.start();t=time.perf_counter();out=fn(*args,**kwargs);times.append(time.perf_counter()-t);_,peak=tracemalloc.get_traced_memory();peaks.append(peak);tracemalloc.stop()
++    return {'min_time':min(times),'mean_time':sum(times)/len(times),'max_time':max(times),'peak_memory':max(peaks),'repeats':repeats,'result':out}
+diff -ruN /mnt/data/sm32_work/empty_tree/cad.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/cad.py
+--- /mnt/data/sm32_work/empty_tree/cad.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/cad.py	2026-08-19 12:45:30.504945943 +0000
+@@ -0,0 +1,44 @@
++from __future__ import annotations
++from dataclasses import dataclass,field
++import numpy as np
++from .core import *
++try:
++    from supermoon31.cad import BSplineCurve,NURBSCurve,Frame,Point3,Vector3
++except Exception:
++    BSplineCurve=NURBSCurve=Frame=Point3=Vector3=None
++@dataclass(frozen=True)
++class Vertex: id:int; point:tuple[float,float,float]
++@dataclass(frozen=True)
++class Edge: id:int; v0:int; v1:int
++@dataclass
++class Wire: id:int; edges:list[int]
++@dataclass
++class Face: id:int; outer_wire:int; inner_wires:list[int]=field(default_factory=list)
++@dataclass
++class Shell: id:int; faces:list[int]=field(default_factory=list)
++@dataclass
++class Solid: id:int; shells:list[int]=field(default_factory=list)
++@dataclass
++class BRepModel:
++    vertices:dict[int,Vertex]=field(default_factory=dict);edges:dict[int,Edge]=field(default_factory=dict);wires:dict[int,Wire]=field(default_factory=dict);faces:dict[int,Face]=field(default_factory=dict);shells:dict[int,Shell]=field(default_factory=dict);solids:dict[int,Solid]=field(default_factory=dict)
++    def validate(self):
++        errors=[]
++        for e in self.edges.values():
++            if e.v0 not in self.vertices or e.v1 not in self.vertices:errors.append(f'edge {e.id} missing vertex')
++            elif e.v0==e.v1:errors.append(f'edge {e.id} degenerate')
++        for w in self.wires.values():
++            if not w.edges:errors.append(f'wire {w.id} empty')
++            if any(e not in self.edges for e in w.edges):errors.append(f'wire {w.id} missing edge')
++        for f in self.faces.values():
++            if f.outer_wire not in self.wires or any(w not in self.wires for w in f.inner_wires):errors.append(f'face {f.id} invalid wire')
++        for s in self.shells.values():
++            if any(f not in self.faces for f in s.faces):errors.append(f'shell {s.id} missing face')
++        for s in self.solids.values():
++            if any(sh not in self.shells for sh in s.shells):errors.append(f'solid {s.id} missing shell')
++        return {'valid':not errors,'errors':errors,'counts':{k:len(getattr(self,k)) for k in ['vertices','edges','wires','faces','shells','solids']}}
++    def add_vertex(self,p):
++        p=tuple(map(float,p));
++        if len(p)!=3 or not np.all(np.isfinite(p)):raise InvalidInput('finite 3D point required')
++        i=max(self.vertices.keys(),default=-1)+1;self.vertices[i]=Vertex(i,p);return i
++    def add_edge(self,v0,v1):
++        i=max(self.edges.keys(),default=-1)+1;self.edges[i]=Edge(i,int(v0),int(v1));return i
+diff -ruN /mnt/data/sm32_work/empty_tree/cfd.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/cfd.py
+--- /mnt/data/sm32_work/empty_tree/cfd.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/cfd.py	2026-08-19 12:45:30.503076161 +0000
+@@ -0,0 +1,51 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import numpy as np, math
++from .core import *
++try:
++    from supermoon31.cfd import euler_1d, sod_initial, primitive, cons, rusanov, hll
++except Exception:
++    euler_1d=sod_initial=primitive=cons=rusanov=hll=None
++@dataclass
++class Euler2DResult:
++    U: np.ndarray; steps: int; time: float; min_density: float; min_pressure: float; max_cfl: float; conservation: dict
++
++def primitive2d(U,gamma=1.4):
++    U=finite_array(U,'U')
++    if U.shape[-1]!=4:raise DimensionMismatch('Euler2D state requires [...,4]')
++    rho=U[...,0];mx=U[...,1];my=U[...,2];E=U[...,3]
++    if np.any(rho<=0):raise NonPhysicalState('density <= 0')
++    u=mx/rho;v=my/rho;p=(gamma-1)*(E-.5*rho*(u*u+v*v))
++    if np.any(p<=0) or not np.all(np.isfinite(p)):raise NonPhysicalState('pressure <= 0/nonfinite')
++    return rho,u,v,p
++
++def cons2d(rho,u,v,p,gamma=1.4):
++    rho=np.asarray(rho,float);u=np.asarray(u,float);v=np.asarray(v,float);p=np.asarray(p,float);E=p/(gamma-1)+.5*rho*(u*u+v*v);return np.stack([rho,rho*u,rho*v,E],axis=-1)
++
++def flux_x(U,gamma=1.4):
++    rho,u,v,p=primitive2d(U,gamma);E=U[...,3];return np.stack([rho*u,rho*u*u+p,rho*u*v,u*(E+p)],axis=-1)
++def flux_y(U,gamma=1.4):
++    rho,u,v,p=primitive2d(U,gamma);E=U[...,3];return np.stack([rho*v,rho*u*v,rho*v*v+p,v*(E+p)],axis=-1)
++def rusanov_face(UL,UR,axis,gamma=1.4):
++    rL,uL,vL,pL=primitive2d(UL,gamma);rR,uR,vR,pR=primitive2d(UR,gamma);cL=np.sqrt(gamma*pL/rL);cR=np.sqrt(gamma*pR/rR);FL=flux_x(UL,gamma) if axis==0 else flux_y(UL,gamma);FR=flux_x(UR,gamma) if axis==0 else flux_y(UR,gamma);velL=uL if axis==0 else vL;velR=uR if axis==0 else vR;s=np.maximum(np.abs(velL)+cL,np.abs(velR)+cR);return .5*(FL+FR)-.5*s[...,None]*(UR-UL)
++def euler_2d_cartesian(U0,dx,dy,t_end,cfl=.4,gamma=1.4,max_steps=100000,periodic=True):
++    U=finite_array(U0,'U0').copy();dx=float(dx);dy=float(dy);t_end=float(t_end)
++    if U.ndim!=3 or U.shape[-1]!=4 or min(U.shape[:2])<2 or dx<=0 or dy<=0 or t_end<0:raise InvalidInput('invalid 2-D Euler grid')
++    init=np.sum(U,axis=(0,1))*dx*dy;t=0.;steps=0;maxcfl=0.;mr=math.inf;mp=math.inf
++    while t<t_end-1e-15:
++        rho,u,v,p=primitive2d(U,gamma);c=np.sqrt(gamma*p/rho);speedx=float(np.max(np.abs(u)+c));speedy=float(np.max(np.abs(v)+c));dt=cfl/(speedx/dx+speedy/dy);dt=min(dt,t_end-t)
++        if not math.isfinite(dt) or dt<=0:raise CFLViolation('invalid timestep')
++        if periodic:
++            Fx=rusanov_face(U,np.roll(U,-1,axis=1),0,gamma);Fy=rusanov_face(U,np.roll(U,-1,axis=0),1,gamma);U=U-dt/dx*(Fx-np.roll(Fx,1,axis=1))-dt/dy*(Fy-np.roll(Fy,1,axis=0))
++        else:
++            Ug=np.pad(U,((1,1),(1,1),(0,0)),mode='edge');Fx=rusanov_face(Ug[:, :-1],Ug[:,1:],0,gamma);Fy=rusanov_face(Ug[:-1],Ug[1:],1,gamma);U=U-dt/dx*(Fx[1:-1,1:]-Fx[1:-1,:-1])-dt/dy*(Fy[1:,1:-1]-Fy[:-1,1:-1])
++        rho,u,v,p=primitive2d(U,gamma);mr=min(mr,float(rho.min()));mp=min(mp,float(p.min()));maxcfl=max(maxcfl,float(dt*(speedx/dx+speedy/dy)));t+=dt;steps+=1
++        if steps>max_steps:raise ConvergenceFailure('max_steps exceeded')
++    final=np.sum(U,axis=(0,1))*dx*dy;cons_err={k:float(abs(final[i]-init[i])) for i,k in enumerate(['mass','momentum_x','momentum_y','energy'])}
++    return Euler2DResult(U,steps,t,mr,mp,maxcfl,cons_err)
++
++def navier_stokes_viscous_flux_2d(grad_u,grad_v,grad_T,mu,kappa):
++    gu=finite_array(grad_u,'grad_u',1);gv=finite_array(grad_v,'grad_v',1);gT=finite_array(grad_T,'grad_T',1)
++    if len(gu)!=2 or len(gv)!=2 or len(gT)!=2:raise DimensionMismatch('2-D gradients required')
++    div=gu[0]+gv[1];tau_xx=mu*(2*gu[0]-2*div/3);tau_yy=mu*(2*gv[1]-2*div/3);tau_xy=mu*(gu[1]+gv[0]);q=-kappa*gT
++    return {'tau':np.array([[tau_xx,tau_xy],[tau_xy,tau_yy]]),'heat_flux':q}
+diff -ruN /mnt/data/sm32_work/empty_tree/core.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/core.py
+--- /mnt/data/sm32_work/empty_tree/core.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/core.py	2026-08-19 12:56:57.773294075 +0000
+@@ -0,0 +1,103 @@
++from __future__ import annotations
++from dataclasses import dataclass, field
++from enum import Enum
++from typing import Any, Iterable
++import math, time
++import numpy as np
++
++class SM32Error(Exception):
++    """Base error for SUPER MOON 32."""
++class InvalidInput(SM32Error):
++    """InvalidInput error."""
++class DimensionMismatch(SM32Error):
++    """DimensionMismatch error."""
++class NonPhysicalState(SM32Error):
++    """NonPhysicalState error."""
++class DegenerateGeometry(SM32Error):
++    """DegenerateGeometry error."""
++class SingularSystem(SM32Error):
++    """SingularSystem error."""
++class IllConditionedSystem(SM32Error):
++    """IllConditionedSystem error."""
++class ConvergenceFailure(SM32Error):
++    """ConvergenceFailure error."""
++class CFLViolation(SM32Error):
++    """CFLViolation error."""
++class InvariantViolation(SM32Error):
++    """InvariantViolation error."""
++class BackendUnavailable(SM32Error):
++    """BackendUnavailable error."""
++class NumericalOverflow(SM32Error):
++    """NumericalOverflow error."""
++
++class Determinism(str, Enum):
++    BITWISE='BITWISE_DETERMINISTIC'; NUMERICAL='NUMERICALLY_DETERMINISTIC'; BOUNDED='NONDETERMINISTIC_BOUNDED'
++
++@dataclass(frozen=True)
++class TolerancePolicy:
++    atol: float=1e-12; rtol: float=1e-9; geometry: float=1e-10; solver: float=1e-10; physical_floor: float=1e-12
++    def close(self,a,b,scale=1.0): return abs(float(a)-float(b)) <= self.atol*max(1.0,float(scale)) + self.rtol*max(abs(float(a)),abs(float(b)))
++DEFAULT_TOLERANCE=TolerancePolicy()
++
++@dataclass
++class SolverResult:
++    solution: Any
++    converged: bool
++    iterations: int=0
++    residual_norm: float=math.inf
++    termination_reason: str=''
++    runtime: float=0.0
++    diagnostics: dict[str,Any]=field(default_factory=dict)
++    history: list[float]=field(default_factory=list)
++    status: str='OK'
++
++@dataclass
++class ValidationRecord:
++    algorithm: str; case: str; expected: Any; actual: Any; error: Any; tolerance: Any; passed: bool; metadata: dict[str,Any]=field(default_factory=dict)
++
++
++def finite_array(x,name='array',ndim=None):
++    a=np.asarray(x,float)
++    if ndim is not None and a.ndim!=ndim: raise DimensionMismatch(f'{name} must have ndim={ndim}, got {a.ndim}')
++    if a.size==0: raise InvalidInput(f'{name} must be non-empty')
++    if not np.all(np.isfinite(a)): raise InvalidInput(f'{name} contains NaN/Inf')
++    return a
++
++def finite_scalar(x,name='value'):
++    try:v=float(x)
++    except Exception as e: raise InvalidInput(f'{name} must be numeric') from e
++    if not math.isfinite(v): raise InvalidInput(f'{name} must be finite')
++    return v
++
++def kahan_sum(values: Iterable[float])->float:
++    s=0.0;c=0.0
++    for x in values:
++        y=float(x)-c;t=s+y;c=(t-s)-y;s=t
++    return s
++
++def stable_norm(x)->float:
++    a=finite_array(x,'x').ravel(); m=float(np.max(np.abs(a)))
++    if m==0:return 0.0
++    return m*math.sqrt(float(np.dot(a/m,a/m)))
++
++def safe_normalize(x,tol=DEFAULT_TOLERANCE):
++    a=finite_array(x,'x'); n=stable_norm(a)
++    if n <= tol.geometry*max(1.0,float(np.max(np.abs(a)))): raise DegenerateGeometry('cannot normalize near-zero vector')
++    return a/n
++
++def stable_polyval(coefficients,x):
++    c=finite_array(coefficients,'coefficients',1); xv=finite_scalar(x,'x'); y=0.0
++    for a in c:y=y*xv+float(a)
++    if not math.isfinite(y): raise NumericalOverflow('polynomial evaluation overflow')
++    return y
++
++def scale_aware_tolerance(*values,base=None):
++    base=np.finfo(float).eps if base is None else float(base); scale=max([1.0]+[abs(float(v)) for v in values]); return base*scale
++
++def check_invariants(**checks):
++    failed=[k for k,v in checks.items() if not bool(v)]
++    if failed: raise InvariantViolation('failed invariants: '+', '.join(failed))
++    return True
++
++def timed_call(fn,*args,**kwargs):
++    t=time.perf_counter(); out=fn(*args,**kwargs); return out,time.perf_counter()-t
+diff -ruN /mnt/data/sm32_work/empty_tree/digital_twin.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/digital_twin.py
+--- /mnt/data/sm32_work/empty_tree/digital_twin.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/digital_twin.py	2026-08-19 12:46:15.008948063 +0000
+@@ -0,0 +1,22 @@
++from __future__ import annotations
++from dataclasses import dataclass,field
++import time, numpy as np
++from .core import *
++@dataclass
++class StateTwin:
++    state: np.ndarray; covariance: np.ndarray; parameters: dict=field(default_factory=dict); history:list=field(default_factory=list); provenance:dict=field(default_factory=dict)
++    def __post_init__(self):
++        self.state=finite_array(self.state,'state',1);self.covariance=finite_array(self.covariance,'covariance',2)
++        if self.covariance.shape!=(len(self.state),len(self.state)):raise DimensionMismatch('covariance dimension mismatch')
++        if np.min(np.linalg.eigvalsh((self.covariance+self.covariance.T)/2))<-1e-12:raise InvalidInput('covariance must be PSD')
++    def predict(self,F,Q=None,control=None,B=None,timestamp=None):
++        F=finite_array(F,'F',2);Q=np.zeros_like(self.covariance) if Q is None else finite_array(Q,'Q',2);x=F@self.state
++        if control is not None:
++            if B is None:raise InvalidInput('B required with control')
++            x=x+np.asarray(B,float)@np.asarray(control,float)
++        self.state=x;self.covariance=F@self.covariance@F.T+Q;self.history.append({'kind':'predict','timestamp':time.time() if timestamp is None else timestamp,'state':self.state.copy()});return self.state.copy()
++    def update(self,z,H,R,timestamp=None):
++        z=finite_array(z,'z',1);H=finite_array(H,'H',2);R=finite_array(R,'R',2);innovation=z-H@self.state;S=H@self.covariance@H.T+R
++        try:K=np.linalg.solve(S,(self.covariance@H.T).T).T
++        except np.linalg.LinAlgError as e:raise SingularSystem('innovation covariance singular') from e
++        self.state=self.state+K@innovation;I=np.eye(len(self.state));self.covariance=(I-K@H)@self.covariance@(I-K@H).T+K@R@K.T;self.history.append({'kind':'update','timestamp':time.time() if timestamp is None else timestamp,'innovation':innovation.copy(),'state':self.state.copy()});return {'state':self.state.copy(),'innovation':innovation,'innovation_norm':float(np.linalg.norm(innovation))}
+diff -ruN /mnt/data/sm32_work/empty_tree/discovery.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/discovery.py
+--- /mnt/data/sm32_work/empty_tree/discovery.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/discovery.py	2026-08-19 12:47:34.783869654 +0000
+@@ -0,0 +1,31 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import itertools,math
++from .core import InvalidInput
++@dataclass
++class DiscoveryResult:
++    candidate:object;score:float;evaluated:int;history:list
++def exhaustive_discovery(search_space,evaluator,minimize=True,max_evals=None):
++    best=None;bs=math.inf if minimize else -math.inf;hist=[];n=0
++    for c in search_space:
++        s=float(evaluator(c));n+=1;hist.append((c,s))
++        if (minimize and s<bs) or ((not minimize) and s>bs):best,bs=c,s
++        if max_evals is not None and n>=max_evals:break
++    if n==0:raise InvalidInput('empty search space')
++    return DiscoveryResult(best,bs,n,hist)
++def expression_program_search(constants,ops,target,max_depth=2):
++    vals=[(str(c),float(c)) for c in constants];allv=list(vals)
++    best=(None,math.inf,None);evaluated=0
++    for _ in range(max_depth):
++        nxt=[]
++        for (ea,a),(eb,b) in itertools.product(allv,allv):
++            for name,op in ops.items():
++                try:v=float(op(a,b))
++                except Exception:continue
++                if not math.isfinite(v):continue
++                e=f'({ea}{name}{eb})';err=abs(v-target);evaluated+=1
++                if err<best[1]:best=(e,err,v)
++                nxt.append((e,v))
++        allv=(allv+nxt)[-500:]
++        if best[1]==0:break
++    return {'expression':best[0],'error':best[1],'value':best[2],'evaluated':evaluated}
+diff -ruN /mnt/data/sm32_work/empty_tree/endurance.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/endurance.py
+--- /mnt/data/sm32_work/empty_tree/endurance.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/endurance.py	2026-08-19 12:56:57.773728609 +0000
+@@ -0,0 +1,39 @@
++from __future__ import annotations
++import time,os,json
++from pathlib import Path
++import numpy as np
++from .sparse import as_csr,cg
++from .optimization import bfgs
++from .ode import rk4
++from .cfd import euler_2d_cartesian,cons2d
++from .fea import bar1d
++from .geometry import orientation2d
++try:import psutil
++except Exception:psutil=None
++
++def telemetry():
++    if psutil:
++        p=psutil.Process();m=p.memory_info();return {'time':time.time(),'rss':m.rss,'vms':m.vms,'threads':p.num_threads(),'fds':p.num_fds() if hasattr(p,'num_fds') else None}
++    return {'time':time.time(),'rss':None,'vms':None,'threads':None,'fds':None}
++def mixed_iteration(seed=0):
++    rng=np.random.default_rng(seed);A=rng.normal(size=(8,8));A=A.T@A+np.eye(8);b=rng.normal(size=8);r=cg(as_csr(A),b,tol=1e-9,max_iter=100)
++    o=bfgs(lambda x:(x[0]-1)**2+2*(x[1]+2)**2,[0,0],tol=1e-7,max_iter=30)
++    od=rk4(lambda t,y:-y,(0,.05),[1.],.01)
++    rho=np.ones((4,4));u=np.zeros_like(rho);v=np.zeros_like(rho);p=np.ones_like(rho);U=cons2d(rho,u,v,p);cf=euler_2d_cartesian(U,.25,.25,.002)
++    ba=bar1d([0,1],[(0,1)],2e11,1e-4,{1:1000},[0]);ori=orientation2d([0,0],[1,0],[0,1])
++    bad=not(r.converged and o.converged and np.all(np.isfinite(od.y)) and cf.min_density>0 and ba.residual_norm<1e-8 and ori==1)
++    return {'bad':bad,'cg_residual':r.residual_norm,'opt_residual':o.residual_norm,'cfd_steps':cf.steps}
++def run_endurance(duration_seconds,sample_interval=.5,report_path=None):
++    duration_seconds=float(duration_seconds)
++    if duration_seconds<=0:raise ValueError('positive duration required')
++    start=time.monotonic();last=start;rows=[telemetry()];iters=errors=invariants=0
++    while time.monotonic()-start<duration_seconds:
++        try:
++            rr=mixed_iteration(iters)
++            if rr['bad']:invariants+=1
++        except Exception:errors+=1
++        iters+=1;now=time.monotonic()
++        if now-last>=sample_interval:rows.append(telemetry());last=now
++    elapsed=time.monotonic()-start;rss=[x['rss'] for x in rows if x['rss'] is not None];rep={'requested_seconds':duration_seconds,'elapsed_seconds':elapsed,'iterations':iters,'iterations_per_second':iters/elapsed,'errors':errors,'invariant_failures':invariants,'telemetry':rows,'rss_min':min(rss) if rss else None,'rss_max':max(rss) if rss else None,'rss_drift':rss[-1]-rss[0] if len(rss)>1 else 0,'passed':errors==0 and invariants==0 and elapsed>=duration_seconds}
++    if report_path:Path(report_path).write_text(json.dumps(rep,indent=2),encoding='utf-8')
++    return rep
+diff -ruN /mnt/data/sm32_work/empty_tree/fea.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/fea.py
+--- /mnt/data/sm32_work/empty_tree/fea.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/fea.py	2026-08-19 12:45:30.503962906 +0000
+@@ -0,0 +1,60 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import numpy as np, math
++from .core import *
++try:
++    from supermoon31.fea import truss2d, cst_stiffness, solve_tet4, elasticity_matrix, newmark, modal, buckling, thermal_bar, j2_radial_return, laminate_abd
++except Exception:
++    truss2d=cst_stiffness=solve_tet4=elasticity_matrix=newmark=modal=buckling=thermal_bar=j2_radial_return=laminate_abd=None
++@dataclass
++class BarResult:
++    displacement: np.ndarray; reactions: np.ndarray; stress: np.ndarray; strain: np.ndarray; residual_norm: float
++
++def bar1d(nodes,elements,E,A,loads=None,fixed=None):
++    x=finite_array(nodes,'nodes',1);elements=np.asarray(elements,int);n=len(x);E=float(E);A=float(A)
++    if E<=0 or A<=0 or elements.ndim!=2 or elements.shape[1]!=2:raise InvalidInput('invalid bar model')
++    K=np.zeros((n,n));stress_ops=[]
++    for e,(i,j) in enumerate(elements):
++        if i<0 or j<0 or i>=n or j>=n or i==j:raise InvalidInput('invalid element')
++        L=abs(x[j]-x[i])
++        if L<=DEFAULT_TOLERANCE.geometry:raise DegenerateGeometry('zero-length bar')
++        ke=E*A/L*np.array([[1,-1],[-1,1]],float);dof=[i,j];K[np.ix_(dof,dof)]+=ke;stress_ops.append((i,j,L))
++    f=np.zeros(n)
++    if loads:
++        for i,v in loads.items():f[int(i)]+=float(v)
++    fixed=sorted(set(int(i) for i in (fixed or [])));free=np.array([i for i in range(n) if i not in fixed],int)
++    if len(free)==0:u=np.zeros(n)
++    else:
++        Kff=K[np.ix_(free,free)]
++        if np.linalg.matrix_rank(Kff)<len(free):raise SingularSystem('underconstrained bar system')
++        u=np.zeros(n);u[free]=np.linalg.solve(Kff,f[free])
++    reactions=K@u-f;strain=np.array([(u[j]-u[i])/L for i,j,L in stress_ops]);stress=E*strain;res=float(np.linalg.norm((K@u-f)[free])) if len(free) else 0.0;return BarResult(u,reactions,stress,strain,res)
++
++def triangle3_plane_stress_stiffness(coords,E,nu,thickness=1.0):
++    P=finite_array(coords,'coords',2)
++    if P.shape!=(3,2):raise DimensionMismatch('triangle coords must be 3x2')
++    x1,y1=P[0];x2,y2=P[1];x3,y3=P[2];A=.5*((x2-x1)*(y3-y1)-(x3-x1)*(y2-y1))
++    if abs(A)<=DEFAULT_TOLERANCE.geometry:raise DegenerateGeometry('degenerate triangle')
++    b=np.array([y2-y3,y3-y1,y1-y2]);c=np.array([x3-x2,x1-x3,x2-x1]);B=np.zeros((3,6))
++    for i in range(3):B[0,2*i]=b[i];B[1,2*i+1]=c[i];B[2,2*i]=c[i];B[2,2*i+1]=b[i]
++    B/=2*A;D=E/(1-nu**2)*np.array([[1,nu,0],[nu,1,0],[0,0,(1-nu)/2]]);K=thickness*abs(A)*(B.T@D@B);return K,B,D,abs(A)
++def assemble(elements,n_dof):
++    K=np.zeros((n_dof,n_dof))
++    for dofs,ke in elements:
++        d=np.asarray(dofs,int);ke=np.asarray(ke,float)
++        if ke.shape!=(len(d),len(d)):raise DimensionMismatch('element stiffness mismatch')
++        K[np.ix_(d,d)]+=ke
++    return K
++def solve_linear(K,f,fixed=(),prescribed=None):
++    K=finite_array(K,'K',2);f=finite_array(f,'f',1);n=len(f)
++    if K.shape!=(n,n):raise DimensionMismatch('K/f mismatch')
++    u=np.zeros(n);prescribed=prescribed or {}
++    fixed_set=set(map(int,fixed))|set(map(int,prescribed.keys()))
++    for i,v in prescribed.items():u[int(i)]=float(v)
++    free=np.array([i for i in range(n) if i not in fixed_set],int);known=np.array(sorted(fixed_set),int)
++    rhs=f[free]-K[np.ix_(free,known)]@u[known] if len(known) else f[free]
++    if len(free):
++        Kff=K[np.ix_(free,free)]
++        if np.linalg.matrix_rank(Kff)<len(free):raise SingularSystem('singular constrained system')
++        u[free]=np.linalg.solve(Kff,rhs)
++    r=K@u-f;return SolverResult(u,True,1,float(np.linalg.norm(r[free])) if len(free) else 0.,'direct',diagnostics={'reactions':r})
+diff -ruN /mnt/data/sm32_work/empty_tree/geometry.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/geometry.py
+--- /mnt/data/sm32_work/empty_tree/geometry.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/geometry.py	2026-08-19 12:44:44.655096972 +0000
+@@ -0,0 +1,35 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import numpy as np, math
++from .core import *
++@dataclass(frozen=True)
++class Point:
++    xyz: tuple[float,...]
++    def array(self):return np.asarray(self.xyz,float)
++
++def distance(a,b):return stable_norm(np.asarray(a,float)-np.asarray(b,float))
++def orientation2d(a,b,c,tol=DEFAULT_TOLERANCE):
++    a,b,c=map(lambda z:finite_array(z,'point',1),[a,b,c])
++    if not(len(a)==len(b)==len(c)==2):raise DimensionMismatch('2D points required')
++    cross=(b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0]);scale=max(1.,distance(a,b)*distance(a,c));eps=tol.geometry*scale
++    return 1 if cross>eps else -1 if cross<-eps else 0
++def segment_intersection(a,b,c,d,tol=DEFAULT_TOLERANCE):
++    a,b,c,d=[np.asarray(x,float) for x in (a,b,c,d)];r=b-a;s=d-c;den=r[0]*s[1]-r[1]*s[0];q=c-a;numt=q[0]*s[1]-q[1]*s[0];numu=q[0]*r[1]-q[1]*r[0];eps=tol.geometry*max(1.,np.linalg.norm(r)*np.linalg.norm(s))
++    if abs(den)<=eps:return None
++    t=numt/den;u=numu/den
++    if -tol.geometry<=t<=1+tol.geometry and -tol.geometry<=u<=1+tol.geometry:return a+t*r
++    return None
++def project_point_segment(p,a,b):
++    p,a,b=[np.asarray(x,float) for x in (p,a,b)];d=b-a;den=float(d@d)
++    if den<=DEFAULT_TOLERANCE.geometry**2:raise DegenerateGeometry('zero-length segment')
++    t=float((p-a)@d/den);tc=min(1.,max(0.,t));q=a+tc*d;return q,tc,distance(p,q)
++def plane_projection(p,origin,normal):
++    p=np.asarray(p,float);o=np.asarray(origin,float);n=safe_normalize(normal);return p-n*float((p-o)@n)
++def aabb(points):
++    P=finite_array(points,'points',2);return P.min(axis=0),P.max(axis=0)
++def rotation_matrix_2d(theta):
++    c=math.cos(theta);s=math.sin(theta);return np.array([[c,-s],[s,c]])
++def triangle_area(a,b,c):
++    a,b,c=[np.asarray(x,float) for x in (a,b,c)];
++    if len(a)==2:return abs((b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0]))/2
++    return np.linalg.norm(np.cross(b-a,c-a))/2
+diff -ruN /mnt/data/sm32_work/empty_tree/graph.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/graph.py
+--- /mnt/data/sm32_work/empty_tree/graph.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/graph.py	2026-08-19 12:46:15.013243641 +0000
+@@ -0,0 +1,46 @@
++from __future__ import annotations
++import heapq, collections, math
++from .core import *
++def _adj(graph,u):return graph.get(u,{}) if isinstance(graph,dict) else {}
++def bfs(graph,start):
++    q=collections.deque([start]);seen={start};order=[]
++    while q:
++        u=q.popleft();order.append(u)
++        neigh=_adj(graph,u);it=neigh.keys() if isinstance(neigh,dict) else neigh
++        for v in it:
++            if v not in seen:seen.add(v);q.append(v)
++    return order
++def dfs(graph,start):
++    st=[start];seen=set();order=[]
++    while st:
++        u=st.pop()
++        if u in seen:continue
++        seen.add(u);order.append(u);neigh=_adj(graph,u);it=list(neigh.keys() if isinstance(neigh,dict) else neigh);st.extend(reversed(it))
++    return order
++def dijkstra(graph,start,goal=None):
++    dist={start:0.};prev={};pq=[(0.,start)]
++    while pq:
++        d,u=heapq.heappop(pq)
++        if d!=dist[u]:continue
++        if u==goal:break
++        neigh=_adj(graph,u)
++        items=neigh.items() if isinstance(neigh,dict) else ((v,1.) for v in neigh)
++        for v,w in items:
++            w=float(w)
++            if w<0:raise InvalidInput('negative weights not supported')
++            nd=d+w
++            if nd<dist.get(v,math.inf):dist[v]=nd;prev[v]=u;heapq.heappush(pq,(nd,v))
++    return dist,prev
++def path_from_prev(prev,start,goal):
++    if goal!=start and goal not in prev:return None
++    p=[goal]
++    while p[-1]!=start:p.append(prev[p[-1]])
++    return list(reversed(p))
++def connected_components(graph):
++    nodes=set(graph)
++    for u in graph:
++        neigh=_adj(graph,u);nodes.update(neigh.keys() if isinstance(neigh,dict) else neigh)
++    comps=[]
++    while nodes:
++        s=next(iter(nodes));c=set(bfs(graph,s));comps.append(c);nodes-=c
++    return comps
+diff -ruN /mnt/data/sm32_work/empty_tree/hpc.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/hpc.py
+--- /mnt/data/sm32_work/empty_tree/hpc.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/hpc.py	2026-08-19 12:56:57.773640428 +0000
+@@ -0,0 +1,35 @@
++from __future__ import annotations
++import os,time,platform,concurrent.futures,multiprocessing as mp
++import numpy as np
++from .core import BackendUnavailable
++
++def capability_matrix():
++    out={'serial':'IMPLEMENTED','vectorized':'IMPLEMENTED','threaded_cpu':'IMPLEMENTED','multiprocess':'IMPLEMENTED','mpi':'UNAVAILABLE_ENVIRONMENT','gpu':'UNAVAILABLE_ENVIRONMENT','cpu_count':os.cpu_count(),'platform':platform.platform()}
++    try:import mpi4py;out['mpi']='IMPLEMENTED_UNEXECUTED'
++    except Exception:out['mpi']='UNAVAILABLE_ENVIRONMENT'
++    try:import cupy;out['gpu']='IMPLEMENTED_UNEXECUTED'
++    except Exception:out['gpu']='UNAVAILABLE_ENVIRONMENT'
++    return out
++def threaded_map(fn,items,max_workers=None):
++    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:return list(ex.map(fn,items))
++def multiprocess_map(fn,items,max_workers=None):
++    with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as ex:return list(ex.map(fn,items))
++def benchmark_scaling(fn,arg,workers=(1,2,4),repeats=1,backend='thread'):
++    rows=[]
++    for p in workers:
++        t=time.perf_counter()
++        if p==1:[fn(arg) for _ in range(repeats)]
++        elif backend=='thread':threaded_map(fn,[arg]*repeats,p)
++        else:multiprocess_map(fn,[arg]*repeats,p)
++        dt=time.perf_counter()-t;rows.append({'workers':p,'time':dt})
++    t1=rows[0]['time']
++    for r in rows:r['speedup']=t1/r['time'] if r['time'] else float('inf');r['efficiency']=r['speedup']/r['workers']
++    return rows
++def mpi_status():
++    try:
++        from mpi4py import MPI;return {'available':True,'rank':MPI.COMM_WORLD.Get_rank(),'size':MPI.COMM_WORLD.Get_size()}
++    except Exception:return {'available':False,'status':'UNAVAILABLE_ENVIRONMENT'}
++def gpu_status():
++    try:
++        import cupy as cp;dev=cp.cuda.Device();return {'available':True,'device':int(dev.id),'name':cp.cuda.runtime.getDeviceProperties(dev.id)['name'].decode()}
++    except Exception:return {'available':False,'status':'UNAVAILABLE_ENVIRONMENT'}
+diff -ruN /mnt/data/sm32_work/empty_tree/mesh.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/mesh.py
+--- /mnt/data/sm32_work/empty_tree/mesh.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/mesh.py	2026-08-19 12:44:44.655899271 +0000
+@@ -0,0 +1,42 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import numpy as np, math
++from .core import *
++from .geometry import triangle_area
++@dataclass
++class TriMesh:
++    nodes: np.ndarray; elements: np.ndarray
++    def __post_init__(self):
++        self.nodes=finite_array(self.nodes,'nodes',2);self.elements=np.asarray(self.elements,int)
++        if self.elements.ndim!=2 or self.elements.shape[1]!=3:raise DimensionMismatch('triangles require Mx3 connectivity')
++        if np.any(self.elements<0) or np.any(self.elements>=len(self.nodes)):raise InvalidInput('element index out of bounds')
++        if len({tuple(sorted(e)) for e in self.elements})!=len(self.elements):raise InvalidInput('duplicate elements')
++    def adjacency(self):
++        adj=[set() for _ in range(len(self.nodes))]
++        for e in self.elements:
++            for i in e:
++                for j in e:
++                    if i!=j:adj[i].add(int(j))
++        return [sorted(x) for x in adj]
++    def boundary_edges(self):
++        counts={}
++        for e in self.elements:
++            for a,b in ((e[0],e[1]),(e[1],e[2]),(e[2],e[0])):
++                key=tuple(sorted((int(a),int(b))));counts[key]=counts.get(key,0)+1
++        return np.array([k for k,v in counts.items() if v==1],int)
++    def areas(self):return np.array([triangle_area(*self.nodes[e]) for e in self.elements])
++    def quality(self):
++        q=[]
++        for e in self.elements:
++            P=self.nodes[e];l=[np.linalg.norm(P[(i+1)%3]-P[i]) for i in range(3)];A=triangle_area(*P);q.append(4*math.sqrt(3)*A/max(sum(x*x for x in l),np.finfo(float).tiny))
++        return np.array(q)
++    def validate(self):
++        a=self.areas();q=self.quality();return {'nodes':len(self.nodes),'elements':len(self.elements),'min_area':float(a.min()),'min_quality':float(q.min()),'valid':bool(np.all(a>DEFAULT_TOLERANCE.geometry) and np.all(q>0))}
++def rectangular_tri_mesh(nx,ny,lx=1.,ly=1.):
++    nx=int(nx);ny=int(ny)
++    if nx<1 or ny<1:raise InvalidInput('nx,ny >= 1')
++    xs=np.linspace(0,lx,nx+1);ys=np.linspace(0,ly,ny+1);nodes=np.array([(x,y) for y in ys for x in xs]);els=[]
++    idx=lambda i,j:j*(nx+1)+i
++    for j in range(ny):
++        for i in range(nx):a=idx(i,j);b=idx(i+1,j);c=idx(i+1,j+1);d=idx(i,j+1);els += [(a,b,c),(a,c,d)]
++    return TriMesh(nodes,np.array(els,int))
+diff -ruN /mnt/data/sm32_work/empty_tree/ml.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/ml.py
+--- /mnt/data/sm32_work/empty_tree/ml.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/ml.py	2026-08-19 12:49:43.257189873 +0000
+@@ -0,0 +1,52 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import numpy as np, math
++from .core import *
++def softmax(x,axis=-1):
++    x=np.asarray(x,float)
++    if x.size==0 or np.any(np.isnan(x)) or np.any(np.isposinf(x)): raise InvalidInput('softmax input contains invalid values')
++    m=np.max(x,axis=axis,keepdims=True)
++    if np.any(~np.isfinite(m)): raise InvalidInput('softmax row has no finite entries')
++    e=np.exp(x-m);return e/np.sum(e,axis=axis,keepdims=True)
++def attention(Q,K,V,mask=None):
++    Q=finite_array(Q,'Q');K=finite_array(K,'K');V=finite_array(V,'V')
++    if Q.ndim!=2 or K.ndim!=2 or V.ndim!=2 or Q.shape[1]!=K.shape[1] or K.shape[0]!=V.shape[0]:raise DimensionMismatch('attention shape mismatch')
++    scores=Q@K.T/math.sqrt(Q.shape[1])
++    if mask is not None:
++        m=np.asarray(mask,bool)
++        if m.shape!=scores.shape:raise DimensionMismatch('mask shape mismatch')
++        scores=np.where(m,scores,-np.inf)
++        if np.any(np.all(~m,axis=1)):raise InvalidInput('fully masked query row')
++    W=softmax(scores,axis=1);return W@V,W
++@dataclass
++class Dense:
++    W: np.ndarray; b: np.ndarray
++    @classmethod
++    def init(cls,in_dim,out_dim,seed=0):
++        rng=np.random.default_rng(seed);W=rng.normal(scale=math.sqrt(2/(in_dim+out_dim)),size=(in_dim,out_dim));return cls(W,np.zeros(out_dim))
++    def forward(self,x):
++        x=finite_array(x,'x');return x@self.W+self.b
++
++def relu(x):return np.maximum(np.asarray(x,float),0.)
++def mse(yhat,y):
++    yhat=np.asarray(yhat,float);y=np.asarray(y,float);return float(np.mean((yhat-y)**2))
++def numerical_gradient(f,x,eps=1e-6):
++    x=np.asarray(x,float).copy();g=np.empty_like(x)
++    it=np.nditer(x,flags=['multi_index'])
++    while not it.finished:
++        i=it.multi_index;old=x[i];x[i]=old+eps;fp=f(x);x[i]=old-eps;fm=f(x);x[i]=old;g[i]=(fp-fm)/(2*eps);it.iternext()
++    return g
++def linear_regression_train(X,y,lr=.05,epochs=1000,tol=1e-10):
++    X=finite_array(X,'X',2);y=finite_array(y,'y',1)
++    if len(X)!=len(y):raise DimensionMismatch('X/y mismatch')
++    w=np.zeros(X.shape[1]);b=0.;hist=[]
++    for k in range(int(epochs)):
++        pred=X@w+b;err=pred-y;loss=float(np.mean(err*err));hist.append(loss);gw=2*X.T@err/len(y);gb=2*np.mean(err);w-=lr*gw;b-=lr*gb
++        if np.linalg.norm(np.r_[gw,gb])<=tol:break
++    return {'weights':w,'bias':float(b),'loss':hist[-1],'history':hist,'epochs':len(hist)}
++def cosine_beta_schedule(T,s=0.008):
++    T=int(T)
++    if T<=0:raise InvalidInput('T positive')
++    t=np.linspace(0,T,T+1)/T;abar=np.cos((t+s)/(1+s)*np.pi/2)**2;abar/=abar[0];beta=1-abar[1:]/abar[:-1];return np.clip(beta,1e-8,.999)
++def q_learning_step(Q,s,a,r,s2,alpha=.1,gamma=.99):
++    Q=np.asarray(Q,float);target=float(r)+gamma*np.max(Q[s2]);td=target-Q[s,a];Q[s,a]+=alpha*td;return float(td)
+diff -ruN /mnt/data/sm32_work/empty_tree/multiphysics.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/multiphysics.py
+--- /mnt/data/sm32_work/empty_tree/multiphysics.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/multiphysics.py	2026-08-19 12:46:15.007915052 +0000
+@@ -0,0 +1,20 @@
++from __future__ import annotations
++import numpy as np,time
++from .core import *
++
++def fixed_point_coupling(update_x,update_y,x0,y0,tol=1e-9,max_iter=200,relaxation=.5):
++    x=np.asarray(x0,float).copy();y=np.asarray(y0,float).copy();hist=[];t=time.perf_counter();w=float(relaxation)
++    if not 0<w<=1:raise InvalidInput('relaxation must be in (0,1]')
++    for k in range(max_iter+1):
++        xn=np.asarray(update_x(x,y),float);yn=np.asarray(update_y(xn,y),float);rx=float(np.linalg.norm(xn-x));ry=float(np.linalg.norm(yn-y));r=max(rx,ry);hist.append(r)
++        if r<=tol:return SolverResult((x,y),True,k,r,'coupling_tolerance',time.perf_counter()-t,{'x_residual':rx,'y_residual':ry},hist)
++        if k==max_iter:break
++        x=(1-w)*x+w*xn;y=(1-w)*y+w*yn
++    return SolverResult((x,y),False,max_iter,hist[-1],'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++def conservative_transfer(source_values,source_weights,target_weights):
++    s=finite_array(source_values,'source_values',1);sw=finite_array(source_weights,'source_weights',1);tw=finite_array(target_weights,'target_weights',1)
++    if len(s)!=len(sw):raise DimensionMismatch('source values/weights mismatch')
++    total=float(s@sw)
++    if np.any(tw<0) or np.sum(tw)<=0:raise InvalidInput('positive target weights required')
++    # Constant target density that preserves integrated quantity exactly.
++    out=np.full(len(tw),total/np.sum(tw));return out,{'source_total':total,'target_total':float(out@tw),'error':float(abs(out@tw-total))}
+diff -ruN /mnt/data/sm32_work/empty_tree/numerics.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/numerics.py
+--- /mnt/data/sm32_work/empty_tree/numerics.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/numerics.py	2026-08-19 12:43:30.801828410 +0000
+@@ -0,0 +1,152 @@
++from __future__ import annotations
++import math,time
++import numpy as np
++from .core import *
++
++def lu_factor(A,pivot_tol=1e-15):
++    A=finite_array(A,'A',2).copy(); n,m=A.shape
++    if n!=m: raise DimensionMismatch('A must be square')
++    P=np.arange(n)
++    for k in range(n-1):
++        p=k+int(np.argmax(np.abs(A[k:,k])))
++        if abs(A[p,k]) <= pivot_tol*max(1.0,float(np.linalg.norm(A,np.inf))): raise SingularSystem('singular pivot')
++        if p!=k: A[[k,p]]=A[[p,k]];P[[k,p]]=P[[p,k]]
++        A[k+1:,k]/=A[k,k]; A[k+1:,k+1:]-=np.outer(A[k+1:,k],A[k,k+1:])
++    if abs(A[-1,-1]) <= pivot_tol*max(1.0,float(np.linalg.norm(A,np.inf))): raise SingularSystem('singular pivot')
++    return P,np.tril(A,-1)+np.eye(n),np.triu(A)
++
++def forward_substitution(L,b):
++    L=finite_array(L,'L',2); b=finite_array(b,'b')
++    n=L.shape[0]; y=np.zeros_like(b,dtype=float)
++    for i in range(n): y[i]=(b[i]-L[i,:i]@y[:i])/L[i,i]
++    return y
++
++def backward_substitution(U,b):
++    U=finite_array(U,'U',2); b=finite_array(b,'b'); n=U.shape[0];x=np.zeros_like(b,dtype=float)
++    for i in range(n-1,-1,-1):
++        if abs(U[i,i])<np.finfo(float).tiny: raise SingularSystem('zero diagonal')
++        x[i]=(b[i]-U[i,i+1:]@x[i+1:])/U[i,i]
++    return x
++
++def lu_solve(A,b):
++    P,L,U=lu_factor(A); bb=finite_array(b,'b'); y=forward_substitution(L,bb[P]); return backward_substitution(U,y)
++
++def qr_householder(A):
++    A=finite_array(A,'A',2).copy(); m,n=A.shape; Q=np.eye(m);R=A
++    for k in range(min(m,n)):
++        x=R[k:,k]; norm=np.linalg.norm(x)
++        if norm==0: continue
++        alpha=-math.copysign(norm,x[0] if x[0]!=0 else 1.0); v=x.copy();v[0]-=alpha;vn=np.linalg.norm(v)
++        if vn==0:continue
++        v/=vn; R[k:]-=2*np.outer(v,v@R[k:]); Q[:,k:]-=2*np.outer(Q[:,k:]@v,v)
++    R[np.abs(R)<1e-15]=0.0; return Q,R
++
++def cholesky(A,tol=1e-14):
++    A=finite_array(A,'A',2); n,m=A.shape
++    if n!=m or not np.allclose(A,A.T,rtol=1e-10,atol=1e-12): raise InvalidInput('A must be symmetric square')
++    L=np.zeros_like(A)
++    for i in range(n):
++        for j in range(i+1):
++            s=A[i,j]-np.dot(L[i,:j],L[j,:j])
++            if i==j:
++                if s<=tol: raise InvalidInput('A is not positive definite')
++                L[i,j]=math.sqrt(s)
++            else:L[i,j]=s/L[j,j]
++    return L
++
++def svd(A): return np.linalg.svd(finite_array(A,'A',2),full_matrices=False)
++def eig(A): return np.linalg.eig(finite_array(A,'A',2))
++def least_squares(A,b,rcond=None): return np.linalg.lstsq(finite_array(A,'A',2),finite_array(b,'b'),rcond=rcond)
++def pseudoinverse(A,rcond=1e-12):
++    U,s,Vt=svd(A); cutoff=rcond*(s[0] if len(s) else 1.0); si=np.where(s>cutoff,1/s,0); return (Vt.T*si)@U.T
++
++def condition_estimate(A):
++    A=finite_array(A,'A',2); return float(np.linalg.cond(A))
++
++def iterative_refinement(A,b,x0=None,tol=1e-12,max_iter=10):
++    A=finite_array(A,'A',2);b=finite_array(b,'b');x=lu_solve(A,b) if x0 is None else finite_array(x0,'x0').copy(); hist=[];t=time.perf_counter()
++    for k in range(max_iter+1):
++        r=b-A@x; rn=float(np.linalg.norm(r));hist.append(rn)
++        if rn<=tol*(np.linalg.norm(b)+1): return SolverResult(x,True,k,rn,'tolerance',time.perf_counter()-t,history=hist)
++        if k==max_iter:break
++        x+=lu_solve(A,r)
++    return SolverResult(x,False,max_iter,hist[-1],'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++
++def bisection(f,a,b,tol=1e-12,max_iter=200):
++    a=finite_scalar(a);b=finite_scalar(b);fa=float(f(a));fb=float(f(b));t=time.perf_counter();hist=[]
++    if not all(map(math.isfinite,[fa,fb])): raise InvalidInput('non-finite function value')
++    if fa==0:return SolverResult(a,True,0,0,'exact_endpoint')
++    if fb==0:return SolverResult(b,True,0,0,'exact_endpoint')
++    if fa*fb>0: raise InvalidInput('root not bracketed')
++    for k in range(1,max_iter+1):
++        c=(a+b)/2;fc=float(f(c)); hist.append(abs(fc))
++        if not math.isfinite(fc): raise InvalidInput('function produced NaN/Inf')
++        if abs(fc)<=tol or abs(b-a)<=tol*(1+abs(c)): return SolverResult(c,True,k,abs(fc),'tolerance',time.perf_counter()-t,history=hist)
++        if fa*fc<=0:b,fb=c,fc
++        else:a,fa=c,fc
++    return SolverResult(c,False,max_iter,abs(fc),'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++
++def secant(f,x0,x1,tol=1e-12,max_iter=100):
++    x0=float(x0);x1=float(x1);f0=float(f(x0));f1=float(f(x1));hist=[];t=time.perf_counter()
++    for k in range(1,max_iter+1):
++        den=f1-f0
++        if abs(den)<=np.finfo(float).eps*max(1,abs(f0),abs(f1)): raise ConvergenceFailure('secant denominator collapsed')
++        x2=x1-f1*(x1-x0)/den;f2=float(f(x2));hist.append(abs(f2))
++        if not math.isfinite(f2): raise InvalidInput('function produced NaN/Inf')
++        if abs(f2)<=tol:return SolverResult(x2,True,k,abs(f2),'tolerance',time.perf_counter()-t,history=hist)
++        x0,f0,x1,f1=x1,f1,x2,f2
++    return SolverResult(x1,False,max_iter,abs(f1),'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++
++def newton_scalar(f,df,x0,tol=1e-12,max_iter=100,damping=True):
++    x=float(x0);hist=[];t=time.perf_counter()
++    for k in range(max_iter+1):
++        fx=float(f(x));hist.append(abs(fx))
++        if not math.isfinite(fx):raise InvalidInput('function produced NaN/Inf')
++        if abs(fx)<=tol:return SolverResult(x,True,k,abs(fx),'tolerance',time.perf_counter()-t,history=hist)
++        if k==max_iter:break
++        d=float(df(x))
++        if not math.isfinite(d) or abs(d)<=np.finfo(float).eps:raise ConvergenceFailure('zero/nonfinite derivative')
++        step=-fx/d; alpha=1.0
++        if damping:
++            while alpha>1e-8:
++                fn=float(f(x+alpha*step))
++                if math.isfinite(fn) and abs(fn)<abs(fx):break
++                alpha*=0.5
++        x+=alpha*step
++    return SolverResult(x,False,max_iter,hist[-1],'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++
++def brent(f,a,b,tol=1e-12,max_iter=100):
++    # Safeguarded secant/bisection hybrid.
++    a=float(a);b=float(b);fa=float(f(a));fb=float(f(b));
++    if fa*fb>0:raise InvalidInput('root not bracketed')
++    hist=[];t=time.perf_counter()
++    for k in range(1,max_iter+1):
++        if abs(fb-fa)>np.finfo(float).eps:maxsec=b-fb*(b-a)/(fb-fa)
++        else:maxsec=(a+b)/2
++        lo,hi=min(a,b),max(a,b)
++        c=maxsec if lo < maxsec < hi else (a+b)/2
++        fc=float(f(c));hist.append(abs(fc))
++        if abs(fc)<=tol or abs(b-a)<=tol*(1+abs(c)):return SolverResult(c,True,k,abs(fc),'tolerance',time.perf_counter()-t,history=hist)
++        if fa*fc<=0:b,fb=c,fc
++        else:a,fa=c,fc
++    return SolverResult(c,False,max_iter,abs(fc),'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++
++def finite_difference_jacobian(F,x,eps=None):
++    x=finite_array(x,'x',1);f0=finite_array(F(x),'F(x)',1);J=np.empty((len(f0),len(x))); eps=math.sqrt(np.finfo(float).eps) if eps is None else float(eps)
++    for j in range(len(x)):
++        h=eps*max(1.0,abs(x[j]));xp=x.copy();xm=x.copy();xp[j]+=h;xm[j]-=h;J[:,j]=(finite_array(F(xp),'F+',1)-finite_array(F(xm),'F-',1))/(2*h)
++    return J
++
++def newton_system(F,x0,jac=None,tol=1e-10,max_iter=50):
++    x=finite_array(x0,'x0',1).copy();hist=[];t=time.perf_counter()
++    for k in range(max_iter+1):
++        f=finite_array(F(x),'F',1);rn=float(np.linalg.norm(f));hist.append(rn)
++        if rn<=tol:return SolverResult(x,True,k,rn,'tolerance',time.perf_counter()-t,history=hist)
++        if k==max_iter:break
++        J=finite_difference_jacobian(F,x) if jac is None else finite_array(jac(x),'J',2)
++        try:step=np.linalg.solve(J,-f)
++        except np.linalg.LinAlgError as e:raise SingularSystem('singular Jacobian') from e
++        alpha=1.0
++        while alpha>1e-8 and np.linalg.norm(F(x+alpha*step))>=rn:alpha*=0.5
++        x=x+alpha*step
++    return SolverResult(x,False,max_iter,hist[-1],'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
+diff -ruN /mnt/data/sm32_work/empty_tree/ode.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/ode.py
+--- /mnt/data/sm32_work/empty_tree/ode.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/ode.py	2026-08-19 12:47:05.057877009 +0000
+@@ -0,0 +1,49 @@
++from __future__ import annotations
++from dataclasses import dataclass,field
++import numpy as np, math
++from .core import *
++@dataclass
++class ODEResult:
++    t: np.ndarray; y: np.ndarray; accepted: int; rejected: int=0; events: list=field(default_factory=list)
++
++def _prep(fun,t_span,y0,dt):
++    t0,tf=map(float,t_span); y=finite_array(y0,'y0',1).copy();dt=float(dt)
++    if tf<t0 or dt<=0:raise InvalidInput('require tf>=t0 and dt>0')
++    return t0,tf,y,dt
++
++def euler(fun,t_span,y0,dt):
++    t,tf,y,dt=_prep(fun,t_span,y0,dt);ts=[t];ys=[y.copy()]
++    while t<tf-1e-15:
++        h=min(dt,tf-t);y=y+h*finite_array(fun(t,y),'f',1);t+=h;ts.append(t);ys.append(y.copy())
++    return ODEResult(np.array(ts),np.array(ys),len(ts)-1)
++def midpoint(fun,t_span,y0,dt):
++    t,tf,y,dt=_prep(fun,t_span,y0,dt);ts=[t];ys=[y.copy()]
++    while t<tf-1e-15:
++        h=min(dt,tf-t);k1=finite_array(fun(t,y),'k1',1);k2=finite_array(fun(t+h/2,y+h*k1/2),'k2',1);y=y+h*k2;t+=h;ts.append(t);ys.append(y.copy())
++    return ODEResult(np.array(ts),np.array(ys),len(ts)-1)
++def rk4(fun,t_span,y0,dt):
++    t,tf,y,dt=_prep(fun,t_span,y0,dt);ts=[t];ys=[y.copy()]
++    while t<tf-1e-15:
++        h=min(dt,tf-t);k1=np.asarray(fun(t,y),float);k2=np.asarray(fun(t+h/2,y+h*k1/2),float);k3=np.asarray(fun(t+h/2,y+h*k2/2),float);k4=np.asarray(fun(t+h,y+h*k3),float);y=y+h*(k1+2*k2+2*k3+k4)/6;t+=h
++        if not np.all(np.isfinite(y)):raise NumericalOverflow('ODE produced NaN/Inf')
++        ts.append(t);ys.append(y.copy())
++    return ODEResult(np.array(ts),np.array(ys),len(ts)-1)
++def rk45(fun,t_span,y0,dt=1e-2,rtol=1e-7,atol=1e-10,event=None,max_steps=100000):
++    t,tf,y,h=_prep(fun,t_span,y0,dt);ts=[t];ys=[y.copy()];accepted=rejected=0;events=[];prev_event=float(event(t,y)) if event else None
++    # Dormand-Prince 5(4)
++    for _ in range(max_steps):
++        if t>=tf-1e-15:break
++        h=min(h,tf-t);k1=np.asarray(fun(t,y),float);k2=np.asarray(fun(t+h/5,y+h*k1/5),float);k3=np.asarray(fun(t+3*h/10,y+h*(3*k1/40+9*k2/40)),float);k4=np.asarray(fun(t+4*h/5,y+h*(44*k1/45-56*k2/15+32*k3/9)),float);k5=np.asarray(fun(t+8*h/9,y+h*(19372*k1/6561-25360*k2/2187+64448*k3/6561-212*k4/729)),float);k6=np.asarray(fun(t+h,y+h*(9017*k1/3168-355*k2/33+46732*k3/5247+49*k4/176-5103*k5/18656)),float);k7=np.asarray(fun(t+h,y+h*(35*k1/384+500*k3/1113+125*k4/192-2187*k5/6784+11*k6/84)),float)
++        y5=y+h*(35*k1/384+500*k3/1113+125*k4/192-2187*k5/6784+11*k6/84);y4=y+h*(5179*k1/57600+7571*k3/16695+393*k4/640-92097*k5/339200+187*k6/2100+k7/40)
++        scale=atol+rtol*np.maximum(np.abs(y),np.abs(y5));err=float(np.sqrt(np.mean(((y5-y4)/scale)**2)))
++        if err<=1:
++            told=t;t+=h;y=y5;accepted+=1;ts.append(t);ys.append(y.copy())
++            if event:
++                ev=float(event(t,y))
++                if prev_event==0 or ev==0 or prev_event*ev<0:events.append({'t_left':told,'t_right':t,'value':ev})
++                prev_event=ev
++        else:rejected+=1
++        fac=5.0 if err==0 else min(5.0,max(.2,.9*err**(-.2)));h*=fac
++        if h<=np.finfo(float).tiny:raise ConvergenceFailure('adaptive step underflow')
++    else:raise ConvergenceFailure('RK45 max steps exceeded')
++    return ODEResult(np.array(ts),np.array(ys),accepted,rejected,events)
+diff -ruN /mnt/data/sm32_work/empty_tree/optimization.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/optimization.py
+--- /mnt/data/sm32_work/empty_tree/optimization.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/optimization.py	2026-08-19 12:44:44.652832415 +0000
+@@ -0,0 +1,86 @@
++from __future__ import annotations
++import time, numpy as np
++from .core import *
++
++def _fd_grad(f,x,eps=None):
++    x=np.asarray(x,float);g=np.empty_like(x);eps=np.sqrt(np.finfo(float).eps) if eps is None else float(eps)
++    for i in range(len(x)):
++        h=eps*max(1.,abs(x[i]));xp=x.copy();xm=x.copy();xp[i]+=h;xm[i]-=h;g[i]=(float(f(xp))-float(f(xm)))/(2*h)
++    return g
++
++def gradient_descent(f,x0,grad=None,lr=1e-2,tol=1e-8,max_iter=1000,momentum=0.0):
++    x=finite_array(x0,'x0',1).copy();v=np.zeros_like(x);hist=[];evals=0;gevals=0;t=time.perf_counter()
++    for k in range(max_iter+1):
++        fx=float(f(x));evals+=1;g=_fd_grad(f,x) if grad is None else finite_array(grad(x),'grad',1);gevals+=1;gn=float(np.linalg.norm(g));hist.append(fx)
++        if gn<=tol:return SolverResult(x,True,k,gn,'gradient_tolerance',time.perf_counter()-t,{'objective':fx,'objective_evals':evals,'gradient_evals':gevals},hist)
++        if k==max_iter:break
++        v=momentum*v+g; step=-lr*v; alpha=1.0
++        while alpha>1e-8 and float(f(x+alpha*step))>fx-1e-4*alpha*lr*gn*gn: alpha*=0.5;evals+=1
++        x=x+alpha*step
++    return SolverResult(x,False,max_iter,gn,'max_iter',time.perf_counter()-t,{'objective':fx,'objective_evals':evals,'gradient_evals':gevals},hist,status='NOT_CONVERGED')
++
++def bfgs(f,x0,grad=None,tol=1e-8,max_iter=200):
++    x=finite_array(x0,'x0',1).copy();n=len(x);H=np.eye(n);hist=[];evals=gevals=0;t=time.perf_counter();g=_fd_grad(f,x) if grad is None else np.asarray(grad(x),float);gevals+=1
++    for k in range(max_iter+1):
++        fx=float(f(x));evals+=1;gn=float(np.linalg.norm(g));hist.append(fx)
++        if gn<=tol:return SolverResult(x,True,k,gn,'gradient_tolerance',time.perf_counter()-t,{'objective':fx,'objective_evals':evals,'gradient_evals':gevals},hist)
++        if k==max_iter:break
++        p=-H@g;alpha=1.0
++        while alpha>1e-10:
++            xn=x+alpha*p;fn=float(f(xn));evals+=1
++            if fn<=fx+1e-4*alpha*float(g@p):break
++            alpha*=.5
++        s=alpha*p;xn=x+s;gnext=_fd_grad(f,xn) if grad is None else np.asarray(grad(xn),float);gevals+=1;y=gnext-g;ys=float(y@s)
++        if ys>1e-14:
++            rho=1/ys;I=np.eye(n);H=(I-rho*np.outer(s,y))@H@(I-rho*np.outer(y,s))+rho*np.outer(s,s)
++        x,g=xn,gnext
++    return SolverResult(x,False,max_iter,float(np.linalg.norm(g)),'max_iter',time.perf_counter()-t,{'objective':float(f(x)),'objective_evals':evals+1,'gradient_evals':gevals},hist,status='NOT_CONVERGED')
++
++def lbfgs(f,x0,grad=None,tol=1e-8,max_iter=300,memory=10):
++    x=finite_array(x0,'x0',1).copy();S=[];Y=[];R=[];hist=[];evals=gevals=0;t=time.perf_counter();g=_fd_grad(f,x) if grad is None else np.asarray(grad(x),float);gevals+=1
++    for k in range(max_iter+1):
++        fx=float(f(x));evals+=1;gn=float(np.linalg.norm(g));hist.append(fx)
++        if gn<=tol:return SolverResult(x,True,k,gn,'gradient_tolerance',time.perf_counter()-t,{'objective':fx,'objective_evals':evals,'gradient_evals':gevals},hist)
++        q=g.copy();alpha=[]
++        for s,y,r in reversed(list(zip(S,Y,R))):a=r*(s@q);alpha.append(a);q-=a*y
++        gamma=(S[-1]@Y[-1])/(Y[-1]@Y[-1]) if S else 1.0;z=gamma*q
++        for (s,y,r),a in zip(zip(S,Y,R),reversed(alpha)):z+=s*(a-r*(y@z))
++        p=-z;step=1.0
++        while step>1e-10 and float(f(x+step*p))>fx+1e-4*step*(g@p):step*=.5;evals+=1
++        xn=x+step*p;gnext=_fd_grad(f,xn) if grad is None else np.asarray(grad(xn),float);gevals+=1;s=xn-x;y=gnext-g;ys=float(y@s)
++        if ys>1e-14:
++            if len(S)==memory:S.pop(0);Y.pop(0);R.pop(0)
++            S.append(s);Y.append(y);R.append(1/ys)
++        x,g=xn,gnext
++    return SolverResult(x,False,max_iter,float(np.linalg.norm(g)),'max_iter',time.perf_counter()-t,{'objective':float(f(x)),'objective_evals':evals+1,'gradient_evals':gevals},hist,status='NOT_CONVERGED')
++
++def projected_gradient(f,x0,bounds,grad=None,lr=.05,tol=1e-8,max_iter=500):
++    x=np.asarray(x0,float).copy();lo=np.array([b[0] for b in bounds],float);hi=np.array([b[1] for b in bounds],float)
++    if len(x)!=len(lo) or np.any(lo>hi):raise InvalidInput('invalid bounds')
++    hist=[];t=time.perf_counter()
++    for k in range(max_iter+1):
++        g=_fd_grad(f,x) if grad is None else np.asarray(grad(x),float);xn=np.clip(x-lr*g,lo,hi);pg=x-xn;hist.append(float(f(x)))
++        if np.linalg.norm(pg)<=tol:return SolverResult(x,True,k,float(np.linalg.norm(pg)),'projected_gradient_tolerance',time.perf_counter()-t,{'objective':float(f(x)),'constraint_violation':0.0},hist)
++        x=xn
++    return SolverResult(x,False,max_iter,float(np.linalg.norm(pg)),'max_iter',time.perf_counter()-t,{'objective':float(f(x)),'constraint_violation':0.0},hist,status='NOT_CONVERGED')
++
++def constraint_violation(x,ineq=(),eq=()):
++    return float(sum(max(0.,float(g(x))) for g in ineq)+sum(abs(float(h(x))) for h in eq))
++
++def penalty_optimize(f,x0,ineq=(),eq=(),penalty=1e4,**kwargs):
++    obj=lambda x:float(f(x))+penalty*constraint_violation(x,ineq,eq)**2
++    r=bfgs(obj,x0,**kwargs);r.diagnostics['constraint_violation']=constraint_violation(r.solution,ineq,eq);r.diagnostics['original_objective']=float(f(r.solution));return r
++
++def nelder_mead(f,x0,step=.1,tol=1e-8,max_iter=1000):
++    x0=finite_array(x0,'x0',1);n=len(x0);simplex=np.vstack([x0]+[x0+step*np.eye(n)[i] for i in range(n)]);vals=np.array([f(x) for x in simplex],float);hist=[];t=time.perf_counter()
++    for k in range(max_iter+1):
++        idx=np.argsort(vals);simplex=simplex[idx];vals=vals[idx];hist.append(float(vals[0]))
++        if np.std(vals)<=tol:return SolverResult(simplex[0],True,k,float(np.std(vals)),'simplex_tolerance',time.perf_counter()-t,{'objective':float(vals[0])},hist)
++        c=np.mean(simplex[:-1],axis=0);xr=c+(c-simplex[-1]);fr=float(f(xr))
++        if vals[0]<=fr<vals[-2]:simplex[-1],vals[-1]=xr,fr;continue
++        if fr<vals[0]:
++            xe=c+2*(xr-c);fe=float(f(xe));simplex[-1],vals[-1]=(xe,fe) if fe<fr else (xr,fr);continue
++        xc=c+.5*(simplex[-1]-c);fc=float(f(xc))
++        if fc<vals[-1]:simplex[-1],vals[-1]=xc,fc;continue
++        simplex[1:]=simplex[0]+.5*(simplex[1:]-simplex[0]);vals[1:]=[f(x) for x in simplex[1:]]
++    return SolverResult(simplex[0],False,max_iter,float(np.std(vals)),'max_iter',time.perf_counter()-t,{'objective':float(vals[0])},hist,status='NOT_CONVERGED')
+diff -ruN /mnt/data/sm32_work/empty_tree/pde.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/pde.py
+--- /mnt/data/sm32_work/empty_tree/pde.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/pde.py	2026-08-19 12:44:44.654444204 +0000
+@@ -0,0 +1,32 @@
++from __future__ import annotations
++import numpy as np
++from .core import *
++
++def heat_1d_explicit(u0,alpha,dx,dt,steps,left=None,right=None):
++    u=finite_array(u0,'u0',1).copy();alpha=float(alpha);dx=float(dx);dt=float(dt);steps=int(steps)
++    if len(u)<3 or alpha<=0 or dx<=0 or dt<=0 or steps<0:raise InvalidInput('invalid heat parameters')
++    r=alpha*dt/dx**2
++    if r>.5+1e-15:raise CFLViolation(f'explicit heat scheme unstable: r={r}')
++    hist=[u.copy()]
++    for _ in range(steps):
++        v=u.copy();v[1:-1]=u[1:-1]+r*(u[2:]-2*u[1:-1]+u[:-2]);v[0]=u[0] if left is None else float(left);v[-1]=u[-1] if right is None else float(right);u=v;hist.append(u.copy())
++    return np.array(hist)
++
++def poisson_1d_dirichlet(f,x,u_left=0.,u_right=0.):
++    x=finite_array(x,'x',1);n=len(x)
++    if n<3:raise InvalidInput('at least 3 grid points required')
++    h=np.diff(x)
++    if not np.allclose(h,h[0],rtol=1e-10,atol=1e-14):raise InvalidInput('uniform grid required')
++    rhs=np.asarray(f(x[1:-1]) if callable(f) else f,float)
++    if rhs.shape!=(n-2,):raise DimensionMismatch('rhs must match interior grid')
++    dx=h[0];A=np.diag(np.full(n-2,2.0))+np.diag(np.full(n-3,-1.0),1)+np.diag(np.full(n-3,-1.0),-1);b=rhs*dx*dx;b[0]+=u_left;b[-1]+=u_right;ui=np.linalg.solve(A,b);u=np.r_[u_left,ui,u_right];return u
++
++def linear_advection_1d(u0,c,dx,dt,steps,periodic=True):
++    u=finite_array(u0,'u0',1).copy();nu=abs(float(c))*float(dt)/float(dx)
++    if nu>1+1e-15:raise CFLViolation('upwind CFL > 1')
++    for _ in range(int(steps)):
++        if c>=0:prev=np.roll(u,1);v=u-nu*(u-prev)
++        else:nxt=np.roll(u,-1);v=u-nu*(u-nxt)
++        if not periodic:v[0]=u[0];v[-1]=u[-1]
++        u=v
++    return u
+diff -ruN /mnt/data/sm32_work/empty_tree/registry.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/registry.py
+--- /mnt/data/sm32_work/empty_tree/registry.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/registry.py	2026-08-19 12:47:04.598058993 +0000
+@@ -0,0 +1,12 @@
++from __future__ import annotations
++from . import numerics,sparse,optimization,ode,pde,cfd,fea,geometry,mesh,uq,graph,search,ml
++REGISTRY={
++'root.bisection':numerics.bisection,'root.secant':numerics.secant,'root.newton':numerics.newton_scalar,'root.brent':numerics.brent,
++'nonlinear.newton_system':numerics.newton_system,'sparse.cg':sparse.cg,'sparse.gmres':sparse.gmres,'sparse.bicgstab':sparse.bicgstab,
++'opt.gradient_descent':optimization.gradient_descent,'opt.bfgs':optimization.bfgs,'opt.lbfgs':optimization.lbfgs,'opt.nelder_mead':optimization.nelder_mead,
++'ode.euler':ode.euler,'ode.midpoint':ode.midpoint,'ode.rk4':ode.rk4,'ode.rk45':ode.rk45,'pde.heat1d':pde.heat_1d_explicit,'pde.poisson1d':pde.poisson_1d_dirichlet,
++'cfd.euler2d':cfd.euler_2d_cartesian,'fea.bar1d':fea.bar1d,'geometry.orientation2d':geometry.orientation2d,'mesh.rect_tri':mesh.rectangular_tri_mesh,
++'uq.monte_carlo':uq.monte_carlo,'graph.dijkstra':graph.dijkstra,'search.astar':search.astar,'ml.attention':ml.attention}
++def registry_integrity():
++    bad=[k for k,v in REGISTRY.items() if not callable(v)];return {'count':len(REGISTRY),'bad':bad,'passed':not bad}
++def resolve(name):return REGISTRY[name]
+diff -ruN /mnt/data/sm32_work/empty_tree/reproducibility.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/reproducibility.py
+--- /mnt/data/sm32_work/empty_tree/reproducibility.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/reproducibility.py	2026-08-19 12:47:04.596565699 +0000
+@@ -0,0 +1,27 @@
++from __future__ import annotations
++import hashlib,json,platform,sys,os
++from pathlib import Path
++import numpy as np
++
++def sha256_bytes(b):return hashlib.sha256(b).hexdigest()
++def sha256_file(path):
++    h=hashlib.sha256()
++    with open(path,'rb') as f:
++        for chunk in iter(lambda:f.read(1<<20),b''):h.update(chunk)
++    return h.hexdigest()
++def environment_fingerprint(seed=None):
++    out={'python':sys.version,'platform':platform.platform(),'machine':platform.machine(),'processor':platform.processor(),'numpy':np.__version__,'cpu_count':os.cpu_count(),'seed':seed}
++    try:import scipy;out['scipy']=scipy.__version__
++    except Exception:out['scipy']=None
++    return out
++def deterministic_rng(seed):return np.random.default_rng(int(seed))
++def manifest(root):
++    root=Path(root);rows=[]
++    for p in sorted(x for x in root.rglob('*') if x.is_file()):rows.append({'path':str(p.relative_to(root)).replace('\\','/'),'bytes':p.stat().st_size,'sha256':sha256_file(p)})
++    return rows
++def verify_manifest(root,rows):
++    root=Path(root);bad=[]
++    for r in rows:
++        p=root/r['path'];ok=p.exists() and p.stat().st_size==r['bytes'] and sha256_file(p)==r['sha256']
++        if not ok:bad.append(r['path'])
++    return {'passed':not bad,'verified':len(rows)-len(bad),'total':len(rows),'bad':bad}
+diff -ruN /mnt/data/sm32_work/empty_tree/search.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/search.py
+--- /mnt/data/sm32_work/empty_tree/search.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/search.py	2026-08-19 12:46:15.013864922 +0000
+@@ -0,0 +1,41 @@
++from __future__ import annotations
++import heapq, math, random
++from dataclasses import dataclass
++from .core import *
++def astar(start,goal_test,neighbors,heuristic=lambda s:0.):
++    pq=[(float(heuristic(start)),0,start)];g={start:0.};prev={};counter=0
++    while pq:
++        _,_,u=heapq.heappop(pq)
++        if goal_test(u):
++            path=[u]
++            while path[-1]!=start:path.append(prev[path[-1]])
++            return SolverResult(list(reversed(path)),True,len(g),0.,'goal',diagnostics={'cost':g[u]})
++        for v,c in neighbors(u):
++            c=float(c)
++            if c<0:raise InvalidInput('negative edge cost')
++            ng=g[u]+c
++            if ng<g.get(v,math.inf):g[v]=ng;prev[v]=u;counter+=1;heapq.heappush(pq,(ng+float(heuristic(v)),counter,v))
++    return SolverResult(None,False,len(g),math.inf,'no_path',status='NOT_FOUND')
++@dataclass
++class MCTSNode:
++    state: object; parent: object=None; action: object=None; visits:int=0; value:float=0.; children:list=None; untried:list=None
++    def __post_init__(self):
++        if self.children is None:self.children=[]
++
++def mcts(root_state,actions,transition,reward,is_terminal,iterations=1000,exploration=math.sqrt(2),seed=0,rollout_depth=100):
++    rng=random.Random(seed);root=MCTSNode(root_state);root.untried=list(actions(root_state))
++    for _ in range(int(iterations)):
++        node=root;state=root_state
++        while not node.untried and node.children and not is_terminal(state):
++            node=max(node.children,key=lambda c:c.value/max(c.visits,1)+exploration*math.sqrt(math.log(max(node.visits,1))/max(c.visits,1)));state=transition(state,node.action)
++        if not is_terminal(state) and node.untried:
++            a=node.untried.pop(rng.randrange(len(node.untried)));state=transition(state,a);child=MCTSNode(state,node,a);child.untried=list(actions(state));node.children.append(child);node=child
++        total=0.;depth=0;s=state
++        while not is_terminal(s) and depth<rollout_depth:
++            aa=list(actions(s))
++            if not aa:break
++            a=rng.choice(aa);s=transition(s,a);depth+=1
++        total=float(reward(s))
++        while node is not None:node.visits+=1;node.value+=total;node=node.parent
++    if not root.children:return None,root
++    best=max(root.children,key=lambda c:c.visits);return best.action,root
+diff -ruN /mnt/data/sm32_work/empty_tree/serialization.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/serialization.py
+--- /mnt/data/sm32_work/empty_tree/serialization.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/serialization.py	2026-08-19 12:47:04.597352055 +0000
+@@ -0,0 +1,15 @@
++from __future__ import annotations
++import json,hashlib
++from pathlib import Path
++import numpy as np
++from .core import InvalidInput
++SCHEMA='SM32_STATE_V1'
++def save_state(path,arrays,metadata=None):
++    path=Path(path);meta={'schema':SCHEMA,'metadata':metadata or {},'arrays':{k:{'shape':list(np.asarray(v).shape),'dtype':str(np.asarray(v).dtype)} for k,v in arrays.items()}};payload=json.dumps(meta,sort_keys=True).encode();meta['metadata_sha256']=hashlib.sha256(payload).hexdigest();np.savez_compressed(path,__meta__=np.array(json.dumps(meta)),**arrays);return meta
++def load_state(path):
++    z=np.load(path,allow_pickle=False);meta=json.loads(str(z['__meta__']));
++    if meta.get('schema')!=SCHEMA:raise InvalidInput('unsupported state schema')
++    arrays={k:z[k] for k in z.files if k!='__meta__'}
++    for k,spec in meta['arrays'].items():
++        if k not in arrays or list(arrays[k].shape)!=spec['shape'] or str(arrays[k].dtype)!=spec['dtype']:raise InvalidInput('state array schema mismatch')
++    return arrays,meta
+diff -ruN /mnt/data/sm32_work/empty_tree/signal.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/signal.py
+--- /mnt/data/sm32_work/empty_tree/signal.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/signal.py	2026-08-19 12:46:15.012473420 +0000
+@@ -0,0 +1,16 @@
++from __future__ import annotations
++import numpy as np
++from .core import *
++def fft(x):return np.fft.fft(finite_array(x,'x',1))
++def ifft(X):
++    X=np.asarray(X,complex)
++    if X.ndim!=1 or X.size==0:raise InvalidInput('1-D spectrum required')
++    return np.fft.ifft(X)
++def convolution(x,h,mode='full'):return np.convolve(finite_array(x,'x',1),finite_array(h,'h',1),mode=mode)
++def correlation(x,y,mode='full'):return np.correlate(finite_array(x,'x',1),finite_array(y,'y',1),mode=mode)
++def parseval_error(x):
++    x=finite_array(x,'x',1);X=np.fft.fft(x);return float(abs(np.sum(np.abs(x)**2)-np.sum(np.abs(X)**2)/len(x)))
++def lowpass_fft(x,sample_rate,cutoff):
++    x=finite_array(x,'x',1);sr=float(sample_rate);cut=float(cutoff)
++    if sr<=0 or not 0<=cut<=sr/2:raise InvalidInput('invalid frequencies')
++    X=np.fft.rfft(x);f=np.fft.rfftfreq(len(x),1/sr);X[f>cut]=0;return np.fft.irfft(X,n=len(x))
+diff -ruN /mnt/data/sm32_work/empty_tree/sparse.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/sparse.py
+--- /mnt/data/sm32_work/empty_tree/sparse.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/sparse.py	2026-08-19 12:52:05.161472746 +0000
+@@ -0,0 +1,108 @@
++from __future__ import annotations
++from dataclasses import dataclass
++import time, numpy as np
++from .core import *
++@dataclass
++class COO:
++    row: np.ndarray; col: np.ndarray; data: np.ndarray; shape: tuple[int,int]
++    def __post_init__(self):
++        self.row=np.asarray(self.row,int);self.col=np.asarray(self.col,int);self.data=np.asarray(self.data,float)
++        if not(len(self.row)==len(self.col)==len(self.data)):raise DimensionMismatch('COO arrays differ')
++        if np.any(self.row<0) or np.any(self.col<0) or np.any(self.row>=self.shape[0]) or np.any(self.col>=self.shape[1]):raise InvalidInput('COO index out of range')
++    def to_csr(self):
++        order=np.lexsort((self.col,self.row));r=self.row[order];c=self.col[order];d=self.data[order];indptr=np.zeros(self.shape[0]+1,dtype=int);np.add.at(indptr,r+1,1);np.cumsum(indptr,out=indptr);return CSR(indptr,c,d,self.shape)
++    def to_dense(self):
++        a=np.zeros(self.shape);np.add.at(a,(self.row,self.col),self.data);return a
++@dataclass
++class CSR:
++    indptr: np.ndarray; indices: np.ndarray; data: np.ndarray; shape: tuple[int,int]
++    def __post_init__(self):
++        self.indptr=np.asarray(self.indptr,int);self.indices=np.asarray(self.indices,int);self.data=np.asarray(self.data,float)
++        if len(self.indptr)!=self.shape[0]+1 or self.indptr[0]!=0 or self.indptr[-1]!=len(self.data):raise InvalidInput('invalid CSR indptr')
++        if len(self.indices)!=len(self.data):raise DimensionMismatch('CSR index/data mismatch')
++    def matvec(self,x):
++        x=finite_array(x,'x',1)
++        if len(x)!=self.shape[1]:raise DimensionMismatch('matvec dimension mismatch')
++        y=np.zeros(self.shape[0])
++        for i in range(self.shape[0]):
++            a,b=self.indptr[i],self.indptr[i+1];y[i]=self.data[a:b]@x[self.indices[a:b]]
++        return y
++    def diagonal(self):
++        d=np.zeros(min(self.shape))
++        for i in range(len(d)):
++            a,b=self.indptr[i],self.indptr[i+1];mask=self.indices[a:b]==i
++            if np.any(mask):d[i]=self.data[a:b][np.flatnonzero(mask)[0]]
++        return d
++    def to_dense(self):
++        a=np.zeros(self.shape)
++        for i in range(self.shape[0]):
++            p,q=self.indptr[i],self.indptr[i+1];np.add.at(a[i],self.indices[p:q],self.data[p:q])
++        return a
++@dataclass
++class CSC:
++    indptr: np.ndarray; indices: np.ndarray; data: np.ndarray; shape: tuple[int,int]
++    @classmethod
++    def from_coo(cls,coo:COO):
++        return cls(*_csc_parts(coo),coo.shape)
++    def to_dense(self):
++        a=np.zeros(self.shape)
++        for j in range(self.shape[1]):
++            p,q=self.indptr[j],self.indptr[j+1];np.add.at(a[:,j],self.indices[p:q],self.data[p:q])
++        return a
++def _csc_parts(coo):
++    order=np.lexsort((coo.row,coo.col));c=coo.col[order];r=coo.row[order];d=coo.data[order];ip=np.zeros(coo.shape[1]+1,dtype=int);np.add.at(ip,c+1,1);np.cumsum(ip,out=ip);return ip,r,d
++def as_csr(A):
++    if isinstance(A,CSR):return A
++    a=finite_array(A,'A',2);r,c=np.nonzero(a);return COO(r,c,a[r,c],a.shape).to_csr()
++def jacobi_preconditioner(A):
++    A=as_csr(A);d=A.diagonal()
++    if np.any(np.abs(d)<=np.finfo(float).tiny):raise SingularSystem('zero diagonal')
++    return lambda r:r/d
++def cg(A,b,x0=None,tol=1e-10,max_iter=None,M=None):
++    A=as_csr(A);b=finite_array(b,'b',1);n=len(b);x=np.zeros(n) if x0 is None else finite_array(x0,'x0',1).copy();max_iter=10*n if max_iter is None else int(max_iter)
++    if max_iter<=0: raise InvalidInput('max_iter must be positive')
++    t=time.perf_counter();hist=[]
++    r=b-A.matvec(x);z=r.copy() if M is None else M(r);p=z.copy();rz=float(r@z)
++    for k in range(max_iter+1):
++        rn=float(np.linalg.norm(r));hist.append(rn)
++        if rn<=tol*(np.linalg.norm(b)+1):return SolverResult(x,True,k,rn,'tolerance',time.perf_counter()-t,history=hist)
++        if k==max_iter:break
++        Ap=A.matvec(p);den=float(p@Ap)
++        if den<=0:raise ConvergenceFailure('CG requires SPD operator')
++        alpha=rz/den;x+=alpha*p;r-=alpha*Ap;z=r.copy() if M is None else M(r);rz2=float(r@z);p=z+(rz2/rz)*p;rz=rz2
++    return SolverResult(x,False,max_iter,hist[-1],'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++def gmres(A,b,x0=None,tol=1e-10,max_iter=None,restart=30):
++    A=as_csr(A);b=finite_array(b,'b',1);n=len(b);x=np.zeros(n) if x0 is None else np.asarray(x0,float).copy();max_iter=10*n if max_iter is None else int(max_iter)
++    if max_iter<=0: raise InvalidInput('max_iter must be positive')
++    t=time.perf_counter();hist=[];total=0
++    while total<max_iter:
++        r=b-A.matvec(x); beta=float(np.linalg.norm(r));hist.append(beta)
++        if beta<=tol*(np.linalg.norm(b)+1):return SolverResult(x,True,total,beta,'tolerance',time.perf_counter()-t,history=hist)
++        m=min(restart,max_iter-total);V=np.zeros((n,m+1));H=np.zeros((m+1,m));V[:,0]=r/beta;g=np.zeros(m+1);g[0]=beta
++        for j in range(m):
++            w=A.matvec(V[:,j])
++            for i in range(j+1):H[i,j]=V[:,i]@w;w-=H[i,j]*V[:,i]
++            H[j+1,j]=np.linalg.norm(w)
++            if H[j+1,j]>0:V[:,j+1]=w/H[j+1,j]
++            y=np.linalg.lstsq(H[:j+2,:j+1],g[:j+2],rcond=None)[0];res=np.linalg.norm(g[:j+2]-H[:j+2,:j+1]@y);hist.append(float(res));total+=1
++            if res<=tol*(np.linalg.norm(b)+1):x+=V[:,:j+1]@y;return SolverResult(x,True,total,float(res),'tolerance',time.perf_counter()-t,history=hist)
++        y=np.linalg.lstsq(H[:m+1,:m],g[:m+1],rcond=None)[0];x+=V[:,:m]@y
++    rn=float(np.linalg.norm(b-A.matvec(x)));return SolverResult(x,False,total,rn,'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
++def bicgstab(A,b,x0=None,tol=1e-10,max_iter=None):
++    A=as_csr(A);b=finite_array(b,'b',1);n=len(b);x=np.zeros(n) if x0 is None else np.asarray(x0,float).copy();max_iter=10*n if max_iter is None else int(max_iter)
++    if max_iter<=0: raise InvalidInput('max_iter must be positive')
++    r=b-A.matvec(x);rh=r.copy();rho=alpha=omega=1.;v=np.zeros(n);p=np.zeros(n);hist=[];t=time.perf_counter()
++    for k in range(1,max_iter+1):
++        rho1=float(rh@r)
++        if abs(rho1)<np.finfo(float).tiny:raise ConvergenceFailure('BiCGSTAB rho breakdown')
++        beta=(rho1/rho)*(alpha/omega);p=r+beta*(p-omega*v);v=A.matvec(p);den=float(rh@v)
++        if abs(den)<np.finfo(float).tiny:raise ConvergenceFailure('BiCGSTAB alpha breakdown')
++        alpha=rho1/den;s=r-alpha*v
++        if np.linalg.norm(s)<=tol*(np.linalg.norm(b)+1):x+=alpha*p;return SolverResult(x,True,k,float(np.linalg.norm(s)),'tolerance',time.perf_counter()-t,history=hist)
++        tt=A.matvec(s);den2=float(tt@tt)
++        if den2==0:raise ConvergenceFailure('BiCGSTAB omega breakdown')
++        omega=float(tt@s)/den2;x+=alpha*p+omega*s;r=s-omega*tt;rn=float(np.linalg.norm(r));hist.append(rn)
++        if rn<=tol*(np.linalg.norm(b)+1):return SolverResult(x,True,k,rn,'tolerance',time.perf_counter()-t,history=hist)
++        if abs(omega)<np.finfo(float).tiny:raise ConvergenceFailure('BiCGSTAB omega zero')
++        rho=rho1
++    return SolverResult(x,False,max_iter,hist[-1] if hist else float(np.linalg.norm(r)),'max_iter',time.perf_counter()-t,history=hist,status='NOT_CONVERGED')
+diff -ruN /mnt/data/sm32_work/empty_tree/stats.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/stats.py
+--- /mnt/data/sm32_work/empty_tree/stats.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/stats.py	2026-08-19 12:46:15.011540116 +0000
+@@ -0,0 +1,18 @@
++from __future__ import annotations
++import numpy as np
++from .core import *
++def mean(x):
++    a=finite_array(x,'x',1);return kahan_sum(a)/len(a)
++def variance(x,ddof=1):
++    a=finite_array(x,'x',1);m=mean(a)
++    if len(a)<=ddof:raise InvalidInput('insufficient samples')
++    return kahan_sum((float(v)-m)**2 for v in a)/(len(a)-ddof)
++def covariance(x,y,ddof=1):
++    x=finite_array(x,'x',1);y=finite_array(y,'y',1)
++    if len(x)!=len(y) or len(x)<=ddof:raise DimensionMismatch('sample mismatch')
++    mx,my=mean(x),mean(y);return kahan_sum((float(a)-mx)*(float(b)-my) for a,b in zip(x,y))/(len(x)-ddof)
++def correlation(x,y):return covariance(x,y)/(variance(x)**.5*variance(y)**.5)
++def median(x):return float(np.median(finite_array(x,'x',1)))
++def mad(x,scale=1.4826):
++    a=finite_array(x,'x',1);m=np.median(a);return float(scale*np.median(np.abs(a-m)))
++def quantile(x,q):return float(np.quantile(finite_array(x,'x',1),q))
+diff -ruN /mnt/data/sm32_work/empty_tree/units.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/units.py
+--- /mnt/data/sm32_work/empty_tree/units.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/units.py	2026-08-19 12:47:34.783200773 +0000
+@@ -0,0 +1,11 @@
++from __future__ import annotations
++from dataclasses import dataclass
++from .core import InvalidInput
++_SCALE={'m':1.,'mm':1e-3,'cm':1e-2,'km':1e3,'Pa':1.,'kPa':1e3,'MPa':1e6,'GPa':1e9,'kg':1.,'g':1e-3,'s':1.,'ms':1e-3,'rad':1.,'deg':0.017453292519943295}
++_DIM={'m':'L','mm':'L','cm':'L','km':'L','Pa':'P','kPa':'P','MPa':'P','GPa':'P','kg':'M','g':'M','s':'T','ms':'T','rad':'A','deg':'A'}
++@dataclass(frozen=True)
++class Quantity:
++    value:float;unit:str
++    def to(self,unit):
++        if self.unit not in _SCALE or unit not in _SCALE or _DIM[self.unit]!=_DIM[unit]:raise InvalidInput('incompatible or unknown unit')
++        return Quantity(self.value*_SCALE[self.unit]/_SCALE[unit],unit)
+diff -ruN /mnt/data/sm32_work/empty_tree/uq.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/uq.py
+--- /mnt/data/sm32_work/empty_tree/uq.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/uq.py	2026-08-19 12:46:15.010321610 +0000
+@@ -0,0 +1,23 @@
++from __future__ import annotations
++import numpy as np, math
++from .core import *
++
++def latin_hypercube(n,d,seed=0):
++    n=int(n);d=int(d)
++    if n<=0 or d<=0:raise InvalidInput('n,d positive')
++    rng=np.random.default_rng(seed);u=rng.random((n,d));X=np.empty((n,d))
++    for j in range(d):X[:,j]=(rng.permutation(n)+u[:,j])/n
++    return X
++def monte_carlo(fn,sampler,n,seed=0):
++    rng=np.random.default_rng(seed);vals=[]
++    for _ in range(int(n)):vals.append(float(fn(sampler(rng))))
++    a=np.array(vals);mean=float(np.mean(a));std=float(np.std(a,ddof=1)) if len(a)>1 else 0.;se=std/math.sqrt(len(a)) if len(a) else math.nan;return {'mean':mean,'std':std,'standard_error':se,'ci95':(mean-1.96*se,mean+1.96*se),'n':len(a),'seed':seed,'values':a}
++def bootstrap(data,stat=np.mean,n_resamples=1000,seed=0):
++    x=finite_array(data,'data',1);rng=np.random.default_rng(seed);v=np.array([stat(rng.choice(x,len(x),replace=True)) for _ in range(int(n_resamples))],float);return {'estimate':float(stat(x)),'bias':float(np.mean(v)-stat(x)),'ci95':tuple(np.quantile(v,[.025,.975])),'samples':v,'seed':seed}
++def sobol_first_order(model,bounds,n=2000,seed=0):
++    # Saltelli-style first-order estimator for independent uniform variables.
++    rng=np.random.default_rng(seed);bounds=np.asarray(bounds,float);d=len(bounds);A=rng.random((n,d));B=rng.random((n,d));lo=bounds[:,0];hi=bounds[:,1];A=lo+(hi-lo)*A;B=lo+(hi-lo)*B;fA=np.array([model(x) for x in A],float);fB=np.array([model(x) for x in B],float);V=np.var(np.r_[fA,fB],ddof=1)
++    if V<=np.finfo(float).tiny:raise InvalidInput('zero output variance')
++    S=[]
++    for i in range(d):C=A.copy();C[:,i]=B[:,i];fC=np.array([model(x) for x in C],float);S.append(float(np.mean(fB*(fC-fA))/V))
++    return np.array(S)
+diff -ruN /mnt/data/sm32_work/empty_tree/validation.py /mnt/data/sm32_work/sm32_payload/src/supermoon32/validation.py
+--- /mnt/data/sm32_work/empty_tree/validation.py	1970-01-01 00:00:00.000000000 +0000
++++ /mnt/data/sm32_work/sm32_payload/src/supermoon32/validation.py	2026-08-19 12:47:04.595770480 +0000
+@@ -0,0 +1,14 @@
++from __future__ import annotations
++import json,math
++import numpy as np
++from .core import ValidationRecord
++
++def error_norms(actual,expected):
++    a=np.asarray(actual,float);e=np.asarray(expected,float);d=np.abs(a-e);return {'L1':float(np.mean(d)),'L2':float(np.sqrt(np.mean(d*d))),'Linf':float(np.max(d))}
++def observed_order(e_h,e_h2,ratio=2.):return float(np.log(e_h/e_h2)/np.log(ratio))
++def conservation(initial,final,eps=1e-30):
++    i=np.asarray(initial,float);f=np.asarray(final,float);ae=np.abs(f-i);re=ae/np.maximum(np.abs(i),eps);return {'absolute':ae.tolist(),'relative':re.tolist(),'max_absolute':float(ae.max()),'max_relative':float(re.max())}
++def validate_close(algorithm,case,actual,expected,atol=1e-10,rtol=1e-8,metadata=None):
++    a=np.asarray(actual,float);e=np.asarray(expected,float);err=error_norms(a,e);passed=bool(np.allclose(a,e,atol=atol,rtol=rtol));return ValidationRecord(algorithm,case,np.asarray(expected).tolist(),np.asarray(actual).tolist(),err,{'atol':atol,'rtol':rtol},passed,metadata or {})
++def to_json(records):
++    return json.dumps([r.__dict__ for r in records],indent=2,default=lambda o:o.tolist() if hasattr(o,'tolist') else str(o))

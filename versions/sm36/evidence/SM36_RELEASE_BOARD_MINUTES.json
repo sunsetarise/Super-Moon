@@ -1,0 +1,29 @@
+{
+  "decision": "BLOCKED_PENDING_REAL_EXECUTION",
+  "format": "SM36_RELEASE_BOARD_MINUTES_V1",
+  "independent_board_acceptance": false,
+  "meeting_state": "NOT_CONVENED",
+  "open_blockers": [
+    "blocker:G03",
+    "blocker:G04",
+    "blocker:G05",
+    "blocker:G06",
+    "blocker:G07",
+    "blocker:G08",
+    "blocker:G09",
+    "blocker:G10",
+    "blocker:G11"
+  ],
+  "open_gates": [
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "G10",
+    "G11"
+  ],
+  "statement": "No generated local record substitutes for the designated independent qualification board."
+}

@@ -1,0 +1,273 @@
+{
+  "files": [
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 0,
+      "lines": 24,
+      "path": "src/supermoon34/__init__.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 0,
+      "lines": 4,
+      "path": "src/supermoon34/__main__.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 0,
+      "lines": 20,
+      "path": "src/supermoon34/aerospace/__init__.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 4,
+      "functions": 7,
+      "lines": 98,
+      "path": "src/supermoon34/aerospace/design.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 4,
+      "functions": 6,
+      "lines": 105,
+      "path": "src/supermoon34/aerospace/digital_thread.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 6,
+      "lines": 96,
+      "path": "src/supermoon34/aerospace/flight.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 2,
+      "functions": 6,
+      "lines": 68,
+      "path": "src/supermoon34/aerospace/structures.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 8,
+      "lines": 77,
+      "path": "src/supermoon34/aerospace/systems.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 1,
+      "lines": 36,
+      "path": "src/supermoon34/backends.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 2,
+      "functions": 3,
+      "lines": 84,
+      "path": "src/supermoon34/cad.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 1,
+      "functions": 1,
+      "lines": 72,
+      "path": "src/supermoon34/capabilities.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 4,
+      "functions": 9,
+      "lines": 121,
+      "path": "src/supermoon34/cfd.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 3,
+      "lines": 65,
+      "path": "src/supermoon34/cli.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 14,
+      "functions": 8,
+      "lines": 189,
+      "path": "src/supermoon34/contracts.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 3,
+      "lines": 105,
+      "path": "src/supermoon34/endurance.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 11,
+      "lines": 151,
+      "path": "src/supermoon34/evidence.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 5,
+      "lines": 118,
+      "path": "src/supermoon34/execution.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 2,
+      "functions": 4,
+      "lines": 115,
+      "path": "src/supermoon34/gpu.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 5,
+      "lines": 107,
+      "path": "src/supermoon34/hpc.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 31,
+      "lines": 218,
+      "path": "src/supermoon34/math_metrics.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 7,
+      "lines": 103,
+      "path": "src/supermoon34/orchestration.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 2,
+      "functions": 2,
+      "lines": 65,
+      "path": "src/supermoon34/performance.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 2,
+      "functions": 3,
+      "lines": 130,
+      "path": "src/supermoon34/petsc_mpi.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 1,
+      "functions": 8,
+      "lines": 111,
+      "path": "src/supermoon34/qualification.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 3,
+      "functions": 4,
+      "lines": 91,
+      "path": "src/supermoon34/reproduction.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 1,
+      "functions": 4,
+      "lines": 125,
+      "path": "src/supermoon34/requirements.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 2,
+      "functions": 4,
+      "lines": 79,
+      "path": "src/supermoon34/validation.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 8,
+      "functions": 31,
+      "lines": 247,
+      "path": "tests/test_sm34.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 1,
+      "lines": 37,
+      "path": "tools/sm34_benchmark.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 4,
+      "lines": 116,
+      "path": "tools/sm34_build_evidence.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 1,
+      "lines": 31,
+      "path": "tools/sm34_compile_requirements.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 2,
+      "lines": 37,
+      "path": "tools/sm34_merge.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 4,
+      "lines": 63,
+      "path": "tools/sm34_package.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 2,
+      "lines": 58,
+      "path": "tools/sm34_qualify.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 2,
+      "lines": 54,
+      "path": "tools/sm34_reconstruct.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 1,
+      "lines": 53,
+      "path": "tools/sm34_static_audit.py"
+    },
+    {
+      "asserts": 0,
+      "classes": 0,
+      "functions": 4,
+      "lines": 126,
+      "path": "tools/sm34_verify_release.py"
+    }
+  ],
+  "findings": [],
+  "format": "SM34_STATIC_AUDIT_V1",
+  "status": "PASS",
+  "totals": {
+    "asserts": 0,
+    "classes": 73,
+    "files": 37,
+    "functions": 201,
+    "lines": 3399
+  }
+}

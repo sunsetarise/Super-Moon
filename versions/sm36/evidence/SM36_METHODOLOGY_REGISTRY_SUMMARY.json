@@ -1,0 +1,15 @@
+{
+  "format": "SM36_METHODOLOGY_REGISTRY_SUMMARY_V1",
+  "phases": {
+    "P01": 2500,
+    "P02": 2500,
+    "P03": 2500,
+    "P04": 2500,
+    "P05": 2500,
+    "P06": 2500
+  },
+  "records": 15000,
+  "registry_sha256": "5bd8e8f728cdd17f86d43a26c2d090c7f483972b2a7ee2074c02b8041035b324",
+  "unique_lens_bindings": 50,
+  "unique_technique_bindings": 300
+}

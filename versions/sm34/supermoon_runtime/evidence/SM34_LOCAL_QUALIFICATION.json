@@ -1,0 +1,216 @@
+{
+  "backend_probes": [
+    {
+      "available": false,
+      "backend": "PETSC_MPI",
+      "details": {
+        "mpi4py": false,
+        "petsc4py": false
+      },
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": false,
+      "backend": "OPENFOAM",
+      "details": {
+        "checkMesh": null
+      },
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": false,
+      "backend": "SU2",
+      "details": {
+        "SU2_CFD_AD": null,
+        "SU2_DEF": null
+      },
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": false,
+      "backend": "OCCT_CADQUERY",
+      "details": {},
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": false,
+      "backend": "EXTERNAL_HPC",
+      "details": {
+        "sacct": null,
+        "sbatch": null,
+        "squeue": null,
+        "sstat": null
+      },
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": false,
+      "backend": "GPU",
+      "details": {
+        "cupy": false,
+        "nvidia_smi": null,
+        "torch": false
+      },
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": true,
+      "backend": "ENDURANCE",
+      "details": {
+        "24h_72h": "NOT_EXECUTED",
+        "runner": "implemented"
+      },
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": true,
+      "backend": "SECOND_MACHINE",
+      "details": {
+        "independent_receipt": "NOT_EXECUTED",
+        "verifier": "implemented"
+      },
+      "executable": null,
+      "version": null
+    },
+    {
+      "available": true,
+      "backend": "INTERNAL",
+      "details": {
+        "platform": "Linux-6.18.35-x86_64-with-glibc2.39"
+      },
+      "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "version": "3.12.13"
+    }
+  ],
+  "created_utc": "2026-08-20T09:05:26.670311+00:00",
+  "format": "SM34_LOCAL_QUALIFICATION_V1",
+  "local_tests": {
+    "passed": true,
+    "return_code": 0,
+    "stderr": "test_backend_probes_are_explicit (test_sm34.AdapterTests.test_backend_probes_are_explicit) ... ok\ntest_cfd_comparison (test_sm34.AdapterTests.test_cfd_comparison) ... ok\ntest_missing_cad_rejected (test_sm34.AdapterTests.test_missing_cad_rejected) ... ok\ntest_missing_gpu_rejected (test_sm34.AdapterTests.test_missing_gpu_rejected) ... ok\ntest_missing_petsc_rejected (test_sm34.AdapterTests.test_missing_petsc_rejected) ... ok\ntest_openfoam_parser (test_sm34.AdapterTests.test_openfoam_parser) ... ok\ntest_slurm_script_has_no_substitution (test_sm34.AdapterTests.test_slurm_script_has_no_substitution) ... ok\ntest_atmosphere (test_sm34.AerospaceTests.test_atmosphere) ... ok\ntest_design (test_sm34.AerospaceTests.test_design) ... ok\ntest_digital_thread (test_sm34.AerospaceTests.test_digital_thread) ... ok\ntest_flight_dynamics (test_sm34.AerospaceTests.test_flight_dynamics) ... ok\ntest_structures (test_sm34.AerospaceTests.test_structures) ... ok\ntest_system_budgets (test_sm34.AerospaceTests.test_system_budgets) ... ok\ntest_gate_rejects_evidence_free_pass (test_sm34.ContractsTests.test_gate_rejects_evidence_free_pass) ... ok\ntest_registry (test_sm34.ContractsTests.test_registry) ... ok\ntest_tolerance (test_sm34.ContractsTests.test_tolerance) ... ok\ntest_async_dag (test_sm34.EnduranceOrchestrationTests.test_async_dag) ... ok\ntest_reproduction_requires_distinct_receipts (test_sm34.EnduranceOrchestrationTests.test_reproduction_requires_distinct_receipts) ... ok\ntest_short_endurance_cannot_qualify (test_sm34.EnduranceOrchestrationTests.test_short_endurance_cannot_qualify) ... ok\ntest_dag (test_sm34.EvidenceTests.test_dag) ... ok\ntest_hash_chain (test_sm34.EvidenceTests.test_hash_chain) ... ok\ntest_residuals (test_sm34.MathTests.test_residuals) ... ok\ntest_scaling_metrics (test_sm34.MathTests.test_scaling_metrics) ... ok\ntest_statistics_and_geometry (test_sm34.MathTests.test_statistics_and_geometry) ... ok\ntest_complete_release_passes (test_sm34.QualificationTests.test_complete_release_passes) ... ok\ntest_partial_gate_fails (test_sm34.QualificationTests.test_partial_gate_fails) ... ok\ntest_unexecuted_release_blocked (test_sm34.QualificationTests.test_unexecuted_release_blocked) ... ok\ntest_benchmark (test_sm34.ValidationPerformanceTests.test_benchmark) ... ok\ntest_manufactured_order (test_sm34.ValidationPerformanceTests.test_manufactured_order) ... ok\ntest_validation_suite (test_sm34.ValidationPerformanceTests.test_validation_suite) ... ok\n\n----------------------------------------------------------------------\nRan 30 tests in 0.025s\n\nOK\n",
+    "stdout": ""
+  },
+  "release_decision": {
+    "evidence_graph_valid": true,
+    "gates": [
+      {
+        "blocker_id": "B01",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W01",
+        "message": "PETSc/MPI ranks 2/3/4/8 and multi-node runs have not executed.",
+        "status": "NOT_EXECUTED",
+        "weight": 20
+      },
+      {
+        "blocker_id": "B02",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W02",
+        "message": "Independent OpenFOAM and SU2 reference cases have not executed.",
+        "status": "NOT_EXECUTED",
+        "weight": 15
+      },
+      {
+        "blocker_id": "B03",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W03",
+        "message": "OCCT/CadQuery round-trip qualification has not executed.",
+        "status": "NOT_EXECUTED",
+        "weight": 12
+      },
+      {
+        "blocker_id": "B04",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W04",
+        "message": "No external scheduler-managed HPC receipt is present.",
+        "status": "NOT_EXECUTED",
+        "weight": 12
+      },
+      {
+        "blocker_id": "B05",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W05",
+        "message": "No real GPU device execution receipt is present.",
+        "status": "NOT_EXECUTED",
+        "weight": 12
+      },
+      {
+        "blocker_id": "B06",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W06",
+        "message": "No continuous 24h and 72h endurance receipts are present.",
+        "status": "NOT_EXECUTED",
+        "weight": 10
+      },
+      {
+        "blocker_id": "B07",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W07",
+        "message": "No distinct second-machine independent reproduction receipt is present.",
+        "status": "NOT_EXECUTED",
+        "weight": 10
+      },
+      {
+        "blocker_id": "B08",
+        "evidence_ids": [],
+        "fraction": 0.0,
+        "gate_id": "W08",
+        "message": "Release governance can be tested locally but cannot pass while mandatory evidence is incomplete.",
+        "status": "NOT_EXECUTED",
+        "weight": 9
+      }
+    ],
+    "open_blockers": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08"
+    ],
+    "passed": false,
+    "rationale": "Mandatory real-execution evidence remains unavailable or not executed.",
+    "score": 0.0,
+    "status": "BLOCKED"
+  },
+  "truth": "Local source/tests can pass while the 9.5 release remains blocked by mandatory physical execution.",
+  "validation": {
+    "conservation_defect": 0.0,
+    "coverage": 0.94975,
+    "gradient_relative_error": 4.855024276947216e-10,
+    "grid_sizes": [
+      17,
+      33,
+      65,
+      129
+    ],
+    "l2_errors": [
+      0.0022761515839786364,
+      0.000568215226292381,
+      0.00014200246344625632,
+      3.5497408062348935e-05
+    ],
+    "limitations": [],
+    "observed_orders": [
+      2.0020872428196124,
+      2.000521533816352,
+      2.000130366333237
+    ],
+    "status": "PASS"
+  }
+}

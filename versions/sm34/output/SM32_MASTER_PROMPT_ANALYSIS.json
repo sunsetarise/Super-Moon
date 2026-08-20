@@ -1,0 +1,487 @@
+{
+  "analysis_id": "34f9dce09a261638",
+  "title": "SUPER MOON \u2014 QUALIFIED RESEARCH, AUTOMATION, VERIFICATION & ORCHESTRATION CORE",
+  "prompt_hash_sha256": "34f9dce09a261638725cbf6df82a4441814971cfbdabfcce4631f618000bb32b",
+  "metrics": {
+    "characters": 61144,
+    "words": 4584,
+    "lines": 2164,
+    "sections_detected": 212,
+    "equation_like_lines": 14,
+    "strong_claims": 7,
+    "knowledge_hits": 8
+  },
+  "domains": [
+    {
+      "domain": "Scientific Research",
+      "hits": 145,
+      "confidence": 0.98
+    },
+    {
+      "domain": "HPC / Numerics",
+      "hits": 136,
+      "confidence": 0.98
+    },
+    {
+      "domain": "Statistics / UQ",
+      "hits": 81,
+      "confidence": 0.98
+    },
+    {
+      "domain": "ML / AI",
+      "hits": 68,
+      "confidence": 0.98
+    },
+    {
+      "domain": "Structures / FEA",
+      "hits": 59,
+      "confidence": 0.98
+    },
+    {
+      "domain": "CFD / Fluids",
+      "hits": 36,
+      "confidence": 0.98
+    },
+    {
+      "domain": "Optimization",
+      "hits": 31,
+      "confidence": 0.98
+    },
+    {
+      "domain": "Software / Systems",
+      "hits": 27,
+      "confidence": 0.98
+    }
+  ],
+  "coverage_scores": {
+    "problem_formalization": 100.0,
+    "mathematical_rigor": 100.0,
+    "verification": 100.0,
+    "validation": 66.7,
+    "uncertainty": 100.0,
+    "reproducibility": 100.0,
+    "evidence": 100.0,
+    "orchestration": 100.0,
+    "risk_governance": 100.0,
+    "reporting": 71.4
+  },
+  "overall_architecture_score": 93.8,
+  "scientific_readiness_score": 93.3,
+  "patent_drafting_readiness_score": 89.7,
+  "risk": {
+    "cri": 0.6645090909090909,
+    "risk_class": "VERY_HIGH",
+    "mandatory_external_tool": true,
+    "mandatory_reasons": [
+      "airworthiness",
+      "critical_infrastructure",
+      "extreme_nonlinear_structure",
+      "extreme_sparse_distributed",
+      "flight_critical_structure",
+      "formal_legal_acceptance",
+      "human_safety",
+      "independent_authority_review",
+      "industrial_cad_interoperability",
+      "life_critical",
+      "medical_device_regulatory",
+      "nuclear_safety",
+      "production_gpu_beyond_validation",
+      "regulatory_certification",
+      "very_large_production_cfd"
+    ],
+    "required_independent_verification": true,
+    "required_human_review": true,
+    "scale_class": "S7_EXTREME_DISTRIBUTED",
+    "decision_matrix": {
+      "external_tool": "MANDATORY_FOR_SCALE",
+      "independent_verification": true,
+      "human_review": true
+    },
+    "engine": "embedded-supermoon32.qualified"
+  },
+  "risk_input_profile": {
+    "criticality": 1.0,
+    "scale": 1.0,
+    "uncertainty": 0.16666666666666663,
+    "impact": 1.0,
+    "evidence_deficiency": 0.09090909090909094,
+    "novelty": 0.72,
+    "qualification_deficiency": 0.35
+  },
+  "formalization": {
+    "goals": [
+      "You are designing the next evolution of SUPER MOON as a high-assurance:",
+      "automate parameter studies, design-space exploration, validation, optimization, and reproducibility; 12.",
+      "CORE DESIGN PHILOSOPHY ======================================================================",
+      "LEVEL A \u2014 INTERNAL COMPUTATIONAL CORE Use SUPER MOON internal implementations for research, prototyping, algorithm development, solver experimentation, comparative studies, low/medium-scale simulations, hypothesis testing, sensitivity analysis, reduced-order models, design-space exploration, surrogate construction, and independent cross-checking.",
+      "Build a formal Computational Risk Index (CRI).",
+      "Create SolverRoutingEngine."
+    ],
+    "constraints": [
+      "The system is NOT required to replace every mature engineering, scientific, certification, HPC, CAD, CAE, AI, or regulatory tool.",
+      "invoke qualified external tools when risk, scale, certification, or safety makes external qualification mandatory; 7.",
+      "Do not maximize: - number of algorithms; - number of classes; - number of modules; - number of solver names; - number of architecture diagrams; - number of unsupported theoretical claims.",
+      "Weights must be domain-specific rather than universal constants.",
+      "MANDATORY ESCALATION CONDITIONS ======================================================================",
+      "But internal output alone must NOT be represented as final authority unless qualification evidence explicitly supports that status.",
+      "Qualification must remain use-case-specific.",
+      "Outputs: - recommended internal solver; - recommended qualified external solver; - independent verification solver; - recommended discretization; - expected numerical risks; - validation strategy; - required evidence; - escalation decision; - confidence target."
+    ],
+    "requested_outputs": [
+      "The system is NOT required to replace every mature engineering, scientific, certification, HPC, CAD, CAE, AI, or regulatory tool.",
+      "formulate complex scientific and engineering problems correctly; 2.",
+      "compare solver outputs; 9.",
+      "C = criticality S = computational scale U = uncertainty I = consequence of incorrect result E = evidence deficiency N = novelty of modeled regime Q = qualification deficiency",
+      "But internal output alone must NOT be represented as final authority unless qualification evidence explicitly supports that status.",
+      "Outputs: - recommended internal solver; - recommended qualified external solver; - independent verification solver; - recommended discretization; - expected numerical risks; - validation strategy; - required evidence; - escalation decision; - confidence target.",
+      "Vertices: variables, fields, equations, constraints, constitutive laws, parameters, solvers, observables, datasets, experiments.",
+      "Report L1, L2, and L-infinity error where appropriate."
+    ],
+    "equation_candidates": [
+      "Quality = f(Correctness, Verification, Validation, Uncertainty,",
+      "C = criticality",
+      "CRI = wC*C + wS*S + wU*U + wI*I + wE*E + wN*N + wQ*Q",
+      "with sum(weights) = 1.",
+      "0.20 <= CRI < 0.40         MODERATE",
+      "0.40 <= CRI < 0.60         HIGH",
+      "0.60 <= CRI < 0.80         VERY_HIGH",
+      "CRI >= 0.80                CRITICAL",
+      "Delta_AB = |A-B| / max(|A|,|B|,epsilon)",
+      "Represent Y=f(X), with uncertain X.",
+      "Sample X_i ~ p(X), compute Y_i=f(X_i), and report:",
+      "For residual R(u,p)=0 and objective J(u,p), support adjoint workflows.",
+      "A*delta_x = r_k",
+      "x_(k+1) = x_k + delta_x"
+    ],
+    "section_outline": [
+      "PRIME DIRECTIVE",
+      "formulate complex scientific and engineering problems correctly;",
+      "formalize their governing mathematics;",
+      "select suitable numerical and computational methods;",
+      "evaluate risk, criticality, uncertainty, and scale before execution;",
+      "execute internal SUPER MOON solvers where appropriate;",
+      "invoke qualified external tools when risk, scale, certification, or safety makes external qualification mandatory;",
+      "execute independent verification paths;",
+      "compare solver outputs;",
+      "quantify uncertainty and numerical error;",
+      "detect disagreements and investigate their cause;",
+      "automate parameter studies, design-space exploration, validation, optimization, and reproducibility;",
+      "produce evidence-backed technical conclusions;",
+      "maintain strict provenance, auditability, and claim discipline.",
+      "CORE DESIGN PHILOSOPHY",
+      "THREE-TIER COMPUTATIONAL ARCHITECTURE",
+      "COMPUTATIONAL RISK INDEX",
+      "<= CRI < 0.40         MODERATE",
+      "<= CRI < 0.60         HIGH",
+      "<= CRI < 0.80         VERY_HIGH",
+      "MANDATORY ESCALATION CONDITIONS",
+      "QUALIFIED TOOL REGISTRY",
+      "QUALIFIED TOOL LEVELS",
+      "INTERNAL CAPABILITY MATURITY",
+      "SOLVER ROUTING ENGINE",
+      "SOLVER SELECTION OBJECTIVE",
+      "PROBLEM FORMALIZATION ENGINE",
+      "EQUATION DEPENDENCY GRAPH",
+      "DIMENSIONAL ANALYSIS ENGINE",
+      "NONDIMENSIONALIZATION ENGINE",
+      "MODEL REGIME DETECTION",
+      "MODEL VALIDITY DOMAINS",
+      "VERIFICATION VS VALIDATION",
+      "METHOD OF MANUFACTURED SOLUTIONS",
+      "ORDER OF ACCURACY",
+      "GRID CONVERGENCE INDEX",
+      "RICHARDSON EXTRAPOLATION",
+      "INDEPENDENT SOLUTION PATHS",
+      "SOLVER DIVERSITY",
+      "DISCREPANCY ENGINE",
+      "DISAGREEMENT INVESTIGATION",
+      "UNCERTAINTY QUANTIFICATION CORE",
+      "MONTE CARLO ENGINE",
+      "LATIN HYPERCUBE SAMPLING",
+      "GLOBAL SENSITIVITY",
+      "LOCAL SENSITIVITY",
+      "ADJOINT METHODS",
+      "AUTOMATIC DIFFERENTIATION ENGINE",
+      "DIGITAL EXPERIMENT ENGINE",
+      "DESIGN OF EXPERIMENTS",
+      "ADAPTIVE EXPERIMENTATION",
+      "SURROGATE MODELING",
+      "MULTI-FIDELITY COMPUTATION",
+      "ACTIVE LEARNING",
+      "REDUCED-ORDER MODELING",
+      "ERROR BUDGET ENGINE",
+      "CONFIDENCE ENGINE",
+      "CONFIDENCE DEGRADATION RULES",
+      "RESEARCH ORCHESTRATION GRAPH",
+      "AUTOMATION ENGINE",
+      "RUN MANIFEST",
+      "PROVENANCE GRAPH",
+      "REPRODUCIBILITY CLASSIFICATION",
+      "CLEAN-ENVIRONMENT EXECUTION",
+      "CHECKPOINT / RESUME",
+      "FAULT-TOLERANT ORCHESTRATION",
+      "FAILURE TAXONOMY",
+      "OBSERVABILITY",
+      "RESIDUAL VERIFICATION",
+      "FALSE-CONVERGENCE DETECTION",
+      "CONDITIONING ANALYSIS",
+      "ITERATIVE REFINEMENT",
+      "SPARSE EXTREME-SCALE ROUTING",
+      "CFD PRODUCTION ROUTING",
+      "CFD CONSERVATION ENGINE",
+      "CFD MESH VERIFICATION",
+      "CFD TURBULENCE GOVERNANCE",
+      "CFD SHOCK / COMPRESSIBLE GOVERNANCE",
+      "FEA PRODUCTION ROUTING",
+      "FEA MESH CONVERGENCE"
+    ]
+  },
+  "claims_requiring_evidence": [
+    {
+      "claim": "The system is NOT required to replace every mature engineering, scientific, certification, HPC, CAD, CAE, AI, or regulatory tool.",
+      "status": "REQUIRES_EVIDENCE",
+      "recommended_action": "Attach benchmark, test, qualification, external reproduction, or downgrade claim wording."
+    },
+    {
+      "claim": "Q0 = UNKNOWN Q1 = AVAILABLE Q2 = TESTED Q3 = BENCHMARKED Q4 = INDUSTRIALLY VALIDATED Q5 = CERTIFICATION-ACCEPTABLE FOR SPECIFIC CONTEXT",
+      "status": "REQUIRES_EVIDENCE",
+      "recommended_action": "Attach benchmark, test, qualification, external reproduction, or downgrade claim wording."
+    },
+    {
+      "claim": "Always recompute final feasibility independently.",
+      "status": "REQUIRES_EVIDENCE",
+      "recommended_action": "Attach benchmark, test, qualification, external reproduction, or downgrade claim wording."
+    },
+    {
+      "claim": "IMPLEMENTED TESTED NUMERICALLY_VERIFIED VALIDATED BENCHMARKED STRESS_TESTED ENDURANCE_TESTED EXTERNALLY_REPRODUCED INDUSTRIALLY_VALIDATED CERTIFICATION-ACCEPTABLE",
+      "status": "REQUIRES_EVIDENCE",
+      "recommended_action": "Attach benchmark, test, qualification, external reproduction, or downgrade claim wording."
+    },
+    {
+      "claim": "Never skip directly from IMPLEMENTED to CERTIFICATION-ACCEPTABLE.",
+      "status": "REQUIRES_EVIDENCE",
+      "recommended_action": "Attach benchmark, test, qualification, external reproduction, or downgrade claim wording."
+    },
+    {
+      "claim": "SUPER MOON's strength must not be pretending to replace every specialized tool.",
+      "status": "REQUIRES_EVIDENCE",
+      "recommended_action": "Attach benchmark, test, qualification, external reproduction, or downgrade claim wording."
+    },
+    {
+      "claim": "Never claim: CERTIFIED QUALIFIED INDUSTRIAL PARITY PRODUCTION SCALE GPU QUALIFIED MPI QUALIFIED EXTERNALLY REPRODUCED",
+      "status": "REQUIRES_EVIDENCE",
+      "recommended_action": "Attach benchmark, test, qualification, external reproduction, or downgrade claim wording."
+    }
+  ],
+  "strengths": [
+    {
+      "area": "problem_formalization",
+      "score": 100.0
+    },
+    {
+      "area": "mathematical_rigor",
+      "score": 100.0
+    },
+    {
+      "area": "verification",
+      "score": 100.0
+    },
+    {
+      "area": "uncertainty",
+      "score": 100.0
+    }
+  ],
+  "gaps": [
+    {
+      "area": "validation",
+      "score": 66.7
+    },
+    {
+      "area": "reporting",
+      "score": 71.4
+    },
+    {
+      "area": "problem_formalization",
+      "score": 100.0
+    },
+    {
+      "area": "mathematical_rigor",
+      "score": 100.0
+    }
+  ],
+  "workflow": [
+    {
+      "id": "01",
+      "name": "Ingest & normalize",
+      "description": "Hash prompt, identify sections, constraints, claims and domain vocabulary."
+    },
+    {
+      "id": "02",
+      "name": "Problem formalization",
+      "description": "Define objective, inputs, outputs, governing equations, assumptions, boundary/initial conditions and acceptance criteria."
+    },
+    {
+      "id": "03",
+      "name": "Dimensional & regime analysis",
+      "description": "Check units, nondimensional groups, model validity and operating regime."
+    },
+    {
+      "id": "04",
+      "name": "Risk / scale assessment",
+      "description": "Compute CRI and escalation policy. Current inferred class: VERY_HIGH (CRI=0.665)."
+    },
+    {
+      "id": "05",
+      "name": "Method & solver routing",
+      "description": "Select internal SM32 modules and, when required, qualified external tools."
+    },
+    {
+      "id": "06",
+      "name": "Execution plan",
+      "description": "Build reproducible DAG, parameter sweeps, seeds, manifests, checkpoints and failure semantics."
+    },
+    {
+      "id": "07",
+      "name": "Independent verification",
+      "description": "Require a second numerical/analytical path when risk policy indicates it."
+    },
+    {
+      "id": "08",
+      "name": "Validation",
+      "description": "Compare against benchmark, experimental, reference, or acceptance data."
+    },
+    {
+      "id": "09",
+      "name": "UQ & sensitivity",
+      "description": "Quantify numerical/parameter/model uncertainty and sensitivity."
+    },
+    {
+      "id": "10",
+      "name": "Discrepancy analysis",
+      "description": "Classify solver disagreement and investigate mesh, model, tolerance, implementation and data causes."
+    },
+    {
+      "id": "11",
+      "name": "Evidence & provenance",
+      "description": "Hash artifacts, track source lineage, limitations, known defects and claim level."
+    },
+    {
+      "id": "12",
+      "name": "Decision synthesis",
+      "description": "Separate observed result, inference, hypothesis, limitation and recommendation."
+    },
+    {
+      "id": "13",
+      "name": "Scientific / patent PDF",
+      "description": "Generate evidence-backed scientific report and patent-style technical specification."
+    }
+  ],
+  "recommendations": [
+    "Downgrade or evidence 7 high-strength claim(s) before treating the prompt as a scientific conclusion.",
+    "SM32Q escalation is active: internal output should be treated as research/support output until a context-qualified external path is supplied.",
+    "Add a named human review gate and decision authority before final acceptance."
+  ],
+  "knowledge_query": "hypothesis experiment hpc mpi uncertainty monte carlo",
+  "knowledge_hits": [
+    {
+      "chunk_id": null,
+      "start_line": 6809838,
+      "end_line": 6809838,
+      "heading": "SM32Q authoritative successor",
+      "rank": -5.2,
+      "matched_terms": 5,
+      "source": "SM32Q authoritative successor",
+      "excerpt": "Certification acceptance is **not claimed**. MPI multi-node, GPU/multi-GPU runtime qualification, and independent external-machine reproduction are **not executed** in this environment. Longer endurance attempts interrupted by the execution wrapper are not counted.\n<<<END_SM32Q_FILE>>>\n<<<SM32Q_FILE path=\"evidence/SM32Q_COVERAGE.json\" sha256=\"23b2757be8d4c5bc96b1d6fcf0aa34428bc226cc0dfe0840325437e64b0dd185\" bytes=\"185100\">>>\n{\"meta\": {\"format\": 3, \"version\": \"7.13.3\", \"timestamp\": \"2026-08-19T17:25:29.578985\", \"branch_coverage\": true, \"show_contexts\": false}, \"files\": {\"src/supermoon32/qualified/__init__.py\": {\"executed_lines\": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], \"summary\": {\"covered_lines\": 27, \"num_statements\": 27, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 0, \"num_partial_branches\": 0, \"covered_branches\": 0, \"missing_branches\": 0, \"percent_branches_covered\": 100.0, \"percent_branches_covered_display\": \"100\"}, \"missing_lines\": [], \"excluded_lines\": [], \"executed_branches\": [], \"missing_branches\": [], \"functions\": {\"\": {\"executed_lines\": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], \"summary\": {\"covered_lines\": 27, \"num_statements\": 27, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 0, \"num_partial_branches\": 0, \"covered_branches\": 0, \"missing_branches\": 0, \"percent_branches_covered\": 100.0, \"percent_branches_covered_display\": \"100\"}, \"missing_lines\": [], \"excluded_lines\": [], \"start_line\": 1, \"executed_branches\": [], \"missing_branches\": []}}, \"classes\": {\"\": {\"executed_lines\": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], \"summary\": {\"covered_lines\": 27, \"num_statements\": 27, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 0, \"num_partial_branches\": 0, \"covered_branches\": 0, \"missing_branches\": 0, \"percent_branches_covered\": 100.0, \"percent_branches_covered_display\": \"100\"}, \"missing_lines\": [], \"excluded_lines\": [], \"start_line\": 1, \"executed_branches\": [], \"missing_branches\": []}}}, \"src/supermoon32/qualified/change_impact.py\": {\"executed_lines\": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], \"summary\": {\"covered_lines\": 22, \"num_statements\": 22, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 10, \"num_partial_branches\": 0, \"covered_branches\": 10, \"missing_branches\": 0, \"percent_branches_covered\": 100.0, \"percent_branches_covered_display\": \"100\"}, \"missing_lines\": [], \"excluded_lines\": [], \"executed_branches\": [[11, -11], [11, 12], "
+    },
+    {
+      "chunk_id": null,
+      "start_line": 6798293,
+      "end_line": 6798293,
+      "heading": "SM32 full implementation successor",
+      "rank": -4.1,
+      "matched_terms": 4,
+      "source": "SM32 full implementation successor",
+      "excerpt": "<<<END_SM32_FILE>>>\n<<<SM32_FILE path=\"evidence/SM32_COVERAGE.json\" sha256=\"f66a84fe5d7429bc697848058bf2d5de60fdab9722d234248b58e653ded2f9ff\" bytes=\"198188\">>>\n{\"meta\": {\"format\": 3, \"version\": \"7.13.3\", \"timestamp\": \"2026-08-19T13:01:57.447820\", \"branch_coverage\": true, \"show_contexts\": false}, \"files\": {\"src/supermoon32/__init__.py\": {\"executed_lines\": [2, 3, 4], \"summary\": {\"covered_lines\": 3, \"num_statements\": 3, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 0, \"num_partial_branches\": 0, \"covered_branches\": 0, \"missing_branches\": 0, \"percent_branches_covered\": 100.0, \"percent_branches_covered_display\": \"100\"}, \"missing_lines\": [], \"excluded_lines\": [], \"executed_branches\": [], \"missing_branches\": [], \"functions\": {\"\": {\"executed_lines\": [2, 3, 4], \"summary\": {\"covered_lines\": 3, \"num_statements\": 3, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 0, \"num_partial_branches\": 0, \"covered_branches\": 0, \"missing_branches\": 0, \"percent_branches_covered\": 100.0, \"percent_branches_covered_display\": \"100\"}, \"missing_lines\": [], \"excluded_lines\": [], \"start_line\": 1, \"executed_branches\": [], \"missing_branches\": []}}, \"classes\": {\"\": {\"executed_lines\": [2, 3, 4], \"summary\": {\"covered_lines\": 3, \"num_statements\": 3, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 0, \"num_partial_branches\": 0, \"covered_branches\": 0, \"missing_branches\": 0, \"percent_branches_covered\": 100.0, \"percent_branches_covered_display\": \"100\"}, \"missing_lines\": [], \"excluded_lines\": [], \"start_line\": 1, \"executed_branches\": [], \"missing_branches\": []}}}, \"src/supermoon32/autodiff.py\": {\"executed_lines\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], \"summary\": {\"covered_lines\": 31, \"num_statements\": 31, \"percent_covered\": 98.36065573770492, \"percent_covered_display\": \"98\", \"missing_lines\": 0, \"excluded_lines\": 0, \"percent_statements_covered\": 100.0, \"percent_statements_covered_display\": \"100\", \"num_branches\": 30, \"num_partial_branches\": 1, \"covered_branches\": 29, \"missing_branches\": 1, \"percent_branches_covered\": 96.66666666666667, \"percent_branches_covered_display\": \"97\"}, \"missing_lines\": [], \"excluded_lines\": [], \"executed_branches\": [[8, -8], [8, 9], [10, -10], [10, 11], [11, -11], [11, 12], [12, -12], [12, 13], [14, -14], [14, 15], [15, -15], [15, 16], [16, -16], [16, 17], [17, -5], [18, -18], [18, 19], [19, -19], [19, 20], [20, -20], [20, 21], [21, -21], [21, 22], [22, -22], [22, 23], [25, -23], [25, 26], [29, 30], [29, 31]], \"missing_branches\": [[17, -17]], \"functions\": {\"Dual.__add__\": {\"executed_lines\": [8], \"summary\": {\"covered_lines\": 1, \"num_statements\": 1, \"percent_covered\": 100.0, \"percent_covered_display\": \"100\", \"missing_lines\": 0, \"excluded_lines\":"
+    },
+    {
+      "chunk_id": null,
+      "start_line": 6812989,
+      "end_line": 6812989,
+      "heading": "SM32Q authoritative successor",
+      "rank": -2.2,
+      "matched_terms": 2,
+      "source": "SM32Q authoritative successor",
+      "excerpt": "with pytest.raises(InvalidInput):local_sensitivity(lambda x:0,[1],method='bad')\n\ndef test_reliability_invalid():\n    with pytest.raises(InvalidInput):reliability_monte_carlo(lambda x:x,lambda r:1,0)\n\ndef test_robust_objective_invalid():\n    with pytest.raises(InvalidInput):robust_objective(None,[])"
+    },
+    {
+      "chunk_id": null,
+      "start_line": 6812769,
+      "end_line": 6812769,
+      "heading": "SM32Q authoritative successor",
+      "rank": -2.2,
+      "matched_terms": 2,
+      "source": "SM32Q authoritative successor",
+      "excerpt": "f=lambda x:x[0]**3+np.sin(x[1]);g=complex_step_gradient(f,[2.,.3]);assert np.allclose(g,[12,np.cos(.3)],rtol=1e-12)\n\ndef test_reliability_mc():\n    out=reliability_monte_carlo(lambda x:x,lambda rng:rng.normal(),10000,seed=1);assert abs(out['probability_failure']-.5)<.03 and out['n']==10000\n\ndef test_robust_objective():\n    assert robust_objective(None,[1,1,1],2)==1"
+    },
+    {
+      "chunk_id": null,
+      "start_line": 6812595,
+      "end_line": 6812595,
+      "heading": "SM32Q authoritative successor",
+      "rank": -2.2,
+      "matched_terms": 2,
+      "source": "SM32Q authoritative successor",
+      "excerpt": "z=x.astype(complex);z[i]+=1j*h;g[i]=np.imag(fn(z))/h\n    return g\n\ndef reliability_monte_carlo(limit_state,sampler,n,seed=0):\n    if int(n)<=0:raise InvalidInput('n must be positive')\n    rng=np.random.default_rng(seed);fail=0;gvals=[]\n    for _ in range(int(n)):"
+    },
+    {
+      "chunk_id": null,
+      "start_line": 6810774,
+      "end_line": 6810774,
+      "heading": "SM32Q authoritative successor",
+      "rank": -2.2,
+      "matched_terms": 2,
+      "source": "SM32Q authoritative successor",
+      "excerpt": "\"lhs_samples\",\n        \"local_sensitivity\",\n        \"complex_step_gradient\",\n        \"reliability_monte_carlo\",\n        \"robust_objective\"\n      ],\n      \"methods\": [],"
+    },
+    {
+      "chunk_id": 110,
+      "start_line": 6241350,
+      "end_line": 6245437,
+      "file_offset": 66777234,
+      "compressed_bytes": 525401,
+      "raw_chars": 4194304,
+      "heading": "BEGIN SUPER MOON 26.0 COMPILED 150K FEATURE REGISTRY JSONL",
+      "sha256": "b8f23e4893cf08e0af4630a830da96bd514a131c05ff11f9e122b71ab9ff23aa",
+      "rank": -7.0,
+      "matched_terms": 7,
+      "excerpt": "\u2026| TARGET=SUPER MOON 25.0 OMEGA RESEARCH / DISCOVERY / SCIENTIFIC COMPUTATION FABRIC | MANDATE: implement reverse-mode AD with tape/graph optimization, checkpointing, custom VJPs, memory controls, and mutation-safe semantics for Symbolic Computation and Computer Algebra inside the Reliability testing formal verification and QA layer, covering unit/property/metamorphic/randomized/differential tests, proof obligations, numerical QA, and regression gates. CROSS-MATH: integrate or explicitly assess Dantzig-Wolfe decomposition where mathematically valid; if invalid, record a typed NOT_APPLICABLE rationale instead of forcing an analogy. COMPUTE/ARCH: provide an implementation path compatible with MPI-IO plus a portable reference/fallback path; define complexity, memory, precision, determinism, concurrency, and failure semantics. AI/RESEARCH: expose the capability to symbolic, numerical, learning, planning, theorem-proving, program-synthesis, and research-agent workflows through typed interfaces without bypassing correctness checks. VERIFY: gradient checks, memory profiling, higher-order composition tests, and cross-backend consistency; include known-answer, adversarial, scale, and regression cases; emit machine-readable PASS/FAIL/UNKNOWN/NOT_APPLICABLE evidence and performance metadata. DEPENDENCY_HINT=F148318; SHARD=M099-L27; PRIORITY=1; PRESERVE the supplied SM25 lineage and existi\u2026"
+    },
+    {
+      "chunk_id": 109,
+      "start_line": 6239128,
+      "end_line": 6241349,
+      "file_offset": 66334497,
+      "compressed_bytes": 442737,
+      "raw_chars": 4194304,
+      "heading": "BEGIN SUPER MOON 26.0 150K MASTER PROMPT (VERBATIM)",
+      "sha256": "01c761ec403149ce96a43e198e4f70bd558f8d23cb7190fe1b6d71e6200f8a56",
+      "rank": -7.0,
+      "matched_terms": 7,
+      "excerpt": "\u2026immutable IDs, source-to-result trace queries, and tamper-evident manifests; include known-answer, adversarial, scale, and regression cases; emit machine-readable PASS/FAIL/UNKNOWN/NOT_APPLICABLE evidence and performance metadata. DEPENDENCY_HINT=F146091; SHARD=M098-L12; PRIORITY=3; PRESERVE the supplied SM25 lineage and existing behavior additively: do not delete capabilities, silently weaken tests, or claim state-of-the-art/replacement parity without workload-specific external evidence. IMPLEMENT real executable code, tests, schemas, documentation, benchmark hooks, and provenance rather than placeholders, TODOs, mocked success, or prose-only stubs.\nF146093 | M098 Scientific Computing and HPC Mathematics | L12 Machine learning and representation learning | A43 Uncertainty Calibration | TARGET=SUPER MOON 25.0 OMEGA RESEARCH / DISCOVERY / SCIENTIFIC COMPUTATION FABRIC | MANDATE: quantify epistemic/aleatoric/numerical/model uncertainty and calibrate confidence or credible intervals against held-out and synthetic truth for Scientific Computing and HPC Mathematics inside the Machine learning and representation learning layer, covering supervised/self-supervised/contrastive/meta learning, embeddings, kernels, and learned surrogates. CROSS-MATH: integrate or explicitly assess mean-field games where mathematically valid; if invalid, record a typed NOT_APPLICABLE rationale instead of\u2026"
+    }
+  ],
+  "result_synthesis": {
+    "status": "ANALYSIS_COMPLETE_NOT_EXTERNAL_VALIDATION",
+    "interpretation": "The engine has analyzed prompt structure, scientific governance, risk, reproducibility, verification/validation coverage, UQ, evidence posture and SM32 knowledge alignment. It has not fabricated external solver, laboratory, certification, novelty-search or experimental results.",
+    "next_executable_actions": [
+      "Downgrade or evidence 7 high-strength claim(s) before treating the prompt as a scientific conclusion.",
+      "SM32Q escalation is active: internal output should be treated as research/support output until a context-qualified external path is supplied.",
+      "Add a named human review gate and decision authority before final acceptance."
+    ]
+  },
+  "runtime": {
+    "available": true,
+    "source": "/mnt/data/SUPERMOON_PROMPT_STUDIO/supermoon_runtime/src",
+    "error": null
+  }
+}

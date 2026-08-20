@@ -1,0 +1,132 @@
+{
+  "dense_lu": {
+    "residual_l2": 0.0
+  },
+  "sparse_cg": {
+    "converged": true,
+    "iterations": 3,
+    "residual_l2": 2.220446049250313e-16
+  },
+  "brent_sqrt2": {
+    "value": 1.4142135623728214,
+    "abs_error": 2.737809978725636e-13,
+    "iterations": 17
+  },
+  "rk4_convergence": {
+    "series": [
+      {
+        "dt": 0.2,
+        "error": 5.79695385960477e-06
+      },
+      {
+        "dt": 0.1,
+        "error": 3.3324105608301124e-07
+      },
+      {
+        "dt": 0.05,
+        "error": 1.9976097442864216e-08
+      },
+      {
+        "dt": 0.025,
+        "error": 1.222742185280623e-09
+      }
+    ],
+    "observed_orders": [
+      4.120656942447879,
+      4.060219486144625,
+      4.030082614474987
+    ],
+    "min_order": 4.030082614474987
+  },
+  "poisson_convergence": {
+    "series": [
+      {
+        "n": 21,
+        "linf": 0.002058706764533902
+      },
+      {
+        "n": 41,
+        "linf": 0.0005142004781442111
+      },
+      {
+        "n": 81,
+        "linf": 0.0001285203835370563
+      },
+      {
+        "n": 161,
+        "linf": 3.212823779996654e-05
+      }
+    ],
+    "observed_orders": [
+      2.0013354950184405,
+      2.0003337604117672,
+      2.0000834335049995
+    ]
+  },
+  "cfd2d_uniform": {
+    "steps": 2,
+    "min_density": 1.0,
+    "min_pressure": 1.0,
+    "max_cfl": 0.4,
+    "conservation_abs": {
+      "mass": 0.0,
+      "momentum_x": 0.0,
+      "momentum_y": 0.0,
+      "energy": 0.0
+    },
+    "max_conservation_abs": 0.0
+  },
+  "cfd2d_perturbation": {
+    "finite": true,
+    "min_density": 0.9901393207259355,
+    "min_pressure": 1.0
+  },
+  "sm31_qp1_second_order_cfd_preserved": {
+    "finite": true,
+    "steps": 3,
+    "min_density": null,
+    "min_pressure": null
+  },
+  "fea_bar": {
+    "computed_tip": 5.876190476190476e-05,
+    "exact_tip": 5.876190476190476e-05,
+    "abs_error": 0.0,
+    "stress_error": 0.0,
+    "residual": 0.0
+  },
+  "fea_triangle": {
+    "symmetry_error": 0.0,
+    "area": 0.5,
+    "min_eigenvalue": -2.3016072302511248e-07
+  },
+  "geometry_rigid_invariance": {
+    "distance_before": 2.0615528128088303,
+    "distance_after": 2.0615528128088307,
+    "abs_error": 4.440892098500626e-16
+  },
+  "attention": {
+    "row_sum_error": 0.0,
+    "finite": true
+  },
+  "autodiff_forward": {
+    "value": 2.509507499060107,
+    "reference": 2.5095074990601067,
+    "abs_error": 4.440892098500626e-16
+  },
+  "digital_twin": {
+    "covariance_min_eigenvalue": 0.009901079244220698,
+    "history_events": 2
+  },
+  "graph": {
+    "distance_a_c": 2.0,
+    "path": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "serialization": {
+    "roundtrip_equal": true,
+    "schema": "SM32_STATE_V1"
+  }
+}

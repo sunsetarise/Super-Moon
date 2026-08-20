@@ -1,0 +1,16 @@
+{
+  "format": "SUPER_MOON_36_ASSET_MANIFEST_V1",
+  "file": "SUPER_MOON_36_NEW_UNIVERSE_QUALIFICATION_CANDIDATE_FULL_MERGED.txt.gz",
+  "bytes": 391292410,
+  "sha256": "71ac376db613c70d5cad52394f03adfcb7f2412e4c643bbb2e301e1c47473c33",
+  "sha512": "ed4289c05f4b487b523f9cadbfaee7193b48b4937b8cdf8438325c24645dbe7cd2b0e0375d80aed88afdcfbb12d5404b939ad36695611c4f89fea0e006a126ea",
+  "gzip_integrity": "VERIFIED",
+  "release_state": "BLOCKED_PENDING_REAL_EXECUTION",
+  "original_80000000_byte_parts": [
+    {"index": 1, "bytes": 80000000, "sha256": "3de9d99351809095df280d0513c7a4b2c4da5acc72c43965d6f8ef92a600a3e3"},
+    {"index": 2, "bytes": 80000000, "sha256": "57a8035e5420479150bd3417bc16340b5d20f8c1613e2aa948c1cfa1b04af270"},
+    {"index": 3, "bytes": 80000000, "sha256": "4b9c7f5fd3efa6738b351f33ddad2036e4f240f6d1dac33cef3556ce222302d9"},
+    {"index": 4, "bytes": 80000000, "sha256": "cd7af4a78cc8dfb1977a51133e62c9fe5b538ea5f447352410a6e5b918977243"},
+    {"index": 5, "bytes": 71292410, "sha256": "69f001a741b4ac85730f9cd5a88da32f167e247fa0e37f02c10be094987e7055"}
+  ]
+}

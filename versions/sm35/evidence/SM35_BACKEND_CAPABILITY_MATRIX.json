@@ -1,0 +1,82 @@
+{
+  "capabilities": [
+    {
+      "available": false,
+      "commands": {},
+      "modules": {
+        "OCP": false,
+        "cadquery": false
+      },
+      "reason": "one or more required local components unavailable",
+      "track_id": "cad"
+    },
+    {
+      "available": false,
+      "commands": {
+        "apptainer": null,
+        "spack": null
+      },
+      "modules": {},
+      "reason": "one or more required local components unavailable",
+      "track_id": "containers"
+    },
+    {
+      "available": false,
+      "commands": {
+        "nvcc": null,
+        "nvidia-smi": null
+      },
+      "modules": {
+        "cupy": false
+      },
+      "reason": "one or more required local components unavailable",
+      "track_id": "gpu"
+    },
+    {
+      "available": false,
+      "commands": {
+        "sacct": null,
+        "sbatch": null,
+        "sstat": null
+      },
+      "modules": {},
+      "reason": "one or more required local components unavailable",
+      "track_id": "hpc"
+    },
+    {
+      "available": false,
+      "commands": {
+        "checkMesh": null,
+        "foamRun": null
+      },
+      "modules": {},
+      "reason": "one or more required local components unavailable",
+      "track_id": "openfoam"
+    },
+    {
+      "available": false,
+      "commands": {
+        "mpiexec": null,
+        "mpirun": null
+      },
+      "modules": {
+        "mpi4py": false,
+        "petsc4py": false
+      },
+      "reason": "one or more required local components unavailable",
+      "track_id": "petsc_mpi"
+    },
+    {
+      "available": false,
+      "commands": {
+        "SU2_CFD": null,
+        "SU2_CFD_AD": null
+      },
+      "modules": {},
+      "reason": "one or more required local components unavailable",
+      "track_id": "su2"
+    }
+  ],
+  "created_utc": "2026-08-20T11:12:10.021524+00:00",
+  "format": "SM35_CAPABILITY_MATRIX_V1"
+}

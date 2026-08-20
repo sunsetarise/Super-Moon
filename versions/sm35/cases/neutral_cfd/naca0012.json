@@ -1,0 +1,14 @@
+{
+  "angle_of_attack_deg": 2.0,
+  "axes": ["X_FORWARD", "Y_RIGHT", "Z_DOWN"],
+  "boundaries": {"airfoil": "NO_SLIP_WALL", "farfield": "FARFIELD"},
+  "case_id": "NACA0012_SM35_NEUTRAL",
+  "density_kg_m3": 1.225,
+  "moment_center_m": [0.25, 0.0, 0.0],
+  "quantities": ["CL", "CD", "CM"],
+  "reference_area_m2": 1.0,
+  "reference_length_m": 1.0,
+  "tolerance_fraction": 0.05,
+  "units": "SI",
+  "velocity_m_s": 50.0
+}

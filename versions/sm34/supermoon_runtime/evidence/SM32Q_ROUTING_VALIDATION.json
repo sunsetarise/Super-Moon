@@ -1,0 +1,49 @@
+{
+  "critical_with_synthetic_registry_record": {
+    "candidate_scores": {
+      "SM32_INTERNAL_CFD": 0.08950000000000001,
+      "SM32_INTERNAL_VERIFY": 0.10300000000000001
+    },
+    "external_mandatory": true,
+    "external_tool": "SYNTHETIC_Q5_VALIDATION_TOOL",
+    "human_review": true,
+    "primary": "SM32_INTERNAL_CFD",
+    "rationale": [
+      "CRI=0.6880 (VERY_HIGH)",
+      "scale=S2_WORKSTATION",
+      "external=mandatory"
+    ],
+    "verification_solver": "SYNTHETIC_Q5_VALIDATION_TOOL"
+  },
+  "critical_without_qualified_registry_record": {
+    "candidate_scores": {
+      "SM32_INTERNAL_CFD": 0.08950000000000001,
+      "SM32_INTERNAL_VERIFY": 0.10300000000000001
+    },
+    "external_mandatory": true,
+    "external_tool": null,
+    "human_review": true,
+    "primary": "SM32_INTERNAL_CFD",
+    "rationale": [
+      "qualified external tool is mandatory but none meets the required registry qualification"
+    ],
+    "verification_solver": null
+  },
+  "low_risk": {
+    "candidate_scores": {
+      "SM32_INTERNAL_CFD": 0.08950000000000001,
+      "SM32_INTERNAL_VERIFY": 0.10300000000000001
+    },
+    "external_mandatory": false,
+    "external_tool": "SYNTHETIC_Q5_VALIDATION_TOOL",
+    "human_review": false,
+    "primary": "SM32_INTERNAL_CFD",
+    "rationale": [
+      "CRI=0.1000 (LOW)",
+      "scale=S2_WORKSTATION",
+      "external=optional"
+    ],
+    "verification_solver": "SYNTHETIC_Q5_VALIDATION_TOOL"
+  },
+  "note": "Synthetic Q5 record validates routing mechanics only; it is NOT evidence that any real external vendor tool is Q5-qualified."
+}

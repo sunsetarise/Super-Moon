@@ -1,0 +1,12 @@
+{
+  "format": "SM36_METHODOLOGY_WORK_ITEM_SUMMARY_V1",
+  "ledger_sha256": "aa4071bdcb5dc89ba6389b5f4dd18c06c7ac8a70a446f7b2c37c0834f8263c47",
+  "prompt_sha256": "901c9caba767a430ff31baee38736783c02ee19350d5c9d165016eb30106cbea",
+  "qualification_credit": false,
+  "records": 15000,
+  "registry_sha256": "d6477079cc2d4556131960f87f53660bf90f6b7452eec3ce07cebff250cf9041",
+  "states": {
+    "BLOCKED": 7500,
+    "NOT_EXECUTED": 7500
+  }
+}

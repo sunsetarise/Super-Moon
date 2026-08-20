@@ -1,0 +1,37 @@
+{
+  "10s": {
+    "requested_seconds": 10.0,
+    "elapsed_seconds": 10.000049160000117,
+    "iterations": 9114,
+    "iterations_per_second": 911.3955195796151,
+    "errors": 0,
+    "invariant_failures": 0,
+    "rss_min": 581308416,
+    "rss_max": 583282688,
+    "rss_drift": 1974272,
+    "passed": true
+  },
+  "30s": {
+    "requested_seconds": 30.0,
+    "elapsed_seconds": 30.00044345299989,
+    "iterations": 28559,
+    "iterations_per_second": 951.9525951255313,
+    "errors": 0,
+    "invariant_failures": 0,
+    "rss_min": 581439488,
+    "rss_max": 583417856,
+    "rss_drift": 1978368,
+    "passed": true
+  },
+  "memory_slope_bytes_per_second": {
+    "10s": 56825.8121641485,
+    "30s": 6903.741345226126
+  },
+  "2min": "NOT_EXECUTED",
+  "10min": "NOT_EXECUTED",
+  "1h": "NOT_EXECUTED",
+  "8h": "NOT_EXECUTED",
+  "24h": "NOT_EXECUTED",
+  "72h": "NOT_EXECUTED",
+  "qualification_scope": "ONLY_EXECUTED_DURATIONS_ARE_CLAIMED"
+}

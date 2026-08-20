@@ -1,0 +1,8 @@
+{
+  "baseline_sha256": "0e077a7237b2bbaea1343cc73b6f025562b6a00d7a0469be78fba0ac72436a64",
+  "builder": "local isolated workspace",
+  "created_utc": "2026-08-20T11:12:10.021524+00:00",
+  "format": "SM35_BUILD_PROVENANCE_V1",
+  "promptstudio_sha256": "c56a0ad32cd17f033dc293f322e1fb9c987f21b75dd1bfc441a8b3e37bff85a9",
+  "release_state": "BLOCKED_PENDING_REAL_EXECUTION"
+}

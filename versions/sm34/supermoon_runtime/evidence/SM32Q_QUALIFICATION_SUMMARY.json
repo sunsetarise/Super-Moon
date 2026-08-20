@@ -1,0 +1,33 @@
+{
+  "release": "SUPER MOON 32.0 OMEGA \u2014 QUALIFIED RESEARCH AUTOMATION VERIFICATION ORCHESTRATION CORE",
+  "status": "PASS_WITH_LIMITATIONS",
+  "inherited_plus_new_tests": 323,
+  "qualified_core_tests": 130,
+  "full_warnings_as_errors_tests": 323,
+  "statement_coverage_percent": 99.58847736625515,
+  "branch_coverage_percent": 98.17708333333333,
+  "qualified_core_statements": 972,
+  "qualified_core_branches": 384,
+  "static_completeness_scan": "PASS",
+  "endurance_completed": [
+    {
+      "duration_s": 10,
+      "status": "PASS",
+      "iterations": 179993,
+      "errors": 0,
+      "invariant_failures": 0
+    },
+    {
+      "duration_s": 15,
+      "status": "PASS",
+      "iterations": 267255,
+      "errors": 0,
+      "invariant_failures": 0
+    }
+  ],
+  "external_real_qualified_tool_execution": "NOT_EXECUTED_NO_TOOL_PROVIDED",
+  "mpi_multinode_qualification": "NOT_EXECUTED",
+  "gpu_multigpu_qualification": "NOT_EXECUTED",
+  "certification_acceptance": "NOT_CLAIMED",
+  "external_independent_reproduction": "NOT_EXECUTED"
+}

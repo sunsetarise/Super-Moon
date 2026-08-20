@@ -1,0 +1,292 @@
+[
+  {
+    "module": "autodiff",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "benchmark",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "cad",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "cfd",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": true,
+    "stress_tested": true,
+    "endurance_tested": true,
+    "externally_reproduced": false
+  },
+  {
+    "module": "core",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "digital_twin",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "discovery",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "endurance",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "fea",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": true,
+    "stress_tested": true,
+    "endurance_tested": true,
+    "externally_reproduced": false
+  },
+  {
+    "module": "geometry",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": true,
+    "endurance_tested": true,
+    "externally_reproduced": false
+  },
+  {
+    "module": "graph",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "hpc",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "mesh",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "ml",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "multiphysics",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "numerics",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": true,
+    "stress_tested": true,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "ode",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": true,
+    "stress_tested": true,
+    "endurance_tested": true,
+    "externally_reproduced": false
+  },
+  {
+    "module": "optimization",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": true,
+    "stress_tested": true,
+    "endurance_tested": true,
+    "externally_reproduced": false
+  },
+  {
+    "module": "pde",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "registry",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "reproducibility",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "search",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "serialization",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "signal",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "sparse",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": true,
+    "stress_tested": true,
+    "endurance_tested": true,
+    "externally_reproduced": false
+  },
+  {
+    "module": "stats",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "units",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "uq",
+    "implemented": true,
+    "tested": true,
+    "verified": false,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  },
+  {
+    "module": "validation",
+    "implemented": true,
+    "tested": true,
+    "verified": true,
+    "benchmarked": false,
+    "stress_tested": false,
+    "endurance_tested": false,
+    "externally_reproduced": false
+  }
+]

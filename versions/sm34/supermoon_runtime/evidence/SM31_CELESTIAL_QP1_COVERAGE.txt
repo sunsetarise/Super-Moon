@@ -1,0 +1,21 @@
+Name                                 Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------------------
+src/supermoon31/__init__.py              5      0      0      0   100%
+src/supermoon31/advanced.py            252     22    146     31    85%   20-29, 33->36, 68->exit, 79, 80->exit, 83->exit, 84->exit, 86, 102, 106, 108-111, 113->exit, 115, 117->exit, 119, 122, 127, 139->exit, 145->exit, 165->exit, 186->exit, 191->exit, 197->exit, 202->exit, 206->exit, 214->exit, 218->exit, 228->exit, 233->exit, 235->exit, 240->exit, 246->exit, 248->exit, 252->exit, 260->exit, 263->exit, 264->exit, 276->exit, 280->exit, 284->exit
+src/supermoon31/aircraft.py             37      5     10      0    89%   13, 15-17, 20
+src/supermoon31/cad.py                 218      5    100     13    94%   10-11, 20-21, 78->exit, 105->exit, 107->exit, 110->exit, 112->exit, 122, 172->exit, 183->exit, 184->exit, 191->exit, 198->exit, 235->exit
+src/supermoon31/certification.py        90     19     46      0    77%   25-35, 40, 42-48
+src/supermoon31/cfd.py                 138     19     80     13    83%   9, 11->exit, 13, 15, 17-18, 21, 24-36, 55->exit, 56->exit, 57->exit, 66, 72->exit, 98->exit, 115->exit, 120->exit, 131->exit, 133->exit, 142->exit, 153->exit, 155->exit
+src/supermoon31/core.py                110      9     42      3    91%   53, 55->exit, 57-60, 63-66, 90->exit, 126->exit
+src/supermoon31/digital_twin.py         42      1     22      1    97%   7->exit, 9
+src/supermoon31/endurance.py            53     16     14      2    64%   6, 12-15, 26-35, 41->43, 54, 60->62
+src/supermoon31/fea.py                 175      3     96     21    90%   30->32, 80->exit, 92-94, 110->exit, 119->exit, 125->exit, 128->exit, 134->exit, 139->exit, 145->exit, 151->exit, 152->exit, 155->exit, 161->exit, 168->exit, 174->exit, 180->exit, 185->exit, 190->exit, 194->exit, 195->exit, 200->exit
+src/supermoon31/hpc.py                  68     11     32      3    82%   13-18, 21, 24, 27, 38, 54->exit, 57, 58->exit
+src/supermoon31/mesh.py                106     12     60      8    86%   10, 12-17, 19-21, 38, 40, 41->exit, 42->exit, 43->exit, 54->exit, 89->exit, 94->exit, 100->exit, 113->exit
+src/supermoon31/multiphysics.py         62     13     38      3    78%   5-14, 17, 20, 28, 48->exit, 55->exit, 61->exit
+src/supermoon31/optimization.py         51      8     26      2    82%   6->exit, 8-12, 13->exit, 15, 17, 19
+src/supermoon31/registry.py             40      1     28      8    87%   34, 42->exit, 44->exit, 45->exit, 48->exit, 50->exit, 56->exit, 62->exit
+src/supermoon31/reproducibility.py      43      4     20      1    92%   8, 10, 12, 27
+src/supermoon31/validation.py           42      1     32      6    91%   4->exit, 5->exit, 6->exit, 8, 9->exit, 10->exit, 11->exit
+--------------------------------------------------------------------------------
+TOTAL                                 1532    149    792    115    86%

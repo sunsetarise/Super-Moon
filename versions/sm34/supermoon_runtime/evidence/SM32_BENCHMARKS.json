@@ -1,0 +1,51 @@
+{
+  "dense_lu_80": {
+    "min_time": 0.005225867000035578,
+    "mean_time": 0.005429639000036938,
+    "max_time": 0.005770715000153359,
+    "peak_memory": 214768,
+    "repeats": 3
+  },
+  "sparse_cg_80": {
+    "min_time": 0.06721078099985789,
+    "mean_time": 0.0706771299999976,
+    "max_time": 0.07244484100010595,
+    "peak_memory": 9472,
+    "repeats": 3
+  },
+  "ode_rk4_1000steps": {
+    "min_time": 0.05414107799992962,
+    "mean_time": 0.05485670833331824,
+    "max_time": 0.055677064000065,
+    "peak_memory": 208360,
+    "repeats": 3
+  },
+  "cfd2d_uniform_20x20": {
+    "min_time": 0.0018624399999680463,
+    "mean_time": 0.001961904666662425,
+    "max_time": 0.002108945999907519,
+    "peak_memory": 178008,
+    "repeats": 3
+  },
+  "fea_bar_chain_200": {
+    "min_time": 0.010048024999832705,
+    "mean_time": 0.010528336999944562,
+    "max_time": 0.011278258999936952,
+    "peak_memory": 810024,
+    "repeats": 3
+  },
+  "optimization_bfgs_rosenbrock": {
+    "min_time": 0.004419060999907742,
+    "mean_time": 0.004851718666638287,
+    "max_time": 0.00567432100001497,
+    "peak_memory": 7160,
+    "repeats": 3
+  },
+  "attention_128x32": {
+    "min_time": 0.0001873170001545077,
+    "mean_time": 0.00023893066668279062,
+    "max_time": 0.00030906799997865164,
+    "peak_memory": 462424,
+    "repeats": 3
+  }
+}

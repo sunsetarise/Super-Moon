@@ -1,0 +1,300 @@
+{
+  "files": [
+    {
+      "path": "README_SM34_NEW_UNIVERSE.md",
+      "sha256": "4435ecd8d192b218182be8e46321d1375d70b016ff72f1885845f1c9dbe77dab",
+      "size_bytes": 3429
+    },
+    {
+      "path": "SM34_pyproject.toml",
+      "sha256": "5a28c756316b59da0487904768c796d244fd816a19e95a3abd3d7c94f936b736",
+      "size_bytes": 786
+    },
+    {
+      "path": "dashboard/SM34_QUALIFICATION_DASHBOARD.html",
+      "sha256": "c2ea7426bad2a752f5ba5f861fd4b24e88a1fd50ed527aaa8cebcc3d9ef42539",
+      "size_bytes": 2390
+    },
+    {
+      "path": "deployment/Apptainer.def",
+      "sha256": "fa77ef16f508ad1783c0fd59631cfa7c8120c6b5a0e75d72d57a456a6c20cd3d",
+      "size_bytes": 487
+    },
+    {
+      "path": "deployment/requirements-sm34.lock",
+      "sha256": "5a67a84a8426dcd693a709475d961d8ed32a4e443df364a56b6d02251073952b",
+      "size_bytes": 41
+    },
+    {
+      "path": "deployment/slurm/endurance_72h.sbatch",
+      "sha256": "44d769f4e8f7a5233905f8b4d3b2a5af0e00c791adbe4a89235718eaa3b9d11f",
+      "size_bytes": 361
+    },
+    {
+      "path": "deployment/slurm/petsc_rank_matrix.sbatch",
+      "sha256": "f7d955bc1eb4fa814435dd0b1fb6b6e13fbea310d50aca671fc546320d8e79e5",
+      "size_bytes": 389
+    },
+    {
+      "path": "deployment/spack.yaml",
+      "sha256": "9bee18df6fcebd1e89181cbec18a2c37d1c4b94cfc80183e8b201314ad27aa44",
+      "size_bytes": 167
+    },
+    {
+      "path": "docs/SM34_ARCHITECTURE.md",
+      "sha256": "76a55752d77bc9aca0c606c03fcee1cb165620654646d8e443054b8396705af7",
+      "size_bytes": 2395
+    },
+    {
+      "path": "docs/SM34_EXTERNAL_QUALIFICATION_RUNBOOK.md",
+      "sha256": "c61afa5f3846b532213567b696dc06de39abefb36d933376295bc93bdca30c72",
+      "size_bytes": 2010
+    },
+    {
+      "path": "docs/SM34_IMPLEMENTATION_REPORT.md",
+      "sha256": "e5c27a8c8052e4e4eb8cc701c6b97e9b48887f678462e3902d69634351f13ebb",
+      "size_bytes": 2073
+    },
+    {
+      "path": "docs/SM34_THREAT_MODEL.md",
+      "sha256": "3f9dcca34911c9a5eda80282a4d9775811b5e005929cec83cdecea431e9795e5",
+      "size_bytes": 1415
+    },
+    {
+      "path": "evidence/SM34_BASELINE_FROZEN_RECEIPT.json",
+      "sha256": "7c95e0a3bec4fdd31b3a132472865046857d1bf5c8a7a2d8b1ca9f5bed6561e8",
+      "size_bytes": 749
+    },
+    {
+      "path": "evidence/SM34_CAPABILITIES.json",
+      "sha256": "da3ca93d3381710277b1bc9bde2b84340f3e1a20ab2897c935f89ef2778d8ef2",
+      "size_bytes": 5361
+    },
+    {
+      "path": "evidence/SM34_KNOWN_LIMITATIONS.json",
+      "sha256": "c09564382188c385c30a2ecc0b6b97c326efa952b3606b06153c5aeb159e40ef",
+      "size_bytes": 820
+    },
+    {
+      "path": "evidence/SM34_LOCAL_BENCHMARK.json",
+      "sha256": "4de41d4acfce7a407285bdb83beabc630a57a2869d080a3d7dacb1b399917138",
+      "size_bytes": 612
+    },
+    {
+      "path": "evidence/SM34_LOCAL_QUALIFICATION.json",
+      "sha256": "fbb1e4b66eac418e49d34c2e3ff93d299f28b466708f36e491835359692b73f3",
+      "size_bytes": 7804
+    },
+    {
+      "path": "evidence/SM34_REFERENCE_SNAPSHOT.json",
+      "sha256": "f682302342a61200c4f62e6a7e7c90becf6f46037274b5268f024aa0354ab255",
+      "size_bytes": 1203
+    },
+    {
+      "path": "evidence/SM34_REQUIREMENT_COMPILATION_SUMMARY.json",
+      "sha256": "4688fe4a26e5dc6d554ea5d51dcd025e319815e9650a09de99ddcc2af8d4e3e4",
+      "size_bytes": 870
+    },
+    {
+      "path": "evidence/SM34_REQUIREMENT_MATRIX.jsonl.gz",
+      "sha256": "abf06fdce08d5eb82ce1cfa9c0c41b549529020e5d2360315331a1fee4fdd4cf",
+      "size_bytes": 9681316
+    },
+    {
+      "path": "evidence/SM34_SBOM.cdx.json",
+      "sha256": "2701500e38617fca472982807661ce913a47aa3fb5152a0e0e69cff3cf68a951",
+      "size_bytes": 553
+    },
+    {
+      "path": "evidence/SM34_STATIC_AUDIT.json",
+      "sha256": "fc1a666afd619ee3340e7bad8a60cb545116c2641fef850d62113bc477c6a5e3",
+      "size_bytes": 5378
+    },
+    {
+      "path": "src/supermoon34/__init__.py",
+      "sha256": "20478dc03fc4860a10abe41a9a76e13a1f27d8e4cf01e3b6058fa56193a56b0c",
+      "size_bytes": 472
+    },
+    {
+      "path": "src/supermoon34/__main__.py",
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "size_bytes": 49
+    },
+    {
+      "path": "src/supermoon34/aerospace/__init__.py",
+      "sha256": "f7282a8db70bd272c4521dec168cd0c30c029dc7162b4f661272bc3bc255399f",
+      "size_bytes": 567
+    },
+    {
+      "path": "src/supermoon34/aerospace/design.py",
+      "sha256": "7ad63ae908545ef7ac70d580b5e1cde8eef7c71fdaf4f1b07bfed178954afda7",
+      "size_bytes": 3655
+    },
+    {
+      "path": "src/supermoon34/aerospace/digital_thread.py",
+      "sha256": "680fe041dfa21bb7c36ddc986ea429d3d0551ad95b1612f474d229c4b6b0387a",
+      "size_bytes": 4467
+    },
+    {
+      "path": "src/supermoon34/aerospace/flight.py",
+      "sha256": "e7a29fc0cc2accdda41f75742adfeade3be0d461609a3812f38a61ac64596269",
+      "size_bytes": 4299
+    },
+    {
+      "path": "src/supermoon34/aerospace/structures.py",
+      "sha256": "5a258bbd8c13ae78cf70b06eda771bc09393cade46bfa07ca8a831a556d58826",
+      "size_bytes": 2753
+    },
+    {
+      "path": "src/supermoon34/aerospace/systems.py",
+      "sha256": "aa5ec8e0fa2f38c8cc47602090b45f771d6bb08a3bdb61d0559bdd90940a9215",
+      "size_bytes": 2843
+    },
+    {
+      "path": "src/supermoon34/backends.py",
+      "sha256": "7583f7a6eadbf2e32741d8f3fcb2f0a7a0fe1892e6be0ed10a0729adb4227e10",
+      "size_bytes": 1074
+    },
+    {
+      "path": "src/supermoon34/cad.py",
+      "sha256": "88f49324f83aafd2b1591c4caaad9f63a1ed6eae71e66fbff01524ca70d7e637",
+      "size_bytes": 3672
+    },
+    {
+      "path": "src/supermoon34/capabilities.py",
+      "sha256": "4fb392c49a59319f07c186dd1f2997eb67154ed029e6ceb447d88a99c5d83347",
+      "size_bytes": 4438
+    },
+    {
+      "path": "src/supermoon34/cfd.py",
+      "sha256": "cc318ea87b28f59f6dfbca2b5159198f2deb87b9d8b909ccbb7f1f7d83f3466b",
+      "size_bytes": 5521
+    },
+    {
+      "path": "src/supermoon34/cli.py",
+      "sha256": "d248499dae21a00fde360f7c9c26ee65bd297cfe6d76954410d29ee29fb9a76e",
+      "size_bytes": 2478
+    },
+    {
+      "path": "src/supermoon34/contracts.py",
+      "sha256": "e1b8e7eb4aa0496450ccae515f011d2bd21a0d886e20b1a852e00fd2b02b10d7",
+      "size_bytes": 5672
+    },
+    {
+      "path": "src/supermoon34/endurance.py",
+      "sha256": "f3cd6f4dd5162b3d4d5e53270bc1d6d8539af4d542b040416e578b852338f0ff",
+      "size_bytes": 4009
+    },
+    {
+      "path": "src/supermoon34/evidence.py",
+      "sha256": "b72d9bbd227a93cde443ba00b7c5bb857483194b0f2f3afe97a1fa02631b50bb",
+      "size_bytes": 5877
+    },
+    {
+      "path": "src/supermoon34/execution.py",
+      "sha256": "6baba4a9060178a9c79b12daaf2efc2e5acde13b7773a87eceaf0ac68bf7a97e",
+      "size_bytes": 4297
+    },
+    {
+      "path": "src/supermoon34/gpu.py",
+      "sha256": "b2cd5f94ce2421612c4736c6bf1f6b46bc7857819893f6cd9db123f2aa9754fc",
+      "size_bytes": 4845
+    },
+    {
+      "path": "src/supermoon34/hpc.py",
+      "sha256": "b1d574f332695267f5b151ae90c497ffb9672b8e221a2dff8ee37c71f0dabc04",
+      "size_bytes": 4659
+    },
+    {
+      "path": "src/supermoon34/math_metrics.py",
+      "sha256": "07360e1c151dc67a2255a51f012efb94e15201d61730e134e6dfa0f971207907",
+      "size_bytes": 9417
+    },
+    {
+      "path": "src/supermoon34/orchestration.py",
+      "sha256": "a65472217cfcdf5e56afcd5ac871d2af9d8ff3006a8351ebd8aa35ac9ab95b76",
+      "size_bytes": 4001
+    },
+    {
+      "path": "src/supermoon34/performance.py",
+      "sha256": "4b2473a428b12b793bfa0a2b9668a107dd7084343c0ad6d8e98ca878e26be2c7",
+      "size_bytes": 2320
+    },
+    {
+      "path": "src/supermoon34/petsc_mpi.py",
+      "sha256": "28a70a151fce544000be22ecc291acce6734f0901ba5f7fa39ff9084470ab1cf",
+      "size_bytes": 4858
+    },
+    {
+      "path": "src/supermoon34/qualification.py",
+      "sha256": "0066f7972145b266a1ef573ccd6820143506b2c4ebedf5aa0443269ee0bef1e7",
+      "size_bytes": 4756
+    },
+    {
+      "path": "src/supermoon34/reproduction.py",
+      "sha256": "0daababb3ec6490d1ac9931b4b9bad3ce6b7017320f6fea8c441a7cdcc80ed90",
+      "size_bytes": 3606
+    },
+    {
+      "path": "src/supermoon34/requirements.py",
+      "sha256": "3c0293710bf2e15ab55f98eeb9eab12775ff60f377db70b7a56d4cff77791ea3",
+      "size_bytes": 5188
+    },
+    {
+      "path": "src/supermoon34/validation.py",
+      "sha256": "e5d06244619492680c0b307ac8dcd13d6fb06b4eee61e7e8942bb8b63871517e",
+      "size_bytes": 3546
+    },
+    {
+      "path": "tests/test_sm34.py",
+      "sha256": "8290c1fc4404281127e9780561d86dd1df801e1acb82392c0f0adcdf20366b72",
+      "size_bytes": 11146
+    },
+    {
+      "path": "tools/sm34_benchmark.py",
+      "sha256": "7cf795431184f295140428eee2a0094e41e5bb88caa2b6b854ebd293546d0718",
+      "size_bytes": 1186
+    },
+    {
+      "path": "tools/sm34_build_evidence.py",
+      "sha256": "f7947368994cc9c1ec0c223d95516e644ffc8b8567324a0b349e0caa5a37f028",
+      "size_bytes": 5142
+    },
+    {
+      "path": "tools/sm34_compile_requirements.py",
+      "sha256": "0af49048ba1dc19a7e509ed2752b650bd3052addbed68d5970877a3675a2948e",
+      "size_bytes": 866
+    },
+    {
+      "path": "tools/sm34_merge.py",
+      "sha256": "335efdc7257d1f5b2f415c8c17802c10ea2c4afd4343ba9bc9542eb6c161c708",
+      "size_bytes": 1239
+    },
+    {
+      "path": "tools/sm34_package.py",
+      "sha256": "21a877b998030d5065b56f8567d05b77181258bc1dd12f82386c21ebf17f1129",
+      "size_bytes": 2653
+    },
+    {
+      "path": "tools/sm34_qualify.py",
+      "sha256": "b74383b7da430f5c50498df6860acde17b6d9a0b10f1e1ec8bced31a674bee63",
+      "size_bytes": 2355
+    },
+    {
+      "path": "tools/sm34_reconstruct.py",
+      "sha256": "374e757972747cc3e89a7fbbec062b3c00c9d969ed7effb9e374d8eeeefbfc10",
+      "size_bytes": 1842
+    },
+    {
+      "path": "tools/sm34_static_audit.py",
+      "sha256": "5ec58a99e6a3f63a72237ed4aabd4c79d37a1a221c33d3357c6ae6455f429471",
+      "size_bytes": 2696
+    },
+    {
+      "path": "tools/sm34_verify_release.py",
+      "sha256": "819700cc2a2bcd7694d40575c919578232748533fbc7e1fe7f458a3cfbb55b07",
+      "size_bytes": 4874
+    }
+  ],
+  "format": "SM34_SOURCE_MANIFEST_V1"
+}

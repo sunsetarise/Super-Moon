@@ -1,0 +1,58 @@
+{
+  "format": "SM32_RELEASE_RECEIPT_V1",
+  "release": "SUPER MOON 32.0 OMEGA \u2014 FULL IMPLEMENTATION DOMINION",
+  "authoritative_runtime": "SM32",
+  "status": "PASS_WITH_LIMITATIONS",
+  "lineage_policy": "FULL_PREVIOUS_MERGED_TEXT_PRESERVED; SM32_PAYLOAD_APPENDED",
+  "tests": {
+    "inherited_passed": 122,
+    "sm32_passed": 71,
+    "combined_passed": 193,
+    "failed": 0,
+    "warnings_as_errors_sm32_passed": 71
+  },
+  "compile": "PASS",
+  "coverage": {
+    "statement_percent": 98.68766404199475,
+    "branch_percent": 90.0,
+    "statement_target_98_met": true,
+    "branch_target_95_met": false,
+    "coverage_exclusions_used": false
+  },
+  "mutation": {
+    "scope": "targeted semantic",
+    "executed": 12,
+    "killed": 12,
+    "score_percent": 100.0
+  },
+  "registry_execution": {
+    "passed": 26,
+    "total": 26
+  },
+  "endurance": {
+    "10s": "PASS",
+    "30s": "PASS",
+    "2min": "NOT_EXECUTED",
+    "10min": "NOT_EXECUTED",
+    "1h": "NOT_EXECUTED",
+    "8h": "NOT_EXECUTED",
+    "24h": "NOT_EXECUTED",
+    "72h": "NOT_EXECUTED"
+  },
+  "backends": {
+    "mpi": {
+      "available": false,
+      "status": "UNAVAILABLE_ENVIRONMENT"
+    },
+    "gpu": {
+      "available": false,
+      "status": "UNAVAILABLE_ENVIRONMENT"
+    }
+  },
+  "known_p0_defects": 0,
+  "known_p1_correctness_defects": 0,
+  "external_reproduction": "NOT_EXECUTED",
+  "industrial_parity": "NOT_CLAIMED",
+  "manifest_sha256": "7cbd954349a990f204b1cf8dbdb2f72d1ea22a1ef0dd0c0557a879c04e5e199d",
+  "manifest_file_count": 64
+}

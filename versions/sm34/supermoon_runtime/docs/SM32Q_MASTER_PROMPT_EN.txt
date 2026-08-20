@@ -1,0 +1,2164 @@
+SUPER MOON — QUALIFIED RESEARCH, AUTOMATION, VERIFICATION & ORCHESTRATION CORE
+ADVANCED MATHEMATICS, MULTI-SOLVER GOVERNANCE, RISK-AWARE COMPUTATION,
+QUALIFIED-TOOL ESCALATION, VALIDATION, UQ, HPC & EVIDENCE MASTER PROMPT
+
+======================================================================
+0. PRIME DIRECTIVE
+======================================================================
+
+You are designing the next evolution of SUPER MOON as a high-assurance:
+
+RESEARCH + AUTOMATION + VERIFICATION + ORCHESTRATION CORE
+
+The system is NOT required to replace every mature engineering, scientific,
+certification, HPC, CAD, CAE, AI, or regulatory tool.
+
+Its primary role is to:
+1. formulate complex scientific and engineering problems correctly;
+2. formalize their governing mathematics;
+3. select suitable numerical and computational methods;
+4. evaluate risk, criticality, uncertainty, and scale before execution;
+5. execute internal SUPER MOON solvers where appropriate;
+6. invoke qualified external tools when risk, scale, certification, or safety makes external qualification mandatory;
+7. execute independent verification paths;
+8. compare solver outputs;
+9. quantify uncertainty and numerical error;
+10. detect disagreements and investigate their cause;
+11. automate parameter studies, design-space exploration, validation, optimization, and reproducibility;
+12. produce evidence-backed technical conclusions;
+13. maintain strict provenance, auditability, and claim discipline.
+
+Target architecture:
+
+PROBLEM
+  ↓
+FORMALIZATION
+  ↓
+MATHEMATICAL MODEL
+  ↓
+RISK / SCALE / CRITICALITY ASSESSMENT
+  ↓
+METHOD SELECTION
+  ↓
+INTERNAL SOLVER / QUALIFIED EXTERNAL TOOL / BOTH
+  ↓
+AUTOMATED EXECUTION
+  ↓
+INDEPENDENT VERIFICATION
+  ↓
+VALIDATION
+  ↓
+UNCERTAINTY QUANTIFICATION
+  ↓
+DISCREPANCY ANALYSIS
+  ↓
+REPRODUCIBILITY
+  ↓
+EVIDENCE PACKAGE
+  ↓
+ENGINEERING / RESEARCH DECISION
+
+Defining principle:
+NO CRITICAL DECISION FROM A SINGLE UNVERIFIED COMPUTATIONAL PATH.
+
+======================================================================
+1. CORE DESIGN PHILOSOPHY
+======================================================================
+
+Do not maximize:
+- number of algorithms;
+- number of classes;
+- number of modules;
+- number of solver names;
+- number of architecture diagrams;
+- number of unsupported theoretical claims.
+
+Maximize:
+- correctness of problem formulation;
+- mathematical rigor;
+- solver suitability;
+- numerical stability;
+- verification depth;
+- validation quality;
+- uncertainty awareness;
+- solver independence;
+- reproducibility;
+- traceability;
+- evidence quality;
+- defensibility of decisions.
+
+Quality != FeatureCount
+
+Quality = f(Correctness, Verification, Validation, Uncertainty,
+            Reproducibility, Traceability, Qualification, Evidence)
+
+======================================================================
+2. THREE-TIER COMPUTATIONAL ARCHITECTURE
+======================================================================
+
+LEVEL A — INTERNAL COMPUTATIONAL CORE
+Use SUPER MOON internal implementations for research, prototyping, algorithm
+development, solver experimentation, comparative studies, low/medium-scale
+simulations, hypothesis testing, sensitivity analysis, reduced-order models,
+design-space exploration, surrogate construction, and independent cross-checking.
+
+LEVEL B — QUALIFIED TOOL ORCHESTRATION
+Use externally qualified or mature tools when scale exceeds validated internal
+capacity; human safety, formal certification, airworthiness, production HPC,
+industrial CAD robustness, extreme distributed execution, or formal independent
+authority review requires them.
+
+LEVEL C — MULTI-SOLVER VERIFICATION
+For high-risk problems require combinations such as:
+
+SUPER MOON internal solver
++
+qualified solver A
++
+qualified solver B
++
+analytical / manufactured / experimental reference
+
+Never assume numerical agreement merely because tools are reputable.
+
+======================================================================
+3. COMPUTATIONAL RISK INDEX
+======================================================================
+
+Build a formal Computational Risk Index (CRI).
+
+Define normalized variables in [0,1]:
+
+C = criticality
+S = computational scale
+U = uncertainty
+I = consequence of incorrect result
+E = evidence deficiency
+N = novelty of modeled regime
+Q = qualification deficiency
+
+CRI = wC*C + wS*S + wU*U + wI*I + wE*E + wN*N + wQ*Q
+
+with sum(weights) = 1.
+
+Suggested classes:
+CRI < 0.20                  LOW
+0.20 <= CRI < 0.40         MODERATE
+0.40 <= CRI < 0.60         HIGH
+0.60 <= CRI < 0.80         VERY_HIGH
+CRI >= 0.80                CRITICAL
+
+Weights must be domain-specific rather than universal constants.
+
+======================================================================
+4. MANDATORY ESCALATION CONDITIONS
+======================================================================
+
+Qualified external tools become mandatory when any of the following applies:
+- human safety;
+- life-critical engineering;
+- regulatory certification;
+- airworthiness approval;
+- nuclear safety;
+- critical infrastructure;
+- medical-device regulatory decisions;
+- flight-critical structural verification;
+- extreme nonlinear structural analysis;
+- very large production CFD;
+- billion-cell or comparable distributed CFD;
+- extreme sparse distributed systems;
+- industrial CAD exchange requiring production-kernel robustness;
+- production GPU training beyond validated internal capability;
+- formal contractual/legal acceptance criteria;
+- independent authority review.
+
+SUPER MOON may still provide research analysis, preprocessing, mesh studies,
+independent verification, sensitivity analysis, optimization proposals,
+surrogate models, post-processing, uncertainty analysis, discrepancy analysis,
+and evidence organization.
+
+But internal output alone must NOT be represented as final authority unless
+qualification evidence explicitly supports that status.
+
+======================================================================
+5. QUALIFIED TOOL REGISTRY
+======================================================================
+
+Create QualifiedToolRegistry records containing:
+tool_name
+vendor_or_project
+version
+domain
+solver_types
+supported_equations
+verified_use_cases
+known_certification_contexts
+supported_hardware
+validated_scale_range
+input_formats
+output_formats
+API
+CLI
+automation_interface
+license
+qualification_level
+validation_evidence
+benchmark_evidence
+known_limitations
+known_failure_modes
+supported_operating_systems
+dependency_requirements
+reproducibility_notes
+
+======================================================================
+6. QUALIFIED TOOL LEVELS
+======================================================================
+
+Q0 = UNKNOWN
+Q1 = AVAILABLE
+Q2 = TESTED
+Q3 = BENCHMARKED
+Q4 = INDUSTRIALLY VALIDATED
+Q5 = CERTIFICATION-ACCEPTABLE FOR SPECIFIC CONTEXT
+
+Never convert Q1 into Q5 through marketing language.
+Qualification must remain use-case-specific.
+
+======================================================================
+7. INTERNAL CAPABILITY MATURITY
+======================================================================
+
+M0 = CONCEPT
+M1 = IMPLEMENTED
+M2 = UNIT_TESTED
+M3 = NUMERICALLY_VERIFIED
+M4 = BENCHMARKED
+M5 = STRESS_TESTED
+M6 = EXTERNALLY_REPRODUCED
+M7 = INDUSTRIALLY_VALIDATED
+M8 = QUALIFIED FOR DEFINED CONTEXT
+
+No internal capability may be silently treated as M8.
+
+======================================================================
+8. SOLVER ROUTING ENGINE
+======================================================================
+
+Create SolverRoutingEngine.
+
+Inputs:
+- governing equations;
+- dimensionality;
+- physics;
+- geometry;
+- mesh type;
+- scale;
+- stiffness;
+- nonlinearity;
+- expected conditioning;
+- uncertainty;
+- accuracy target;
+- runtime budget;
+- memory budget;
+- hardware;
+- criticality;
+- certification requirement;
+- reproducibility requirement;
+- external validation requirement.
+
+Outputs:
+- recommended internal solver;
+- recommended qualified external solver;
+- independent verification solver;
+- recommended discretization;
+- expected numerical risks;
+- validation strategy;
+- required evidence;
+- escalation decision;
+- confidence target.
+
+======================================================================
+9. SOLVER SELECTION OBJECTIVE
+======================================================================
+
+For candidate solver j:
+
+J_j =
+w1*ExpectedError_j +
+w2*Runtime_j +
+w3*MemoryCost_j +
+w4*QualificationRisk_j +
+w5*ModelMismatch_j +
+w6*ReproducibilityRisk_j
+
+Use Pareto analysis where objectives conflict.
+
+Minimize:
+error, runtime, memory, monetary cost, qualification risk, uncertainty,
+model-form error
+
+subject to:
+Accuracy >= required_accuracy
+Qualification >= required_qualification
+Memory <= available_memory
+Runtime <= allowed_runtime
+Evidence >= required_evidence
+
+======================================================================
+10. PROBLEM FORMALIZATION ENGINE
+======================================================================
+
+No solver may execute before creating:
+ProblemDefinition
+DomainDefinition
+UnknownVariables
+GoverningEquations
+InitialConditions
+BoundaryConditions
+MaterialModels
+ConstitutiveModels
+Constraints
+Objectives
+UncertainParameters
+Observables
+ValidationTargets
+AcceptanceCriteria
+Units
+CoordinateSystems
+ReferenceFrames
+Assumptions
+ValidityDomain
+
+======================================================================
+11. EQUATION DEPENDENCY GRAPH
+======================================================================
+
+Represent mathematical dependencies as G=(V,E).
+
+Vertices:
+variables, fields, equations, constraints, constitutive laws, parameters,
+solvers, observables, datasets, experiments.
+
+Edges:
+dependency, coupling, causality assumption, data flow, discretization
+dependency, solver dependency.
+
+Use the graph for missing-variable detection, coupling analysis,
+circular-dependency detection, and verification planning.
+
+======================================================================
+12. DIMENSIONAL ANALYSIS ENGINE
+======================================================================
+
+Verify [LHS] = [RHS] for every equation where dimensional information exists.
+
+Detect:
+SI/imperial mismatch
+m/mm mismatch
+Pa/MPa mismatch
+kg/g mismatch
+s/ms mismatch
+rad/degree mismatch
+inconsistent derived units
+
+Abort high-risk workflows on unresolved dimensional inconsistency.
+
+======================================================================
+13. NONDIMENSIONALIZATION ENGINE
+======================================================================
+
+Identify useful nondimensional groups where applicable:
+Reynolds, Mach, Prandtl, Peclet, Courant, Froude, Knudsen, Biot,
+Fourier, Strouhal, Rayleigh, Grashof, Weber.
+
+Use them to identify regime, route solvers, assess assumptions,
+choose discretization, and define stability limits.
+
+======================================================================
+14. MODEL REGIME DETECTION
+======================================================================
+
+Detect operating regime rather than blindly applying one model.
+
+CFD:
+incompressible, weakly compressible, compressible, transonic, supersonic,
+hypersonic, laminar, transitional, turbulent, continuum, rarefied.
+
+Structures:
+linear, geometrically nonlinear, materially nonlinear, static, transient,
+modal, buckling, contact-dominated.
+
+Heat transfer:
+steady, transient, conduction, convection, radiation, conjugate.
+
+======================================================================
+15. MODEL VALIDITY DOMAINS
+======================================================================
+
+Every model must declare:
+valid_parameter_range
+assumptions
+unsupported_conditions
+expected_error_range
+required_input_quality
+mesh_requirements
+time_step_requirements
+stability_constraints
+known_failure_modes
+
+Prevent silent extrapolation beyond validity domains.
+
+======================================================================
+16. VERIFICATION VS VALIDATION
+======================================================================
+
+VERIFICATION:
+Are the equations being solved correctly?
+
+VALIDATION:
+Do the equations adequately represent the real system?
+
+Every project must carry independent statuses for both.
+
+======================================================================
+17. METHOD OF MANUFACTURED SOLUTIONS
+======================================================================
+
+Choose exact artificial solution u*(x,t), compute L(u*) = f*,
+solve numerically, and measure e_h = ||u_h - u*||.
+
+Report L1, L2, and L-infinity error where appropriate.
+Verify expected convergence order.
+
+======================================================================
+18. ORDER OF ACCURACY
+======================================================================
+
+For refinement ratio r:
+
+p = log(e_h/e_(h/r)) / log(r)
+
+Compare observed p with theoretical order.
+Do not call a method second-order based on implementation intent alone.
+
+======================================================================
+19. GRID CONVERGENCE INDEX
+======================================================================
+
+Automate coarse/medium/fine solutions.
+Record refinement ratio, observed convergence order, asymptotic-range
+evidence, GCI, and critical observable sensitivity.
+
+======================================================================
+20. RICHARDSON EXTRAPOLATION
+======================================================================
+
+Where applicable:
+
+phi_ext = phi_1 + (phi_1 - phi_2)/(r^p - 1)
+
+Report assumptions and whether the sequence is in the asymptotic range.
+
+======================================================================
+21. INDEPENDENT SOLUTION PATHS
+======================================================================
+
+For important problems create:
+PrimarySolution
+IndependentVerificationSolution
+ReferenceSolution
+
+Independence may come from different discretization, codebase, solver family,
+mesh, mathematical formulation, analytical reference, or experiment.
+
+======================================================================
+22. SOLVER DIVERSITY
+======================================================================
+
+CFD:
+internal finite-volume solver + external CFD solver + analytical/MMS reference
+
+FEA:
+internal FEM + qualified structural solver + analytical benchmark
+
+Optimization:
+internal optimizer + independent optimizer + independent constraint recomputation
+
+Sparse algebra:
+internal Krylov + mature reference ecosystem + direct residual verification
+
+======================================================================
+23. DISCREPANCY ENGINE
+======================================================================
+
+Delta_AB = |A-B| / max(|A|,|B|,epsilon)
+
+Classify:
+AGREEMENT
+MINOR_DISCREPANCY
+SIGNIFICANT_DISCREPANCY
+CRITICAL_DISCREPANCY
+
+Thresholds must be domain-specific.
+
+======================================================================
+24. DISAGREEMENT INVESTIGATION
+======================================================================
+
+Investigate:
+geometry, mesh, units, boundary conditions, material properties,
+constitutive assumptions, time integration, tolerance, convergence,
+physical model, turbulence/contact model, linear solver, precision,
+stabilization, initialization, post-processing definitions.
+
+Never select a preferred answer simply because it is convenient.
+
+======================================================================
+25. UNCERTAINTY QUANTIFICATION CORE
+======================================================================
+
+Represent Y=f(X), with uncertain X.
+
+Separate:
+aleatory uncertainty
+epistemic uncertainty
+parameter uncertainty
+model-form uncertainty
+discretization uncertainty
+measurement uncertainty
+
+======================================================================
+26. MONTE CARLO ENGINE
+======================================================================
+
+Sample X_i ~ p(X), compute Y_i=f(X_i), and report:
+mean, variance, standard deviation, confidence intervals, quantiles,
+tail probability, failure probability.
+
+Store seed and sample provenance.
+
+======================================================================
+27. LATIN HYPERCUBE SAMPLING
+======================================================================
+
+Implement deterministic-seed LHS with transformed distributions,
+sample diagnostics, and stratification checks.
+
+======================================================================
+28. GLOBAL SENSITIVITY
+======================================================================
+
+Support where appropriate:
+Sobol indices
+Morris screening
+variance decomposition
+total-effect indices
+
+Use results to rank uncertainty drivers.
+
+======================================================================
+29. LOCAL SENSITIVITY
+======================================================================
+
+Estimate S_i = dY/dX_i with:
+analytic derivatives
+automatic differentiation
+complex-step
+finite differences
+
+Cross-check methods for high-impact derivatives.
+
+======================================================================
+30. ADJOINT METHODS
+======================================================================
+
+For residual R(u,p)=0 and objective J(u,p), support adjoint workflows.
+
+Solve:
+(dR/du)^T lambda = (dJ/du)^T
+
+Then evaluate gradient in a mathematically consistent form.
+Verify adjoint gradients independently.
+
+======================================================================
+31. AUTOMATIC DIFFERENTIATION ENGINE
+======================================================================
+
+Support:
+forward AD
+reverse AD
+JVP
+VJP
+Jacobians
+gradients
+Hessian-vector products where feasible
+
+Validate against finite differences, complex-step, or analytical derivatives.
+
+======================================================================
+32. DIGITAL EXPERIMENT ENGINE
+======================================================================
+
+ExperimentPlan fields:
+hypothesis
+parameters
+parameter_ranges
+solver
+mesh
+time_step
+tolerances
+metrics
+replications
+seed
+validation_target
+expected_evidence
+acceptance_criteria
+
+======================================================================
+33. DESIGN OF EXPERIMENTS
+======================================================================
+
+Support:
+full factorial
+fractional factorial
+Latin hypercube
+central composite
+response surface
+adaptive design
+sequential design
+Bayesian experimental design
+
+======================================================================
+34. ADAPTIVE EXPERIMENTATION
+======================================================================
+
+After data D_t, update model M_t and choose:
+
+x_(t+1) = argmax_x Acquisition(x)
+
+Possible acquisitions:
+expected improvement
+uncertainty reduction
+entropy reduction
+probability of feasibility
+expected information gain
+
+======================================================================
+35. SURROGATE MODELING
+======================================================================
+
+Support:
+Gaussian processes
+radial basis functions
+polynomial response surfaces
+polynomial chaos
+neural surrogates
+reduced-order models
+
+Every surrogate must record:
+training domain, validation error, uncertainty, extrapolation warning,
+source solver, dataset hash.
+
+======================================================================
+36. MULTI-FIDELITY COMPUTATION
+======================================================================
+
+Combine low-, medium-, high-fidelity models and measurements.
+
+Example:
+f_H(x) ≈ rho*f_L(x) + delta(x)
+
+Track correlation and model discrepancy.
+
+======================================================================
+37. ACTIVE LEARNING
+======================================================================
+
+Prioritize expensive evaluations at:
+high uncertainty
+high expected impact
+constraint boundaries
+failure boundaries
+unexplored regions
+
+======================================================================
+38. REDUCED-ORDER MODELING
+======================================================================
+
+Support:
+Proper Orthogonal Decomposition
+reduced basis
+Galerkin projection
+Dynamic Mode Decomposition
+balanced truncation where appropriate
+
+Validate ROM output against full-order solutions.
+
+======================================================================
+39. ERROR BUDGET ENGINE
+======================================================================
+
+Track separately:
+E_discretization
+E_iteration
+E_model
+E_parameter
+E_measurement
+E_roundoff
+E_surrogate
+E_data
+
+Do not combine error terms without justified assumptions.
+
+======================================================================
+40. CONFIDENCE ENGINE
+======================================================================
+
+Build confidence from:
+verification
+validation
+convergence
+uncertainty
+solver agreement
+reproducibility
+qualification
+data quality
+
+Classes:
+C0 UNASSESSED
+C1 EXPLORATORY
+C2 VERIFIED
+C3 VALIDATED
+C4 MULTI-SOLVER CONFIRMED
+C5 EXTERNALLY REPRODUCED
+C6 QUALIFIED FOR DEFINED DECISION CONTEXT
+
+======================================================================
+41. CONFIDENCE DEGRADATION RULES
+======================================================================
+
+Reduce confidence if:
+mesh convergence absent
+residual high
+solver terminates abnormally
+independent solvers disagree
+model outside validation range
+uncertainty dominates result
+material data weak
+geometry quality poor
+experimental data missing
+mandatory qualified execution absent
+
+======================================================================
+42. RESEARCH ORCHESTRATION GRAPH
+======================================================================
+
+Represent workflow as a DAG where practical.
+
+Nodes:
+preprocessing, meshing, solver execution, validation, UQ, comparison,
+optimization, reporting.
+
+Support retries, checkpoints, caching, artifact hashing, and provenance.
+
+======================================================================
+43. AUTOMATION ENGINE
+======================================================================
+
+Automate:
+parameter sweeps
+mesh sweeps
+solver sweeps
+tolerance sweeps
+optimization loops
+UQ campaigns
+validation campaigns
+benchmark campaigns
+
+Every run gets unique execution ID.
+
+======================================================================
+44. RUN MANIFEST
+======================================================================
+
+Record:
+run_id
+timestamp
+problem_hash
+solver
+solver_version
+mesh_hash
+geometry_hash
+material_hash
+configuration_hash
+random_seed
+hardware
+OS
+dependencies
+command
+environment
+results_hash
+status
+
+======================================================================
+45. PROVENANCE GRAPH
+======================================================================
+
+raw_input
+  ↓
+transformation
+  ↓
+derived_input
+  ↓
+solver
+  ↓
+raw_output
+  ↓
+post-processing
+  ↓
+metric
+  ↓
+decision
+
+Every edge must be traceable.
+
+======================================================================
+46. REPRODUCIBILITY CLASSIFICATION
+======================================================================
+
+R0 NOT REPRODUCIBLE
+R1 LOCALLY REPEATABLE
+R2 CLEAN-ENVIRONMENT REPEATABLE
+R3 CROSS-MACHINE REPRODUCIBLE
+R4 CROSS-IMPLEMENTATION REPRODUCIBLE
+R5 INDEPENDENTLY REPRODUCED
+
+======================================================================
+47. CLEAN-ENVIRONMENT EXECUTION
+======================================================================
+
+Build clean environment, install declared dependencies only, reconstruct
+inputs from hashes, execute benchmark, verify result range, and record
+environment fingerprint.
+
+======================================================================
+48. CHECKPOINT / RESUME
+======================================================================
+
+Long workloads should support run → checkpoint → terminate → restore →
+continue → continuity verification.
+
+======================================================================
+49. FAULT-TOLERANT ORCHESTRATION
+======================================================================
+
+Handle:
+process failure
+node failure
+timeout
+corrupted output
+partial output
+network loss
+scheduler failure
+disk-full condition
+invalid checkpoint
+
+Never treat partial execution as PASS.
+
+======================================================================
+50. FAILURE TAXONOMY
+======================================================================
+
+Use:
+INVALID_INPUT
+MODEL_OUT_OF_DOMAIN
+MESH_FAILURE
+NONCONVERGED
+NUMERICAL_BREAKDOWN
+RESOURCE_EXHAUSTION
+BACKEND_UNAVAILABLE
+TOOL_EXECUTION_FAILURE
+QUALIFICATION_INSUFFICIENT
+VALIDATION_FAILURE
+DISCREPANCY_FAILURE
+REPRODUCIBILITY_FAILURE
+
+======================================================================
+51. OBSERVABILITY
+======================================================================
+
+Every solver execution should expose:
+iteration
+residual
+convergence state
+runtime
+memory
+CPU
+GPU utilization where relevant
+I/O
+warnings
+failure state
+termination reason
+
+======================================================================
+52. RESIDUAL VERIFICATION
+======================================================================
+
+Independently recompute final residual where feasible.
+
+For linear systems:
+r = b - A*x
+
+Report ||r||.
+
+======================================================================
+53. FALSE-CONVERGENCE DETECTION
+======================================================================
+
+Do not claim convergence because max iterations was reached, step size
+underflowed, NaN appeared, gradient failed, or residual stopped updating.
+Require positive evidence of convergence.
+
+======================================================================
+54. CONDITIONING ANALYSIS
+======================================================================
+
+Estimate conditioning where practical.
+Classify well-conditioned, moderately conditioned, ill-conditioned,
+near-singular, singular.
+
+Use conditioning in confidence analysis.
+
+======================================================================
+55. ITERATIVE REFINEMENT
+======================================================================
+
+Use:
+r_k = b - A*x_k
+A*delta_x = r_k
+x_(k+1) = x_k + delta_x
+
+Track residual improvement.
+
+======================================================================
+56. SPARSE EXTREME-SCALE ROUTING
+======================================================================
+
+Route based on matrix dimension, nonzeros, symmetry, definiteness,
+conditioning, memory, and distributed-memory requirement.
+
+Use mature ecosystems such as PETSc, Trilinos, SuiteSparse, or vendor stacks
+when scale/qualification requires them.
+
+SUPER MOON remains the orchestrator and independent verifier.
+
+======================================================================
+57. CFD PRODUCTION ROUTING
+======================================================================
+
+Determine equations, compressibility, turbulence, Reynolds/Mach regime,
+chemistry, multiphase, conjugate heat transfer, mesh scale, transient duration,
+accuracy target, and certification context.
+
+If beyond internal qualification:
+external mature CFD solver + independent SUPER MOON verification.
+
+======================================================================
+58. CFD CONSERVATION ENGINE
+======================================================================
+
+Measure mass, momentum, energy, species, scalar quantities.
+
+epsilon_Q =
+|Q_end-Q_start| / max(|Q_start|,epsilon)
+
+Track over time where possible.
+
+======================================================================
+59. CFD MESH VERIFICATION
+======================================================================
+
+Automate coarse/medium/fine/extra-fine studies.
+Compute convergence, GCI, Richardson extrapolation, output sensitivity,
+and wall-clock scaling.
+
+======================================================================
+60. CFD TURBULENCE GOVERNANCE
+======================================================================
+
+Record turbulence model, wall treatment, y+, mesh requirements,
+validation regime, limitations, and sensitivity to model choice.
+
+Require cross-model analysis when risk warrants it.
+
+======================================================================
+61. CFD SHOCK / COMPRESSIBLE GOVERNANCE
+======================================================================
+
+Monitor:
+density > 0
+pressure > 0
+temperature > 0
+internal energy > 0
+finite Mach
+CFL
+shock behavior
+entropy consistency where relevant
+
+======================================================================
+62. FEA PRODUCTION ROUTING
+======================================================================
+
+Classify:
+linear static
+nonlinear static
+modal
+buckling
+transient dynamics
+contact
+plasticity
+composites
+fracture
+fatigue
+thermal-structural coupling
+
+Use qualified external structural tools when certification/sign-off requires.
+
+======================================================================
+63. FEA MESH CONVERGENCE
+======================================================================
+
+Automate h-refinement, p-refinement where supported, element-order comparison,
+stress convergence, displacement convergence, energy norm convergence.
+
+Distinguish singular stress from actual convergence failure.
+
+======================================================================
+64. FEA EQUILIBRIUM CHECKS
+======================================================================
+
+Verify sum(forces)≈0 and sum(moments)≈0 where applicable.
+Recompute reaction balance independently.
+
+======================================================================
+65. FEA ENERGY CHECKS
+======================================================================
+
+Track:
+strain energy
+external work
+kinetic energy
+damping energy
+contact energy
+artificial energy where applicable
+
+======================================================================
+66. SAFETY-CRITICAL STRUCTURAL GOVERNANCE
+======================================================================
+
+Require:
+independent mesh studies
+validated material data
+load-case traceability
+uncertainty margins
+independent solver
+documented assumptions
+model validation
+qualified tool where mandatory
+human review
+
+======================================================================
+67. CAD / GEOMETRY QUALIFICATION ROUTING
+======================================================================
+
+Assess topology complexity, tolerance scale, non-manifold risk, Boolean
+complexity, NURBS robustness, healing requirements, file formats, and
+kernel compatibility.
+
+For industrial interoperability, route through mature geometry kernels while
+SUPER MOON performs audits, verification, tolerance analysis, comparisons,
+and repair proposals.
+
+======================================================================
+68. GEOMETRIC ROBUSTNESS METRICS
+======================================================================
+
+Track:
+minimum edge length
+minimum face area
+minimum volume
+tolerance-to-feature ratio
+self-intersection count
+non-manifold count
+sliver count
+degenerate entity count
+topological consistency
+
+======================================================================
+69. LARGE GPU WORKLOAD ROUTING
+======================================================================
+
+Estimate:
+parameter memory
+activation memory
+optimizer memory
+gradient memory
+temporary workspace
+communication buffers
+
+Route to single GPU, multi-GPU, distributed data parallel, model parallel,
+pipeline parallel, or mature external training ecosystem.
+
+======================================================================
+70. GPU QUALIFICATION LEVELS
+======================================================================
+
+GPU_API_PRESENT
+GPU_KERNEL_IMPLEMENTED
+GPU_KERNEL_TESTED
+GPU_BENCHMARKED
+MULTI_GPU_TESTED
+DISTRIBUTED_GPU_TESTED
+PRODUCTION_GPU_QUALIFIED
+
+Do not skip levels.
+
+======================================================================
+71. DISTRIBUTED HPC ROUTING
+======================================================================
+
+Assess rank count, node count, network, memory per rank,
+communication/computation ratio, global reductions, halo exchange,
+checkpoint scale.
+
+Measure:
+S_p = T_1/T_p
+E_p = S_p/p
+
+======================================================================
+72. STRONG SCALING
+======================================================================
+
+Hold problem size fixed, increase processors, measure T_p, S_p, E_p,
+identify saturation point.
+
+======================================================================
+73. WEAK SCALING
+======================================================================
+
+Increase problem size with processor count.
+Measure time per work unit, communication growth, memory, load imbalance.
+
+======================================================================
+74. LOAD BALANCING
+======================================================================
+
+load imbalance =
+(max_workload - mean_workload)/mean_workload
+
+Use it to guide partitioning.
+
+======================================================================
+75. PARALLEL DETERMINISM
+======================================================================
+
+Classify:
+BITWISE_DETERMINISTIC
+NUMERICALLY_DETERMINISTIC
+NONDETERMINISTIC_BOUNDED
+
+Record reduction-order effects.
+
+======================================================================
+76. PERFORMANCE MODELING
+======================================================================
+
+Build empirical models:
+T(n)
+M(n)
+communication(n,p)
+I/O(n)
+
+Compare measured scaling to theoretical complexity.
+
+======================================================================
+77. ROOFLINE-STYLE ANALYSIS
+======================================================================
+
+Estimate arithmetic intensity = FLOPs/bytes_moved.
+Classify compute-limited, memory-limited, communication-limited.
+
+======================================================================
+78. PROFILING ENGINE
+======================================================================
+
+Measure:
+wall time
+CPU time
+GPU time
+memory
+allocation hotspots
+I/O
+communication
+kernel time
+
+Optimize only after profiling.
+
+======================================================================
+79. PERFORMANCE REGRESSION GATES
+======================================================================
+
+Flag or fail releases when runtime, memory, accuracy, convergence,
+or communication cost regresses beyond defined thresholds.
+
+======================================================================
+80. AUTOMATED BENCHMARK MATRIX
+======================================================================
+
+Benchmark across:
+problem size
+solver
+precision
+backend
+thread count
+rank count
+mesh resolution
+tolerance
+hardware
+
+Store all results.
+
+======================================================================
+81. BENCHMARK TRUTH POLICY
+======================================================================
+
+Never claim faster, more scalable, better, or industrial-grade without
+comparable task, matched accuracy, measured runtime, hardware, memory,
+and reproducible command.
+
+======================================================================
+82. DATA QUALITY ENGINE
+======================================================================
+
+Score:
+completeness
+consistency
+range validity
+unit validity
+outliers
+missing data
+provenance
+source reliability
+timestamp quality
+
+======================================================================
+83. MATERIAL DATA GOVERNANCE
+======================================================================
+
+Record source, temperature, strain rate, manufacturing condition,
+orientation, batch, uncertainty, validity range.
+
+Do not silently extrapolate material models.
+
+======================================================================
+84. EXPERIMENTAL VALIDATION
+======================================================================
+
+Compare simulation and experiment using:
+bias
+RMSE
+MAE
+relative error
+confidence intervals
+correlation
+
+Investigate systematic discrepancy.
+
+======================================================================
+85. BAYESIAN CALIBRATION
+======================================================================
+
+Use:
+p(theta|data) ∝ p(data|theta)*p(theta)
+
+Keep calibration and validation datasets separate where possible.
+
+======================================================================
+86. MODEL DISCREPANCY
+======================================================================
+
+Represent model-form discrepancy explicitly.
+Do not absorb all mismatch into calibrated parameters.
+
+======================================================================
+87. DECISION UNDER UNCERTAINTY
+======================================================================
+
+Use expected utility, risk, failure probability, confidence, cost,
+and safety margin.
+
+Do not reduce material uncertainty to one deterministic answer.
+
+======================================================================
+88. RELIABILITY ANALYSIS
+======================================================================
+
+For limit state g(X), define failure g(X)<=0.
+Estimate P_f = P[g(X)<=0].
+
+Support Monte Carlo and advanced reliability methods where appropriate.
+
+======================================================================
+89. SAFETY FACTORS VS PROBABILISTIC MARGINS
+======================================================================
+
+Distinguish deterministic safety factor from probabilistic reliability.
+Record both where applicable.
+
+======================================================================
+90. OPTIMIZATION GOVERNANCE
+======================================================================
+
+Define objective, constraints, variables, bounds, uncertainty, solver,
+termination criteria, feasibility tolerance, and gradient source.
+
+Always recompute final feasibility independently.
+
+======================================================================
+91. ROBUST OPTIMIZATION
+======================================================================
+
+Support expected-performance + uncertainty penalty,
+worst-case objectives, and probabilistic constraints.
+
+======================================================================
+92. MULTI-OBJECTIVE OPTIMIZATION
+======================================================================
+
+Use Pareto fronts for performance, mass, cost, risk, energy, runtime,
+uncertainty.
+
+Record any weighting choices explicitly.
+
+======================================================================
+93. OPTIMIZATION VALIDATION
+======================================================================
+
+After an optimizer returns a candidate:
+1. rerun high-fidelity solver;
+2. recompute constraints;
+3. perturb design;
+4. verify local robustness;
+5. compare with independent optimizer when warranted.
+
+======================================================================
+94. SURROGATE-BASED OPTIMIZATION
+======================================================================
+
+Maintain surrogate error, distance from training domain, acquisition history,
+and high-fidelity confirmation.
+
+Never accept surrogate optimum without high-fidelity verification.
+
+======================================================================
+95. MODEL PREDICTIVE ORCHESTRATION
+======================================================================
+
+For dynamic systems:
+state estimation → prediction → constraint evaluation → optimization →
+control proposal.
+
+Safety-critical control remains subject to qualified control governance.
+
+======================================================================
+96. DIGITAL TWIN GOVERNANCE
+======================================================================
+
+A real digital twin must include:
+state
+observations
+model
+parameters
+uncertainty
+prediction
+correction
+residual
+history
+timestamp
+provenance
+confidence
+
+Do not call static simulation a digital twin.
+
+======================================================================
+97. STATE ESTIMATION
+======================================================================
+
+Support as appropriate:
+Kalman filter
+Extended Kalman filter
+Unscented Kalman filter
+particle filter
+ensemble filters
+
+Track covariance and innovation.
+
+======================================================================
+98. ANOMALY DETECTION
+======================================================================
+
+Use normalized residuals, Mahalanobis distance, statistical control,
+and model-based thresholds.
+Record uncertainty.
+
+======================================================================
+99. MODEL UPDATE POLICY
+======================================================================
+
+Before updating high-assurance models:
+data-quality check
+outlier check
+consistency check
+validation
+rollback capability
+
+======================================================================
+100. EVIDENCE ENGINE
+======================================================================
+
+Every claim must map to evidence IDs.
+
+Example:
+CLAIM: Second-order CFD verified in regime X.
+EVIDENCE:
+TEST-CFD-XXXX
+MMS-CFD-XXXX
+GCI-CFD-XXXX
+CROSSSOLVER-CFD-XXXX
+ENDURANCE-CFD-XXXX
+
+======================================================================
+101. CLAIM TAXONOMY
+======================================================================
+
+IMPLEMENTED
+TESTED
+NUMERICALLY_VERIFIED
+VALIDATED
+BENCHMARKED
+STRESS_TESTED
+ENDURANCE_TESTED
+EXTERNALLY_REPRODUCED
+INDUSTRIALLY_VALIDATED
+CERTIFICATION-ACCEPTABLE
+
+Never skip directly from IMPLEMENTED to CERTIFICATION-ACCEPTABLE.
+
+======================================================================
+102. CLAIM DOWNGRADE ENGINE
+======================================================================
+
+Downgrade evidence when code, tool version, hardware, solver, mesh method,
+validation dataset, or critical kernel changes.
+Trigger requalification.
+
+======================================================================
+103. VERSION-AWARE QUALIFICATION
+======================================================================
+
+Qualification applies to:
+code version
+solver version
+configuration
+hardware
+problem regime
+
+It is never timeless.
+
+======================================================================
+104. CHANGE IMPACT ANALYSIS
+======================================================================
+
+For every change identify affected modules, solvers, tests, benchmarks,
+qualification claims, and required reruns.
+
+======================================================================
+105. REGRESSION SELECTION
+======================================================================
+
+Use dependency graph to select safe regression sets.
+Critical kernel changes trigger full qualification suite.
+
+======================================================================
+106. TEST ARCHITECTURE
+======================================================================
+
+L0 import/compile
+L1 unit
+L2 edge
+L3 property-based
+L4 metamorphic
+L5 analytical verification
+L6 integration
+L7 cross-solver
+L8 stress
+L9 endurance
+L10 performance
+L11 clean-environment
+L12 external reproduction
+
+======================================================================
+107. PROPERTY-BASED TESTING
+======================================================================
+
+Generate deterministic random cases with explicit seeds.
+Validate invariants and preserve failing seeds.
+
+======================================================================
+108. METAMORPHIC TESTING
+======================================================================
+
+Geometry translations preserve distance.
+Rotations preserve norm.
+Linear-system scaling relationships remain valid.
+CFD uniform state remains uniform.
+FEA coordinate transforms preserve physical response.
+Optimization objective offsets preserve minimizers when mathematically valid.
+
+======================================================================
+109. MUTATION TESTING
+======================================================================
+
+Test mutations:
++ → -
+< → >
+index shift
+flux sign reversal
+normal reversal
+constraint bypass
+CFL bypass
+positivity bypass
+residual bypass
+
+Critical tests must kill relevant mutations.
+
+======================================================================
+110. NUMERICAL STABILITY AUDIT
+======================================================================
+
+Audit division, cancellation, sqrt, log, exp, inversion, normalization,
+determinants, eigenvalues, finite differences, softmax, probability
+normalization.
+
+Use stable formulations.
+
+======================================================================
+111. EXTREME-SCALE NUMERICAL AUDIT
+======================================================================
+
+Where meaningful test:
+1e-12, 1e-9, 1e-6, 1e-3, 1, 1e3, 1e6, 1e9, 1e12
+
+Monitor overflow, underflow, cancellation, conditioning.
+
+======================================================================
+112. PRECISION GOVERNANCE
+======================================================================
+
+Support float32, float64, mixed precision, higher precision where available.
+Do not lower precision for high-risk work without measured error impact.
+
+======================================================================
+113. MIXED-PRECISION VERIFICATION
+======================================================================
+
+Compare float32, float64, mixed precision.
+Measure relative error, residual difference, convergence difference,
+performance gain.
+
+======================================================================
+114. RANDOM SEED GOVERNANCE
+======================================================================
+
+Every stochastic run records seed.
+Parallel runs record worker seed derivation.
+
+======================================================================
+115. ARTIFACT HASHING
+======================================================================
+
+Hash with SHA-256:
+source
+config
+mesh
+geometry
+dataset
+results
+reports
+checkpoints
+
+======================================================================
+116. IMMUTABLE RELEASE EVIDENCE
+======================================================================
+
+Release bundle:
+manifest
+test report
+coverage
+validation
+benchmarks
+endurance
+tool versions
+known defects
+reproducibility record
+hashes
+
+======================================================================
+117. KNOWN DEFECT REGISTER
+======================================================================
+
+Record:
+id
+severity
+module
+description
+reproduction
+impact
+workaround
+status
+fix
+regression test
+qualification impact
+
+P0/P1 defects block high-assurance claims.
+
+======================================================================
+118. KNOWN LIMITATION REGISTER
+======================================================================
+
+Record:
+unsupported regimes
+unsupported scales
+unverified hardware
+unverified solvers
+unverified formats
+unexecuted endurance tiers
+unavailable dependencies
+
+======================================================================
+119. HUMAN REVIEW GATES
+======================================================================
+
+High-risk workflows require technical review gates:
+model review
+mesh review
+material review
+solver review
+validation review
+uncertainty review
+final decision review
+
+SUPER MOON prepares evidence; it does not erase accountable human authority.
+
+======================================================================
+120. SAFETY-CRITICAL DECISION POLICY
+======================================================================
+
+Do not auto-approve.
+Require qualified tool where mandated.
+Require independent verification.
+Require documented assumptions.
+Require uncertainty bounds.
+Require reviewer identity.
+Require immutable evidence package.
+
+======================================================================
+121. AIRCRAFT STRUCTURAL CERTIFICATION USE CASE
+======================================================================
+
+SUPER MOON should act as:
+model generator
+load-case organizer
+mesh convergence analyzer
+independent FEA verifier
+optimization engine
+uncertainty engine
+evidence aggregator
+
+Qualified analysis remains mandatory where certification rules require it.
+Internal research solvers alone must never claim airworthiness approval.
+
+======================================================================
+122. BILLION-CELL CFD USE CASE
+======================================================================
+
+1. estimate problem size;
+2. estimate RAM;
+3. estimate CPU/GPU requirements;
+4. estimate network communication;
+5. select distributed solver;
+6. generate decomposition strategy;
+7. orchestrate scheduler;
+8. monitor convergence;
+9. execute reduced internal verification cases;
+10. perform grid/physics sensitivity;
+11. compare key observables.
+
+Use mature production solver appropriate to the infrastructure.
+
+======================================================================
+123. EXTREME SPARSE SYSTEM USE CASE
+======================================================================
+
+Classify matrix, choose method/preconditioner, estimate memory,
+determine distributed partitioning, route to mature sparse ecosystem,
+independently verify residual, assess conditioning, compare subproblems
+with internal solver.
+
+======================================================================
+124. SAFETY-CRITICAL ENGINEERING USE CASE
+======================================================================
+
+Require:
+high CRI
+qualified tool
+independent solver
+experimental/analytical validation where available
+UQ
+formal evidence package
+human review
+
+======================================================================
+125. LARGE GPU TRAINING USE CASE
+======================================================================
+
+Estimate memory and communication.
+Select precision and distributed strategy.
+Route to mature ML ecosystem.
+Monitor loss, gradients, throughput, utilization, divergence, checkpoints,
+reproducibility.
+Use SUPER MOON for experiment orchestration and verification.
+
+======================================================================
+126. INDUSTRIAL CAD EXCHANGE USE CASE
+======================================================================
+
+For STEP/IGES/B-rep:
+validate topology
+compare tolerances
+detect degenerate entities
+inspect import/export loss
+use mature CAD kernel for production interoperability
+compare geometry before/after conversion
+
+======================================================================
+127. TOOL ADAPTER CONTRACT
+======================================================================
+
+Every adapter exposes:
+prepare_input()
+validate_input()
+execute()
+monitor()
+collect_output()
+validate_output()
+extract_metrics()
+capture_logs()
+capture_version()
+capture_environment()
+compute_hashes()
+return_status()
+
+======================================================================
+128. NO BLACK-BOX TRUST
+======================================================================
+
+Even qualified tools require checks of input consistency, convergence,
+model validity, mesh adequacy, units, output sanity, and acceptance criteria.
+
+======================================================================
+129. TOOL CROSS-CHECKS
+======================================================================
+
+Compare:
+primary outputs
+conservation
+energy balance
+reaction balance
+field norms
+critical extrema
+sensitivity trends
+
+======================================================================
+130. RESULT NORMALIZATION
+======================================================================
+
+Canonical result schema:
+field_name
+units
+coordinates
+time
+value
+uncertainty
+source_tool
+source_version
+mesh_reference
+case_id
+
+======================================================================
+131. INTERPOLATION GOVERNANCE
+======================================================================
+
+Record interpolation method, conservation properties, interpolation error,
+target grid. Never hide interpolation in post-processing.
+
+======================================================================
+132. MESH-TO-MESH TRANSFER
+======================================================================
+
+Use conservative transfer where required and measure transfer error.
+
+======================================================================
+133. MULTIPHYSICS ORCHESTRATION
+======================================================================
+
+For F1(x,y)=0 and F2(x,y)=0 support sequential coupling,
+fixed-point iteration, Aitken relaxation, Newton coupling where feasible.
+Track coupling residual.
+
+======================================================================
+134. COUPLING CONVERGENCE
+======================================================================
+
+Require convergence in field change, interface load, energy transfer,
+and mass transfer where applicable.
+
+======================================================================
+135. CO-SIMULATION
+======================================================================
+
+Support:
+time synchronization
+data exchange
+unit conversion
+interpolation
+rollback where supported
+coupling convergence
+checkpointing
+
+======================================================================
+136. TIME INTEGRATION CONSISTENCY
+======================================================================
+
+Verify compatible time-step strategies in coupled transient solvers.
+Avoid unstable hidden subcycling.
+
+======================================================================
+137. NUMERICAL MODEL CARD
+======================================================================
+
+Fields:
+name
+purpose
+equations
+assumptions
+validity domain
+solver
+discretization
+verification
+validation
+uncertainty
+known limitations
+qualification level
+
+======================================================================
+138. TOOL CARD
+======================================================================
+
+Fields:
+tool
+version
+domain
+maturity
+qualification context
+benchmarks
+limitations
+integration status
+license
+hardware
+reproduction status
+
+======================================================================
+139. DECISION CARD
+======================================================================
+
+Fields:
+decision
+supporting simulations
+validation evidence
+uncertainty
+solver agreement
+confidence
+reviewer
+limitations
+required follow-up
+
+======================================================================
+140. AUTOMATED REPORTING
+======================================================================
+
+Generate:
+executive summary
+problem definition
+mathematics
+solver-selection rationale
+risk classification
+verification evidence
+validation evidence
+uncertainty
+discrepancies
+performance
+reproducibility
+limitations
+decision confidence
+
+======================================================================
+141. MACHINE-READABLE REPORT
+======================================================================
+
+{
+  "problem_id": "",
+  "cri": 0.0,
+  "tool_route": [],
+  "verification_status": "",
+  "validation_status": "",
+  "uncertainty": {},
+  "discrepancies": [],
+  "confidence": "",
+  "limitations": [],
+  "evidence": []
+}
+
+======================================================================
+142. QUALIFICATION GATES
+======================================================================
+
+To mark QUALIFIED FOR DEFINED CONTEXT require:
+executable implementation
+numerical verification
+validation
+stress testing
+reproducibility
+defined validity domain
+known limitations
+appropriate external/independent review
+no unresolved critical defects
+
+======================================================================
+143. ESCALATION MATRIX
+======================================================================
+
+LOW:
+internal solver acceptable.
+
+MODERATE:
+internal + verification.
+
+HIGH:
+internal + independent solver.
+
+VERY HIGH:
+internal + qualified external tool + independent verification.
+
+CRITICAL:
+qualified tool mandatory + independent verification + human review +
+immutable evidence.
+
+======================================================================
+144. COMPUTATIONAL SCALE MATRIX
+======================================================================
+
+S0 toy
+S1 small
+S2 workstation
+S3 multi-core workstation
+S4 single-node HPC
+S5 multi-node HPC
+S6 large distributed
+S7 extreme distributed
+
+Each internal solver publishes maximum validated scale.
+
+======================================================================
+145. DECISION MATRIX
+======================================================================
+
+Use both risk and scale.
+
+Examples:
+LOW + S1 → internal
+HIGH + S2 → internal + qualified cross-check
+CRITICAL + S2 → qualified solver mandatory
+LOW + S7 → mature HPC solver required because scale alone demands it
+
+======================================================================
+146. RESEARCH MODE
+======================================================================
+
+Experimental algorithms allowed.
+Label outputs:
+EXPERIMENTAL
+NOT QUALIFIED
+RESEARCH ONLY
+
+======================================================================
+147. PRODUCTION MODE
+======================================================================
+
+Disable unqualified paths unless explicit override is approved.
+Require validated solver, supported regime, supported scale,
+reproducible configuration.
+
+======================================================================
+148. CERTIFICATION SUPPORT MODE
+======================================================================
+
+Route through approved tools/processes, preserve traceability,
+create evidence, never claim regulatory approval itself.
+
+======================================================================
+149. TOOL OVERRIDE POLICY
+======================================================================
+
+If user overrides mandatory escalation, record reason, risk, identity,
+timestamp, impact, and warning. Never silently downgrade safety rules.
+
+======================================================================
+150. FINAL SYSTEM OBJECTIVE
+======================================================================
+
+SUPER MOON's strength must not be pretending to replace every specialized tool.
+
+Its strength must be:
+
+UNDERSTAND THE PROBLEM
+→ FORMALIZE THE MATHEMATICS
+→ ASSESS RISK AND SCALE
+→ SELECT THE RIGHT METHOD
+→ SELECT THE RIGHT TOOL
+→ AUTOMATE EXECUTION
+→ VERIFY INDEPENDENTLY
+→ VALIDATE AGAINST REALITY
+→ QUANTIFY UNCERTAINTY
+→ INVESTIGATE DISAGREEMENT
+→ OPTIMIZE SAFELY
+→ PRESERVE PROVENANCE
+→ PRODUCE REPRODUCIBLE EVIDENCE
+→ SUPPORT A DEFENSIBLE DECISION
+
+======================================================================
+151. ABSOLUTE TRUTH POLICY
+======================================================================
+
+Never claim:
+CERTIFIED
+QUALIFIED
+INDUSTRIAL PARITY
+PRODUCTION SCALE
+GPU QUALIFIED
+MPI QUALIFIED
+EXTERNALLY REPRODUCED
+
+unless corresponding evidence exists.
+
+Never infer qualification from architecture alone.
+
+======================================================================
+152. IMPLEMENTATION STATUS POLICY
+======================================================================
+
+Mark every future capability as one of:
+CONCEPT
+SPECIFIED
+IMPLEMENTED
+TESTED
+VERIFIED
+VALIDATED
+BENCHMARKED
+STRESS_TESTED
+ENDURANCE_TESTED
+EXTERNALLY_REPRODUCED
+QUALIFIED_FOR_DEFINED_CONTEXT
+
+======================================================================
+153. FUTURE IMPLEMENTATION DELIVERABLES
+======================================================================
+
+When this prompt is eventually executed, require:
+
+1. QualifiedToolRegistry
+2. SolverRoutingEngine
+3. ComputationalRiskEngine
+4. EquationGraph
+5. DimensionalAnalysisEngine
+6. ModelValidityEngine
+7. VerificationEngine
+8. ValidationEngine
+9. UncertaintyQuantificationEngine
+10. DiscrepancyEngine
+11. ExperimentOrchestrator
+12. WorkflowGraph
+13. ProvenanceGraph
+14. EvidenceEngine
+15. QualificationLedger
+16. ExternalToolAdapters
+17. HPCRoutingEngine
+18. ModelCards
+19. ToolCards
+20. DecisionCards
+21. ReproducibilityManager
+22. BenchmarkManager
+23. EnduranceManager
+24. ChangeImpactAnalyzer
+25. ReleaseEvidenceBuilder
+
+======================================================================
+154. FINAL DIRECTIVE
+======================================================================
+
+DO NOT IMPLEMENT THIS PROMPT YET.
+
+This document is an architecture and implementation directive only.
+
+When implementation is later authorized:
+- preserve previous SUPER MOON code and lineage;
+- implement in stages;
+- require executable evidence;
+- use internal solvers when justified;
+- mandate qualified external tools when risk, safety, certification, or scale requires them;
+- preserve strict distinction between research capability and qualified capability;
+- never convert a conceptual feature into a claim without executable verification.
+
+End-state:
+
+SUPER MOON =
+RESEARCH CORE
++
+AUTOMATION CORE
++
+VERIFICATION CORE
++
+ORCHESTRATION CORE
++
+QUALIFIED-TOOL ESCALATION LAYER
++
+UNCERTAINTY ENGINE
++
+EVIDENCE ENGINE
++
+REPRODUCIBILITY ENGINE
+
+The system must become more trustworthy by knowing not only how to compute,
+but also when NOT to trust an internal computation alone.
+
+END OF MASTER PROMPT

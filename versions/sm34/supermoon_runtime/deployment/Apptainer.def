@@ -1,0 +1,20 @@
+Bootstrap: docker
+From: ubuntu:24.04
+
+%labels
+    org.opencontainers.image.title SUPER_MOON_34_NEW_UNIVERSE_QUALIFICATION
+    org.opencontainers.image.version 34.0.0
+
+%post
+    set -eux
+    apt-get update
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends python3 python3-venv python3-pip ca-certificates
+    rm -rf /var/lib/apt/lists/*
+
+%environment
+    export PYTHONNOUSERSITE=1
+    export OMP_NUM_THREADS=1
+
+%runscript
+    exec python3 -m supermoon34 "$@"
+

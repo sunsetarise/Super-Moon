@@ -1,0 +1,9 @@
+{
+  "cpu_count": 5,
+  "fingerprint_sha256": "cdb5b8773302ec2c0be43da17ffc46f084790406be0138a88c6438b83a70974e",
+  "machine": "x86_64",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "processor": "",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+}

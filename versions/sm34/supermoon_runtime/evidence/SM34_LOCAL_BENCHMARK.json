@@ -1,0 +1,33 @@
+{
+  "claim": "LOCAL_CPU_REFERENCE_ONLY",
+  "format": "SM34_LOCAL_BENCHMARK_V1",
+  "receipt": {
+    "ci95_seconds": [
+      8.593e-06,
+      8.773e-06
+    ],
+    "mad_seconds": 5.999999999999943e-08,
+    "median_seconds": 8.633e-06,
+    "repetitions": 15,
+    "samples_seconds": [
+      9.475e-06,
+      9.384e-06,
+      9.003e-06,
+      8.683e-06,
+      8.593e-06,
+      8.563e-06,
+      8.463e-06,
+      8.573e-06,
+      8.773e-06,
+      8.683e-06,
+      8.612e-06,
+      8.503e-06,
+      8.633e-06,
+      8.643e-06,
+      8.622e-06
+    ],
+    "status": "PASS",
+    "warmups": 3,
+    "work_units": 131072
+  }
+}

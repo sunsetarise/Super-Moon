@@ -1,0 +1,15 @@
+[project]
+name = "supermoon35-new-universe-qualification-candidate"
+version = "35.0.0"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2"]
+
+[project.scripts]
+supermoon35 = "supermoon35.cli:main"
+
+[tool.supermoon35]
+release_state = "BLOCKED_PENDING_REAL_EXECUTION"
+statement_threshold = 95.0
+branch_threshold = 90.0
+new_code_statement_threshold = 98.0
+new_code_branch_threshold = 95.0

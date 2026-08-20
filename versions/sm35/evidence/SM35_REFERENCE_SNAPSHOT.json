@@ -1,0 +1,42 @@
+{
+  "accessed_utc": "2026-08-20T11:12:10.021524+00:00",
+  "format": "SM35_OFFICIAL_REFERENCE_SNAPSHOT_V1",
+  "references": [
+    {
+      "title": "petsc4py 3.25.4 documentation",
+      "url": "https://petsc.org/release/petsc4py/"
+    },
+    {
+      "title": "MPI Documents / MPI 5.0",
+      "url": "https://www.mpi-forum.org/docs/"
+    },
+    {
+      "title": "OpenFOAM v13 User Guide",
+      "url": "https://doc.cfd.direct/openfoam/user-guide-v13/"
+    },
+    {
+      "title": "SU2 Execution",
+      "url": "https://su2code.github.io/docs/Execution/"
+    },
+    {
+      "title": "CadQuery importing and exporting",
+      "url": "https://cadquery.readthedocs.io/en/latest/importexport.html"
+    },
+    {
+      "title": "OCCT documentation",
+      "url": "https://occt3d.com/dev/doc/overview/html/index.html"
+    },
+    {
+      "title": "Slurm sbatch and sacct",
+      "url": "https://slurm.schedmd.com/sbatch.html"
+    },
+    {
+      "title": "CUDA Runtime API",
+      "url": "https://docs.nvidia.com/cuda/cuda-runtime-api/"
+    },
+    {
+      "title": "coverage.py branch measurement",
+      "url": "https://coverage.readthedocs.io/en/latest/branch.html"
+    }
+  ]
+}

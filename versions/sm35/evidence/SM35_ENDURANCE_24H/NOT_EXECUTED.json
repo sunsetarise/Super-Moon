@@ -1,0 +1,9 @@
+{
+  "elapsed_monotonic_seconds": 0.0,
+  "format": "SM35_EXECUTION_RECEIPT_V1",
+  "reason": "required continuous real-wall-clock duration unavailable",
+  "required_seconds": 86400,
+  "reviewer_decision": "BLOCKED",
+  "status": "NOT_EXECUTED",
+  "track_id": "24h"
+}

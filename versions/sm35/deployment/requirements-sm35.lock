@@ -1,0 +1,3 @@
+numpy==2.3.5
+# External profiles resolve exact site-compatible versions for petsc4py, mpi4py,
+# OpenFOAM, SU2, CadQuery/OCP, CUDA/CuPy, Slurm, and Apptainer at execution time.

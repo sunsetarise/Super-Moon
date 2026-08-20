@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "audited_at_utc": "2026-08-20T10:24:57Z",
+  "python": "3.12.13",
+  "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "python_base_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "checks": {
+    "critical_files": {
+      "ok": true,
+      "missing": []
+    },
+    "release_hygiene": {
+      "ok": true,
+      "obsolete_present": [],
+      "bundled_environment_present": []
+    },
+    "python_compile": {
+      "ok": true,
+      "errors": []
+    },
+    "imports": {
+      "fastapi": "0.140.8",
+      "uvicorn": "0.39.0",
+      "pydantic": "2.13.4",
+      "pydantic_core": "2.46.4",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "psutil": "7.2.2",
+      "reportlab": "4.4.9",
+      "httpx": "0.28.1"
+    },
+    "dependency_profile": {
+      "ok": true,
+      "expected": [
+        "fastapi==0.140.8",
+        "httpx==0.28.1",
+        "numpy==2.5.1",
+        "psutil==7.2.2",
+        "pydantic-core==2.41.5",
+        "pydantic==2.12.5",
+        "pytest==9.0.2",
+        "python-multipart==0.0.32",
+        "reportlab==5.0.0",
+        "scipy==1.17.0",
+        "uvicorn==0.39.0"
+      ],
+      "actual": [
+        "fastapi==0.140.8",
+        "httpx==0.28.1",
+        "numpy==2.5.1",
+        "psutil==7.2.2",
+        "pydantic-core==2.41.5",
+        "pydantic==2.12.5",
+        "pytest==9.0.2",
+        "python-multipart==0.0.32",
+        "reportlab==5.0.0",
+        "scipy==1.17.0",
+        "uvicorn==0.39.0"
+      ],
+      "requirements_mirrored": true,
+      "binary_only_installer": true
+    },
+    "python314_exact_path_contract": {
+      "ok": true,
+      "expected_base": "C:\\Users\\zero\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "mode": "static-non-windows"
+    },
+    "embedded_sm32": {
+      "available": true,
+      "source": "/workspace/scratch/c697f67092e4/release_v2_test/SUPERMOON_PROMPT_STUDIO_SM34_NEW_UNIVERSE/supermoon_runtime/src",
+      "error": null
+    },
+    "embedded_sm34": {
+      "runtime": {
+        "available": true,
+        "release": "SUPER MOON 34 NEW UNIVERSE",
+        "version": "34.0.0",
+        "source": "/workspace/scratch/c697f67092e4/release_v2_test/SUPERMOON_PROMPT_STUDIO_SM34_NEW_UNIVERSE/supermoon_runtime/src",
+        "tracks": 16,
+        "gates": 8,
+        "error": null
+      },
+      "local_validation": {
+        "status": "PASS",
+        "grid_sizes": [
+          17,
+          33,
+          65,
+          129
+        ],
+        "l2_errors": [
+          0.0022761515839786364,
+          0.000568215226292381,
+          0.00014200246344625632,
+          3.5497408062348935e-05
+        ],
+        "observed_orders": [
+          2.0020872428196124,
+          2.000521533816352,
+          2.000130366333237
+        ],
+        "gradient_relative_error": 4.855024276947216e-10,
+        "conservation_defect": 0.0,
+        "coverage": 0.94975,
+        "limitations": []
+      }
+    },
+    "knowledge_gzip": {
+      "ok": true,
+      "compressed_bytes": 108689607,
+      "compressed_sha256": "0e077a7237b2bbaea1343cc73b6f025562b6a00d7a0469be78fba0ac72436a64",
+      "decompressed_bytes": 721679960,
+      "decompressed_sha256": "8d96f961541706dc8fbe419a332bace0f14648807e60eccd48dabb6a0b1330ac"
+    },
+    "knowledge_index": {
+      "ok": true,
+      "chunks": 172,
+      "db_bytes": 2174976,
+      "chunk_store_bytes": 124313794,
+      "meta": {
+        "format": "SM34_SEEKABLE_KNOWLEDGE_INDEX_V2",
+        "release": "SUPER MOON 34 NEW UNIVERSE",
+        "source_name": "SUPER_MOON_34_NEW_UNIVERSE_OMEGA_FULLY_IMPLEMENTED_FULL_MERGED.txt.gz",
+        "source_gzip_bytes": "108689607",
+        "source_decompressed_sha256": "8d96f961541706dc8fbe419a332bace0f14648807e60eccd48dabb6a0b1330ac",
+        "source_decompressed_bytes": "721679960",
+        "total_lines": "6999545",
+        "total_chunks": "172",
+        "target_chunk_chars": "4194304",
+        "built_unix": "1787218411.1327794"
+      }
+    },
+    "frontend_contract": {
+      "ok": true,
+      "missing_tokens": [],
+      "render_canvas": true
+    },
+    "api_contract": {
+      "ok": true,
+      "health_status": 200,
+      "analysis_status": 200,
+      "sm34_runtime": true,
+      "analysis_id": "6742ecac58cdb005",
+      "risk_class": "HIGH"
+    }
+  },
+  "issues": [],
+  "warnings": [],
+  "elapsed_s": 2.648
+}

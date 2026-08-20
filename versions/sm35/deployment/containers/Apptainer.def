@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: python:3.12-slim
+
+%files
+    ../../src /opt/sm35/src
+
+%environment
+    export PYTHONPATH=/opt/sm35/src
+
+%runscript
+    exec python3 -m supermoon35 status

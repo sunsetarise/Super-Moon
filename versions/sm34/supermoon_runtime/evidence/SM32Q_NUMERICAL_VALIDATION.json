@@ -1,0 +1,33 @@
+{
+  "adjoint_gradient": [
+    3.5,
+    3.666666666666667
+  ],
+  "adjoint_residual": 0.0,
+  "bayesian_ci95": [
+    0.020000000000000018,
+    1.9800000000000004
+  ],
+  "bayesian_map": 1.0,
+  "bayesian_mean": 0.9999357260857389,
+  "cosimulation_converged": true,
+  "cosimulation_final_residual": 7.530109868980617e-11,
+  "cosimulation_iterations": 22,
+  "dmd_eigenvalue_magnitudes": [
+    0.5000000000000002,
+    0.9000000000000004
+  ],
+  "gci_example": 0.012376237623762387,
+  "linear_residual_l2": 0.0,
+  "nondimensional": {
+    "Co": 4.0,
+    "Fr": 20.858545431962636,
+    "Ma": 0.23529411764705882,
+    "Re": 8121546.961325967
+  },
+  "observed_order_example": 2.0,
+  "pod_captured_energy": 1.0,
+  "pod_rank": 2,
+  "richardson_example": 1.0,
+  "surrogate_rmse": 1.0209751824114764e-15
+}

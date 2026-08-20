@@ -1,0 +1,42 @@
+.universe-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background: radial-gradient(circle at 75% 10%, rgba(52, 121, 255, .2), transparent 34%), linear-gradient(135deg, #0b1828, #070c13);
+}
+.universe-hero h2 { font-size: 22px; }
+.universe-score { min-width: 210px; border: 1px solid #214a70; border-radius: 12px; padding: 13px 16px; background: #071421; }
+.universe-score span { font-size: 8px; letter-spacing: .15em; color: #68b9ee; }
+.universe-score strong { display: block; margin: 5px 0; color: #ffc857; font-size: 12px; }
+.universe-score b { font-size: 30px; color: #80d6ff; }
+.universe-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 12px 0; }
+.universe-stats .panel { min-height: 105px; }
+.universe-stats b { display: block; font-size: 27px; color: #7dd3ff; margin: 6px 0; }
+.universe-stats small { color: #718ca3; font-size: 9px; }
+.universe-columns { align-items: start; }
+.capability-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
+.cap-card { border: 1px solid #1a344b; border-radius: 9px; background: #07121c; padding: 9px; }
+.cap-card b { font-size: 10px; color: #6ecbff; }
+.cap-card strong { display: block; font-size: 9px; margin: 5px 0; word-break: break-word; }
+.cap-card small { font-size: 8px; color: #6f8ba2; }
+.cap-card .status { float: right; padding: 3px 5px; border-radius: 4px; color: #72edb6; background: #0b2a20; }
+.backend-grid, .gate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
+.backend-row, .gate-row { border: 1px solid #193149; border-radius: 8px; background: #07111b; padding: 9px; font-size: 9px; }
+.backend-row b, .gate-row b { display: block; color: #9bd9ff; margin-bottom: 4px; }
+.backend-row.ok { border-color: #1d5d48; }
+.backend-row.bad, .gate-row { border-color: #5a4320; }
+.backend-row small, .gate-row small { color: #738ba0; }
+.gate-head { margin-top: 18px; }
+.validation-panel { margin-top: 12px; display: grid; grid-template-columns: 1fr auto; gap: 15px; align-items: start; }
+.validation-panel .codebox { grid-column: 1 / -1; max-height: 260px; }
+@media (max-width: 1100px) {
+  .universe-stats { grid-template-columns: repeat(2, 1fr); }
+  .capability-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 850px) {
+  .universe-hero { align-items: stretch; flex-direction: column; }
+  .universe-stats { grid-template-columns: 1fr 1fr; }
+  .backend-grid, .gate-grid { grid-template-columns: 1fr; }
+  .validation-panel { grid-template-columns: 1fr; }
+}

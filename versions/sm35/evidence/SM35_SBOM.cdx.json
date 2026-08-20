@@ -1,0 +1,24 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "Python",
+      "type": "library",
+      "version": "3.12.13"
+    },
+    {
+      "name": "NumPy",
+      "type": "library",
+      "version": "2.3.5"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "supermoon35-new-universe-qualification-candidate",
+      "type": "application",
+      "version": "35.0.0"
+    }
+  },
+  "specVersion": "1.6",
+  "version": 1
+}

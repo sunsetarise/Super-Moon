@@ -1,0 +1,14 @@
+{
+  "format": "SM34_KNOWN_LIMITATIONS_V1",
+  "items": [
+    "PETSc/mpi4py are absent from the build environment; no rank qualification executed.",
+    "OpenFOAM and SU2 are absent; no CFD cross-validation executed.",
+    "CadQuery/OCCT are absent; no CAD round-trip qualification executed.",
+    "No external Slurm allocation or scheduler accounting receipt exists.",
+    "No CUDA/ROCm device is visible; GPU execution remains unavailable.",
+    "24-hour and 72-hour endurance profiles have not elapsed.",
+    "No independent operator on a distinct second physical machine has reproduced the release.",
+    "Aerospace models are preliminary computational research and do not constitute certification, airworthiness approval, or safe-to-fly authorization."
+  ],
+  "release_gate_state": "BLOCKED_PENDING_REAL_EXECUTION"
+}

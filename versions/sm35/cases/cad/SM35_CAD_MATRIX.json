@@ -1,0 +1,14 @@
+{
+  "format": "SM35_CAD_MATRIX_PLAN_V1",
+  "routes": [
+    "CADQUERY_OCCT_STEP_OCCT",
+    "OCCT_IGES_OCCT",
+    "ASSEMBLY_STEP_ASSEMBLY",
+    "SOURCE_TESSELLATION_COMPARE"
+  ],
+  "thresholds": {
+    "area_relative": 1e-8,
+    "centroid_m": 1e-7,
+    "volume_relative": 1e-8
+  }
+}

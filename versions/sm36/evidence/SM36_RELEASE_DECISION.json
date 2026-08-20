@@ -1,0 +1,44 @@
+{
+  "gate_completion": {
+    "G01": 1.0,
+    "G02": 1.0,
+    "G03": 0.0,
+    "G04": 0.0,
+    "G05": 0.0,
+    "G06": 0.0,
+    "G07": 0.0,
+    "G08": 0.0,
+    "G09": 0.0,
+    "G10": 0.0,
+    "G11": 0.0,
+    "G12": 1.0
+  },
+  "open_blockers": [
+    "blocker:G03",
+    "blocker:G04",
+    "blocker:G05",
+    "blocker:G06",
+    "blocker:G07",
+    "blocker:G08",
+    "blocker:G09",
+    "blocker:G10",
+    "blocker:G11"
+  ],
+  "open_gates": [
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "G10",
+    "G11"
+  ],
+  "passed": false,
+  "rationale": "One or more mandatory gates remain open; averages cannot bypass them.",
+  "release_name": "SUPER MOON 36 NEW UNIVERSE QUALIFICATION CANDIDATE",
+  "release_state": "BLOCKED_PENDING_REAL_EXECUTION",
+  "score": 16.0,
+  "state": "BLOCKED"
+}

@@ -1,0 +1,32 @@
+{
+  "format": "SM32_REPRODUCTION_INSTRUCTIONS_V1",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "required_runtime": [
+    "numpy>=2.0"
+  ],
+  "optional_runtime": [
+    "scipy for external comparison only",
+    "psutil for telemetry"
+  ],
+  "embedded_dependency": "SM31 Celestial QP1 authoritative payload",
+  "commands": [
+    "PYTHONPATH=<sm32>/src:<sm31_qp1>/src pytest -q <sm31_qp1>/tests <sm32>/tests",
+    "PYTHONPATH=<sm32>/src:<sm31_qp1>/src coverage run --branch --source=supermoon32 -m pytest -q <sm32>/tests",
+    "PYTHONPATH=<sm32>/src:<sm31_qp1>/src python -m py_compile <sm32>/src/supermoon32/*.py"
+  ],
+  "seeds": {
+    "UQ": 1,
+    "validation": 3200,
+    "benchmark": 4,
+    "MCTS": 1
+  },
+  "expected": {
+    "inherited_tests": 122,
+    "sm32_tests": 71,
+    "combined_tests": 193,
+    "statement_coverage_percent": 98.68766404199475,
+    "branch_coverage_percent": 90.0,
+    "targeted_mutation_score_percent": 100.0
+  }
+}

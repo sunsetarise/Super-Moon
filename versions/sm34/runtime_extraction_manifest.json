@@ -1,0 +1,1047 @@
+[
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "README_SM32.md",
+    "status": "OK",
+    "declared_sha256": "274341bd373eaf92c38667ecab818a36c31d2ecc29179d6ff497f710e8a1f90a",
+    "actual_sha256": "274341bd373eaf92c38667ecab818a36c31d2ecc29179d6ff497f710e8a1f90a",
+    "declared_bytes": 1398,
+    "actual_bytes": 1398
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "docs/SM32_QUALIFICATION_REPORT.md",
+    "status": "OK",
+    "declared_sha256": "f51c53e5ff2ceac6e0b0a957749a56d1b9885a5a0fee82859356f309b7051c0c",
+    "actual_sha256": "f51c53e5ff2ceac6e0b0a957749a56d1b9885a5a0fee82859356f309b7051c0c",
+    "declared_bytes": 2907,
+    "actual_bytes": 2907
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM31_TO_SM32_DIFF.patch",
+    "status": "OK",
+    "declared_sha256": "ac3699bcc307b3d3bb0f3c13484b1fe207ecd29a490331dd1ec6db6f7c592a05",
+    "actual_sha256": "ac3699bcc307b3d3bb0f3c13484b1fe207ecd29a490331dd1ec6db6f7c592a05",
+    "declared_bytes": 87907,
+    "actual_bytes": 87907
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_BENCHMARKS.json",
+    "status": "OK",
+    "declared_sha256": "92a5c9055d6b0dc1bbd26eaae246197cc9b09898696925f5bb002f7037a7c040",
+    "actual_sha256": "92a5c9055d6b0dc1bbd26eaae246197cc9b09898696925f5bb002f7037a7c040",
+    "declared_bytes": 1318,
+    "actual_bytes": 1318
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_BRANCH_COVERAGE_REPORT.txt",
+    "status": "OK",
+    "declared_sha256": "f7864127681d6dcc3a086acdc11f0761bc95d908affaf7d76ac7b820781403f6",
+    "actual_sha256": "f7864127681d6dcc3a086acdc11f0761bc95d908affaf7d76ac7b820781403f6",
+    "declared_bytes": 3093,
+    "actual_bytes": 3093
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_CAPABILITY_LEDGER.json",
+    "status": "OK",
+    "declared_sha256": "b5f1c9ef6627bc0593a24da1dc590e5021ad686b3880646dd9ae9292f69e3949",
+    "actual_sha256": "b5f1c9ef6627bc0593a24da1dc590e5021ad686b3880646dd9ae9292f69e3949",
+    "declared_bytes": 307002,
+    "actual_bytes": 307002
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_CLAIM_AUDIT.json",
+    "status": "OK",
+    "declared_sha256": "3daac7bfe4d8bbda2777e970dea09f31b72e5d42c120ccf7eea75878316830b6",
+    "actual_sha256": "3daac7bfe4d8bbda2777e970dea09f31b72e5d42c120ccf7eea75878316830b6",
+    "declared_bytes": 2047,
+    "actual_bytes": 2047
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_COMBINED_TEST_RESULTS.txt",
+    "status": "OK",
+    "declared_sha256": "063d62dfae2f4248c585f17e185026da2fa896e8d86353c3b1fde8d3041c8019",
+    "actual_sha256": "063d62dfae2f4248c585f17e185026da2fa896e8d86353c3b1fde8d3041c8019",
+    "declared_bytes": 260,
+    "actual_bytes": 260
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_COMPILE.txt",
+    "status": "OK",
+    "declared_sha256": "63a6348a2c81447ad1ef7836ba3c811a03afd01ae043e773a5a4862fce4f32b5",
+    "actual_sha256": "63a6348a2c81447ad1ef7836ba3c811a03afd01ae043e773a5a4862fce4f32b5",
+    "declared_bytes": 14,
+    "actual_bytes": 14
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_COVERAGE.json",
+    "status": "OK",
+    "declared_sha256": "f66a84fe5d7429bc697848058bf2d5de60fdab9722d234248b58e653ded2f9ff",
+    "actual_sha256": "f66a84fe5d7429bc697848058bf2d5de60fdab9722d234248b58e653ded2f9ff",
+    "declared_bytes": 198188,
+    "actual_bytes": 198188
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_COVERAGE_REPORT.txt",
+    "status": "OK",
+    "declared_sha256": "2ef69aed62d3b90438448b3036fae7bdf248f1949689a1c76ad92f459008b581",
+    "actual_sha256": "2ef69aed62d3b90438448b3036fae7bdf248f1949689a1c76ad92f459008b581",
+    "declared_bytes": 2995,
+    "actual_bytes": 2995
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_ENDURANCE.json",
+    "status": "OK",
+    "declared_sha256": "6c4fa019b4ec1014090887a8365336a44717c94c4529cb49e87299061c96403f",
+    "actual_sha256": "6c4fa019b4ec1014090887a8365336a44717c94c4529cb49e87299061c96403f",
+    "declared_bytes": 927,
+    "actual_bytes": 927
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_ENDURANCE_10S.json",
+    "status": "OK",
+    "declared_sha256": "c5b640c6a6cf10f6c3da699262c134b4b2d25588215da9bed84f964c17e4dbce",
+    "actual_sha256": "c5b640c6a6cf10f6c3da699262c134b4b2d25588215da9bed84f964c17e4dbce",
+    "declared_bytes": 2927,
+    "actual_bytes": 2927
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_ENDURANCE_30S.json",
+    "status": "OK",
+    "declared_sha256": "09950ac1ac35e75f740c53d21663455f2fefb5a08f2b7f6bf1b9fb5ff156e87a",
+    "actual_sha256": "09950ac1ac35e75f740c53d21663455f2fefb5a08f2b7f6bf1b9fb5ff156e87a",
+    "declared_bytes": 8198,
+    "actual_bytes": 8198
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_ENVIRONMENT.json",
+    "status": "OK",
+    "declared_sha256": "d554448df0c89dbd9fd9778da677b8a50c9fa70335d781a80d60272e4141a24c",
+    "actual_sha256": "d554448df0c89dbd9fd9778da677b8a50c9fa70335d781a80d60272e4141a24c",
+    "declared_bytes": 708,
+    "actual_bytes": 708
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_INHERITED_QP1_TEST_RESULTS.txt",
+    "status": "OK",
+    "declared_sha256": "b5bb6b647f3bf08cf56727b19607e840894cc908289e4291ee89d5d6ea1de1e3",
+    "actual_sha256": "b5bb6b647f3bf08cf56727b19607e840894cc908289e4291ee89d5d6ea1de1e3",
+    "declared_bytes": 180,
+    "actual_bytes": 180
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_KNOWN_DEFECTS.json",
+    "status": "OK",
+    "declared_sha256": "6d35c079a4db733c18d8a3f43a9ba1e8422afe436cec029de0aa1ec3dd77a8e4",
+    "actual_sha256": "6d35c079a4db733c18d8a3f43a9ba1e8422afe436cec029de0aa1ec3dd77a8e4",
+    "declared_bytes": 890,
+    "actual_bytes": 890
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_MANIFEST.json",
+    "status": "OK",
+    "declared_sha256": "7cbd954349a990f204b1cf8dbdb2f72d1ea22a1ef0dd0c0557a879c04e5e199d",
+    "actual_sha256": "7cbd954349a990f204b1cf8dbdb2f72d1ea22a1ef0dd0c0557a879c04e5e199d",
+    "declared_bytes": 10931,
+    "actual_bytes": 10931
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_MASTER_PROMPT_SOURCE.md",
+    "status": "OK",
+    "declared_sha256": "439762dcaed7d274854fcf778fb202ca0e7ee1dd927f339d476c8c8be7403d4b",
+    "actual_sha256": "439762dcaed7d274854fcf778fb202ca0e7ee1dd927f339d476c8c8be7403d4b",
+    "declared_bytes": 52711,
+    "actual_bytes": 52711
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_MUTATION_REPORT.json",
+    "status": "OK",
+    "declared_sha256": "1937eba2c80683b6286095356dd76c50bf7e8427570b46b1e4936ed5b4dd7f2d",
+    "actual_sha256": "1937eba2c80683b6286095356dd76c50bf7e8427570b46b1e4936ed5b4dd7f2d",
+    "declared_bytes": 6437,
+    "actual_bytes": 6437
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_NUMERICAL_VALIDATION.json",
+    "status": "OK",
+    "declared_sha256": "5b53b00856c73864d9b902c9687f576f442e2ce25e69ead9fc47920458762850",
+    "actual_sha256": "5b53b00856c73864d9b902c9687f576f442e2ce25e69ead9fc47920458762850",
+    "declared_bytes": 2664,
+    "actual_bytes": 2664
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_PASS_SCAN.json",
+    "status": "OK",
+    "declared_sha256": "f5d8d2d88de1f9d758dd702b5dbb4d67ff42a298566caefba8ac773417385f10",
+    "actual_sha256": "f5d8d2d88de1f9d758dd702b5dbb4d67ff42a298566caefba8ac773417385f10",
+    "declared_bytes": 45,
+    "actual_bytes": 45
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_PROMPT_IMPLEMENTATION_MATRIX.json",
+    "status": "OK",
+    "declared_sha256": "dd49bcf1345d415c3a8767c66806a27e66e8ab9c02a16f19a27e504716f01c45",
+    "actual_sha256": "dd49bcf1345d415c3a8767c66806a27e66e8ab9c02a16f19a27e504716f01c45",
+    "declared_bytes": 34031,
+    "actual_bytes": 34031
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_QUALIFICATION_LEDGER.json",
+    "status": "OK",
+    "declared_sha256": "e92b9bcb17f48015ab8fa8e4446febb48dad5b7639758e67500b12ecae578cc0",
+    "actual_sha256": "e92b9bcb17f48015ab8fa8e4446febb48dad5b7639758e67500b12ecae578cc0",
+    "declared_bytes": 6401,
+    "actual_bytes": 6401
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_REGISTRY_EXECUTION.json",
+    "status": "OK",
+    "declared_sha256": "100e247f934c2a3c723e0ea36825c5961b731aead396fde6b96e9e1fa80531cc",
+    "actual_sha256": "100e247f934c2a3c723e0ea36825c5961b731aead396fde6b96e9e1fa80531cc",
+    "declared_bytes": 2511,
+    "actual_bytes": 2511
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_RELEASE_RECEIPT.json",
+    "status": "OK",
+    "declared_sha256": "1572a28ebbcf2d1711b08f282ccbcf04c80a87420ac7375223e0ed1327935a93",
+    "actual_sha256": "1572a28ebbcf2d1711b08f282ccbcf04c80a87420ac7375223e0ed1327935a93",
+    "declared_bytes": 1513,
+    "actual_bytes": 1513
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_REPRODUCIBILITY.json",
+    "status": "OK",
+    "declared_sha256": "4cc378f1d5e2cf52c087e8ab3aae3dd16a8fc3a354107f90fc3c0db6e8912f14",
+    "actual_sha256": "4cc378f1d5e2cf52c087e8ab3aae3dd16a8fc3a354107f90fc3c0db6e8912f14",
+    "declared_bytes": 1014,
+    "actual_bytes": 1014
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_SOURCE_DELTA.json",
+    "status": "OK",
+    "declared_sha256": "606a2ee10e76b2cd65de61b239cdaec0acf11f93b0aec992cf05a8dea64320a5",
+    "actual_sha256": "606a2ee10e76b2cd65de61b239cdaec0acf11f93b0aec992cf05a8dea64320a5",
+    "declared_bytes": 290,
+    "actual_bytes": 290
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_STATIC_COMPLETENESS_SCAN.json",
+    "status": "OK",
+    "declared_sha256": "d79783f0db9f95e36563f7effa9ac66c5f1b8d6252ce4e49ef7b0e2a299ec1d7",
+    "actual_sha256": "d79783f0db9f95e36563f7effa9ac66c5f1b8d6252ce4e49ef7b0e2a299ec1d7",
+    "declared_bytes": 94,
+    "actual_bytes": 94
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_SYMBOL_IMPLEMENTATION_MATRIX.csv",
+    "status": "MISMATCH",
+    "declared_sha256": "cdee6cd715abe92149679051119ec9b620d19b08d098804d906cfe8d14fe3f5e",
+    "actual_sha256": "325e49c6187c0e771c7c81d683dc3040138738146eb2965f8d022e3d7ab39b66",
+    "declared_bytes": 33194,
+    "actual_bytes": 32796
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_TEST_RESULTS.txt",
+    "status": "OK",
+    "declared_sha256": "4444a828566fb20d45b51d8f90a95c593af7b52a63e75621ba2323ea1da331ed",
+    "actual_sha256": "4444a828566fb20d45b51d8f90a95c593af7b52a63e75621ba2323ea1da331ed",
+    "declared_bytes": 99,
+    "actual_bytes": 99
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "evidence/SM32_WARNINGS_AS_ERRORS.txt",
+    "status": "OK",
+    "declared_sha256": "ba84603fccc63db8620513dc31ffad289806487491986eb00254168f389e31af",
+    "actual_sha256": "ba84603fccc63db8620513dc31ffad289806487491986eb00254168f389e31af",
+    "declared_bytes": 99,
+    "actual_bytes": 99
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "pyproject.toml",
+    "status": "OK",
+    "declared_sha256": "cfcb3b9f519d0124eb1a03ac5ada6b1e3c22a87cd13c6a6e519845342528f426",
+    "actual_sha256": "cfcb3b9f519d0124eb1a03ac5ada6b1e3c22a87cd13c6a6e519845342528f426",
+    "declared_bytes": 313,
+    "actual_bytes": 313
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/__init__.py",
+    "status": "OK",
+    "declared_sha256": "2a3101d12de79ab5eb8b21f3fe570eeceadff19930df68173574776047514a8a",
+    "actual_sha256": "2a3101d12de79ab5eb8b21f3fe570eeceadff19930df68173574776047514a8a",
+    "declared_bytes": 337,
+    "actual_bytes": 337
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/autodiff.py",
+    "status": "OK",
+    "declared_sha256": "852328e7bb7110b966bda9656a4bf27da556d1cb19315ecc482120ee4a1395f9",
+    "actual_sha256": "852328e7bb7110b966bda9656a4bf27da556d1cb19315ecc482120ee4a1395f9",
+    "declared_bytes": 2125,
+    "actual_bytes": 2125
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/benchmark.py",
+    "status": "OK",
+    "declared_sha256": "0bc10f5eeba579588c6f5f0aea947625917221800fbd09fe23dff40a2961d09e",
+    "actual_sha256": "0bc10f5eeba579588c6f5f0aea947625917221800fbd09fe23dff40a2961d09e",
+    "declared_bytes": 497,
+    "actual_bytes": 497
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/cad.py",
+    "status": "OK",
+    "declared_sha256": "e7990ca57addb6b080d0067392fb1df4ec58fef080133a596823a923523e8435",
+    "actual_sha256": "e7990ca57addb6b080d0067392fb1df4ec58fef080133a596823a923523e8435",
+    "declared_bytes": 2481,
+    "actual_bytes": 2481
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/cfd.py",
+    "status": "OK",
+    "declared_sha256": "fabe08a8b15c3931f08d75f8e00374c64196086b01a53276c1ab957a80d21df9",
+    "actual_sha256": "fabe08a8b15c3931f08d75f8e00374c64196086b01a53276c1ab957a80d21df9",
+    "declared_bytes": 3717,
+    "actual_bytes": 3717
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/core.py",
+    "status": "OK",
+    "declared_sha256": "fbc344fd02cf1017048e5018d78fb21f3450c27fdce12081787615b1bca4665b",
+    "actual_sha256": "fbc344fd02cf1017048e5018d78fb21f3450c27fdce12081787615b1bca4665b",
+    "declared_bytes": 3818,
+    "actual_bytes": 3818
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/digital_twin.py",
+    "status": "OK",
+    "declared_sha256": "114fdbf9249493bfa179a823735c8708231bdba885839224fbfe436c26e3105d",
+    "actual_sha256": "114fdbf9249493bfa179a823735c8708231bdba885839224fbfe436c26e3105d",
+    "declared_bytes": 2021,
+    "actual_bytes": 2021
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/discovery.py",
+    "status": "OK",
+    "declared_sha256": "8dd1d886874e8791778d8596a905c4611384c13c6e3201da7675acfde3419c99",
+    "actual_sha256": "8dd1d886874e8791778d8596a905c4611384c13c6e3201da7675acfde3419c99",
+    "declared_bytes": 1405,
+    "actual_bytes": 1405
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/endurance.py",
+    "status": "OK",
+    "declared_sha256": "77dc1a121734c924dc754a3e94ee9a2d3bacc548d5b98656b67fb7c211ff7102",
+    "actual_sha256": "77dc1a121734c924dc754a3e94ee9a2d3bacc548d5b98656b67fb7c211ff7102",
+    "declared_bytes": 2501,
+    "actual_bytes": 2501
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/fea.py",
+    "status": "OK",
+    "declared_sha256": "aec3473158dc6e91a83bdda6775ff72a53d577fb33f95529a55d00bf3c0ed32c",
+    "actual_sha256": "aec3473158dc6e91a83bdda6775ff72a53d577fb33f95529a55d00bf3c0ed32c",
+    "declared_bytes": 3583,
+    "actual_bytes": 3583
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/geometry.py",
+    "status": "OK",
+    "declared_sha256": "0a45e409d533fd25ac9d41eb58e5447f2d3eaedabf0f16b4457c328b6f8feede",
+    "actual_sha256": "0a45e409d533fd25ac9d41eb58e5447f2d3eaedabf0f16b4457c328b6f8feede",
+    "declared_bytes": 1920,
+    "actual_bytes": 1920
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/graph.py",
+    "status": "OK",
+    "declared_sha256": "8e1ee70bd86a3091fbf603d697537531298f7c9828d0d48576d9b7cf6125889e",
+    "actual_sha256": "8e1ee70bd86a3091fbf603d697537531298f7c9828d0d48576d9b7cf6125889e",
+    "declared_bytes": 1739,
+    "actual_bytes": 1739
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/hpc.py",
+    "status": "OK",
+    "declared_sha256": "b4044d99a8128d7f8f53213315e2fd494f1505f09cf25c66e8c3c60152cc77fb",
+    "actual_sha256": "b4044d99a8128d7f8f53213315e2fd494f1505f09cf25c66e8c3c60152cc77fb",
+    "declared_bytes": 2011,
+    "actual_bytes": 2011
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/mesh.py",
+    "status": "OK",
+    "declared_sha256": "47eaf3c6afe6e0e79ac8f29b6b4da7bd3647b4aa9177f49a233a6b4349e6b25b",
+    "actual_sha256": "47eaf3c6afe6e0e79ac8f29b6b4da7bd3647b4aa9177f49a233a6b4349e6b25b",
+    "declared_bytes": 2305,
+    "actual_bytes": 2305
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/ml.py",
+    "status": "OK",
+    "declared_sha256": "290c04cdd5dfc73d1083377d45a4e11475b4dabc0ad8fbe59c1806ce67e09598",
+    "actual_sha256": "290c04cdd5dfc73d1083377d45a4e11475b4dabc0ad8fbe59c1806ce67e09598",
+    "declared_bytes": 2782,
+    "actual_bytes": 2782
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/multiphysics.py",
+    "status": "OK",
+    "declared_sha256": "0b7e83fad54d163092013b37145feb1ec6eccafe7562f34ff2125f5ce8a50bc9",
+    "actual_sha256": "0b7e83fad54d163092013b37145feb1ec6eccafe7562f34ff2125f5ce8a50bc9",
+    "declared_bytes": 1510,
+    "actual_bytes": 1510
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/numerics.py",
+    "status": "OK",
+    "declared_sha256": "03c60f81193fdc88dceee785780090fd9675829b15cb55b5df03629ef15f87b6",
+    "actual_sha256": "03c60f81193fdc88dceee785780090fd9675829b15cb55b5df03629ef15f87b6",
+    "declared_bytes": 7876,
+    "actual_bytes": 7876
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/ode.py",
+    "status": "OK",
+    "declared_sha256": "4c153d47a1aa2ee6cb77b71296b8d89b84f9f360b25a95dc2262cc5557af221f",
+    "actual_sha256": "4c153d47a1aa2ee6cb77b71296b8d89b84f9f360b25a95dc2262cc5557af221f",
+    "declared_bytes": 3201,
+    "actual_bytes": 3201
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/optimization.py",
+    "status": "OK",
+    "declared_sha256": "acd4579cc13f7c9e52937a9079bcfa186e7d288761f5c39e5a68470ce37f4b59",
+    "actual_sha256": "acd4579cc13f7c9e52937a9079bcfa186e7d288761f5c39e5a68470ce37f4b59",
+    "declared_bytes": 6257,
+    "actual_bytes": 6257
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/pde.py",
+    "status": "OK",
+    "declared_sha256": "c06a32aff5db90269ad551712439829e787cc8704600665d92c8af8d6a229c82",
+    "actual_sha256": "c06a32aff5db90269ad551712439829e787cc8704600665d92c8af8d6a229c82",
+    "declared_bytes": 1686,
+    "actual_bytes": 1686
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/registry.py",
+    "status": "OK",
+    "declared_sha256": "f8ebe54f7b550fd568049d2f1dfda7530e2ea24848d678d3e26e9dcf19eb6243",
+    "actual_sha256": "f8ebe54f7b550fd568049d2f1dfda7530e2ea24848d678d3e26e9dcf19eb6243",
+    "declared_bytes": 1179,
+    "actual_bytes": 1179
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/reproducibility.py",
+    "status": "OK",
+    "declared_sha256": "ec9c864dd3775c608a3a4cf59864d8d12764146718c06b56bc9e02f235899941",
+    "actual_sha256": "ec9c864dd3775c608a3a4cf59864d8d12764146718c06b56bc9e02f235899941",
+    "declared_bytes": 1294,
+    "actual_bytes": 1294
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/search.py",
+    "status": "OK",
+    "declared_sha256": "cc940982cae4e0775bf259a1a8366e5d82e6be1d5b7bd135b4b64af2761678f1",
+    "actual_sha256": "cc940982cae4e0775bf259a1a8366e5d82e6be1d5b7bd135b4b64af2761678f1",
+    "declared_bytes": 2306,
+    "actual_bytes": 2306
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/serialization.py",
+    "status": "OK",
+    "declared_sha256": "b2b4e94d6b3ac5f2ef721740c4e610d6cdeb91d0d6dbd50187d291ed5176af7f",
+    "actual_sha256": "b2b4e94d6b3ac5f2ef721740c4e610d6cdeb91d0d6dbd50187d291ed5176af7f",
+    "declared_bytes": 1019,
+    "actual_bytes": 1019
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/signal.py",
+    "status": "OK",
+    "declared_sha256": "6f6171156e37f3b043965dd92bc6e656b4558a8879b5803ca8c425f824c8f4ca",
+    "actual_sha256": "6f6171156e37f3b043965dd92bc6e656b4558a8879b5803ca8c425f824c8f4ca",
+    "declared_bytes": 894,
+    "actual_bytes": 894
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/sparse.py",
+    "status": "OK",
+    "declared_sha256": "f6a884e5bbc9a878b14e2cbf84f6b7bdb9f08b758ee3785558712c56993df7c2",
+    "actual_sha256": "f6a884e5bbc9a878b14e2cbf84f6b7bdb9f08b758ee3785558712c56993df7c2",
+    "declared_bytes": 7120,
+    "actual_bytes": 7120
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/stats.py",
+    "status": "OK",
+    "declared_sha256": "ba02de7fdc9059f44d292cae8d5f3a666fef36613e46ec597f289d0c6c74d200",
+    "actual_sha256": "ba02de7fdc9059f44d292cae8d5f3a666fef36613e46ec597f289d0c6c74d200",
+    "declared_bytes": 916,
+    "actual_bytes": 916
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/units.py",
+    "status": "OK",
+    "declared_sha256": "f954c8fffea2977b6b97f9c0d42986c1169aa1073c9553d68c81b9cbb0b88d28",
+    "actual_sha256": "f954c8fffea2977b6b97f9c0d42986c1169aa1073c9553d68c81b9cbb0b88d28",
+    "declared_bytes": 687,
+    "actual_bytes": 687
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/uq.py",
+    "status": "OK",
+    "declared_sha256": "23d45435fb802effbdc158b7ef700a1235b1948985f8a4da2645271ee6869d56",
+    "actual_sha256": "23d45435fb802effbdc158b7ef700a1235b1948985f8a4da2645271ee6869d56",
+    "declared_bytes": 1750,
+    "actual_bytes": 1750
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "src/supermoon32/validation.py",
+    "status": "OK",
+    "declared_sha256": "43fb353bca0dfd63d6c1ab5887084dab361386f965089bf3ec4278da2a222e6b",
+    "actual_sha256": "43fb353bca0dfd63d6c1ab5887084dab361386f965089bf3ec4278da2a222e6b",
+    "declared_bytes": 1168,
+    "actual_bytes": 1168
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "tests/test_sm32.py",
+    "status": "OK",
+    "declared_sha256": "739400c080980ebc4ec79b55fd5a5da08128e7b80bb8d35427653abcb2525921",
+    "actual_sha256": "739400c080980ebc4ec79b55fd5a5da08128e7b80bb8d35427653abcb2525921",
+    "declared_bytes": 12692,
+    "actual_bytes": 12692
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "tests/test_sm32_edges.py",
+    "status": "OK",
+    "declared_sha256": "2e15d1ac18cdd83aad717f8b5a5ee52bd007062c84144f9c9ef7ff20fae81e51",
+    "actual_sha256": "2e15d1ac18cdd83aad717f8b5a5ee52bd007062c84144f9c9ef7ff20fae81e51",
+    "declared_bytes": 13477,
+    "actual_bytes": 13477
+  },
+  {
+    "source": "SM32_FULL_IMPLEMENTATION_SECTION.txt",
+    "path": "tools/reconstruct_sm32.py",
+    "status": "OK",
+    "declared_sha256": "4447439304f3c87fe62cab69a8fd37a4c65010edaccfbd73a258fb6c8130d2e3",
+    "actual_sha256": "4447439304f3c87fe62cab69a8fd37a4c65010edaccfbd73a258fb6c8130d2e3",
+    "declared_bytes": 2625,
+    "actual_bytes": 2625
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "README_SM32_QUALIFIED_CORE.md",
+    "status": "OK",
+    "declared_sha256": "21a41d9df5c1ac3deff2494e6fca38e550afb8c340a1e15e6fd0d1bab966b917",
+    "actual_sha256": "21a41d9df5c1ac3deff2494e6fca38e550afb8c340a1e15e6fd0d1bab966b917",
+    "declared_bytes": 1230,
+    "actual_bytes": 1230
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "docs/SM32Q_MASTER_PROMPT_EN.txt",
+    "status": "OK",
+    "declared_sha256": "947983489d19ac80dc918e73ba5d0772fdea9880dd2bb80ff329196afbb0cc77",
+    "actual_sha256": "947983489d19ac80dc918e73ba5d0772fdea9880dd2bb80ff329196afbb0cc77",
+    "declared_bytes": 61257,
+    "actual_bytes": 61257
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "docs/SM32Q_QUALIFICATION_REPORT.md",
+    "status": "OK",
+    "declared_sha256": "1114444a69a89dc0dcde94dea1064c12bee784e75b26a7f4493ac8322a6470ee",
+    "actual_sha256": "1114444a69a89dc0dcde94dea1064c12bee784e75b26a7f4493ac8322a6470ee",
+    "declared_bytes": 2348,
+    "actual_bytes": 2348
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_COVERAGE.json",
+    "status": "OK",
+    "declared_sha256": "23b2757be8d4c5bc96b1d6fcf0aa34428bc226cc0dfe0840325437e64b0dd185",
+    "actual_sha256": "23b2757be8d4c5bc96b1d6fcf0aa34428bc226cc0dfe0840325437e64b0dd185",
+    "declared_bytes": 185100,
+    "actual_bytes": 185100
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_COVERAGE.txt",
+    "status": "OK",
+    "declared_sha256": "eab742ea9d8c87089a2848cb0c1cefcda37f8107b460bdab9e11db78122a30d9",
+    "actual_sha256": "eab742ea9d8c87089a2848cb0c1cefcda37f8107b460bdab9e11db78122a30d9",
+    "declared_bytes": 3356,
+    "actual_bytes": 3356
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_ENDURANCE_10S.json",
+    "status": "OK",
+    "declared_sha256": "5c1a16de4eb71a299ada60ba771e4478135a9a58ae3dd116ca9a953656949fbf",
+    "actual_sha256": "5c1a16de4eb71a299ada60ba771e4478135a9a58ae3dd116ca9a953656949fbf",
+    "declared_bytes": 2947,
+    "actual_bytes": 2947
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_ENDURANCE_15S.json",
+    "status": "OK",
+    "declared_sha256": "c097b701418af9581799389b3a2f3060b49c9249533c8563f672b8c2b5fdf814",
+    "actual_sha256": "c097b701418af9581799389b3a2f3060b49c9249533c8563f672b8c2b5fdf814",
+    "declared_bytes": 4287,
+    "actual_bytes": 4287
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_ENVIRONMENT.json",
+    "status": "OK",
+    "declared_sha256": "fd4ac4c58f070186c1507eab38718ac1278e71e4e34f129b9374384632be6ebd",
+    "actual_sha256": "fd4ac4c58f070186c1507eab38718ac1278e71e4e34f129b9374384632be6ebd",
+    "declared_bytes": 292,
+    "actual_bytes": 292
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_FULL_TEST_RESULTS.txt",
+    "status": "OK",
+    "declared_sha256": "6d416ce9a1870a0c027d951b5358cc20124a88a0e2f604ddb35aa76faba37ab8",
+    "actual_sha256": "6d416ce9a1870a0c027d951b5358cc20124a88a0e2f604ddb35aa76faba37ab8",
+    "declared_bytes": 420,
+    "actual_bytes": 420
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_IMPLEMENTATION_INVENTORY.json",
+    "status": "OK",
+    "declared_sha256": "6d226f09b8df3e781bdf27dc63fcbb84a5023e733d32ed63ae61bd1899980736",
+    "actual_sha256": "6d226f09b8df3e781bdf27dc63fcbb84a5023e733d32ed63ae61bd1899980736",
+    "declared_bytes": 9091,
+    "actual_bytes": 9091
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_KNOWN_LIMITATIONS.json",
+    "status": "OK",
+    "declared_sha256": "507c9d41abe2232947d74e78a4d83269bf840c31221e058173f135b69163cacc",
+    "actual_sha256": "507c9d41abe2232947d74e78a4d83269bf840c31221e058173f135b69163cacc",
+    "declared_bytes": 683,
+    "actual_bytes": 683
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_MANIFEST.json",
+    "status": "OK",
+    "declared_sha256": "ee522a91fff0dfc67a4e329afea99a7423beea7fc5e173f129daf0a7b54118ca",
+    "actual_sha256": "ee522a91fff0dfc67a4e329afea99a7423beea7fc5e173f129daf0a7b54118ca",
+    "declared_bytes": 8484,
+    "actual_bytes": 8484
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_NUMERICAL_VALIDATION.json",
+    "status": "OK",
+    "declared_sha256": "f118a1a4c4f82086376d54e2095b2ca827c3f790435468d62e8ae61914b1e9c3",
+    "actual_sha256": "f118a1a4c4f82086376d54e2095b2ca827c3f790435468d62e8ae61914b1e9c3",
+    "declared_bytes": 786,
+    "actual_bytes": 786
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_PROMPT_IMPLEMENTATION_MATRIX.json",
+    "status": "OK",
+    "declared_sha256": "eb9c99b5c21a0b6d816b0e2b2900667b3411f924ab6075edcb60f2ad4c4228a3",
+    "actual_sha256": "eb9c99b5c21a0b6d816b0e2b2900667b3411f924ab6075edcb60f2ad4c4228a3",
+    "declared_bytes": 5757,
+    "actual_bytes": 5757
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_QUALIFICATION_SUMMARY.json",
+    "status": "OK",
+    "declared_sha256": "f9fcfa5378b996ef1becab99b991fbfcd22d7f236d38b0784300a6ff67805be5",
+    "actual_sha256": "f9fcfa5378b996ef1becab99b991fbfcd22d7f236d38b0784300a6ff67805be5",
+    "declared_bytes": 1040,
+    "actual_bytes": 1040
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_RELEASE_RECEIPT.json",
+    "status": "OK",
+    "declared_sha256": "4cc08215a6384263fe21463e5fe2dd6db8f561e5bb86345f4256152470c1ad60",
+    "actual_sha256": "4cc08215a6384263fe21463e5fe2dd6db8f561e5bb86345f4256152470c1ad60",
+    "declared_bytes": 963,
+    "actual_bytes": 963
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_ROUTING_VALIDATION.json",
+    "status": "OK",
+    "declared_sha256": "d3454dff137965679868923ae3fdd73b608bb680504e790ec45ef4cc56ecea11",
+    "actual_sha256": "d3454dff137965679868923ae3fdd73b608bb680504e790ec45ef4cc56ecea11",
+    "declared_bytes": 1571,
+    "actual_bytes": 1571
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_STATIC_COMPLETENESS_SCAN.json",
+    "status": "OK",
+    "declared_sha256": "05aead0fe8c762e10d65f74d5b77827130b0186b02ba29bc42dd36d9e746a61e",
+    "actual_sha256": "05aead0fe8c762e10d65f74d5b77827130b0186b02ba29bc42dd36d9e746a61e",
+    "declared_bytes": 67,
+    "actual_bytes": 67
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "evidence/SM32Q_WARNINGS_AS_ERRORS.txt",
+    "status": "OK",
+    "declared_sha256": "97cc8505af2270c5b281469bb0a2c28048db3bbac27d0375e737dc746da69bfe",
+    "actual_sha256": "97cc8505af2270c5b281469bb0a2c28048db3bbac27d0375e737dc746da69bfe",
+    "declared_bytes": 420,
+    "actual_bytes": 420
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/__init__.py",
+    "status": "OK",
+    "declared_sha256": "d6ebcaad1d42fd9f4072fb00043897542a7f4850efdd2b9de307346c958bcbb3",
+    "actual_sha256": "d6ebcaad1d42fd9f4072fb00043897542a7f4850efdd2b9de307346c958bcbb3",
+    "declared_bytes": 822,
+    "actual_bytes": 822
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/change_impact.py",
+    "status": "OK",
+    "declared_sha256": "3a9ef788f775542dbb901c78c2b41a7102dff7b8d99daa60a0fedbc992208b22",
+    "actual_sha256": "3a9ef788f775542dbb901c78c2b41a7102dff7b8d99daa60a0fedbc992208b22",
+    "declared_bytes": 1397,
+    "actual_bytes": 1397
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/cosimulation.py",
+    "status": "OK",
+    "declared_sha256": "d92aef2428058fb7ce936fb05436e7ed2b15ef9757d09c06dd0c81511a807a38",
+    "actual_sha256": "d92aef2428058fb7ce936fb05436e7ed2b15ef9757d09c06dd0c81511a807a38",
+    "declared_bytes": 1477,
+    "actual_bytes": 1477
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/domain_routes.py",
+    "status": "OK",
+    "declared_sha256": "0f8ec3fa1b623ffa7ae16591d8b65bb57e189e7bea2dc9ee18a866b5ba6db08a",
+    "actual_sha256": "0f8ec3fa1b623ffa7ae16591d8b65bb57e189e7bea2dc9ee18a866b5ba6db08a",
+    "declared_bytes": 2549,
+    "actual_bytes": 2549
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/enums.py",
+    "status": "OK",
+    "declared_sha256": "4af35be4ac1b79ec398e007a7c553f141aa6fdbae47d1230aa26ec46f179e37b",
+    "actual_sha256": "4af35be4ac1b79ec398e007a7c553f141aa6fdbae47d1230aa26ec46f179e37b",
+    "declared_bytes": 2043,
+    "actual_bytes": 2043
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/error_budget.py",
+    "status": "OK",
+    "declared_sha256": "a42a1869be6358b7655309f5c1a435a9c42e83edb3adf23a76f020ecaf40d9cb",
+    "actual_sha256": "a42a1869be6358b7655309f5c1a435a9c42e83edb3adf23a76f020ecaf40d9cb",
+    "declared_bytes": 818,
+    "actual_bytes": 818
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/evidence.py",
+    "status": "OK",
+    "declared_sha256": "aab71b2fee9752be6d37f3d305044b939180b17e323b472f5a53b0d9d577bbf1",
+    "actual_sha256": "aab71b2fee9752be6d37f3d305044b939180b17e323b472f5a53b0d9d577bbf1",
+    "declared_bytes": 3375,
+    "actual_bytes": 3375
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/experiment.py",
+    "status": "OK",
+    "declared_sha256": "51059342cf9397fed8134a4628cfc7d4c6e3d9fb8b57ea72342e9735b2d0b016",
+    "actual_sha256": "51059342cf9397fed8134a4628cfc7d4c6e3d9fb8b57ea72342e9735b2d0b016",
+    "declared_bytes": 2856,
+    "actual_bytes": 2856
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/governance.py",
+    "status": "OK",
+    "declared_sha256": "2c42e7b7f619b2b67dc67b9abab8096d0ec70d3c43803509960f25dee34709bd",
+    "actual_sha256": "2c42e7b7f619b2b67dc67b9abab8096d0ec70d3c43803509960f25dee34709bd",
+    "declared_bytes": 2630,
+    "actual_bytes": 2630
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/hpc_routing.py",
+    "status": "OK",
+    "declared_sha256": "d9b592bb4a307350174ec4c19943bbcbb27ee959e7c355b35c1991b8331a4152",
+    "actual_sha256": "d9b592bb4a307350174ec4c19943bbcbb27ee959e7c355b35c1991b8331a4152",
+    "declared_bytes": 2339,
+    "actual_bytes": 2339
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/managers.py",
+    "status": "PATCHED_WINDOWS_PORTABILITY",
+    "declared_sha256": "bccf4855bddfcd233e334bbc5535b2edf074b6efd244a350e4fb42b3040c2ea4",
+    "actual_sha256": "396b562133196f36edad79b6d42f4f81d5d0d68999401655db848c5362704ef9",
+    "declared_bytes": 2664,
+    "actual_bytes": 3036,
+    "patch_reason": "Use psutil when /proc and the Unix-only resource module are unavailable on Windows."
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/model_validity.py",
+    "status": "OK",
+    "declared_sha256": "992e51fb61e2751249f1a880e9efc27601342da0caf84299d2f94b43ff5cefe1",
+    "actual_sha256": "992e51fb61e2751249f1a880e9efc27601342da0caf84299d2f94b43ff5cefe1",
+    "declared_bytes": 1500,
+    "actual_bytes": 1500
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/multisolver.py",
+    "status": "OK",
+    "declared_sha256": "d4ace068cd688b11af519755a949de5db3c301cfbf081566b683d5f320776050",
+    "actual_sha256": "d4ace068cd688b11af519755a949de5db3c301cfbf081566b683d5f320776050",
+    "declared_bytes": 1340,
+    "actual_bytes": 1340
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/optimization_governance.py",
+    "status": "OK",
+    "declared_sha256": "e5de4e549f5f01ca39d5f5ef98399e47c32fbd3b0766e299419d4d3ad0a2abf1",
+    "actual_sha256": "e5de4e549f5f01ca39d5f5ef98399e47c32fbd3b0766e299419d4d3ad0a2abf1",
+    "declared_bytes": 1450,
+    "actual_bytes": 1450
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/orchestration.py",
+    "status": "OK",
+    "declared_sha256": "7096c219f2311dfceeefc12ccee27d9ef0b34fdc994715ca6a9bbd0390cf5496",
+    "actual_sha256": "7096c219f2311dfceeefc12ccee27d9ef0b34fdc994715ca6a9bbd0390cf5496",
+    "declared_bytes": 3355,
+    "actual_bytes": 3355
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/physics_numbers.py",
+    "status": "OK",
+    "declared_sha256": "bbdde6045b43d34585889cf71b211ac30f951ef2440257e9210d10885f71ed77",
+    "actual_sha256": "bbdde6045b43d34585889cf71b211ac30f951ef2440257e9210d10885f71ed77",
+    "declared_bytes": 2591,
+    "actual_bytes": 2591
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/precision.py",
+    "status": "OK",
+    "declared_sha256": "4bf07ecd9d3688000d292344c7daf09eeb71098c4c71820cd1f54c0a01dff524",
+    "actual_sha256": "4bf07ecd9d3688000d292344c7daf09eeb71098c4c71820cd1f54c0a01dff524",
+    "declared_bytes": 653,
+    "actual_bytes": 653
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/problem.py",
+    "status": "OK",
+    "declared_sha256": "224f29b4b7e0fed0180df5493f1678748a79bfaf5138d47d6c753afaf08ed6e5",
+    "actual_sha256": "224f29b4b7e0fed0180df5493f1678748a79bfaf5138d47d6c753afaf08ed6e5",
+    "declared_bytes": 4927,
+    "actual_bytes": 4927
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/provenance.py",
+    "status": "OK",
+    "declared_sha256": "6a63c4368f6a16939c60e6dc8c5fbab24042cfd3fb02e36cf918395e66670363",
+    "actual_sha256": "6a63c4368f6a16939c60e6dc8c5fbab24042cfd3fb02e36cf918395e66670363",
+    "declared_bytes": 1775,
+    "actual_bytes": 1775
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/qualification.py",
+    "status": "OK",
+    "declared_sha256": "5b750c82e6477ff2eacf76029824187c6463682c4e4cd60c517b4ccc0e004c60",
+    "actual_sha256": "5b750c82e6477ff2eacf76029824187c6463682c4e4cd60c517b4ccc0e004c60",
+    "declared_bytes": 1272,
+    "actual_bytes": 1272
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/reporting.py",
+    "status": "OK",
+    "declared_sha256": "abffc623a34043626d299e82bf5018ce4623a69ad760dd3ccb989e92fcac3c85",
+    "actual_sha256": "abffc623a34043626d299e82bf5018ce4623a69ad760dd3ccb989e92fcac3c85",
+    "declared_bytes": 1061,
+    "actual_bytes": 1061
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/reproducibility_ext.py",
+    "status": "OK",
+    "declared_sha256": "1a2c66c4898453092e7e88875504246f2db547e82a73b434986ca5206089355d",
+    "actual_sha256": "1a2c66c4898453092e7e88875504246f2db547e82a73b434986ca5206089355d",
+    "declared_bytes": 1402,
+    "actual_bytes": 1402
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/research_math.py",
+    "status": "OK",
+    "declared_sha256": "db2998abba7c9457fd353fdaf521b979ce64b8f30020231bd5f1a22bae782b9b",
+    "actual_sha256": "db2998abba7c9457fd353fdaf521b979ce64b8f30020231bd5f1a22bae782b9b",
+    "declared_bytes": 3323,
+    "actual_bytes": 3323
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/risk.py",
+    "status": "OK",
+    "declared_sha256": "df03144068825be2efdcbc69d8e121745c1355b6bddc1c2ecb7a5270d368a6d0",
+    "actual_sha256": "df03144068825be2efdcbc69d8e121745c1355b6bddc1c2ecb7a5270d368a6d0",
+    "declared_bytes": 4785,
+    "actual_bytes": 4785
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/routing.py",
+    "status": "OK",
+    "declared_sha256": "e78fd5ef5b425a6ef9c3f8992b13e57db6fd83150e91bd5aaea88026800bb856",
+    "actual_sha256": "e78fd5ef5b425a6ef9c3f8992b13e57db6fd83150e91bd5aaea88026800bb856",
+    "declared_bytes": 4611,
+    "actual_bytes": 4611
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/tools.py",
+    "status": "OK",
+    "declared_sha256": "57ce954f64251ed039d2f45b813eb082ebabcaf3e44ec050f013d1aca8d9cab3",
+    "actual_sha256": "57ce954f64251ed039d2f45b813eb082ebabcaf3e44ec050f013d1aca8d9cab3",
+    "declared_bytes": 4040,
+    "actual_bytes": 4040
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/uq_advanced.py",
+    "status": "OK",
+    "declared_sha256": "497b86a05bbf7b269bfd26004fafbfce7a20b9ea9d25d809b8544ed076c5f965",
+    "actual_sha256": "497b86a05bbf7b269bfd26004fafbfce7a20b9ea9d25d809b8544ed076c5f965",
+    "declared_bytes": 2108,
+    "actual_bytes": 2108
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "src/supermoon32/qualified/verification.py",
+    "status": "OK",
+    "declared_sha256": "ef2ee0ee6636a701204e8057c10279be43ba0ca83bac2a94aa2b74fba0697be7",
+    "actual_sha256": "ef2ee0ee6636a701204e8057c10279be43ba0ca83bac2a94aa2b74fba0697be7",
+    "declared_bytes": 3173,
+    "actual_bytes": 3173
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "tests/test_sm32_qualified_core.py",
+    "status": "OK",
+    "declared_sha256": "39637b559675bf1be3f28041d71c1b49a3ab2086dffcff43bd99c9b29e9be903",
+    "actual_sha256": "39637b559675bf1be3f28041d71c1b49a3ab2086dffcff43bd99c9b29e9be903",
+    "declared_bytes": 16400,
+    "actual_bytes": 16400
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "tests/test_sm32_qualified_edges.py",
+    "status": "OK",
+    "declared_sha256": "7d9f5d7f259c4fa592af342bfe08bb4fcd793c7ad9d795fe772c216cccb20c03",
+    "actual_sha256": "7d9f5d7f259c4fa592af342bfe08bb4fcd793c7ad9d795fe772c216cccb20c03",
+    "declared_bytes": 12005,
+    "actual_bytes": 12005
+  },
+  {
+    "source": "SM32_QUALIFIED_RESEARCH_SECTION.txt",
+    "path": "tools/reconstruct_sm32_qualified.py",
+    "status": "OK",
+    "declared_sha256": "bdc943772aae13b5bf81848e5f8712f008a6c25c6361987bb25835ff4341cbdb",
+    "actual_sha256": "bdc943772aae13b5bf81848e5f8712f008a6c25c6361987bb25835ff4341cbdb",
+    "declared_bytes": 2045,
+    "actual_bytes": 2045
+  }
+]

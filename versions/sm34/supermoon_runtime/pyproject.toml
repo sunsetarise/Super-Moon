@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supermoon32"
+version = "32.0.0"
+description = "SUPER MOON 32.0 OMEGA — Full Implementation Dominion"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "scipy==1.17.0", "psutil==7.2.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

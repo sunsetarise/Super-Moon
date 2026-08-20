@@ -1,0 +1,2598 @@
+{
+  "format": "SUPER_MOON_36_GITHUB_SOURCE_MANIFEST_V1",
+  "release_state": "BLOCKED_PENDING_REAL_EXECUTION",
+  "file_count_excluding_manifest": 518,
+  "total_bytes_excluding_manifest": 665627251,
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 256,
+      "sha256": "ec040843ea1b813fc58443bdc2065617be0b7ad3e88b38ac962bb852ea8df232"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 351,
+      "sha256": "810a24b4d1f4fe7c98a40b0d932c2f61a18864492f4b82eeac8704013d2d3e20"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "bytes": 829,
+      "sha256": "6f8a52ca5acd5ee2471fc396c3aba83e45e3c87c36a5b5717cd75a656af9c1cd"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 233,
+      "sha256": "fe1c42a6617b527be7077381290e03fc155e7515035a681d9fa66d4f4adba709"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 258,
+      "sha256": "a5e92794ee9eee6b702b2406655b435a217633a2b6dbcde5885920c3d71315e7"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 407,
+      "sha256": "71428e78e7985e39a00b5c8c83adc3b266434951b4813129d9d8090ce01cf704"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 671,
+      "sha256": "2c69a991a179b0c9196715cccc1360f71800090c6ac8c22a1fb2f0fb7f94ca57"
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "bytes": 458,
+      "sha256": "88ea53579fa2f6422bd547330ddb9c48fa861e55993c011feb09534e8ca7c854"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 209,
+      "sha256": "8468d797f1a8e82d06a4f74e612f675c1517119556d8daed5e78400e8e74331f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 623,
+      "sha256": "77b68cc7a62640dbfc0bc64218e1973b6439fd28fa412de52d54ae5c3d6bc8ed"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 459,
+      "sha256": "c9ba5de7fef2b86b7b70fea08d7a07575e86b4374390b7beef4d18155755002e"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 782,
+      "sha256": "3fef13edb6c62ffecff8091709d28f7af4087a4793ac0cca664b29a0524b0fb4"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 344,
+      "sha256": "6076643e9709f10098f33878b1496860bdb00ddfaf66f71f5e3d00a1a1d0067b"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 502,
+      "sha256": "3d86a17d4863921bd5b378bd7b107fc7e5a4f7bb4f8d9b055752acb94b6c447a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3060,
+      "sha256": "b840112d513c744de077a228796abf267f636971f0e979f378cb75478c30ba12"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 723,
+      "sha256": "ade73a978d2e25e85bf8328023f8ef4f8f8d65f2b4dc7a4bc2ad0c4ecb94f3c8"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 504,
+      "sha256": "4a59cbf3f783a0f93d9b5a7e5a7c4823cfcce2ca39197472bbb8b8fba84488db"
+    },
+    {
+      "path": "assets/SHA256SUMS.txt",
+      "bytes": 137,
+      "sha256": "9976c276b1fad0b5bd7f6dc4f4bd592542343813c712e0abdff1a78a603b4a1b"
+    },
+    {
+      "path": "assets/SHA512SUMS.txt",
+      "bytes": 201,
+      "sha256": "d13a74da3bb20c9d93717350df92123f4e916c88c723e518347cfe603b78b667"
+    },
+    {
+      "path": "assets/SUPER_MOON_36_ASSET_MANIFEST.json",
+      "bytes": 1079,
+      "sha256": "a98ea2ced240f4905395cfcec9814b613b887d7a4fc81e59d8d49d5cc093ddf6"
+    },
+    {
+      "path": "assets/SUPER_MOON_36_NEW_UNIVERSE_QUALIFICATION_CANDIDATE_FULL_MERGED.txt.gz",
+      "bytes": 391292410,
+      "sha256": "71ac376db613c70d5cad52394f03adfcb7f2412e4c643bbb2e301e1c47473c33"
+    },
+    {
+      "path": "docs/GITHUB_RELEASE_GUIDE.md",
+      "bytes": 1185,
+      "sha256": "671e512d965c94eb13f4b78b9e1b2c02e6b0a08a4637af2da1c686e9cdb31f79"
+    },
+    {
+      "path": "docs/QUALIFICATION_STATUS.md",
+      "bytes": 1152,
+      "sha256": "8c8c0a27b5b39301bf030ff4b10a3d7a3fd5cc46bf443acb953e3017b1a5b66f"
+    },
+    {
+      "path": "docs/REPOSITORY_LAYOUT.md",
+      "bytes": 933,
+      "sha256": "c7bd5971eff72c5e5498d1053cc2e88bdc1ea89a953c6b12bbc46f347d5fd009"
+    },
+    {
+      "path": "manifests/FRAMED_RECONSTRUCTION_MANIFEST.json",
+      "bytes": 41550,
+      "sha256": "a9bc4e14b2229e6bf05bf380beab5e571e464aeb230735776ad9c003f89fa8e4"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 142,
+      "sha256": "8060d7326b8e9e5d4558fcd8be0a795bb88063ca1846f6d555736ba8aadad216"
+    },
+    {
+      "path": "tools/assemble_split_parts.py",
+      "bytes": 1822,
+      "sha256": "3541ccea25d16cd296a479d69f1543aeec38c94096c5d9a33fc43c362f03ee1f"
+    },
+    {
+      "path": "tools/build_github_archive.py",
+      "bytes": 6088,
+      "sha256": "1f0d281932ba7bac863130edf22061f40977a811369a2311db99f230315194f1"
+    },
+    {
+      "path": "tools/build_source_manifest.py",
+      "bytes": 1685,
+      "sha256": "e0bba859e68d91f5b1ff3982b62c7f8ca33bcc8e45817f2d875c480f42568f17"
+    },
+    {
+      "path": "tools/reconstruct_supermoon_release.py",
+      "bytes": 4154,
+      "sha256": "1754c892b0a8662fd9447ac04ce2d041a25d9615041b63166b97de5a591d92ed"
+    },
+    {
+      "path": "tools/run_all_tests.py",
+      "bytes": 1222,
+      "sha256": "8f81ad27e0b3a3bdc971499cfcdcd53d3ce7ac11eeb1797250828d531d4e4df0"
+    },
+    {
+      "path": "tools/split_file.py",
+      "bytes": 3014,
+      "sha256": "993482794c638ba18fde1d55ebdb4850a51c73a7f90ae09b9a73db4bd55a69b9"
+    },
+    {
+      "path": "tools/verify_assets.py",
+      "bytes": 1829,
+      "sha256": "f34f8958ab6d090fa2eec85adf005a134f86a3af6f98d713159c58fe333e46f5"
+    },
+    {
+      "path": "tools/verify_split_parts.py",
+      "bytes": 1356,
+      "sha256": "d781f200705ca32752678f86aca63148d56b470e362908c8ab11c18d6f0a5cef"
+    },
+    {
+      "path": "versions/sm34/CHECK_INSTALLATION.bat",
+      "bytes": 813,
+      "sha256": "9c0487e94da4b40ca08a4c3b9a069888304e08a26486b0afd28a85f3bbb013d6"
+    },
+    {
+      "path": "versions/sm34/INTEGRATION_RECEIPT.json",
+      "bytes": 2956,
+      "sha256": "be89a2b86094fb86e1601f3b3376c7a496db96093cb81d4bbb2e8e994eaa0c30"
+    },
+    {
+      "path": "versions/sm34/PACKAGE_AUDIT_REPORT.json",
+      "bytes": 4416,
+      "sha256": "0d13d162b5e519fe07820ee29241d88988ba0345814021c06b13a17388804f0d"
+    },
+    {
+      "path": "versions/sm34/README.md",
+      "bytes": 9350,
+      "sha256": "204ae23cec33c80f4ff1d23b14437cb13e46c47f1b4561fadd7af0cda7a6f5d2"
+    },
+    {
+      "path": "versions/sm34/REBUILD_KNOWLEDGE_INDEX.bat",
+      "bytes": 1146,
+      "sha256": "929b450263598e0df74a3e938e15908523b3683f811425a68cf6edec99c7042c"
+    },
+    {
+      "path": "versions/sm34/RUN_FULL_AUDIT.bat",
+      "bytes": 1440,
+      "sha256": "fcd33b9cba1d32e0221fe3fa1496c389c1733327e2072046d0f3cbfa996b8850"
+    },
+    {
+      "path": "versions/sm34/SETUP_WINDOWS.bat",
+      "bytes": 2251,
+      "sha256": "ffb49cfab06b8f69c2ec944ef0c7c0c61c17c8e08dbfe9cf291d93de9b6046fd"
+    },
+    {
+      "path": "versions/sm34/START_SUPERMOON.bat",
+      "bytes": 2339,
+      "sha256": "6cfe001dc489115dd6e44464eeacccac8c8aaa60f1711fd3ba7894f2001bb6c3"
+    },
+    {
+      "path": "versions/sm34/knowledge/SM32_FULL_IMPLEMENTATION_AUTHORITATIVE_SECTION.txt",
+      "bytes": 895564,
+      "sha256": "383af92cc796bc1258e70812655661dd8f994d4dcca5100fc83ece6d2fb7360b"
+    },
+    {
+      "path": "versions/sm34/knowledge/SM32_QUALIFIED_RESEARCH_AUTHORITATIVE_SECTION.txt",
+      "bytes": 405148,
+      "sha256": "0aaff5a6442fba7293052d21264506fde9b96f2d2ddc7f8abe9be396dc579315"
+    },
+    {
+      "path": "versions/sm34/knowledge/SUPER_MOON_32_0_OMEGA_QUALIFIED_RESEARCH_AUTOMATION_VERIFICATION_ORCHESTRATION_FULL_MERGED.txt.gz",
+      "bytes": 68026368,
+      "sha256": "82bc9c990cb69b7d8c2a208dab6f64fc358cb32e617d2680a1471ad91aa949d8"
+    },
+    {
+      "path": "versions/sm34/knowledge/SUPER_MOON_34_NEW_UNIVERSE_OMEGA_FULLY_IMPLEMENTED_FULL_MERGED.txt.gz",
+      "bytes": 73015684,
+      "sha256": "38bed823b1f2e1204f40c7816177de1792b156f9882b5a90d5ec9e94eaad90dd"
+    },
+    {
+      "path": "versions/sm34/output/SM32_MASTER_PROMPT_ANALYSIS.json",
+      "bytes": 29201,
+      "sha256": "fe690dbe2724d0145b318bd44c5ae200f3ce2ebe681e23760a36b87b49a62075"
+    },
+    {
+      "path": "versions/sm34/output/SUPERMOON_32_MASTER_PROMPT_PATENT_STYLE_SPECIFICATION.pdf",
+      "bytes": 26801,
+      "sha256": "d60d355ba51d9c38e9034aaf3c8db28fef9ac48c493ca638cdf2e41ca8760e5a"
+    },
+    {
+      "path": "versions/sm34/output/SUPERMOON_32_MASTER_PROMPT_SCIENTIFIC_ANALYSIS.pdf",
+      "bytes": 37682,
+      "sha256": "a48df4462960092cb2c6df51a4b9cfc3b5d5221492b9f4907a1eec60fcc31d1c"
+    },
+    {
+      "path": "versions/sm34/requirements-py314.txt",
+      "bytes": 343,
+      "sha256": "d6323df42ce5d29c2786234214ae70b99c47aa10655940f40b32606798451201"
+    },
+    {
+      "path": "versions/sm34/requirements.txt",
+      "bytes": 343,
+      "sha256": "d6323df42ce5d29c2786234214ae70b99c47aa10655940f40b32606798451201"
+    },
+    {
+      "path": "versions/sm34/runtime/FULL_AUDIT_REPORT.json",
+      "bytes": 4416,
+      "sha256": "0d13d162b5e519fe07820ee29241d88988ba0345814021c06b13a17388804f0d"
+    },
+    {
+      "path": "versions/sm34/runtime/README.txt",
+      "bytes": 584,
+      "sha256": "e0188417bd6471c596c28d84c8cfd863955cf2bc934b069947f247ba42cf91ca"
+    },
+    {
+      "path": "versions/sm34/runtime/SETUP_FIX_RECEIPT.json",
+      "bytes": 1737,
+      "sha256": "fed81fe9a5e5df35cb3df6e245e7e510d3e350e4550b021ad925264042ef01bc"
+    },
+    {
+      "path": "versions/sm34/runtime/SM34_UPGRADE_RECEIPT.json",
+      "bytes": 1217,
+      "sha256": "4277422046f70e23f71003386e6095d9c1621097c4c022d4f8193880f6786d0b"
+    },
+    {
+      "path": "versions/sm34/runtime/knowledge_chunks.bin",
+      "bytes": 60954889,
+      "sha256": "2ac90386f13be914e308435369636d009056005c8cf50b08cbe1c6181b1af161"
+    },
+    {
+      "path": "versions/sm34/runtime/knowledge_index.sqlite3",
+      "bytes": 2174976,
+      "sha256": "e0af981f19a719a79e37cfb0f4be351c12cfc48fa54a772cdfe95d3b0ac747be"
+    },
+    {
+      "path": "versions/sm34/runtime/server-state.json",
+      "bytes": 182,
+      "sha256": "7955a4ff6856b9c86cf571b4914ace0032a6763b6914224637535d8dcc9f3866"
+    },
+    {
+      "path": "versions/sm34/runtime/setup-state.json",
+      "bytes": 575,
+      "sha256": "90006489e0a53bfeae7ad6d98443a6440fb5398bec8ef1ae4069897dd824ed9c"
+    },
+    {
+      "path": "versions/sm34/runtime/start-check.json",
+      "bytes": 219,
+      "sha256": "e04b53ebd8538212578919a7a9bb1a9a1c7f5702c1045cd85874172f17285fdd"
+    },
+    {
+      "path": "versions/sm34/runtime_extraction_manifest.json",
+      "bytes": 42395,
+      "sha256": "f841a0a1c625915847e9295a4a65e16fa21b3afe5b054eca33745b4a2ae39fa3"
+    },
+    {
+      "path": "versions/sm34/static/css/app.css",
+      "bytes": 11605,
+      "sha256": "6c54563d5e31a06e2bce260e1b15a7ce60678fdcb50f98e7b5e9188a34a2dfdf"
+    },
+    {
+      "path": "versions/sm34/static/css/sm34.css",
+      "bytes": 2559,
+      "sha256": "791f26c352e2687d36f05b5129ba66f82f03a8f55f80c2f2b6ee6621bbe06bcf"
+    },
+    {
+      "path": "versions/sm34/static/index.html",
+      "bytes": 12471,
+      "sha256": "c0ffaffc0cd62fc8a19ff693351389e1a794220f9a60a9d81f61a4e8066b825a"
+    },
+    {
+      "path": "versions/sm34/static/js/app.js",
+      "bytes": 17425,
+      "sha256": "f10db9ead1638a09467faf4c02181b92592096c968448e4ce5c6038c689551a1"
+    },
+    {
+      "path": "versions/sm34/static/vendor/README.txt",
+      "bytes": 174,
+      "sha256": "ce5e3f48fb9389de8a18cd5c7cdca2aa2c6f55a89661c45fd69e1596a0f57cf5"
+    },
+    {
+      "path": "versions/sm34/static/vendor/babylon-9.21.2.js",
+      "bytes": 8258950,
+      "sha256": "861f28730eaa5729827b0cea18866268aba5388ea465da067ece4dd076249e04"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/README_SM31_CELESTIAL_QP1.md",
+      "bytes": 703,
+      "sha256": "b4153bbd10723c64e37e4857a5b805c2d6362c8c4b18484fd2266a5bc870c667"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/README_SM32.md",
+      "bytes": 1398,
+      "sha256": "274341bd373eaf92c38667ecab818a36c31d2ecc29179d6ff497f710e8a1f90a"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/README_SM32_QUALIFIED_CORE.md",
+      "bytes": 1230,
+      "sha256": "21a41d9df5c1ac3deff2494e6fca38e550afb8c340a1e15e6fd0d1bab966b917"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/README_SM34_NEW_UNIVERSE.md",
+      "bytes": 3429,
+      "sha256": "4435ecd8d192b218182be8e46321d1375d70b016ff72f1885845f1c9dbe77dab"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/SM34_pyproject.toml",
+      "bytes": 786,
+      "sha256": "5a28c756316b59da0487904768c796d244fd816a19e95a3abd3d7c94f936b736"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/dashboard/SM34_QUALIFICATION_DASHBOARD.html",
+      "bytes": 2390,
+      "sha256": "c2ea7426bad2a752f5ba5f861fd4b24e88a1fd50ed527aaa8cebcc3d9ef42539"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/deployment/Apptainer.def",
+      "bytes": 487,
+      "sha256": "fa77ef16f508ad1783c0fd59631cfa7c8120c6b5a0e75d72d57a456a6c20cd3d"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/deployment/requirements-sm34.lock",
+      "bytes": 41,
+      "sha256": "5a67a84a8426dcd693a709475d961d8ed32a4e443df364a56b6d02251073952b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/deployment/slurm/endurance_72h.sbatch",
+      "bytes": 361,
+      "sha256": "44d769f4e8f7a5233905f8b4d3b2a5af0e00c791adbe4a89235718eaa3b9d11f"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/deployment/slurm/petsc_rank_matrix.sbatch",
+      "bytes": 389,
+      "sha256": "f7d955bc1eb4fa814435dd0b1fb6b6e13fbea310d50aca671fc546320d8e79e5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/deployment/spack.yaml",
+      "bytes": 167,
+      "sha256": "9bee18df6fcebd1e89181cbec18a2c37d1c4b94cfc80183e8b201314ad27aa44"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM31_CELESTIAL_QP1_QUALIFICATION_REPORT.md",
+      "bytes": 3020,
+      "sha256": "a5725b11c4122191f31677b7f2eead099d5fff5245c8ef2a4aa93247acdccc61"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM32Q_MASTER_PROMPT_EN.txt",
+      "bytes": 61257,
+      "sha256": "947983489d19ac80dc918e73ba5d0772fdea9880dd2bb80ff329196afbb0cc77"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM32Q_QUALIFICATION_REPORT.md",
+      "bytes": 2348,
+      "sha256": "1114444a69a89dc0dcde94dea1064c12bee784e75b26a7f4493ac8322a6470ee"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM32_QUALIFICATION_REPORT.md",
+      "bytes": 2907,
+      "sha256": "f51c53e5ff2ceac6e0b0a957749a56d1b9885a5a0fee82859356f309b7051c0c"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM34_ARCHITECTURE.md",
+      "bytes": 2395,
+      "sha256": "76a55752d77bc9aca0c606c03fcee1cb165620654646d8e443054b8396705af7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM34_EXTERNAL_QUALIFICATION_RUNBOOK.md",
+      "bytes": 2010,
+      "sha256": "c61afa5f3846b532213567b696dc06de39abefb36d933376295bc93bdca30c72"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM34_IMPLEMENTATION_REPORT.md",
+      "bytes": 2073,
+      "sha256": "e5c27a8c8052e4e4eb8cc701c6b97e9b48887f678462e3902d69634351f13ebb"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/docs/SM34_THREAT_MODEL.md",
+      "bytes": 1415,
+      "sha256": "3f9dcca34911c9a5eda80282a4d9775811b5e005929cec83cdecea431e9795e5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_DEPTH_CONTRACT_30000_LINES.txt",
+      "bytes": 6379230,
+      "sha256": "3538154de77469adedc19654e518bbce1b6e4033614b9a24b88b1aad8f7ebfca"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_ENVIRONMENT.json",
+      "bytes": 433,
+      "sha256": "cbfcdbe5f2609250ebe244b30555ea519604912855993b8c7f403c75b5e828c2"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_LIMITATIONS.json",
+      "bytes": 776,
+      "sha256": "436a3e67cfa2c1189c3e7902a06a1e2e110b4d518626a66ea52d3631b1aebc9e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_MIXED_PRECISION_STRESS_64.json",
+      "bytes": 6184,
+      "sha256": "7c22a1b803f240db02c7430f9e44b78db8936f2cddabcaad2627e3fdbb4bd655"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_BUGFIX_REPORT.md",
+      "bytes": 1381,
+      "sha256": "3e1e770f9fbf341a615d76a2d1884f65f548532fd4f544b637c2ef4ce0b846b8"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_CAD.diff",
+      "bytes": 1179,
+      "sha256": "973033b9bc8e8c78b4762ae0c659a42e04d77fc26d83998991f2c019edea9302"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_CFD.diff",
+      "bytes": 2739,
+      "sha256": "73d3bf04a06b968643461f6b968663a09dd86eb6ef12d6a627700b9c2e902482"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_COMPILE.txt",
+      "bytes": 13,
+      "sha256": "beb44c8465d0ef84e21fbc7a78c20ff479309d72aae002e39993268c7be5bc66"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_COVERAGE.json",
+      "bytes": 197230,
+      "sha256": "3762680b16a39729f385565553effab10bdd8a233bacea3dd9ad7d5e724e5ff4"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_COVERAGE.txt",
+      "bytes": 2976,
+      "sha256": "7dd5f0729bcc465d94f2fec5c49ae98f2bf385a5de2dacf0ca00ea75306a4111"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_ENDURANCE.diff",
+      "bytes": 2652,
+      "sha256": "14c0c980f1777cc90bbd05f94d18d9fc718af3074ae84b7e0e8fde8a8b3c48cf"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_ENDURANCE_10S.json",
+      "bytes": 8126,
+      "sha256": "d0f03916515142bb811a8aef3faa4f56da43a4b2437eb503311284509aadf538"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_ENDURANCE_30S.json",
+      "bytes": 23379,
+      "sha256": "ddcdaa03c4a7971571de377b6eaf1a867178affdd6bf531e30e606c3d14a4980"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_NUMERICAL_VALIDATION.json",
+      "bytes": 1104,
+      "sha256": "992db4a950cb89e8d6c76bf3cafdf746a9a8ec979e7180e3d02f636bb4603fc3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_PATCH.diff",
+      "bytes": 6570,
+      "sha256": "c9becaa2e163a3feec886c896c8e85da8ced6c82847ab69db62a1591e31a67dc"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_RECEIPT.json",
+      "bytes": 1525,
+      "sha256": "2ea66c99bae776de56496c6478eeb23dd94b2a2433283fab8d3441ba91ab4490"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_TEST_RESULTS.txt",
+      "bytes": 180,
+      "sha256": "24b9d87080fbe9901d0bfadb74c027c89f2ff903493f4f75839c87e9b2d9517f"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_QP1_WARNINGS.txt",
+      "bytes": 723,
+      "sha256": "20f3b4333dc11c849f120da82dae81784e8d7899ecc7dde2b145fbb793e04145"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_CELESTIAL_REGISTRY_COUNTS.json",
+      "bytes": 121,
+      "sha256": "02ea0a22ee099479414a1357635d9b67151d55d2ab553c4314eb790d71ad8e74"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM31_TO_SM32_DIFF.patch",
+      "bytes": 87907,
+      "sha256": "ac3699bcc307b3d3bb0f3c13484b1fe207ecd29a490331dd1ec6db6f7c592a05"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_COVERAGE.json",
+      "bytes": 185100,
+      "sha256": "23b2757be8d4c5bc96b1d6fcf0aa34428bc226cc0dfe0840325437e64b0dd185"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_COVERAGE.txt",
+      "bytes": 3356,
+      "sha256": "eab742ea9d8c87089a2848cb0c1cefcda37f8107b460bdab9e11db78122a30d9"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_ENDURANCE_10S.json",
+      "bytes": 2947,
+      "sha256": "5c1a16de4eb71a299ada60ba771e4478135a9a58ae3dd116ca9a953656949fbf"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_ENDURANCE_15S.json",
+      "bytes": 4287,
+      "sha256": "c097b701418af9581799389b3a2f3060b49c9249533c8563f672b8c2b5fdf814"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_ENVIRONMENT.json",
+      "bytes": 292,
+      "sha256": "fd4ac4c58f070186c1507eab38718ac1278e71e4e34f129b9374384632be6ebd"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_FULL_TEST_RESULTS.txt",
+      "bytes": 420,
+      "sha256": "6d416ce9a1870a0c027d951b5358cc20124a88a0e2f604ddb35aa76faba37ab8"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_IMPLEMENTATION_INVENTORY.json",
+      "bytes": 9091,
+      "sha256": "6d226f09b8df3e781bdf27dc63fcbb84a5023e733d32ed63ae61bd1899980736"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_KNOWN_LIMITATIONS.json",
+      "bytes": 683,
+      "sha256": "507c9d41abe2232947d74e78a4d83269bf840c31221e058173f135b69163cacc"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_MANIFEST.json",
+      "bytes": 8484,
+      "sha256": "ee522a91fff0dfc67a4e329afea99a7423beea7fc5e173f129daf0a7b54118ca"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_NUMERICAL_VALIDATION.json",
+      "bytes": 786,
+      "sha256": "f118a1a4c4f82086376d54e2095b2ca827c3f790435468d62e8ae61914b1e9c3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_PROMPT_IMPLEMENTATION_MATRIX.json",
+      "bytes": 5757,
+      "sha256": "eb9c99b5c21a0b6d816b0e2b2900667b3411f924ab6075edcb60f2ad4c4228a3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_QUALIFICATION_SUMMARY.json",
+      "bytes": 1040,
+      "sha256": "f9fcfa5378b996ef1becab99b991fbfcd22d7f236d38b0784300a6ff67805be5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_RELEASE_RECEIPT.json",
+      "bytes": 963,
+      "sha256": "4cc08215a6384263fe21463e5fe2dd6db8f561e5bb86345f4256152470c1ad60"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_ROUTING_VALIDATION.json",
+      "bytes": 1571,
+      "sha256": "d3454dff137965679868923ae3fdd73b608bb680504e790ec45ef4cc56ecea11"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_STATIC_COMPLETENESS_SCAN.json",
+      "bytes": 67,
+      "sha256": "05aead0fe8c762e10d65f74d5b77827130b0186b02ba29bc42dd36d9e746a61e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32Q_WARNINGS_AS_ERRORS.txt",
+      "bytes": 420,
+      "sha256": "97cc8505af2270c5b281469bb0a2c28048db3bbac27d0375e737dc746da69bfe"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_BENCHMARKS.json",
+      "bytes": 1318,
+      "sha256": "92a5c9055d6b0dc1bbd26eaae246197cc9b09898696925f5bb002f7037a7c040"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_BRANCH_COVERAGE_REPORT.txt",
+      "bytes": 3093,
+      "sha256": "f7864127681d6dcc3a086acdc11f0761bc95d908affaf7d76ac7b820781403f6"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_CAPABILITY_LEDGER.json",
+      "bytes": 307002,
+      "sha256": "b5f1c9ef6627bc0593a24da1dc590e5021ad686b3880646dd9ae9292f69e3949"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_CLAIM_AUDIT.json",
+      "bytes": 2047,
+      "sha256": "3daac7bfe4d8bbda2777e970dea09f31b72e5d42c120ccf7eea75878316830b6"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_COMBINED_TEST_RESULTS.txt",
+      "bytes": 260,
+      "sha256": "063d62dfae2f4248c585f17e185026da2fa896e8d86353c3b1fde8d3041c8019"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_COMPILE.txt",
+      "bytes": 14,
+      "sha256": "63a6348a2c81447ad1ef7836ba3c811a03afd01ae043e773a5a4862fce4f32b5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_COVERAGE.json",
+      "bytes": 198188,
+      "sha256": "f66a84fe5d7429bc697848058bf2d5de60fdab9722d234248b58e653ded2f9ff"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_COVERAGE_REPORT.txt",
+      "bytes": 2995,
+      "sha256": "2ef69aed62d3b90438448b3036fae7bdf248f1949689a1c76ad92f459008b581"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_ENDURANCE.json",
+      "bytes": 927,
+      "sha256": "6c4fa019b4ec1014090887a8365336a44717c94c4529cb49e87299061c96403f"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_ENDURANCE_10S.json",
+      "bytes": 2927,
+      "sha256": "c5b640c6a6cf10f6c3da699262c134b4b2d25588215da9bed84f964c17e4dbce"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_ENDURANCE_30S.json",
+      "bytes": 8198,
+      "sha256": "09950ac1ac35e75f740c53d21663455f2fefb5a08f2b7f6bf1b9fb5ff156e87a"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_ENVIRONMENT.json",
+      "bytes": 708,
+      "sha256": "d554448df0c89dbd9fd9778da677b8a50c9fa70335d781a80d60272e4141a24c"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_INHERITED_QP1_TEST_RESULTS.txt",
+      "bytes": 180,
+      "sha256": "b5bb6b647f3bf08cf56727b19607e840894cc908289e4291ee89d5d6ea1de1e3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_KNOWN_DEFECTS.json",
+      "bytes": 890,
+      "sha256": "6d35c079a4db733c18d8a3f43a9ba1e8422afe436cec029de0aa1ec3dd77a8e4"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_MANIFEST.json",
+      "bytes": 10931,
+      "sha256": "7cbd954349a990f204b1cf8dbdb2f72d1ea22a1ef0dd0c0557a879c04e5e199d"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_MASTER_PROMPT_SOURCE.md",
+      "bytes": 52711,
+      "sha256": "439762dcaed7d274854fcf778fb202ca0e7ee1dd927f339d476c8c8be7403d4b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_MUTATION_REPORT.json",
+      "bytes": 6437,
+      "sha256": "1937eba2c80683b6286095356dd76c50bf7e8427570b46b1e4936ed5b4dd7f2d"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_NUMERICAL_VALIDATION.json",
+      "bytes": 2664,
+      "sha256": "5b53b00856c73864d9b902c9687f576f442e2ce25e69ead9fc47920458762850"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_PASS_SCAN.json",
+      "bytes": 45,
+      "sha256": "f5d8d2d88de1f9d758dd702b5dbb4d67ff42a298566caefba8ac773417385f10"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_PROMPT_IMPLEMENTATION_MATRIX.json",
+      "bytes": 34031,
+      "sha256": "dd49bcf1345d415c3a8767c66806a27e66e8ab9c02a16f19a27e504716f01c45"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_QUALIFICATION_LEDGER.json",
+      "bytes": 6401,
+      "sha256": "e92b9bcb17f48015ab8fa8e4446febb48dad5b7639758e67500b12ecae578cc0"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_REGISTRY_EXECUTION.json",
+      "bytes": 2511,
+      "sha256": "100e247f934c2a3c723e0ea36825c5961b731aead396fde6b96e9e1fa80531cc"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_RELEASE_RECEIPT.json",
+      "bytes": 1513,
+      "sha256": "1572a28ebbcf2d1711b08f282ccbcf04c80a87420ac7375223e0ed1327935a93"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_REPRODUCIBILITY.json",
+      "bytes": 1014,
+      "sha256": "4cc378f1d5e2cf52c087e8ab3aae3dd16a8fc3a354107f90fc3c0db6e8912f14"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_SOURCE_DELTA.json",
+      "bytes": 290,
+      "sha256": "606a2ee10e76b2cd65de61b239cdaec0acf11f93b0aec992cf05a8dea64320a5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_STATIC_COMPLETENESS_SCAN.json",
+      "bytes": 94,
+      "sha256": "d79783f0db9f95e36563f7effa9ac66c5f1b8d6252ce4e49ef7b0e2a299ec1d7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_SYMBOL_IMPLEMENTATION_MATRIX.csv",
+      "bytes": 33194,
+      "sha256": "cdee6cd715abe92149679051119ec9b620d19b08d098804d906cfe8d14fe3f5e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_TEST_RESULTS.txt",
+      "bytes": 99,
+      "sha256": "4444a828566fb20d45b51d8f90a95c593af7b52a63e75621ba2323ea1da331ed"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM32_WARNINGS_AS_ERRORS.txt",
+      "bytes": 99,
+      "sha256": "ba84603fccc63db8620513dc31ffad289806487491986eb00254168f389e31af"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_BASELINE_FROZEN_RECEIPT.json",
+      "bytes": 749,
+      "sha256": "7c95e0a3bec4fdd31b3a132472865046857d1bf5c8a7a2d8b1ca9f5bed6561e8"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_CAPABILITIES.json",
+      "bytes": 5361,
+      "sha256": "da3ca93d3381710277b1bc9bde2b84340f3e1a20ab2897c935f89ef2778d8ef2"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_KNOWN_LIMITATIONS.json",
+      "bytes": 820,
+      "sha256": "c09564382188c385c30a2ecc0b6b97c326efa952b3606b06153c5aeb159e40ef"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_LAYER_FILE_INDEX.json",
+      "bytes": 9489,
+      "sha256": "ce0a8887b7a9d25c11ebef7350a4573ebe3296f470211d1b28f8dc8f397d02d5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_LOCAL_BENCHMARK.json",
+      "bytes": 612,
+      "sha256": "4de41d4acfce7a407285bdb83beabc630a57a2869d080a3d7dacb1b399917138"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_LOCAL_QUALIFICATION.json",
+      "bytes": 7804,
+      "sha256": "fbb1e4b66eac418e49d34c2e3ff93d299f28b466708f36e491835359692b73f3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_REFERENCE_SNAPSHOT.json",
+      "bytes": 1203,
+      "sha256": "f682302342a61200c4f62e6a7e7c90becf6f46037274b5268f024aa0354ab255"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_REQUIREMENT_COMPILATION_SUMMARY.json",
+      "bytes": 870,
+      "sha256": "4688fe4a26e5dc6d554ea5d51dcd025e319815e9650a09de99ddcc2af8d4e3e4"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_REQUIREMENT_MATRIX.jsonl.gz",
+      "bytes": 9681316,
+      "sha256": "abf06fdce08d5eb82ce1cfa9c0c41b549529020e5d2360315331a1fee4fdd4cf"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_SBOM.cdx.json",
+      "bytes": 553,
+      "sha256": "2701500e38617fca472982807661ce913a47aa3fb5152a0e0e69cff3cf68a951"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_SOURCE_MANIFEST.json",
+      "bytes": 10090,
+      "sha256": "9bcd9161b50145dc88f3ade45116c0b932566ef0c8f55dc788732fa65d8a9189"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_STATIC_AUDIT.json",
+      "bytes": 5378,
+      "sha256": "fc1a666afd619ee3340e7bad8a60cb545116c2641fef850d62113bc477c6a5e3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/evidence/SM34_WINDOWS_PORTABILITY_OVERLAY.json",
+      "bytes": 644,
+      "sha256": "8308dbf164251c14c120e58e39ff7e8d59405ecc4c2003a045a7e12f8d62386f"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/pyproject.toml",
+      "bytes": 347,
+      "sha256": "bc7b8564c70abe560259b26cf003dcda161d822c52aeead53b2fcdf68c720b66"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/spec/SUPER_MOON_34_200000_LINE_MASTER_PROMPT.txt.gz",
+      "bytes": 12316555,
+      "sha256": "b301b36cbf19b23f800f3d647a5d645775500abb30c36a303d60cf7e95200f60"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/__init__.py",
+      "bytes": 638,
+      "sha256": "c8f8f258edd3456523eb1238714b65abb1297a8cd220e0592d7daf761f22c7c6"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/advanced.py",
+      "bytes": 18662,
+      "sha256": "0e5de08546f278f5f7b4448fff52d0caa2cef2b5201efd99e6788f5a7075e652"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/aircraft.py",
+      "bytes": 3537,
+      "sha256": "26c0df3bd30c22a984c23edbcb8df0dcaaef0df2c6b84988c22ce3557618bfb5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/cad.py",
+      "bytes": 12865,
+      "sha256": "a821c26adb3784e6e7e9e9a50f8c49b655df2126b3db6fb9243b12d7d25114aa"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/certification.py",
+      "bytes": 5358,
+      "sha256": "9827dccbee279d9548ede38c315a985877e2c87853d2d6f1d47f2ac25d558df3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/cfd.py",
+      "bytes": 12587,
+      "sha256": "0c250ae825db7fb13e952c0ad432fbf29e9be3aa0ac9f33c8c635294825671d1"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/core.py",
+      "bytes": 7197,
+      "sha256": "7360a867522147e9ffaa2d36d642bb35114a2b38f892abc4af72f85ca796d241"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/digital_twin.py",
+      "bytes": 3343,
+      "sha256": "4eaf08947fac2ce9bd744273bcdc13b51b62ded25533643c360e7e1c44dae7e1"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/endurance.py",
+      "bytes": 4335,
+      "sha256": "e009f2ac088490efbeb5acad6f1d3b339b365f443a44ae1982ffa54ce84fa50e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/fea.py",
+      "bytes": 12799,
+      "sha256": "5b9d6da4ec17a23c17043379c8762438d85b9bf0c362336dbc0f23159e920171"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/hpc.py",
+      "bytes": 4871,
+      "sha256": "8ee45eb4d9ca176bc5c3fb434cc3b2339ab18cad3bf655b7e42ce4fe795e3a37"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/mesh.py",
+      "bytes": 6620,
+      "sha256": "ee4a740883ee6879d939bded8c927edc2ef927dba68709e812014f3d91bb0598"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/multiphysics.py",
+      "bytes": 4811,
+      "sha256": "0d22c8e4d4e0feaa8022df08a83a7c412ba6d56bcdea17f6ded031448366faa9"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/optimization.py",
+      "bytes": 3063,
+      "sha256": "4a0bba58ffeef9c1c1822eb402eec8627e0b4a002ca4e97358672c212db00822"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/registry.py",
+      "bytes": 8463,
+      "sha256": "91d3bd04bff085f2667e5c90c64811516ac06a2e08a15f4e87d9d2623836d45c"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/reproducibility.py",
+      "bytes": 3759,
+      "sha256": "7c7a188d6ba65ac59d917951e750260f82dc32f57cc30725f3628226f8a648b9"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon31/validation.py",
+      "bytes": 2934,
+      "sha256": "a921b1af11fff9aac1523de9d724480ed91db01a4ace774c866a83055f0c9152"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/__init__.py",
+      "bytes": 337,
+      "sha256": "2a3101d12de79ab5eb8b21f3fe570eeceadff19930df68173574776047514a8a"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/autodiff.py",
+      "bytes": 2125,
+      "sha256": "852328e7bb7110b966bda9656a4bf27da556d1cb19315ecc482120ee4a1395f9"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/benchmark.py",
+      "bytes": 497,
+      "sha256": "0bc10f5eeba579588c6f5f0aea947625917221800fbd09fe23dff40a2961d09e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/cad.py",
+      "bytes": 2481,
+      "sha256": "e7990ca57addb6b080d0067392fb1df4ec58fef080133a596823a923523e8435"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/cfd.py",
+      "bytes": 3717,
+      "sha256": "fabe08a8b15c3931f08d75f8e00374c64196086b01a53276c1ab957a80d21df9"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/core.py",
+      "bytes": 3818,
+      "sha256": "fbc344fd02cf1017048e5018d78fb21f3450c27fdce12081787615b1bca4665b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/digital_twin.py",
+      "bytes": 2021,
+      "sha256": "114fdbf9249493bfa179a823735c8708231bdba885839224fbfe436c26e3105d"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/discovery.py",
+      "bytes": 1405,
+      "sha256": "8dd1d886874e8791778d8596a905c4611384c13c6e3201da7675acfde3419c99"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/endurance.py",
+      "bytes": 2501,
+      "sha256": "77dc1a121734c924dc754a3e94ee9a2d3bacc548d5b98656b67fb7c211ff7102"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/fea.py",
+      "bytes": 3583,
+      "sha256": "aec3473158dc6e91a83bdda6775ff72a53d577fb33f95529a55d00bf3c0ed32c"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/geometry.py",
+      "bytes": 1920,
+      "sha256": "0a45e409d533fd25ac9d41eb58e5447f2d3eaedabf0f16b4457c328b6f8feede"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/graph.py",
+      "bytes": 1739,
+      "sha256": "8e1ee70bd86a3091fbf603d697537531298f7c9828d0d48576d9b7cf6125889e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/hpc.py",
+      "bytes": 2011,
+      "sha256": "b4044d99a8128d7f8f53213315e2fd494f1505f09cf25c66e8c3c60152cc77fb"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/mesh.py",
+      "bytes": 2305,
+      "sha256": "47eaf3c6afe6e0e79ac8f29b6b4da7bd3647b4aa9177f49a233a6b4349e6b25b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/ml.py",
+      "bytes": 2782,
+      "sha256": "290c04cdd5dfc73d1083377d45a4e11475b4dabc0ad8fbe59c1806ce67e09598"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/multiphysics.py",
+      "bytes": 1510,
+      "sha256": "0b7e83fad54d163092013b37145feb1ec6eccafe7562f34ff2125f5ce8a50bc9"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/numerics.py",
+      "bytes": 7876,
+      "sha256": "03c60f81193fdc88dceee785780090fd9675829b15cb55b5df03629ef15f87b6"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/ode.py",
+      "bytes": 3201,
+      "sha256": "4c153d47a1aa2ee6cb77b71296b8d89b84f9f360b25a95dc2262cc5557af221f"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/optimization.py",
+      "bytes": 6257,
+      "sha256": "acd4579cc13f7c9e52937a9079bcfa186e7d288761f5c39e5a68470ce37f4b59"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/pde.py",
+      "bytes": 1686,
+      "sha256": "c06a32aff5db90269ad551712439829e787cc8704600665d92c8af8d6a229c82"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/__init__.py",
+      "bytes": 822,
+      "sha256": "d6ebcaad1d42fd9f4072fb00043897542a7f4850efdd2b9de307346c958bcbb3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/change_impact.py",
+      "bytes": 1397,
+      "sha256": "3a9ef788f775542dbb901c78c2b41a7102dff7b8d99daa60a0fedbc992208b22"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/cosimulation.py",
+      "bytes": 1477,
+      "sha256": "d92aef2428058fb7ce936fb05436e7ed2b15ef9757d09c06dd0c81511a807a38"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/domain_routes.py",
+      "bytes": 2549,
+      "sha256": "0f8ec3fa1b623ffa7ae16591d8b65bb57e189e7bea2dc9ee18a866b5ba6db08a"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/enums.py",
+      "bytes": 2043,
+      "sha256": "4af35be4ac1b79ec398e007a7c553f141aa6fdbae47d1230aa26ec46f179e37b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/error_budget.py",
+      "bytes": 818,
+      "sha256": "a42a1869be6358b7655309f5c1a435a9c42e83edb3adf23a76f020ecaf40d9cb"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/evidence.py",
+      "bytes": 3375,
+      "sha256": "aab71b2fee9752be6d37f3d305044b939180b17e323b472f5a53b0d9d577bbf1"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/experiment.py",
+      "bytes": 2856,
+      "sha256": "51059342cf9397fed8134a4628cfc7d4c6e3d9fb8b57ea72342e9735b2d0b016"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/governance.py",
+      "bytes": 2630,
+      "sha256": "2c42e7b7f619b2b67dc67b9abab8096d0ec70d3c43803509960f25dee34709bd"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/hpc_routing.py",
+      "bytes": 2339,
+      "sha256": "d9b592bb4a307350174ec4c19943bbcbb27ee959e7c355b35c1991b8331a4152"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/managers.py",
+      "bytes": 3036,
+      "sha256": "396b562133196f36edad79b6d42f4f81d5d0d68999401655db848c5362704ef9"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/model_validity.py",
+      "bytes": 1500,
+      "sha256": "992e51fb61e2751249f1a880e9efc27601342da0caf84299d2f94b43ff5cefe1"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/multisolver.py",
+      "bytes": 1340,
+      "sha256": "d4ace068cd688b11af519755a949de5db3c301cfbf081566b683d5f320776050"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/optimization_governance.py",
+      "bytes": 1450,
+      "sha256": "e5de4e549f5f01ca39d5f5ef98399e47c32fbd3b0766e299419d4d3ad0a2abf1"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/orchestration.py",
+      "bytes": 3355,
+      "sha256": "7096c219f2311dfceeefc12ccee27d9ef0b34fdc994715ca6a9bbd0390cf5496"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/physics_numbers.py",
+      "bytes": 2591,
+      "sha256": "bbdde6045b43d34585889cf71b211ac30f951ef2440257e9210d10885f71ed77"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/precision.py",
+      "bytes": 653,
+      "sha256": "4bf07ecd9d3688000d292344c7daf09eeb71098c4c71820cd1f54c0a01dff524"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/problem.py",
+      "bytes": 4927,
+      "sha256": "224f29b4b7e0fed0180df5493f1678748a79bfaf5138d47d6c753afaf08ed6e5"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/provenance.py",
+      "bytes": 1775,
+      "sha256": "6a63c4368f6a16939c60e6dc8c5fbab24042cfd3fb02e36cf918395e66670363"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/qualification.py",
+      "bytes": 1272,
+      "sha256": "5b750c82e6477ff2eacf76029824187c6463682c4e4cd60c517b4ccc0e004c60"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/reporting.py",
+      "bytes": 1061,
+      "sha256": "abffc623a34043626d299e82bf5018ce4623a69ad760dd3ccb989e92fcac3c85"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/reproducibility_ext.py",
+      "bytes": 1402,
+      "sha256": "1a2c66c4898453092e7e88875504246f2db547e82a73b434986ca5206089355d"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/research_math.py",
+      "bytes": 3323,
+      "sha256": "db2998abba7c9457fd353fdaf521b979ce64b8f30020231bd5f1a22bae782b9b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/risk.py",
+      "bytes": 4785,
+      "sha256": "df03144068825be2efdcbc69d8e121745c1355b6bddc1c2ecb7a5270d368a6d0"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/routing.py",
+      "bytes": 4611,
+      "sha256": "e78fd5ef5b425a6ef9c3f8992b13e57db6fd83150e91bd5aaea88026800bb856"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/tools.py",
+      "bytes": 4040,
+      "sha256": "57ce954f64251ed039d2f45b813eb082ebabcaf3e44ec050f013d1aca8d9cab3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/uq_advanced.py",
+      "bytes": 2108,
+      "sha256": "497b86a05bbf7b269bfd26004fafbfce7a20b9ea9d25d809b8544ed076c5f965"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/qualified/verification.py",
+      "bytes": 3173,
+      "sha256": "ef2ee0ee6636a701204e8057c10279be43ba0ca83bac2a94aa2b74fba0697be7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/registry.py",
+      "bytes": 1179,
+      "sha256": "f8ebe54f7b550fd568049d2f1dfda7530e2ea24848d678d3e26e9dcf19eb6243"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/reproducibility.py",
+      "bytes": 1294,
+      "sha256": "ec9c864dd3775c608a3a4cf59864d8d12764146718c06b56bc9e02f235899941"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/search.py",
+      "bytes": 2306,
+      "sha256": "cc940982cae4e0775bf259a1a8366e5d82e6be1d5b7bd135b4b64af2761678f1"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/serialization.py",
+      "bytes": 1019,
+      "sha256": "b2b4e94d6b3ac5f2ef721740c4e610d6cdeb91d0d6dbd50187d291ed5176af7f"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/signal.py",
+      "bytes": 894,
+      "sha256": "6f6171156e37f3b043965dd92bc6e656b4558a8879b5803ca8c425f824c8f4ca"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/sparse.py",
+      "bytes": 7120,
+      "sha256": "f6a884e5bbc9a878b14e2cbf84f6b7bdb9f08b758ee3785558712c56993df7c2"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/stats.py",
+      "bytes": 916,
+      "sha256": "ba02de7fdc9059f44d292cae8d5f3a666fef36613e46ec597f289d0c6c74d200"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/units.py",
+      "bytes": 687,
+      "sha256": "f954c8fffea2977b6b97f9c0d42986c1169aa1073c9553d68c81b9cbb0b88d28"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/uq.py",
+      "bytes": 1750,
+      "sha256": "23d45435fb802effbdc158b7ef700a1235b1948985f8a4da2645271ee6869d56"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon32/validation.py",
+      "bytes": 1168,
+      "sha256": "43fb353bca0dfd63d6c1ab5887084dab361386f965089bf3ec4278da2a222e6b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/__init__.py",
+      "bytes": 472,
+      "sha256": "20478dc03fc4860a10abe41a9a76e13a1f27d8e4cf01e3b6058fa56193a56b0c"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/__main__.py",
+      "bytes": 49,
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/aerospace/__init__.py",
+      "bytes": 567,
+      "sha256": "f7282a8db70bd272c4521dec168cd0c30c029dc7162b4f661272bc3bc255399f"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/aerospace/design.py",
+      "bytes": 3655,
+      "sha256": "7ad63ae908545ef7ac70d580b5e1cde8eef7c71fdaf4f1b07bfed178954afda7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/aerospace/digital_thread.py",
+      "bytes": 4467,
+      "sha256": "680fe041dfa21bb7c36ddc986ea429d3d0551ad95b1612f474d229c4b6b0387a"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/aerospace/flight.py",
+      "bytes": 4299,
+      "sha256": "e7a29fc0cc2accdda41f75742adfeade3be0d461609a3812f38a61ac64596269"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/aerospace/structures.py",
+      "bytes": 2753,
+      "sha256": "5a258bbd8c13ae78cf70b06eda771bc09393cade46bfa07ca8a831a556d58826"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/aerospace/systems.py",
+      "bytes": 2843,
+      "sha256": "aa5ec8e0fa2f38c8cc47602090b45f771d6bb08a3bdb61d0559bdd90940a9215"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/backends.py",
+      "bytes": 1074,
+      "sha256": "7583f7a6eadbf2e32741d8f3fcb2f0a7a0fe1892e6be0ed10a0729adb4227e10"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/cad.py",
+      "bytes": 3672,
+      "sha256": "88f49324f83aafd2b1591c4caaad9f63a1ed6eae71e66fbff01524ca70d7e637"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/capabilities.py",
+      "bytes": 4438,
+      "sha256": "4fb392c49a59319f07c186dd1f2997eb67154ed029e6ceb447d88a99c5d83347"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/cfd.py",
+      "bytes": 5521,
+      "sha256": "cc318ea87b28f59f6dfbca2b5159198f2deb87b9d8b909ccbb7f1f7d83f3466b"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/cli.py",
+      "bytes": 2478,
+      "sha256": "d248499dae21a00fde360f7c9c26ee65bd297cfe6d76954410d29ee29fb9a76e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/contracts.py",
+      "bytes": 5672,
+      "sha256": "e1b8e7eb4aa0496450ccae515f011d2bd21a0d886e20b1a852e00fd2b02b10d7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/endurance.py",
+      "bytes": 5247,
+      "sha256": "7a554f6919183749c93fc14296af17450ce50088732f41efa27401f27d8db243"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/evidence.py",
+      "bytes": 5877,
+      "sha256": "b72d9bbd227a93cde443ba00b7c5bb857483194b0f2f3afe97a1fa02631b50bb"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/execution.py",
+      "bytes": 4297,
+      "sha256": "6baba4a9060178a9c79b12daaf2efc2e5acde13b7773a87eceaf0ac68bf7a97e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/gpu.py",
+      "bytes": 4845,
+      "sha256": "b2cd5f94ce2421612c4736c6bf1f6b46bc7857819893f6cd9db123f2aa9754fc"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/hpc.py",
+      "bytes": 4659,
+      "sha256": "b1d574f332695267f5b151ae90c497ffb9672b8e221a2dff8ee37c71f0dabc04"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/math_metrics.py",
+      "bytes": 9417,
+      "sha256": "07360e1c151dc67a2255a51f012efb94e15201d61730e134e6dfa0f971207907"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/orchestration.py",
+      "bytes": 4001,
+      "sha256": "a65472217cfcdf5e56afcd5ac871d2af9d8ff3006a8351ebd8aa35ac9ab95b76"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/performance.py",
+      "bytes": 2320,
+      "sha256": "4b2473a428b12b793bfa0a2b9668a107dd7084343c0ad6d8e98ca878e26be2c7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/petsc_mpi.py",
+      "bytes": 4858,
+      "sha256": "28a70a151fce544000be22ecc291acce6734f0901ba5f7fa39ff9084470ab1cf"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/qualification.py",
+      "bytes": 4756,
+      "sha256": "0066f7972145b266a1ef573ccd6820143506b2c4ebedf5aa0443269ee0bef1e7"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/reproduction.py",
+      "bytes": 3606,
+      "sha256": "0daababb3ec6490d1ac9931b4b9bad3ce6b7017320f6fea8c441a7cdcc80ed90"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/requirements.py",
+      "bytes": 5188,
+      "sha256": "3c0293710bf2e15ab55f98eeb9eab12775ff60f377db70b7a56d4cff77791ea3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/src/supermoon34/validation.py",
+      "bytes": 3546,
+      "sha256": "e5d06244619492680c0b307ac8dcd13d6fb06b4eee61e7e8942bb8b63871517e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/conftest.py",
+      "bytes": 1066,
+      "sha256": "febf9d39fdd5ee717a2c92b6898701106ede7a09b390193a961e6dffcbe3c672"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm31.py",
+      "bytes": 8716,
+      "sha256": "d42e7e40cac4e461088ce205cfe44ec28e477f7c08ebd9b83f523cf89bcebdf0"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm31_celestial.py",
+      "bytes": 7561,
+      "sha256": "423076718792a9a4b7c676e42e9b440900b56d094ff9e0cf47e9a9bdefe6f22e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm31_high_coverage.py",
+      "bytes": 21826,
+      "sha256": "a0bd7d627b962e7a284535ed98e58dffdfa362f3ed2a9e96be72d21d16c0b722"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm31_qp1.py",
+      "bytes": 6615,
+      "sha256": "b8be1a635847f7b0bd0ac6c4d67a1b3eed793ccd769b678f0933dc85225346e3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm32.py",
+      "bytes": 12692,
+      "sha256": "739400c080980ebc4ec79b55fd5a5da08128e7b80bb8d35427653abcb2525921"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm32_edges.py",
+      "bytes": 13477,
+      "sha256": "2e15d1ac18cdd83aad717f8b5a5ee52bd007062c84144f9c9ef7ff20fae81e51"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm32_qualified_core.py",
+      "bytes": 16400,
+      "sha256": "39637b559675bf1be3f28041d71c1b49a3ab2086dffcff43bd99c9b29e9be903"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm32_qualified_edges.py",
+      "bytes": 12005,
+      "sha256": "7d9f5d7f259c4fa592af342bfe08bb4fcd793c7ad9d795fe772c216cccb20c03"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tests/test_sm34.py",
+      "bytes": 11146,
+      "sha256": "8290c1fc4404281127e9780561d86dd1df801e1acb82392c0f0adcdf20366b72"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/reconstruct_sm32.py",
+      "bytes": 2625,
+      "sha256": "4447439304f3c87fe62cab69a8fd37a4c65010edaccfbd73a258fb6c8130d2e3"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/reconstruct_sm32_qualified.py",
+      "bytes": 2045,
+      "sha256": "bdc943772aae13b5bf81848e5f8712f008a6c25c6361987bb25835ff4341cbdb"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_benchmark.py",
+      "bytes": 1186,
+      "sha256": "7cf795431184f295140428eee2a0094e41e5bb88caa2b6b854ebd293546d0718"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_build_evidence.py",
+      "bytes": 5142,
+      "sha256": "f7947368994cc9c1ec0c223d95516e644ffc8b8567324a0b349e0caa5a37f028"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_compile_requirements.py",
+      "bytes": 866,
+      "sha256": "0af49048ba1dc19a7e509ed2752b650bd3052addbed68d5970877a3675a2948e"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_merge.py",
+      "bytes": 1239,
+      "sha256": "335efdc7257d1f5b2f415c8c17802c10ea2c4afd4343ba9bc9542eb6c161c708"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_package.py",
+      "bytes": 2653,
+      "sha256": "21a877b998030d5065b56f8567d05b77181258bc1dd12f82386c21ebf17f1129"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_qualify.py",
+      "bytes": 2355,
+      "sha256": "b74383b7da430f5c50498df6860acde17b6d9a0b10f1e1ec8bced31a674bee63"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_reconstruct.py",
+      "bytes": 1842,
+      "sha256": "374e757972747cc3e89a7fbbec062b3c00c9d969ed7effb9e374d8eeeefbfc10"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_static_audit.py",
+      "bytes": 2696,
+      "sha256": "5ec58a99e6a3f63a72237ed4aabd4c79d37a1a221c33d3357c6ae6455f429471"
+    },
+    {
+      "path": "versions/sm34/supermoon_runtime/tools/sm34_verify_release.py",
+      "bytes": 4874,
+      "sha256": "819700cc2a2bcd7694d40575c919578232748533fbc7e1fe7f458a3cfbb55b07"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/__init__.py",
+      "bytes": 76,
+      "sha256": "b377fea4796a0e4d29339f51e12add760e14d5db580c273d160cd2eff32f626e"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/analysis_engine.py",
+      "bytes": 15784,
+      "sha256": "77ab92357266e51f1e06e118a5cb59c67a664723685e21754a5337e6c66a2426"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/config.py",
+      "bytes": 1057,
+      "sha256": "d3113c19ebea0004b69c41b7779cb63bf8634cf4e5cc98a5be32ba27730ed88f"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/knowledge.py",
+      "bytes": 14237,
+      "sha256": "7675551f872e6914f8363192030b4c42ece99f918af4c5a9308e4b8e9ea2685e"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/launcher.py",
+      "bytes": 713,
+      "sha256": "28ae288258e6443f424f156b1414383ddba6c164a6f39d123a4ff5c706da6f91"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/main.py",
+      "bytes": 5564,
+      "sha256": "85de1289a4cc50311e3cde57dc94c21d87e51373d4d853cee09192313b0843fa"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/report_engine.py",
+      "bytes": 20444,
+      "sha256": "7a1c37caab47318bf04f8812ccd0e4f09a49840e8ff1269c85d9c455533338d6"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/schemas.py",
+      "bytes": 485,
+      "sha256": "d2fd6716ce19905b58f78866fef9eb1697eb08fe13180e50562c49e0348787f9"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/self_test.py",
+      "bytes": 1695,
+      "sha256": "de6b803f3edb2ea8a81fda76c50a21b1da2d79d34fb9a5cd3b6650a51697cf06"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/sm32_bridge.py",
+      "bytes": 3040,
+      "sha256": "1c4a648f526088cdb7d2983e66110e5ed915536704f002291f6ec3a0031b074b"
+    },
+    {
+      "path": "versions/sm34/supermoon_studio/sm34_bridge.py",
+      "bytes": 7161,
+      "sha256": "af3fd90aa4611ac9aa63d8878584d3d541eeb38824c92ad1110625a668bdee35"
+    },
+    {
+      "path": "versions/sm34/tests/test_core.py",
+      "bytes": 820,
+      "sha256": "cbc9ae402eb275d76f251472bd21b234ee144e00062ea4f9ca8daf62950f9f80"
+    },
+    {
+      "path": "versions/sm34/tests/test_setup_dependency_contract.py",
+      "bytes": 867,
+      "sha256": "781ee10d540f82b48a1b28d12663060da3263ed693fa91d12d7ca666d6fa9466"
+    },
+    {
+      "path": "versions/sm34/tests/test_windows_portability.py",
+      "bytes": 1294,
+      "sha256": "2ea580e7cef4742453144741b09b76e56f7c287bae0f3f7aa2851d030002cec7"
+    },
+    {
+      "path": "versions/sm34/tools/audit_package.py",
+      "bytes": 14738,
+      "sha256": "b3ac033e8c9a204689db1438be9779c40111dc48e63606c0956744130d9ca88f"
+    },
+    {
+      "path": "versions/sm34/tools/build_knowledge_index.py",
+      "bytes": 609,
+      "sha256": "15b6ae347832c55ecf06d5cb8861af00dfe008276b4742b0c560c869a7b48f9c"
+    },
+    {
+      "path": "versions/sm34/tools/reconstruct_sm34.py",
+      "bytes": 4586,
+      "sha256": "6c638c4a857305dfd27c1728f367c70179b7fb44cdf5901ee27d37d4eb2aaa82"
+    },
+    {
+      "path": "versions/sm34/tools/windows_bootstrap.py",
+      "bytes": 28092,
+      "sha256": "4b4718d3d7d3b6223e5ba23f268773e1a61a526ce8891da5385ee81b2e1bc73f"
+    },
+    {
+      "path": "versions/sm35/README_SM35_NEW_UNIVERSE_QUALIFIED.md",
+      "bytes": 879,
+      "sha256": "101667e27178b84bad1a74368bec956756da01b2693b4b17b0913816b4dc577b"
+    },
+    {
+      "path": "versions/sm35/SM35_pyproject.toml",
+      "bytes": 387,
+      "sha256": "73446aa64ad83e7a85d436aae7b14c96a5b4d328b0fa2931f2f90cda7f3527e8"
+    },
+    {
+      "path": "versions/sm35/benchmarks/README.md",
+      "bytes": 400,
+      "sha256": "e9c29f158afb04b5ac2aa7743fc5663e97960c8cf350ca47d387639ba2362128"
+    },
+    {
+      "path": "versions/sm35/cases/cad/SM35_CAD_MATRIX.json",
+      "bytes": 280,
+      "sha256": "7805eecde25ec792586516a65ea45a204a9de117d23bb49d1b2d2f05ea9d6123"
+    },
+    {
+      "path": "versions/sm35/cases/neutral_cfd/naca0012.json",
+      "bytes": 415,
+      "sha256": "6a6e40e8fa955fc574e5b41ccb2e9dd20dc305a52ec1098bc7d6d940a8da68fd"
+    },
+    {
+      "path": "versions/sm35/cases/openfoam/README.md",
+      "bytes": 347,
+      "sha256": "9a1ea1b4759b5320996991de317f6c08ada9deafa0e3450172c2998643ae6729"
+    },
+    {
+      "path": "versions/sm35/cases/su2/NACA0012_SM35.cfg",
+      "bytes": 295,
+      "sha256": "bb41c031b28f4b7f6990eabc02aae94f28beee5676e64cdbb5cd95b5eeb61d18"
+    },
+    {
+      "path": "versions/sm35/deployment/containers/Apptainer.def",
+      "bytes": 178,
+      "sha256": "2046cf8fd61c90ca1e6b1ac6695cd052d4ba33ab946df26cdc563a28321fb819"
+    },
+    {
+      "path": "versions/sm35/deployment/requirements-sm35.lock",
+      "bytes": 176,
+      "sha256": "8c2ac1d4cabdaf0f95fef5c8dca5cf4cdbfa4c41fbe0f0ace56730a98b14bdce"
+    },
+    {
+      "path": "versions/sm35/deployment/second_machine/RUNBOOK.md",
+      "bytes": 520,
+      "sha256": "75fc8e2cd0c1a57c648fa553d050645c57e30d59ae9910d7bdbf667260ee2999"
+    },
+    {
+      "path": "versions/sm35/deployment/slurm/endurance_24h.sbatch",
+      "bytes": 290,
+      "sha256": "c4cd3d2d1a19b64fd737eb8ced0923f9ec818ba77ff148f549c030abe83b78c1"
+    },
+    {
+      "path": "versions/sm35/deployment/slurm/endurance_72h.sbatch",
+      "bytes": 318,
+      "sha256": "abe02e2bfacef621194ea6571c5eeca3c73dc734f75ad3e1d41bbc13dcf9ef57"
+    },
+    {
+      "path": "versions/sm35/deployment/slurm/petsc_rank_matrix.sbatch",
+      "bytes": 459,
+      "sha256": "b35b85dbbb58fcf05e96f2a540c3962afee776ff6f5ef31f7959ee78c2c96b5e"
+    },
+    {
+      "path": "versions/sm35/deployment/spack/spack.yaml",
+      "bytes": 128,
+      "sha256": "09b20e2425664826d9d64d16e431c5aa0f45f9d63fed4ec36d5c545f4bd8d08a"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_AEROSPACE_VV_REPORT.md",
+      "bytes": 586,
+      "sha256": "95983bf694bfa11d825575d1d4d7922a917b485f0ec66e8a66622eedea34b075"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_ARCHITECTURE.md",
+      "bytes": 1011,
+      "sha256": "0a177fa5ffac193286036068b22d578ace3880922f8fcb518aa00081a9234231"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_CAD_QUALIFICATION_REPORT.md",
+      "bytes": 532,
+      "sha256": "378bf2dcd77c3c67d589ebbbd7368032923df31f2ecc0d767aa44459ccda5a79"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_CFD_CROSS_VALIDATION_REPORT.md",
+      "bytes": 586,
+      "sha256": "62d835654ebdc4a4b828273dde1408e81bdf81101f390b05eaad985b580f0952"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_COVERAGE_REPORT.md",
+      "bytes": 701,
+      "sha256": "d3edb66a61b41054c0eb107f8de8ed84264fb9e17a7b3ad3ae2d43c316dd8988"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_ENDURANCE_REPORT.md",
+      "bytes": 512,
+      "sha256": "d8ec34343bc62be7ae06660baddf88a3a8f304a44ee0fe69794e92721d8da185"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_EXTERNAL_QUALIFICATION_RUNBOOK.md",
+      "bytes": 1264,
+      "sha256": "2d8a9d3530e2527b2e0cb5bc66d7af071a65b535bd4621d7b9eacdf0b0ae55e9"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_GPU_QUALIFICATION_REPORT.md",
+      "bytes": 427,
+      "sha256": "becaf71bbfbe8d3bf16b040ec4e5bc39dca2a90d042ce6213c88fcb8396b8f82"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_IMPLEMENTATION_REPORT.md",
+      "bytes": 953,
+      "sha256": "592e0cd391b068eb41ac1220c6cbb3c17a177946c1f56970a0e6b545ed7a6cbe"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_NUMERICAL_VV_REPORT.md",
+      "bytes": 592,
+      "sha256": "9e770da3ba28a449930102366e17a3cee72fa8c12ea4ca55c83c4c580a7b41cc"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_SECOND_MACHINE_REPRODUCTION_REPORT.md",
+      "bytes": 430,
+      "sha256": "7ef07befbc0104fcf8858bc5b2bdb9a6ae00403567743a300b22bd81f47d716d"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_SECURITY_AND_SUPPLY_CHAIN_REPORT.md",
+      "bytes": 746,
+      "sha256": "5cce2ca0701ac0ce9167cb9a231368f86882be0412b1cb5f692b692ba7588aa8"
+    },
+    {
+      "path": "versions/sm35/docs/SM35_THREAT_MODEL.md",
+      "bytes": 974,
+      "sha256": "90a48996254929c2a6656b602ecf97222bbbf037bdd290b7d0460c1384e642ea"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_BACKEND_CAPABILITY_MATRIX.json",
+      "bytes": 1866,
+      "sha256": "94ac6ac359330a8c9eb1e97f39b168dcedf55286a8cce3e70107f4f95d98660d"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_BASELINE_FROZEN_RECEIPT.json",
+      "bytes": 742,
+      "sha256": "58f739cf2fac6937209d7900e43e5397cd204126365f826e2ebe6cc1c5937ec4"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_BUILD_PROVENANCE.json",
+      "bytes": 372,
+      "sha256": "665bd13fadb85ec55e1609268677526d1448de19938b52e9079ce4acef3cc863"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_CAD_RECEIPTS/LOCAL_UNAVAILABLE.json",
+      "bytes": 872,
+      "sha256": "1b22e1ab25fbddd86d2417ffeb7cba0e44d0d84fb2e5fab85e160a917abd5f79"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_COVERAGE.json",
+      "bytes": 73942,
+      "sha256": "fe3eea3e5dcdef10d94e4f5d41739a3fce6dfb8354763ace7c722ad61276a911"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_COVERAGE_RECEIPT.json",
+      "bytes": 2150,
+      "sha256": "a61fa66da71a506357e1f8c82f1b5401fbacd574f37fe29a2ee866b7666ffc32"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_DISCREPANCY_LEDGER.json",
+      "bytes": 252,
+      "sha256": "bac1040bdb3908da55b7e2baaabd75332248a0092fd474ed6a1c90246de55cf0"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_ENDURANCE_24H/NOT_EXECUTED.json",
+      "bytes": 264,
+      "sha256": "a2fd5b9d9b41e4fd1f2b8e7f297a70d4ab98256b12815906c73715a63a58b2ba"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_ENDURANCE_72H/NOT_EXECUTED.json",
+      "bytes": 265,
+      "sha256": "29a2c407c6e04f1e43eb72b56428c62fcf4d1f825db03ab49ac22d0b868d263d"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_EVIDENCE_DAG.json",
+      "bytes": 12570,
+      "sha256": "c076158be6b8d3f025d1a37d8a717896dddcd1a08c73cd85d57aa9a796adab22"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_FRAME_MANIFEST.json",
+      "bytes": 17439,
+      "sha256": "074427fb066dcae6d3cdcb0a2fb3578ae70f5639ed63a4e1f15077ab54a133e0"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_FUZZ_RESULTS.json",
+      "bytes": 168,
+      "sha256": "203809c395479eb7bd7976e29fc4790e5cbbff2c02ba51389b06331a82b9df6b"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_GPU_RECEIPTS/LOCAL_UNAVAILABLE.json",
+      "bytes": 872,
+      "sha256": "964c5123f4d606c8f9ea7fea1bd5d075a039ee9ab0509772e22b486f23603fea"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_HPC_RECEIPTS/LOCAL_UNAVAILABLE.json",
+      "bytes": 872,
+      "sha256": "99a8b56ab7be7629c538dd00ccf6ebe3b3e8ea0f0faec39e573b09c2e94a44c7"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_KNOWN_LIMITATIONS.json",
+      "bytes": 496,
+      "sha256": "30dd8d8359e70225474beec989c06b8b71484fbef3a804227ef65e43a58d32db"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_MUTATION_RESULTS.json",
+      "bytes": 1790,
+      "sha256": "8cb125562b0af9dcf5bb566a7b7fbb4dde2e6e7af51629201759ea96dd74a6d4"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_OPENFOAM_RECEIPTS/LOCAL_UNAVAILABLE.json",
+      "bytes": 887,
+      "sha256": "b9437b7cfcfea5a39b637af81834c4b738b381fca43129bdea47fd8215950dab"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_PETSC_MPI_RECEIPTS/LOCAL_UNAVAILABLE.json",
+      "bytes": 890,
+      "sha256": "cd81f00a1091818e802b93ad08e85080c4f50d3a593be949ca1c0400eba7d678"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_PROMPTSTUDIO_FROZEN_RECEIPT.json",
+      "bytes": 395,
+      "sha256": "a13bd953fc2a55882ceb7d1e6c9b2a17bab335a9e7fc6188be69c0e7e2aaf1ba"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_REFERENCE_SNAPSHOT.json",
+      "bytes": 1168,
+      "sha256": "906c61c25673505d18fda3770cdbcc632436e8ef7f1a4900cccbcef1bc78bbb7"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_RELEASE_DECISION.json",
+      "bytes": 647,
+      "sha256": "9dd5f06c171ba3b130fa99dafe3eac6e5454ee8ffc6b50b7f27c7157128db0d0"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_RELEASE_SCORING_INPUT.json",
+      "bytes": 581,
+      "sha256": "1a54e3673ea4b867f45649946345eb64bad5082c1ccaaa0486efe656335e2a0d"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_REQUIREMENT_MATRIX.jsonl.gz",
+      "bytes": 302,
+      "sha256": "f7745bf9311ec8c915864aeda45131207acb97f8314aaee9f40ce7d321b89c98"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_SBOM.cdx.json",
+      "bytes": 435,
+      "sha256": "e8a0a0805eca968f3251d0d8219ce56a2db9b8b44594cb47ff47b2da37816d30"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_SECOND_MACHINE/NOT_EXECUTED.json",
+      "bytes": 187,
+      "sha256": "a74fa560f1258afd00e451186150a859323842954c4039686f3570ccae4af955"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_SOURCE_MANIFEST.json",
+      "bytes": 20185,
+      "sha256": "ec48e428467fc41d6cff62d4fbe8bcaae4188a75415da4446fa59f99a672a00a"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_STATIC_SECURITY_AUDIT.json",
+      "bytes": 137,
+      "sha256": "159f306c4d7abd981eba21dd18eb88489b0f3858175e5c662aafff510e9ccf73"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_SU2_RECEIPTS/LOCAL_UNAVAILABLE.json",
+      "bytes": 872,
+      "sha256": "390fc5d4b3f3109cc20f80a88f04aca7698e11b728f6eabcb1c800c5fb4f8182"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_TEST_RESULTS.txt",
+      "bytes": 7454,
+      "sha256": "22fb1ec71a65d045bb8593b0e8a2b33718d7cdee75e1c2f785a9c769a20ecd7e"
+    },
+    {
+      "path": "versions/sm35/evidence/SM35_VULNERABILITY_SCAN.json",
+      "bytes": 233,
+      "sha256": "90f8c6d768fb2add11c6c06002541fc022405b9fc4e32655a55dfbe181fef0da"
+    },
+    {
+      "path": "versions/sm35/evidence/coverage_html/coverage.lcov",
+      "bytes": 210478,
+      "sha256": "2e8990c26d9f3e755bbea2e04401cc522adfc3477229fa7b288094e8904ea728"
+    },
+    {
+      "path": "versions/sm35/evidence/coverage_html/coverage.txt",
+      "bytes": 3577,
+      "sha256": "8ec2949b80db899548936299e7e7d2f72c477f1bcb771d39b6bab8013ccc89d3"
+    },
+    {
+      "path": "versions/sm35/evidence/coverage_html/coverage.xml",
+      "bytes": 76564,
+      "sha256": "6fb359186814e06de9eb013e64cfe5a2c2e5de8f3d466946b7601bd0ea263cec"
+    },
+    {
+      "path": "versions/sm35/evidence/coverage_html/index.html",
+      "bytes": 5093,
+      "sha256": "cab265f5634aaec45490a48089cf6fe2963aa3454b948df3c88ddaeaecc38771"
+    },
+    {
+      "path": "versions/sm35/promptstudio_overlay/README.md",
+      "bytes": 424,
+      "sha256": "4e53782d1560abecd943e4ebc1582af39a4316aab1bf2ae3060aa36820f60adc"
+    },
+    {
+      "path": "versions/sm35/promptstudio_overlay/install_overlay.py",
+      "bytes": 1428,
+      "sha256": "e3f80d68444651b19cb6631db5e6a8fc2f37cce5b025f5427697889e0e293b38"
+    },
+    {
+      "path": "versions/sm35/promptstudio_overlay/sm35_api.py",
+      "bytes": 385,
+      "sha256": "9ddbee47e238c53e1ccf64d1e95e76800a6622b1928393408be1c053cba248e8"
+    },
+    {
+      "path": "versions/sm35/promptstudio_overlay/sm35_bridge.py",
+      "bytes": 1361,
+      "sha256": "f5bb58472004e212529adca6190e07d0124bdc4fe8f8ac38608925011c8e5c89"
+    },
+    {
+      "path": "versions/sm35/spec/SUPER_MOON_34_TO_35_MASTER_PROMPT.txt",
+      "bytes": 58988,
+      "sha256": "34deb9242d895e4bbfc3930c2b4e169e931f9f01e0bf8a4d915c9b364a5f0631"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/__init__.py",
+      "bytes": 550,
+      "sha256": "b2acda6d1529e3ab19ad56585deb54d0212e8782b74ce53b674044cf1460fd24"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/cli.py",
+      "bytes": 1041,
+      "sha256": "ed479cf4797a1549c6d750b3976be1a21e6d0c0c8cb27fad90406e1c77d8f874"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/contracts.py",
+      "bytes": 7632,
+      "sha256": "8b9830216b308570f0591915fd9beba2eec15f51c4349dbac691957b145439b7"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/coverage_gate.py",
+      "bytes": 2368,
+      "sha256": "4258b815854b34a978c752b43026990c3fc9813b66710cb61d0b14384d59da28"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/coverage_runtime.py",
+      "bytes": 5985,
+      "sha256": "c7b777c9ad0fccadf6e8b21fdc2f1268104280c84f92d21e0a1140c9f9516f55"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/evidence.py",
+      "bytes": 2749,
+      "sha256": "7a36c3a86f531b000c43f14987dd901d5a88f4004499dbe6ca3183c562feec47"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/framing.py",
+      "bytes": 3380,
+      "sha256": "61b14a48c03f7499f247d18f3d49467da66a2689b674dd1faf1db1cc6c687a42"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/physical.py",
+      "bytes": 6081,
+      "sha256": "7fff8e8555b783bc80eddb685dcf8b79f95f9d2f191c5fee19db059b29294d64"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/qualification.py",
+      "bytes": 2712,
+      "sha256": "890d533832200ab17eb138a0a4aefce8b74deb2c7d391ab4f1ad501b290f1660"
+    },
+    {
+      "path": "versions/sm35/src/supermoon35/vnv.py",
+      "bytes": 6274,
+      "sha256": "2b559d18c33b4cd6844e28124acd0e0d94b0c767ba5ec134cd7c010064b4af52"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/__init__.py",
+      "bytes": 25,
+      "sha256": "982ddaa49617180eeb77aab28d6aefb33aa370747d919e99c97c409905e7b5ab"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/endurance/CONTRACT.md",
+      "bytes": 184,
+      "sha256": "24d6b7e6140d33785a43943945397ce6a343f132557d328696374ccc494703e9"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/external/cad/CONTRACT.md",
+      "bytes": 181,
+      "sha256": "a445fdc34ac9490a98f98deabcb0b6e7fb5a0733e165d730cba9c2eeaba6c583"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/external/gpu/CONTRACT.md",
+      "bytes": 183,
+      "sha256": "108f45700ca2b9a3fed87f6079fe3a38da1f9cd1d0ae7f8855068339122ea455"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/external/hpc/CONTRACT.md",
+      "bytes": 184,
+      "sha256": "2e909514f861ea874f320d845e80e667e49e072776ee979b91b10569a421275c"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/external/openfoam/CONTRACT.md",
+      "bytes": 191,
+      "sha256": "c2e27729e52c5acced37a2c584cbf04481956fe6b07af18e10b0f8f819138e82"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/external/petsc_mpi/CONTRACT.md",
+      "bytes": 194,
+      "sha256": "58b695663652e8347a7bc46e32a7bead66b2c585019ef1eeeeb9c9b22752975b"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/external/su2/CONTRACT.md",
+      "bytes": 190,
+      "sha256": "0f58ce24df391d46858c694540b45863a5166dc2af160ca55455e28fad7ef25c"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/fuzz/__init__.py",
+      "bytes": 33,
+      "sha256": "9d80727113441b5c3f24cc0953fbc3abe52396b9ef0daa71934727df34787792"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/fuzz/test_sm35_framing_fuzz.py",
+      "bytes": 2081,
+      "sha256": "aa7aa09599a28570233f2b2271c51a8968593bb15c629c90da5a99814946c829"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/integration/__init__.py",
+      "bytes": 53,
+      "sha256": "6f88b07eaa900e1b876b63e094d338fad1c714c75675b7b6deee6847b6c40e8c"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/integration/test_sm35_physical_contracts.py",
+      "bytes": 4133,
+      "sha256": "5cda660672eb03392c8aa419b6643565d29afa69c431824ccac127dde934f387"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/property/__init__.py",
+      "bytes": 38,
+      "sha256": "91b6324886c12aae355156cbeec9508b586f0e02eb8fa4d7ae55b1b36e5f7025"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/property/test_sm35_vnv_properties.py",
+      "bytes": 4802,
+      "sha256": "ab92b85171f995618da60116071f41e80f0a4f631ff0a1a8a2756cd3aff430e7"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/reproduction/CONTRACT.md",
+      "bytes": 190,
+      "sha256": "37743020fd1a6de4e02d09d1247df7aeda8a26852a60e690a0dc6bcd9938e98e"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/unit/__init__.py",
+      "bytes": 32,
+      "sha256": "2179a264cb1df3c98b8537ac07e39fd1fa28f4234842247846c705727be7682e"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/unit/test_sm35_contracts.py",
+      "bytes": 3981,
+      "sha256": "df289d4447615fd847d486f6fad6683dd0eb606cd6c495102aee47dc2d93a07b"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/unit/test_sm35_coverage_cli.py",
+      "bytes": 1980,
+      "sha256": "02128810d595ff94d56515277f92dc472114ff70fcb3923f3aafbbba58cdff55"
+    },
+    {
+      "path": "versions/sm35/tests/sm35/unit/test_sm35_evidence_qualification.py",
+      "bytes": 4678,
+      "sha256": "6631af36027942868465f4ea96829a6e2e9ed292a0bbd0a7b09982a82ccdb7ed"
+    },
+    {
+      "path": "versions/sm35/tools/build_evidence_dag.py",
+      "bytes": 1303,
+      "sha256": "bbbf8107b9997b5609eb5cd7f0a3eda25dc08bd770352bebfeec2785c27eb25c"
+    },
+    {
+      "path": "versions/sm35/tools/build_reproduction_bundle.py",
+      "bytes": 1066,
+      "sha256": "95fd6a75fceea0c842c0ea9e53c9687880545138fbf8b25e48226705f11743a5"
+    },
+    {
+      "path": "versions/sm35/tools/endurance_common.py",
+      "bytes": 1198,
+      "sha256": "b6405826559d0bfa57391a3e3d8954d3afd134586083307cca712c0cfa6aa54d"
+    },
+    {
+      "path": "versions/sm35/tools/generate_local_evidence.py",
+      "bytes": 11942,
+      "sha256": "74de25b4013b13ff7df07da4c06737fb43eb0952abeca151bc985b2f86ec68b4"
+    },
+    {
+      "path": "versions/sm35/tools/package_sm35.py",
+      "bytes": 3360,
+      "sha256": "4e9ea6d6fccab9e81f4cbb8062813644bad8c5d399e65f773c5c4dfe446b2cde"
+    },
+    {
+      "path": "versions/sm35/tools/petsc_poisson_worker.py",
+      "bytes": 1649,
+      "sha256": "aace325e332283ab257aae9227dfb624d5d46f8b8bce8a5fb9f44143d4e09661"
+    },
+    {
+      "path": "versions/sm35/tools/reconstruct_sm35.py",
+      "bytes": 3183,
+      "sha256": "29f5021884324dfa6898a358318353f7a5bab291fee54b5d7137479466a1cd9c"
+    },
+    {
+      "path": "versions/sm35/tools/render_coverage_reports.py",
+      "bytes": 2614,
+      "sha256": "5c3153413ff52ea1ca63db74a870f3f7dc2e6a7225f694ce8e8bb30d5bc6b1b8"
+    },
+    {
+      "path": "versions/sm35/tools/run_cad_roundtrip_matrix.py",
+      "bytes": 2110,
+      "sha256": "345532ee1f00e7af337aead07d2689356ea95c1fe16637c37c915ac6bf32b1f2"
+    },
+    {
+      "path": "versions/sm35/tools/run_cfd_cross_validation.py",
+      "bytes": 1144,
+      "sha256": "b04e8380abbf2d26aa0a14e8f5fe001cdf54a07baba2205983fdd460f456a922"
+    },
+    {
+      "path": "versions/sm35/tools/run_endurance_24h.py",
+      "bytes": 336,
+      "sha256": "7db5949781b9782f9c89a22104e1a4426de4fde0fec691651909a0463aa01c12"
+    },
+    {
+      "path": "versions/sm35/tools/run_endurance_72h.py",
+      "bytes": 336,
+      "sha256": "77659555e186ea584eeea2cf5689b0cfa16576fb0989998be768e62cf7934a29"
+    },
+    {
+      "path": "versions/sm35/tools/run_gpu_qualification.py",
+      "bytes": 1788,
+      "sha256": "f59fdcb3ad81c6c2ecfa27005d659f3ff2aa4a59e26dc77bcdc5466ab01bd945"
+    },
+    {
+      "path": "versions/sm35/tools/run_openfoam_qualification.py",
+      "bytes": 1585,
+      "sha256": "20323d5f0c2683e88f3152269f41efaf4b1c5e8ba67f0aa51d687bffd0422bbb"
+    },
+    {
+      "path": "versions/sm35/tools/run_petsc_rank_matrix.py",
+      "bytes": 1750,
+      "sha256": "f033ca6fcce17debeccbbd355c98113eb2143faa1ef3be2fae9e78981f419b50"
+    },
+    {
+      "path": "versions/sm35/tools/run_sm35_coverage.py",
+      "bytes": 2266,
+      "sha256": "42aaae471c2b31ed48a74821b6bde6a172a7e957fa2f943da762fff282ba911e"
+    },
+    {
+      "path": "versions/sm35/tools/run_sm35_mutation.py",
+      "bytes": 3719,
+      "sha256": "1d5d1fe0c7d4c2705f801d8f66e8373d4063506f479a6af82789bc2a88e37bd6"
+    },
+    {
+      "path": "versions/sm35/tools/run_su2_qualification.py",
+      "bytes": 1628,
+      "sha256": "f6feb7cea7fff32ba96c03c550251fe637e583f0ce53e6355a6e2ff72b64eb6f"
+    },
+    {
+      "path": "versions/sm35/tools/score_sm35_release.py",
+      "bytes": 882,
+      "sha256": "63ebcf8657c8e1a193a2562606bf6aec9c2efd463121300ae146b0cf540a65dc"
+    },
+    {
+      "path": "versions/sm35/tools/static_security_audit.py",
+      "bytes": 2308,
+      "sha256": "4b26a304505b9048204df05e60f3e6d14c2b7de1b989d3855ee61519b37b2329"
+    },
+    {
+      "path": "versions/sm35/tools/tool_common.py",
+      "bytes": 1121,
+      "sha256": "ae77c48bbb6b34a7ae497d2278e8c4c255b32c55bbc678b86dcfc5b360a4dc0e"
+    },
+    {
+      "path": "versions/sm35/tools/verify_coverage_thresholds.py",
+      "bytes": 908,
+      "sha256": "3b98b65108af8e1ff14c222cb1c85fa100a290cf26a30a51e8fe0dc1e17e602d"
+    },
+    {
+      "path": "versions/sm35/tools/verify_second_machine.py",
+      "bytes": 877,
+      "sha256": "00f35fe9be6d42379b818ffd50a46a65bdf6aa70403af4c5b0283fb26a036883"
+    },
+    {
+      "path": "versions/sm35/tools/verify_sm35_release.py",
+      "bytes": 2617,
+      "sha256": "948a403ab364fb1b818833a96ceb8acbe1f31987a5c1dd7f38adbf381234d9c0"
+    },
+    {
+      "path": "versions/sm36/README_SUPER_MOON_36_NEW_UNIVERSE.md",
+      "bytes": 1040,
+      "sha256": "ee985973419d075abf33855cf5a986dfe28a6c274b9834434d2c82cea85875cd"
+    },
+    {
+      "path": "versions/sm36/deployment/second_machine/RUNBOOK.md",
+      "bytes": 921,
+      "sha256": "0f373eb2e944846f17a7e2aa6d4b783a0e3eb07245482ec80cf43bb61b4da7d3"
+    },
+    {
+      "path": "versions/sm36/deployment/slurm/endurance_24h.sbatch",
+      "bytes": 463,
+      "sha256": "a026485aeb3d276129979c252a990d78a6cab6da344cb8176a468bd3d15e4312"
+    },
+    {
+      "path": "versions/sm36/deployment/slurm/endurance_72h.sbatch",
+      "bytes": 463,
+      "sha256": "d1db656151b1d41666170f52631f5ffce071e07666b3229ff59b9899e483e02d"
+    },
+    {
+      "path": "versions/sm36/deployment/slurm/petsc_rank_matrix.sbatch",
+      "bytes": 570,
+      "sha256": "c464f50e46b818a975ae5457e6ad3e10031c15b50f286b588fd56d2dd859fb7e"
+    },
+    {
+      "path": "versions/sm36/docs/SM36_ARCHITECTURE_AND_QUALIFICATION.md",
+      "bytes": 1171,
+      "sha256": "3886f73b658978fa7c1844c28d327d6906dfb1ae9e76ee2cb87f311e48a33e7d"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_BUILD_ENVIRONMENT.json",
+      "bytes": 244,
+      "sha256": "25f4426d994124a01cf76680f0ab4b6c393dbbdd640c00839614d573e6a72e90"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_CERTIFICATION_READINESS_MATRIX.json",
+      "bytes": 17570,
+      "sha256": "b78ee394c5273bba18668ef4b2a2a3a755f46d90475f86de18d95769285937be"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_COMBINED_COVERAGE.json",
+      "bytes": 123302,
+      "sha256": "fb3ead9645136b7ed398d417125b660f6346bc164b1065b1c966a85005c04a16"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_COMBINED_COVERAGE_FINAL.json",
+      "bytes": 122971,
+      "sha256": "485096e7f3c6c803dc95dc73657199aa96c56cd0b17fa7cdfd45a44bb9fe6f8c"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_COMBINED_COVERAGE_FINAL_V2.json",
+      "bytes": 122928,
+      "sha256": "64682e8df0a32328fc953cc0c151d8af3de78d43532e2de258489603634dd546"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_COMBINED_COVERAGE_FINAL_V3.json",
+      "bytes": 123025,
+      "sha256": "be3f5753a90ec4323ad49305e18f69b93f745bc7f1eda52a537043b87f405027"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_COVERAGE_INCREMENT.json",
+      "bytes": 122753,
+      "sha256": "41ba14b18a627312d8391844c070b2c1e85f79872ec10563f28959bf20363516"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_CYCLONEDX_SBOM.json",
+      "bytes": 411,
+      "sha256": "e4892ce68ca9bd529bc0c70e386e7da3649dbfdff70b1e2b79019b619598355d"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_EVIDENCE_LEDGER.json",
+      "bytes": 1864,
+      "sha256": "07e8083b8e7fa339968f07d9788f3dc6a0133754294d092b8e6918aed925a863"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_FRAME_MANIFEST.json",
+      "bytes": 13194,
+      "sha256": "559c33d4892e597d5bec5a61d99cb4445948faefd6a38a1a18c24518e08c009b"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_FUZZ_CAMPAIGN.json",
+      "bytes": 257,
+      "sha256": "8a465515057bce2b305bbc6debd593e4469a62a2138bcbd822b38ff0ca3851f6"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_INDUSTRIAL_CONTROL_MATRIX.json",
+      "bytes": 14958,
+      "sha256": "a1eb07b4d151bc1ad5eec7530c4e4e3ded59e5e1159a1eb55082481880b6cb07"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_LAYER_MANIFEST.json",
+      "bytes": 28717,
+      "sha256": "4740f249c3988c90511f04935070a182334e9e0ec7d9a720a341761e3938032c"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_LIMITATIONS.json",
+      "bytes": 691,
+      "sha256": "f9103dc889b6c023a729eaa9c40d739b4fbcb3ed17674c439afcb74a9e4118dd"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_LOCAL_CAPABILITY_PROBES.json",
+      "bytes": 1804,
+      "sha256": "8104be0f80284538efb4c0920e2298ef51a4f6cccbea1e9b375b1df87f881eac"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_LOCAL_QUALITY_DECISION.json",
+      "bytes": 736,
+      "sha256": "b5625f5f70ddc538e41ab84417f69ac876b03718af0dcb394560e07a279de4b3"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_METHODOLOGY_REGISTRY_SUMMARY.json",
+      "bytes": 350,
+      "sha256": "614066b4f655b2b239df8c1ae8dc71351ed351c9e3581540862e6b6c2c2ddbd9"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_METHODOLOGY_WORK_ITEM_SUMMARY.json",
+      "bytes": 437,
+      "sha256": "a8be73032945cc8474ea9d809d2a6edc88bef1546ec62b48460c45582468dca3"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_MUTATION_CAMPAIGN.json",
+      "bytes": 2859,
+      "sha256": "8b8ad396f42ea0b6d17791fed17fcaf60ba44b8578b4d0bca32564b565db8ac1"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_PHYSICAL_EXECUTION_STATUS.json",
+      "bytes": 1152,
+      "sha256": "3d619a108de3bc52d9e4a9d840b38092b94d450d12e3de3aef75d273ea527cd8"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_REGRESSION_MATRIX.json",
+      "bytes": 2737,
+      "sha256": "479c22dc43faaf38274e6441deda6d11ad2c9a63079f04bba83efc3a5ed21d8e"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_RELEASE_BOARD_MINUTES.json",
+      "bytes": 597,
+      "sha256": "3067a0643caa72a10864825e63925663d7fe440ad8f971b51acbffc038aaf34f"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_RELEASE_DECISION.json",
+      "bytes": 810,
+      "sha256": "37deaaa356a60f503d5064db4c9dc5d7a07bb142de077c62241f79f591d97549"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_SAFETY_ANALYSIS_INDEX.json",
+      "bytes": 1502,
+      "sha256": "7b9459ff392b8bc75734c7e50ab0ced14d51a5665c182d884dbe8f34e4116a7b"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_SM35_BASELINE_PRESERVATION_INPUT.json",
+      "bytes": 42350,
+      "sha256": "d3eb74939f5b8ebf3a474a813d5b94d22739dbed973068103d84d1ffd1b4941d"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_SOURCE_MANIFEST.json",
+      "bytes": 25680,
+      "sha256": "10b723499f8ebf7cc9ae6a9d428ec4b91e957d5aebc7ff5771ececcf0b41ccd0"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_STATIC_SECURITY_AUDIT.json",
+      "bytes": 137,
+      "sha256": "f9dabac1e63ada59acf0d0518a2d4d70da15f83a4a5f183979b9754abac8db98"
+    },
+    {
+      "path": "versions/sm36/evidence/SM36_TOOLING_SECURITY_AUDIT.json",
+      "bytes": 137,
+      "sha256": "f0966cfb46b4d05f345f944e738e11e3cda66fb5d9f1aeb3755fff3089a2db7e"
+    },
+    {
+      "path": "versions/sm36/promptstudio_overlay/README.md",
+      "bytes": 542,
+      "sha256": "5fee5b7452ead51983643561f6ef65557eefeb51565589ba839e3b6507d9a737"
+    },
+    {
+      "path": "versions/sm36/promptstudio_overlay/install_overlay.py",
+      "bytes": 1763,
+      "sha256": "29c2b317aebf787e624760c6fcb51b8b54a8d223df1c9b92866243a71d6fd8e5"
+    },
+    {
+      "path": "versions/sm36/promptstudio_overlay/sm36_api.py",
+      "bytes": 397,
+      "sha256": "ea0c1e4510d8a16a31eecc439f23ac5374ca2ed2ac8d5696bb1980b7daa7179d"
+    },
+    {
+      "path": "versions/sm36/promptstudio_overlay/sm36_bridge.py",
+      "bytes": 1392,
+      "sha256": "7a1bed142e2ffa935eab9101a173efa9b9d506cf41d11a9fba9582469e8330d4"
+    },
+    {
+      "path": "versions/sm36/pyproject.toml",
+      "bytes": 439,
+      "sha256": "23b30d0905a91f5a958ee75183eaec97d56c0b379cb82c366268da36c3d8a0ee"
+    },
+    {
+      "path": "versions/sm36/registry/SM36_METHODOLOGY_REGISTRY.jsonl.gz",
+      "bytes": 1194995,
+      "sha256": "d6477079cc2d4556131960f87f53660bf90f6b7452eec3ce07cebff250cf9041"
+    },
+    {
+      "path": "versions/sm36/registry/SM36_METHODOLOGY_WORK_ITEMS.jsonl.gz",
+      "bytes": 691194,
+      "sha256": "aa4071bdcb5dc89ba6389b5f4dd18c06c7ac8a70a446f7b2c37c0834f8263c47"
+    },
+    {
+      "path": "versions/sm36/spec/SUPER_MOON_35_TO_36_15000_ADVANCED_QUALIFICATION_METHODOLOGIES_MASTER_PROMPT.txt",
+      "bytes": 26409164,
+      "sha256": "901c9caba767a430ff31baee38736783c02ee19350d5c9d165016eb30106cbea"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/__init__.py",
+      "bytes": 532,
+      "sha256": "5ce66518cb957b9634a0acd2b19308bc453d02b4006dd853dd507e8ce92be27e"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/__main__.py",
+      "bytes": 49,
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/certification.py",
+      "bytes": 4691,
+      "sha256": "0f7e3e43e06f0f927ca9b113cbcde2e4ddb0d2a36b5e96aca343d32546cc4e61"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/cli.py",
+      "bytes": 2476,
+      "sha256": "5ef400f34d7de953e660143a06317b6df02d56d1d86cf42a4699fc71aa753335"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/contracts.py",
+      "bytes": 12162,
+      "sha256": "10a40bd546e4dbf3af441310eae23e48c3833d09d182730c895ae90bb2358b35"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/coverage.py",
+      "bytes": 5929,
+      "sha256": "47f549598f481d22a2b9464337b540dccc598b19883fabfac021b71a896788ef"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/coverage_runtime.py",
+      "bytes": 5645,
+      "sha256": "2147ec7b4ab9071c226da98af798da82341c53d83d473495a17868be9ac51188"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/endurance.py",
+      "bytes": 5023,
+      "sha256": "499f3b0d241efd328082ebda8f0a6a9d0a4ce3e40fb3aeebfa37ff2002f78130"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/evidence.py",
+      "bytes": 6422,
+      "sha256": "64bebab462fea916d5adcf5f75ba35550ac5ceb5587aad04b99a4828dc7322c6"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/framing.py",
+      "bytes": 2751,
+      "sha256": "f0dd615a3ecb1786bd8e459d8acfbfdc3a948c7b379589ce4bc227e2b59262b3"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/hpc.py",
+      "bytes": 4679,
+      "sha256": "98e544e88655fd598439524584f6a567b58f575875f1f99efd2cd62596c3942d"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/industrial.py",
+      "bytes": 3488,
+      "sha256": "4e54874f909da2ed7e096633d75dbe0da1375029b752b769780d8a315d0fb058"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/methodology.py",
+      "bytes": 6513,
+      "sha256": "b82a45d55c748681acd2bedb855dcfe9ea5804d258fde6ce032b94c230451b64"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/physical.py",
+      "bytes": 7760,
+      "sha256": "8d8ef699c2d95b557c9b9ca256016f16978c1c52c23c51cad22870c8627e958b"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/qualification.py",
+      "bytes": 3740,
+      "sha256": "b13e135dfbddb22c133fb0f0bfcdb9b09658b419294a904139a5cf1684a103d1"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/registry.py",
+      "bytes": 6790,
+      "sha256": "4b4fb303ed4a0f24ef934bfb92022fed0c5b850e393f7378cd2c7402c0414187"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/security.py",
+      "bytes": 2324,
+      "sha256": "cc8cc1c8aa992e7501a194445df991e6f5aa81a039c944b8ba6f005b336b0f9b"
+    },
+    {
+      "path": "versions/sm36/src/supermoon36/workitems.py",
+      "bytes": 7557,
+      "sha256": "e88ef69826214f830cf4b93e5d7f75948a7d6064ceb888e529e76ef415eeb333"
+    },
+    {
+      "path": "versions/sm36/tests/test_contracts_evidence.py",
+      "bytes": 6919,
+      "sha256": "7617268323bed6e0ce6c0a5a411d9f7f69e7e3f9aa9955fb054b7d463e547ed8"
+    },
+    {
+      "path": "versions/sm36/tests/test_coverage_hpc.py",
+      "bytes": 6022,
+      "sha256": "0a3939f1bafec6c1f25eb7a6feee58d6d21f861cf349c6a22f336e0f977a1ee1"
+    },
+    {
+      "path": "versions/sm36/tests/test_coverage_runtime.py",
+      "bytes": 1174,
+      "sha256": "1a8892bede9faf94889c6eb5644c59fa0f85953d9810e521e55c1f4d4aa442a7"
+    },
+    {
+      "path": "versions/sm36/tests/test_industrial_certification.py",
+      "bytes": 4611,
+      "sha256": "301bc01d761757c99fa379784521281735188d2992d12d7ae32ba79006e2ac07"
+    },
+    {
+      "path": "versions/sm36/tests/test_inherited_sm34_hardening.py",
+      "bytes": 23986,
+      "sha256": "06fe7c15503a0d0cc3406e371ee4270592a2e92e8f865eb98fa669cdaf5f062b"
+    },
+    {
+      "path": "versions/sm36/tests/test_physical_endurance.py",
+      "bytes": 6453,
+      "sha256": "ebf196b18c9302672729f1610c861b94e3ca83f863cf944b52c32d9d70b3e015"
+    },
+    {
+      "path": "versions/sm36/tests/test_qualification_framing_security_cli.py",
+      "bytes": 4785,
+      "sha256": "cf8790acf4390e369a5994d6edce17126ce07f12b6cf2f94c90c8bef209ab103"
+    },
+    {
+      "path": "versions/sm36/tests/test_registry_methodology.py",
+      "bytes": 5974,
+      "sha256": "97472290049ef855204a51f5c394691e2058b8db174e63e1215778a90162c0dd"
+    },
+    {
+      "path": "versions/sm36/tests/test_sm36_hardening.py",
+      "bytes": 11025,
+      "sha256": "b3acd44f03c0045b3afbc293049408c3eed84b7315ceff5ffa7d3c30e36c0680"
+    },
+    {
+      "path": "versions/sm36/tests/test_workitems.py",
+      "bytes": 2444,
+      "sha256": "d02479d1798dec6dd09a6b7107464048eee4ba86cabe9b42c9b48ae9dc374c35"
+    },
+    {
+      "path": "versions/sm36/tools/build_methodology_registry.py",
+      "bytes": 964,
+      "sha256": "b5934eaa9a2d213caf57b3a6642bde9b2d21f1780633024750cb9fb2d69ff514"
+    },
+    {
+      "path": "versions/sm36/tools/build_work_item_ledger.py",
+      "bytes": 1972,
+      "sha256": "27aab58a10ac7e2bc38a4c483c915c5f23e911d7640a88bbc569f22a63fd8c14"
+    },
+    {
+      "path": "versions/sm36/tools/finalize_layer_manifest.py",
+      "bytes": 1523,
+      "sha256": "c6c862c3467b43049b9b0c93052c4dc7d772f8294101185a0878a530df5de60a"
+    },
+    {
+      "path": "versions/sm36/tools/generate_release_evidence.py",
+      "bytes": 7343,
+      "sha256": "287ddee3c6ef40983cc78a398b3bdb68361a18f9dcf9676605882f2efc588c1c"
+    },
+    {
+      "path": "versions/sm36/tools/merge_coverage.py",
+      "bytes": 2375,
+      "sha256": "07e162fff382c13f7ab15f0b8994c220c08cacc94ba1ed13ed46d27276148776"
+    },
+    {
+      "path": "versions/sm36/tools/package_sm36.py",
+      "bytes": 4017,
+      "sha256": "237dd67167ef7f708f5a706e4238373ceb8aca741cfab4f8d6344c24cf53df80"
+    },
+    {
+      "path": "versions/sm36/tools/prove_sm35_baseline.py",
+      "bytes": 3268,
+      "sha256": "f615d62343d0f98d69921c753480a48aaf638d6f77f906c9fc2e334c15168a21"
+    },
+    {
+      "path": "versions/sm36/tools/reconstruct_sm36.py",
+      "bytes": 2900,
+      "sha256": "19ec3a50a4e4981567fff44555d0b6a300e322a37970f1cbfd46a98585699095"
+    },
+    {
+      "path": "versions/sm36/tools/run_endurance.py",
+      "bytes": 2306,
+      "sha256": "f486186739cc35e368cc93a8154d62e0dae899eae7488a07a3f3a629b8ceee6e"
+    },
+    {
+      "path": "versions/sm36/tools/run_fuzz_campaign.py",
+      "bytes": 3584,
+      "sha256": "b313b9039c3a4d4552a9e7ed51977634a9ab7cb10650ac57f7bfc98c5b6ceea1"
+    },
+    {
+      "path": "versions/sm36/tools/run_incremental_coverage.py",
+      "bytes": 1918,
+      "sha256": "5c75eb5aced0b48c8bed3889e407027f88364076f999dbd7f4fa412b6fde3649"
+    },
+    {
+      "path": "versions/sm36/tools/run_methodology.py",
+      "bytes": 1419,
+      "sha256": "1ac9e57330cb7f7fb4ba92a62bbe5773fce6df04c93f187c4d8ce34155647423"
+    },
+    {
+      "path": "versions/sm36/tools/run_mutation_campaign.py",
+      "bytes": 3966,
+      "sha256": "ac8ef566fc82aeef38b30362238ea61e62762d0524f2e2b2e3ee908535d8f433"
+    },
+    {
+      "path": "versions/sm36/tools/run_phase.py",
+      "bytes": 1786,
+      "sha256": "75f0641cbdcc59fbfc820e68c714b37c5bfb49f02ba6f2fb501143aaae12b93d"
+    },
+    {
+      "path": "versions/sm36/tools/run_physical_campaign.py",
+      "bytes": 2880,
+      "sha256": "17315cf782455097210685357d13f9e6866f3bd34584f50bc3bcc83cebc330f7"
+    },
+    {
+      "path": "versions/sm36/tools/run_physical_probes.py",
+      "bytes": 1287,
+      "sha256": "ed261fe6e81698c772de7310fd7eb3c2ff39407b5bacbe67d66285146e8579ea"
+    },
+    {
+      "path": "versions/sm36/tools/run_regression_matrix.py",
+      "bytes": 1987,
+      "sha256": "d4e65d62508d580789d97a8fc42bcadfde3468c8f57dfff14138cf25147ec9be"
+    },
+    {
+      "path": "versions/sm36/tools/run_sm36_coverage.py",
+      "bytes": 2300,
+      "sha256": "991ffae991050d1107eac7d6d2686f532d134a87a5fc0ef7c13608108eb6b8f9"
+    },
+    {
+      "path": "versions/sm36/tools/score_local_quality.py",
+      "bytes": 1961,
+      "sha256": "33fb68dc2b98557e4d0e881654ecc1893be90f849433376b6788dcfe5eb9a450"
+    },
+    {
+      "path": "versions/sm36/tools/static_security_audit.py",
+      "bytes": 1121,
+      "sha256": "953657338d73553b6a64a84556c8dd987e2952b66915fac93464ffcd56cd7a1e"
+    },
+    {
+      "path": "versions/sm36/tools/verify_sm36_release.py",
+      "bytes": 2493,
+      "sha256": "72319bb813524c9703c219c07305ff049e0c219a914d12fa19d9cc5fa6dafcac"
+    }
+  ]
+}

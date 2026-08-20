@@ -1,0 +1,15 @@
+{
+  "categories": {
+    "conservation": 4000,
+    "finite": 4000,
+    "frame": 4000,
+    "gci": 4000,
+    "path": 4000
+  },
+  "failure_count": 0,
+  "failures": [],
+  "format": "SM36_FUZZ_CAMPAIGN_V1",
+  "passed": true,
+  "seed": 360035,
+  "trials": 20000
+}

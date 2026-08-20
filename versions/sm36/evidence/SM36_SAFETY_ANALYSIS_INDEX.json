@@ -1,0 +1,69 @@
+{
+  "analyses": [
+    {
+      "analysis": "FHA",
+      "evidence_ids": [],
+      "open_action": "OA-FHA",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "PSSA",
+      "evidence_ids": [],
+      "open_action": "OA-PSSA",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "SSA",
+      "evidence_ids": [],
+      "open_action": "OA-SSA",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "FMEA",
+      "evidence_ids": [],
+      "open_action": "OA-FMEA",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "FTA",
+      "evidence_ids": [],
+      "open_action": "OA-FTA",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "CCA",
+      "evidence_ids": [],
+      "open_action": "OA-CCA",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "STPA",
+      "evidence_ids": [],
+      "open_action": "OA-STPA",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "assurance_case",
+      "evidence_ids": [],
+      "open_action": "OA-assurance_case",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    },
+    {
+      "analysis": "cyber_airworthiness",
+      "evidence_ids": [],
+      "open_action": "OA-cyber_airworthiness",
+      "owner": "UNASSIGNED",
+      "state": "BLOCKED"
+    }
+  ],
+  "certification_credit": false,
+  "format": "SM36_SAFETY_ANALYSIS_INDEX_V1"
+}

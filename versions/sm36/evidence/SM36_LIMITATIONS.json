@@ -1,0 +1,17 @@
+{
+  "claim_rule": "Unavailable physical evidence is never converted into PASS by simulation, averaging, architecture, or code coverage.",
+  "format": "SM36_LIMITATIONS_V1",
+  "not_demonstrated_here": [
+    "PETSc/MPI 1/2/3/4/8-rank physical matrix",
+    "multi-node external scheduler run",
+    "OpenFOAM and SU2 execution",
+    "OCCT STEP/IGES/assembly/tessellation round trips",
+    "real CUDA device execution and sanitizer",
+    "continuous 24-hour endurance",
+    "continuous 72-hour endurance",
+    "independent second-machine reproduction",
+    "certification authority acceptance",
+    "airworthiness or safe-to-fly status"
+  ],
+  "release_state": "BLOCKED_PENDING_REAL_EXECUTION"
+}

@@ -1,0 +1,15 @@
+{
+  "format": "SM35_LIMITATIONS_V1",
+  "limitations": [
+    "combined inherited coverage is below 95/90",
+    "PETSc/MPI and multi-node execution unavailable",
+    "OpenFOAM and SU2 unavailable",
+    "CadQuery/OCP unavailable",
+    "Slurm external cluster unavailable",
+    "CUDA unavailable",
+    "24h and 72h endurance not executed",
+    "independent second machine/operator unavailable",
+    "no certification or airworthiness claim"
+  ],
+  "release_state": "BLOCKED_PENDING_REAL_EXECUTION"
+}

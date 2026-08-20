@@ -1,0 +1,706 @@
+{
+  "certification_claim_allowed": false,
+  "format": "SM36_CERTIFICATION_READINESS_MATRIX_V1",
+  "objectives": [
+    {
+      "applicable": true,
+      "area": "certification_basis",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-01",
+      "open_actions": [
+        "OA-CERT-01"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "standards_applicability",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-02",
+      "open_actions": [
+        "OA-CERT-02"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "assurance_levels",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-03",
+      "open_actions": [
+        "OA-CERT-03"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "software_planning",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-04",
+      "open_actions": [
+        "OA-CERT-04"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "development_plan",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-05",
+      "open_actions": [
+        "OA-CERT-05"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "verification_plan",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-06",
+      "open_actions": [
+        "OA-CERT-06"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "configuration_plan",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-07",
+      "open_actions": [
+        "OA-CERT-07"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "quality_plan",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-08",
+      "open_actions": [
+        "OA-CERT-08"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "requirements_standard",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-09",
+      "open_actions": [
+        "OA-CERT-09"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "design_standard",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-10",
+      "open_actions": [
+        "OA-CERT-10"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "coding_standard",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-11",
+      "open_actions": [
+        "OA-CERT-11"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "high_level_requirements",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-12",
+      "open_actions": [
+        "OA-CERT-12"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "low_level_requirements",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-13",
+      "open_actions": [
+        "OA-CERT-13"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "architecture",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-14",
+      "open_actions": [
+        "OA-CERT-14"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "source_conformance",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-15",
+      "open_actions": [
+        "OA-CERT-15"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "object_traceability",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-16",
+      "open_actions": [
+        "OA-CERT-16"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "requirements_tests",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-17",
+      "open_actions": [
+        "OA-CERT-17"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "structural_coverage",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-18",
+      "open_actions": [
+        "OA-CERT-18"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "mcdc",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-19",
+      "open_actions": [
+        "OA-CERT-19"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "data_coupling",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-20",
+      "open_actions": [
+        "OA-CERT-20"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "control_coupling",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-21",
+      "open_actions": [
+        "OA-CERT-21"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "robustness",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-22",
+      "open_actions": [
+        "OA-CERT-22"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "parameter_data",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-23",
+      "open_actions": [
+        "OA-CERT-23"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "tool_assessment",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-24",
+      "open_actions": [
+        "OA-CERT-24"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "tool_evidence",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-25",
+      "open_actions": [
+        "OA-CERT-25"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "model_based",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-26",
+      "open_actions": [
+        "OA-CERT-26"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "object_oriented",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-27",
+      "open_actions": [
+        "OA-CERT-27"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "formal_methods",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-28",
+      "open_actions": [
+        "OA-CERT-28"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "previous_software",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-29",
+      "open_actions": [
+        "OA-CERT-29"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "cots",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-30",
+      "open_actions": [
+        "OA-CERT-30"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "partitioning",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-31",
+      "open_actions": [
+        "OA-CERT-31"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "compiler_object",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-32",
+      "open_actions": [
+        "OA-CERT-32"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "problem_reports",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-33",
+      "open_actions": [
+        "OA-CERT-33"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "derived_requirements",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-34",
+      "open_actions": [
+        "OA-CERT-34"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "system_safety",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-35",
+      "open_actions": [
+        "OA-CERT-35"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "fmea",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-36",
+      "open_actions": [
+        "OA-CERT-36"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "fault_tree",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-37",
+      "open_actions": [
+        "OA-CERT-37"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "common_cause",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-38",
+      "open_actions": [
+        "OA-CERT-38"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "stpa",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-39",
+      "open_actions": [
+        "OA-CERT-39"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "assurance_case",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-40",
+      "open_actions": [
+        "OA-CERT-40"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "independence",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-41",
+      "open_actions": [
+        "OA-CERT-41"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "lifecycle_index",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-42",
+      "open_actions": [
+        "OA-CERT-42"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "conformity",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-43",
+      "open_actions": [
+        "OA-CERT-43"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "review_rehearsal",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-44",
+      "open_actions": [
+        "OA-CERT-44"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "authority_liaison",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-45",
+      "open_actions": [
+        "OA-CERT-45"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "environmental_linkage",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-46",
+      "open_actions": [
+        "OA-CERT-46"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "cyber_airworthiness",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-47",
+      "open_actions": [
+        "OA-CERT-47"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "continued_assurance",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-48",
+      "open_actions": [
+        "OA-CERT-48"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "accomplishment_summary",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-49",
+      "open_actions": [
+        "OA-CERT-49"
+      ],
+      "state": "BLOCKED"
+    },
+    {
+      "applicable": true,
+      "area": "readiness_board",
+      "authority_accepted": false,
+      "compliant": false,
+      "evidence_ids": [],
+      "independence_required": true,
+      "independent_reviewer": null,
+      "objective_id": "SM36-CERT-50",
+      "open_actions": [
+        "OA-CERT-50"
+      ],
+      "state": "BLOCKED"
+    }
+  ]
+}

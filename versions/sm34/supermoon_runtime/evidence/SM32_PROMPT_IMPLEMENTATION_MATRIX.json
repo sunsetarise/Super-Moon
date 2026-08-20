@@ -1,0 +1,1354 @@
+{
+  "sections_found": 151,
+  "rows": [
+    {
+      "section": 0,
+      "title": "PRIME DIRECTIVE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 1,
+      "title": "OPERATING IDENTITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 2,
+      "title": "ABSOLUTE NON-DESTRUCTIVE SUCCESSOR RULE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 3,
+      "title": "THE SM32 DIFFERENCE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 4,
+      "title": "BUILD A COMPLETE CAPABILITY LEDGER FIRST",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 5,
+      "title": "IMPLEMENTATION DEPTH SCALE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 6,
+      "title": "ZERO-SCAFFOLD PRODUCTION POLICY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 7,
+      "title": "SYMBOL-LEVEL AUDIT",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 8,
+      "title": "MATHEMATICS-TO-CODE TRACEABILITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 9,
+      "title": "NUMERICAL CORE \u2014 FULL IMPLEMENTATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 10,
+      "title": "SPARSE NUMERICAL INFRASTRUCTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 11,
+      "title": "PRECONDITIONING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 12,
+      "title": "ROOT FINDING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 13,
+      "title": "NONLINEAR SYSTEM SOLVERS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 14,
+      "title": "OPTIMIZATION ENGINE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 15,
+      "title": "CONSTRAINED OPTIMIZATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 16,
+      "title": "AUTOMATIC DIFFERENTIATION / DIFFERENTIATION INFRASTRUCTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 17,
+      "title": "ODE INFRASTRUCTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 18,
+      "title": "PDE INFRASTRUCTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 19,
+      "title": "CFD \u2014 TRANSFORM REFERENCE SOLVERS INTO DEEP SOLVERS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 20,
+      "title": "CFD MULTIDIMENSIONAL DEPTH",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 21,
+      "title": "NAVIER\u2013STOKES DEPTH",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 22,
+      "title": "CFD BOUNDARY CONDITIONS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 23,
+      "title": "CFD PHYSICAL ADMISSIBILITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 24,
+      "title": "CFD VERIFICATION MATRIX",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 25,
+      "title": "FEA \u2014 FULL IMPLEMENTATION DEPTH",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 26,
+      "title": "FEA ELEMENT LIBRARY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 27,
+      "title": "FEA ASSEMBLY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 28,
+      "title": "FEA BOUNDARY CONDITIONS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 29,
+      "title": "FEA MATERIAL MODELS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 30,
+      "title": "FEA VALIDATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 31,
+      "title": "COMPUTATIONAL GEOMETRY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 32,
+      "title": "B-SPLINE / CURVE INFRASTRUCTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 33,
+      "title": "CAD-KERNEL DEPTH",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 34,
+      "title": "GEOMETRIC ROBUSTNESS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 35,
+      "title": "MESH INFRASTRUCTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 36,
+      "title": "MESH QUALITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 37,
+      "title": "MULTIPHYSICS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 38,
+      "title": "CONSERVATION ACROSS COUPLED PHYSICS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 39,
+      "title": "DIGITAL TWIN",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 40,
+      "title": "STATE ESTIMATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 41,
+      "title": "UNCERTAINTY QUANTIFICATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 42,
+      "title": "PROBABILISTIC NUMERICS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 43,
+      "title": "STATISTICS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 44,
+      "title": "SIGNAL / SPECTRAL METHODS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 45,
+      "title": "GRAPH ALGORITHMS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 46,
+      "title": "SEARCH AND PLANNING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 47,
+      "title": "MACHINE LEARNING PRIMITIVES",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 48,
+      "title": "ATTENTION INFRASTRUCTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 49,
+      "title": "DIFFUSION / GENERATIVE PRIMITIVES",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 50,
+      "title": "REINFORCEMENT LEARNING / SEARCH",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 51,
+      "title": "DISCOVERY ALGORITHMS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 52,
+      "title": "HPC BACKEND",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 53,
+      "title": "MPI",
+      "status": "IMPLEMENTED_STATUS_PATH_RUNTIME_UNAVAILABLE",
+      "evidence": [
+        "SM32_ENVIRONMENT.json"
+      ]
+    },
+    {
+      "section": 54,
+      "title": "GPU",
+      "status": "IMPLEMENTED_STATUS_PATH_RUNTIME_UNAVAILABLE",
+      "evidence": [
+        "SM32_ENVIRONMENT.json"
+      ]
+    },
+    {
+      "section": 55,
+      "title": "PERFORMANCE ENGINEERING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 56,
+      "title": "VECTORIZATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 57,
+      "title": "CACHE / MEMORY AWARENESS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 58,
+      "title": "PARALLEL SCALING",
+      "status": "THREAD_BACKEND_IMPLEMENTED_BENCHMARK_API_AVAILABLE_MPI_GPU_UNAVAILABLE",
+      "evidence": [
+        "SM32_ENVIRONMENT.json",
+        "SM32_BENCHMARKS.json"
+      ]
+    },
+    {
+      "section": 59,
+      "title": "MEMORY COMPLEXITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 60,
+      "title": "ALGORITHMIC COMPLEXITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 61,
+      "title": "INPUT VALIDATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 62,
+      "title": "FAILURE SEMANTICS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 63,
+      "title": "INVARIANT ENGINE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 64,
+      "title": "OBSERVABILITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 65,
+      "title": "TEST ARCHITECTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 66,
+      "title": "COVERAGE TARGET",
+      "status": "PARTIAL_TARGET_MET_STATEMENT_98_69_BRANCH_90_00",
+      "evidence": [
+        "SM32_COVERAGE_REPORT.txt"
+      ]
+    },
+    {
+      "section": 67,
+      "title": "DO NOT GAME COVERAGE",
+      "status": "PARTIAL_TARGET_MET_STATEMENT_98_69_BRANCH_90_00",
+      "evidence": [
+        "SM32_COVERAGE_REPORT.txt"
+      ]
+    },
+    {
+      "section": 68,
+      "title": "MUTATION TESTING",
+      "status": "EXECUTED_TARGETED_100_PERCENT",
+      "evidence": [
+        "SM32_MUTATION_REPORT.json"
+      ]
+    },
+    {
+      "section": 69,
+      "title": "PROPERTY-BASED TESTING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 70,
+      "title": "METAMORPHIC TESTING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 71,
+      "title": "ANALYTICAL VERIFICATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 72,
+      "title": "GRID CONVERGENCE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 73,
+      "title": "CONSERVATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 74,
+      "title": "CONDITIONING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 75,
+      "title": "EXTREME-SCALE NUMERICAL TESTING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 76,
+      "title": "CROSS-IMPLEMENTATION VALIDATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 77,
+      "title": "GOLDEN REFERENCE DATASETS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 78,
+      "title": "REPRODUCIBILITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 79,
+      "title": "BENCHMARK SUITE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 80,
+      "title": "PERFORMANCE BASELINE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 81,
+      "title": "REGRESSION GATES",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 82,
+      "title": "WARNINGS-AS-ERRORS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 83,
+      "title": "STATIC ANALYSIS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 84,
+      "title": "DEAD IMPLEMENTATION DETECTION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 85,
+      "title": "DEPENDENCY DISCIPLINE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 86,
+      "title": "SECURITY / ROBUSTNESS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 87,
+      "title": "SERIALIZATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 88,
+      "title": "API STABILITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 89,
+      "title": "DOCUMENTATION MUST FOLLOW CODE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 90,
+      "title": "NO SELF-AWARDED PARITY",
+      "status": "CLAIM_DISCIPLINE_IMPLEMENTED_NO_PARITY_CLAIM",
+      "evidence": [
+        "SM32_CLAIM_AUDIT.json"
+      ]
+    },
+    {
+      "section": 91,
+      "title": "IMPLEMENTATION CLOSURE GATE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 92,
+      "title": "ENDURANCE ARCHITECTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 93,
+      "title": "ENDURANCE TELEMETRY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 94,
+      "title": "ENDURANCE TIERS",
+      "status": "PARTIAL_10S_30S_EXECUTED_LONGER_NOT_EXECUTED",
+      "evidence": [
+        "SM32_ENDURANCE_10S.json",
+        "SM32_ENDURANCE_30S.json"
+      ]
+    },
+    {
+      "section": 95,
+      "title": "MEMORY LEAK ANALYSIS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 96,
+      "title": "SOAK DIVERSITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 97,
+      "title": "CHAOS / FAILURE TESTING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 98,
+      "title": "CHECKPOINT / RESUME",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 99,
+      "title": "PARALLEL DETERMINISM",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 100,
+      "title": "VALIDATION ENGINE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 101,
+      "title": "EVIDENCE-FIRST ARCHITECTURE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 102,
+      "title": "QUALIFICATION DATABASE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 103,
+      "title": "SOURCE MANIFEST",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 104,
+      "title": "PROVENANCE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 105,
+      "title": "HISTORICAL SOURCE POLICY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 106,
+      "title": "IMPLEMENTATION DELTA",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 107,
+      "title": "SOURCE DELTA",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 108,
+      "title": "COMPLEXITY MANAGEMENT",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 109,
+      "title": "MODULAR SOLVER CONTRACT",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 110,
+      "title": "NUMERICAL RESULT OBJECTS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 111,
+      "title": "TOLERANCE POLICY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 112,
+      "title": "PHYSICAL UNIT DISCIPLINE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 113,
+      "title": "DIMENSIONAL CONSISTENCY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 114,
+      "title": "BENCHMARKING AGAINST SM31",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 115,
+      "title": "PERFORMANCE DOES NOT OVERRIDE CORRECTNESS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 116,
+      "title": "LARGE PROBLEM TESTING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 117,
+      "title": "RESOURCE-AWARE EXECUTION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 118,
+      "title": "EXTERNAL REPRODUCTION PACKAGE",
+      "status": "NOT_EXECUTED_INDEPENDENT_ENVIRONMENT",
+      "evidence": [
+        "SM32_KNOWN_DEFECTS.json"
+      ]
+    },
+    {
+      "section": 119,
+      "title": "CLEAN-ENVIRONMENT TEST",
+      "status": "NOT_EXECUTED_INDEPENDENT_ENVIRONMENT",
+      "evidence": [
+        "SM32_KNOWN_DEFECTS.json"
+      ]
+    },
+    {
+      "section": 120,
+      "title": "BUILD FROM ZERO",
+      "status": "SUPPORTED_BY_EMBEDDED_QP1_PLUS_SM32_PAYLOAD",
+      "evidence": [
+        "SM32_MANIFEST.json"
+      ]
+    },
+    {
+      "section": 121,
+      "title": "SM32 FINAL ACCEPTANCE GATES",
+      "status": "PASS_WITH_LIMITATIONS",
+      "evidence": [
+        "SM32_COVERAGE_REPORT.txt",
+        "SM32_KNOWN_DEFECTS.json"
+      ]
+    },
+    {
+      "section": 122,
+      "title": "IMPLEMENTATION COMPLETENESS SCORE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 123,
+      "title": "NO 100/100 BY DECLARATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 124,
+      "title": "SM32 TARGET",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 125,
+      "title": "PRIORITY SYSTEM",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 126,
+      "title": "REQUIRED SM32 TEST SCALE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 127,
+      "title": "MINIMUM TEST TYPES PER CRITICAL SOLVER",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 128,
+      "title": "IMPLEMENTATION REVIEW LOOP",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 129,
+      "title": "RED-TEAM THE NUMERICAL CODE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 130,
+      "title": "FALSE-CONVERGENCE DETECTION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 131,
+      "title": "RESIDUAL VERIFICATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 132,
+      "title": "DUAL-IMPLEMENTATION CHECKS",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 133,
+      "title": "ALGORITHM REGISTRY INTEGRITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 134,
+      "title": "FEATURE CLAIM INTEGRITY",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 135,
+      "title": "CLAIM DOWNGRADING",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 136,
+      "title": "EXTERNAL LIBRARY COMPETITOR VALIDATION",
+      "status": "CLAIM_DISCIPLINE_IMPLEMENTED_NO_PARITY_CLAIM",
+      "evidence": [
+        "SM32_CLAIM_AUDIT.json"
+      ]
+    },
+    {
+      "section": 137,
+      "title": "SCIENTIFIC BENCHMARK SET",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 138,
+      "title": "ERROR BUDGET",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 139,
+      "title": "DETERMINISTIC RELEASE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 140,
+      "title": "AUTHORITATIVE SM32 PAYLOAD",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 141,
+      "title": "REQUIRED SM32 FILES",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 142,
+      "title": "REQUIRED EVIDENCE FILES",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 143,
+      "title": "KNOWN-DEFECT REGISTER",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 144,
+      "title": "FINAL QUALIFICATION FORMAT",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 145,
+      "title": "SM32 SUCCESS DEFINITION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 146,
+      "title": "WHAT NOT TO DO",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 147,
+      "title": "WHAT TO DO",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 148,
+      "title": "IMPLEMENTATION-FIRST EQUATION",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 149,
+      "title": "RELEASE RULE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    },
+    {
+      "section": 150,
+      "title": "FINAL DIRECTIVE",
+      "status": "IMPLEMENTED_OR_EVIDENCED",
+      "evidence": [
+        "SM32_CAPABILITY_LEDGER.json",
+        "SM32_COMBINED_TEST_RESULTS.txt"
+      ]
+    }
+  ]
+}

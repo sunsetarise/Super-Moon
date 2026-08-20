@@ -1,0 +1,20 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "Python Standard Library",
+      "type": "library",
+      "version": "3.12.13"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "Super Moon 36 New Universe",
+      "type": "application",
+      "version": "36.0.0"
+    }
+  },
+  "serialNumber": "urn:uuid:00000000-0000-4036-8036-000000000036",
+  "specVersion": "1.6",
+  "version": 1
+}

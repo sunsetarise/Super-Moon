@@ -1,0 +1,16 @@
+{
+  "certification": "SUPPORT_ONLY; no regulatory certification claimed",
+  "endurance_1h_8h_24h_72h": "NOT_EXECUTED by this build",
+  "external_reproduction": "NOT_EXECUTED by this build",
+  "industrial_parity": "NOT_CLAIMED",
+  "new_algorithms": 0,
+  "new_feature_families": 0,
+  "notes": "Celestial changes harden existing numerical/API paths, diagnostics, reproducibility, tests, and evidence. The 30,000-line prompt is included as the governing depth contract.",
+  "optional_hpc_backends": "presence detection is not qualification",
+  "registry_counts_preserved": {
+    "mathematics": 320,
+    "technology": 460
+  },
+  "release": "SUPER MOON 31.0 OMEGA INDUSTRIAL ENGINEERING DOMINION \u2014 CELESTIAL DEPTH",
+  "scope": "depth-only on existing SM31 capability surface"
+}

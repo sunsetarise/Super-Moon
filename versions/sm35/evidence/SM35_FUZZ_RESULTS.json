@@ -1,0 +1,7 @@
+{
+  "bounded_cases": 5,
+  "failures": 0,
+  "format": "SM35_FUZZ_RESULTS_V1",
+  "scope": "framing, base64, traversal, corruption, duplicate paths",
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "numpy",
+      "scope": "runtime",
+      "version": "2.3.5"
+    },
+    {
+      "name": "scipy",
+      "scope": "runtime",
+      "version": "1.17.0"
+    },
+    {
+      "name": "PyYAML",
+      "scope": "runtime",
+      "version": "6.0.3"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "name": "supermoon34-new-universe",
+      "type": "application",
+      "version": "34.0.0"
+    }
+  },
+  "serialNumber": "urn:uuid:sm34-new-universe-local",
+  "specVersion": "1.5",
+  "version": 1
+}

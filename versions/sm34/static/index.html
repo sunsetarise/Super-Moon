@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Super Moon 34 New Universe Prompt Studio</title>
+  <link rel="stylesheet" href="/static/css/app.css" />
+  <link rel="stylesheet" href="/static/css/sm34.css" />
+</head>
+<body>
+  <div id="bootOverlay" class="boot-overlay">
+    <div class="boot-card">
+      <div class="moon-mark">SM34</div>
+      <h1>Super Moon 34 New Universe</h1>
+      <p id="bootText">Initializing New Universe runtime, authoritative knowledge and Babylon.js 9 visualization…</p>
+      <div class="progress"><span id="bootProgress"></span></div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-orb">34</div>
+      <div><strong>SUPER MOON 34</strong><span>New Universe Prompt Studio</span></div>
+    </div>
+    <div class="top-status">
+      <span class="pill" id="backendPill">Backend</span>
+      <span class="pill" id="runtimePill">SM34 Runtime</span>
+      <span class="pill" id="knowledgePill">Knowledge</span>
+      <span class="pill" id="babylonPill">Babylon.js 9</span>
+      <button class="icon-btn" id="refreshHealth" title="Refresh runtime health">↻</button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="lab">Prompt Lab</button>
+    <button class="tab" data-tab="universe">New Universe</button>
+    <button class="tab" data-tab="knowledge">Knowledge Explorer</button>
+    <button class="tab" data-tab="analysis">Deep Analysis</button>
+    <button class="tab" data-tab="pdf">Scientific + Patent PDF</button>
+    <button class="tab" data-tab="runtime">Runtime</button>
+  </nav>
+
+  <main>
+    <section class="tab-panel active" id="tab-lab">
+      <div class="lab-grid">
+        <aside class="panel prompt-panel">
+          <div class="panel-head"><div><span class="eyebrow">INPUT</span><h2>Master Prompt</h2></div><span id="promptStats" class="mini">0 chars</span></div>
+          <textarea id="promptInput" spellcheck="false" placeholder="Paste a master prompt here, or load a TXT / MD / JSON file…"></textarea>
+          <div class="button-row">
+            <label class="button secondary file-button">Load file<input id="promptFile" type="file" accept=".txt,.md,.json,.yaml,.yml,.prompt" /></label>
+            <button class="button" id="analyzeBtn">Deep Analyze</button>
+          </div>
+          <div class="sample-row"><button class="text-btn" id="loadSample">Load SM34 research sample</button><button class="text-btn" id="clearPrompt">Clear</button></div>
+          <div class="notice">Local deterministic analysis. Strong claims are flagged rather than promoted to validated results without evidence.</div>
+        </aside>
+
+        <section class="viz-shell">
+          <canvas id="renderCanvas"></canvas>
+          <div class="viz-topline"><span>RESEARCH ORCHESTRATION GRAPH</span><span id="vizMode">IDLE</span></div>
+          <div class="viz-legend">
+            <span><i class="dot core"></i>Core</span><span><i class="dot verify"></i>Verification</span><span><i class="dot evidence"></i>Evidence</span><span><i class="dot report"></i>Reports</span>
+          </div>
+          <div class="viz-fallback" id="vizFallback">Babylon.js visualization is loading.</div>
+        </section>
+
+        <aside class="panel score-panel">
+          <div class="panel-head"><div><span class="eyebrow">READINESS</span><h2>Research Signal</h2></div><span class="score-big" id="overallScore">--</span></div>
+          <div class="metric"><div><span>Scientific readiness</span><b id="scientificScore">--</b></div><div class="bar"><i id="scientificBar"></i></div></div>
+          <div class="metric"><div><span>Patent drafting</span><b id="patentScore">--</b></div><div class="bar"><i id="patentBar"></i></div></div>
+          <div class="metric"><div><span>Verification</span><b id="verifyScore">--</b></div><div class="bar"><i id="verifyBar"></i></div></div>
+          <div class="metric"><div><span>Evidence</span><b id="evidenceScore">--</b></div><div class="bar"><i id="evidenceBar"></i></div></div>
+          <div class="risk-card" id="riskCard"><span>CRI</span><strong id="riskClass">UNASSESSED</strong><b id="criValue">--</b><small id="riskPolicy">Analyze a prompt to compute risk and escalation policy.</small></div>
+          <div class="domain-list" id="domainList"></div>
+        </aside>
+      </div>
+
+      <div class="panel workflow-panel">
+        <div class="panel-head"><div><span class="eyebrow">SM34 NEW UNIVERSE PIPELINE</span><h2>Research Workflow</h2></div><span class="mini" id="analysisId">No analysis</span></div>
+        <div class="workflow" id="workflow"></div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-universe">
+      <div class="universe-hero panel">
+        <div>
+          <span class="eyebrow">SUPER MOON 34 · NEW UNIVERSE</span>
+          <h2>Capability & Qualification Control Plane</h2>
+          <p id="universeTruth" class="muted">Loading the verified P01-P11 and A01-A05 runtime registry…</p>
+        </div>
+        <div class="universe-score"><span>RELEASE GATE</span><strong id="universeRelease">CHECKING</strong><b id="universeScore">--</b></div>
+      </div>
+      <div class="universe-stats">
+        <div class="panel"><span class="eyebrow">TRACKS</span><b id="universeTracks">--</b><small>P01-P11 + A01-A05</small></div>
+        <div class="panel"><span class="eyebrow">BACKENDS</span><b id="universeBackends">--</b><small>Availability is not execution</small></div>
+        <div class="panel"><span class="eyebrow">BLOCKERS</span><b id="universeBlockers">--</b><small>Non-bypassable B01-B08</small></div>
+        <div class="panel"><span class="eyebrow">KNOWLEDGE</span><b>SM34</b><small>Authoritative TXT.GZ source</small></div>
+      </div>
+      <div class="two-col universe-columns">
+        <div class="panel"><div class="panel-head"><div><span class="eyebrow">IMPLEMENTATION REGISTRY</span><h2>16 Capability Tracks</h2></div></div><div id="capabilityGrid" class="capability-grid"></div></div>
+        <div class="panel"><div class="panel-head"><div><span class="eyebrow">PHYSICAL QUALIFICATION</span><h2>Backend Readiness</h2></div></div><div id="backendGrid" class="backend-grid"></div><div class="panel-head gate-head"><div><span class="eyebrow">NON-BYPASSABLE</span><h2>W01-W08 Gates</h2></div></div><div id="gateGrid" class="gate-grid"></div></div>
+      </div>
+      <div class="panel validation-panel"><div><span class="eyebrow">LOCAL DETERMINISTIC SUITE</span><h2>New Universe Validation</h2><p class="muted">Runs the included mathematical, evidence, aerospace, adapter, endurance, reproduction and orchestration validation suite. A local pass does not close physical gates.</p></div><button class="button" id="runSm34Validation">Run Local Validation</button><pre id="sm34Validation" class="codebox">Not run in this session.</pre></div>
+    </section>
+
+    <section class="tab-panel" id="tab-knowledge">
+      <div class="two-col">
+        <div class="panel">
+          <div class="panel-head"><div><span class="eyebrow">721M-BYTE SM34 CANONICAL CORPUS</span><h2>Knowledge Explorer</h2></div><span class="mini" id="knowledgeMeta">Checking index…</span></div>
+          <div class="search-row"><input id="knowledgeQuery" placeholder="e.g. Richardson extrapolation, uncertainty quantification, CFD routing…" /><button class="button" id="knowledgeSearch">Search</button></div>
+          <p class="muted">Conceptual terms use the seekable compressed index. Identifier-heavy queries automatically fall back to the canonical TXT.GZ stream.</p>
+          <div id="knowledgeResults" class="result-stack"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><div><span class="eyebrow">ARCHITECTURE</span><h2>Integrated Knowledge Path</h2></div></div>
+          <div class="arch-flow">
+            <div>Canonical TXT.GZ<small>Original full merged knowledge</small></div><b>→</b>
+            <div>Seekable chunk cache<small>Independent compressed blocks</small></div><b>→</b>
+            <div>SQLite conceptual index<small>Conceptual retrieval</small></div><b>→</b>
+            <div>Prompt Analyzer<small>Context grounding</small></div>
+          </div>
+          <div class="codebox" id="knowledgeStatsBox">Runtime stats will appear here.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-analysis">
+      <div class="analysis-grid">
+        <div class="panel span2">
+          <div class="panel-head"><div><span class="eyebrow">STRUCTURED OUTPUT</span><h2>Deep Analysis</h2></div><button class="button secondary" id="copyAnalysis">Copy JSON</button></div>
+          <div id="analysisSummary" class="summary-empty">Run Deep Analyze from Prompt Lab.</div>
+        </div>
+        <div class="panel"><div class="panel-head"><div><span class="eyebrow">CLAIMS</span><h2>Evidence Audit</h2></div></div><div id="claimsList" class="result-stack"></div></div>
+        <div class="panel"><div class="panel-head"><div><span class="eyebrow">ACTION</span><h2>Recommendations</h2></div></div><div id="recommendations" class="check-stack"></div></div>
+        <div class="panel span2"><div class="panel-head"><div><span class="eyebrow">RAW MACHINE RECORD</span><h2>Analysis JSON</h2></div></div><pre id="analysisJson" class="codebox tall">{}</pre></div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-pdf">
+      <div class="pdf-grid">
+        <div class="panel pdf-card">
+          <span class="eyebrow">RESEARCH ARTIFACT</span><h2>Scientific PDF</h2>
+          <p>Generates a structured scientific analysis with problem formalization, domain assessment, CRI, verification/validation/UQ architecture, knowledge alignment, evidence audit and reproducibility record.</p>
+          <button class="button" id="scientificPdf">Generate Scientific PDF</button>
+          <div class="pdf-output" id="scientificOutput"></div>
+        </div>
+        <div class="panel pdf-card">
+          <span class="eyebrow">TECHNICAL DRAFT</span><h2>Patent-Style PDF</h2>
+          <p>Generates a patent-style specification with technical field, background, architecture, embodiments, illustrative claims, limitations and source traceability. It does not assert patentability or novelty.</p>
+          <button class="button" id="patentPdf">Generate Patent PDF</button>
+          <div class="pdf-output" id="patentOutput"></div>
+        </div>
+        <div class="panel span2">
+          <div class="panel-head"><div><span class="eyebrow">GENERATED ARTIFACTS</span><h2>Output Library</h2></div><button class="button secondary" id="refreshOutputs">Refresh</button></div>
+          <div id="outputList" class="output-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="tab-runtime">
+      <div class="runtime-grid">
+        <div class="panel"><span class="eyebrow">BACKEND</span><h2>Runtime Health</h2><pre id="healthJson" class="codebox tall"></pre></div>
+        <div class="panel"><span class="eyebrow">STARTUP</span><h2>Windows Launch</h2><div class="steps"><div><b>1</b><span>Run <code>SETUP_WINDOWS.bat</code><small>Verifies the configured CPython 3.14 x64 path, repairs/recreates the venv, installs binary-wheel dependencies, builds knowledge cache and runs self-test.</small></span></div><div><b>2</b><span>Run <code>START_SUPERMOON.bat</code><small>Preflights Python/venv/dependencies, auto-repairs if needed, starts FastAPI on a free local port and opens the browser.</small></span></div><div><b>3</b><span>Use Prompt Lab<small>Analyze master prompts, inspect evidence/risk, search knowledge and generate PDFs. Run <code>RUN_FULL_AUDIT.bat</code> for the full regression suite.</small></span></div></div></div>
+        <div class="panel span2"><span class="eyebrow">INTEGRATION</span><h2>Embedded Super Moon 34 New Universe Runtime</h2><p class="muted">The backend imports the additive <code>supermoon34</code> runtime and retains the inherited <code>supermoon32</code> / <code>supermoon32.qualified</code> sources. The complete SM34 corpus is preserved under <code>knowledge</code>. External-tool availability never counts as execution or qualification evidence.</p><div id="runtimeFiles" class="chips"></div></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast"></div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

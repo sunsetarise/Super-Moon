@@ -1,0 +1,13 @@
+# SuperMoon Prompt Studio - audited CPython 3.14 x64 dependency profile
+# Installed with pip --isolated --only-binary=:all: to prevent Rust/MSVC source builds.
+fastapi==0.140.8
+uvicorn==0.39.0
+python-multipart==0.0.32
+pydantic==2.12.5
+pydantic-core==2.41.5
+reportlab==5.0.0
+numpy==2.5.1
+scipy==1.17.0
+psutil==7.2.2
+pytest==9.0.2
+httpx==0.28.1

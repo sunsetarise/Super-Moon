@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "AEROSPACE_REQUIREMENT": 50000,
+    "HPC_REQUIREMENT": 149600,
+    "POLICY": 400
+  },
+  "format": "SM34_REQUIREMENT_COMPILATION_V1",
+  "implementation_policy": "All requirement rows map to additive source symbols; physical executions remain NOT_EXECUTED until real receipts exist.",
+  "matrix_decompressed_sha256": "43953c08cef66fde85d67a8313f503d8ea38950919dbd72026e2057d9d99d7f0",
+  "matrix_records": 200000,
+  "prompt_decompressed_sha256": "4c3c71bd88c32550812175184cab132a2c95472274fa869fa17f701af6c659e4",
+  "prompt_lines": 200000,
+  "track_counts": {
+    "A01": 10000,
+    "A02": 10000,
+    "A03": 10000,
+    "A04": 10000,
+    "A05": 10000,
+    "P01": 13600,
+    "P02": 13600,
+    "P03": 13600,
+    "P04": 13600,
+    "P05": 13600,
+    "P06": 13600,
+    "P07": 13600,
+    "P08": 13600,
+    "P09": 13600,
+    "P10": 13600,
+    "P11": 13600
+  }
+}

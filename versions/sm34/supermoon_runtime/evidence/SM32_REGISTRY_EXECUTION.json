@@ -1,0 +1,137 @@
+{
+  "total": 26,
+  "passed": 26,
+  "failed": 0,
+  "rows": [
+    {
+      "name": "root.bisection",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "root.secant",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "root.newton",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "root.brent",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "nonlinear.newton_system",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "sparse.cg",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "sparse.gmres",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "sparse.bicgstab",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "opt.gradient_descent",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "opt.bfgs",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "opt.lbfgs",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "opt.nelder_mead",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "ode.euler",
+      "status": "PASS",
+      "type": "ODEResult"
+    },
+    {
+      "name": "ode.midpoint",
+      "status": "PASS",
+      "type": "ODEResult"
+    },
+    {
+      "name": "ode.rk4",
+      "status": "PASS",
+      "type": "ODEResult"
+    },
+    {
+      "name": "ode.rk45",
+      "status": "PASS",
+      "type": "ODEResult"
+    },
+    {
+      "name": "pde.heat1d",
+      "status": "PASS",
+      "type": "ndarray"
+    },
+    {
+      "name": "pde.poisson1d",
+      "status": "PASS",
+      "type": "ndarray"
+    },
+    {
+      "name": "cfd.euler2d",
+      "status": "PASS",
+      "type": "Euler2DResult"
+    },
+    {
+      "name": "fea.bar1d",
+      "status": "PASS",
+      "type": "BarResult"
+    },
+    {
+      "name": "geometry.orientation2d",
+      "status": "PASS",
+      "type": "int"
+    },
+    {
+      "name": "mesh.rect_tri",
+      "status": "PASS",
+      "type": "TriMesh"
+    },
+    {
+      "name": "uq.monte_carlo",
+      "status": "PASS",
+      "type": "dict"
+    },
+    {
+      "name": "graph.dijkstra",
+      "status": "PASS",
+      "type": "tuple"
+    },
+    {
+      "name": "search.astar",
+      "status": "PASS",
+      "type": "SolverResult"
+    },
+    {
+      "name": "ml.attention",
+      "status": "PASS",
+      "type": "tuple"
+    }
+  ]
+}

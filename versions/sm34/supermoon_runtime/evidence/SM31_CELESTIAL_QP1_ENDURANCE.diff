@@ -1,0 +1,24 @@
+--- sm31_qp1_original/src/supermoon31/endurance.py	2026-08-19 12:13:56.212537267 +0000
++++ sm31_qp1_work/src/supermoon31/endurance.py	2026-08-19 12:11:09.923440121 +0000
+@@ -17,8 +17,10 @@
+ def mixed_iteration(seed=0):
+     rng=np.random.default_rng(seed); A=rng.normal(size=(12,12));A=A.T@A+np.eye(12);b=rng.normal(size=12);x,h=mixed_precision_refinement(A,b)
+     tr=truss2d([[0,0],[1,0],[1,1]],[(0,1),(1,2),(0,2)],2e11,1e-4,{5:-1e3},[0,1,3])
+-    xx=np.linspace(0,1,40);cf=euler_1d(xx,sod_initial(xx),.002,second_order=False)
+-    return {'linear_residual':float(np.linalg.norm(A@x-b)),'fea_residual':tr.residual_norm,'cfd_steps':cf.metadata['steps']}
++    # Qualification Patch 1 deliberately exercises both Euler orders during
++    # endurance: even seeds use first order, odd seeds use repaired MUSCL.
++    second_order=bool(int(seed)%2);xx=np.linspace(0,1,40);cf=euler_1d(xx,sod_initial(xx),.002,second_order=second_order)
++    return {'linear_residual':float(np.linalg.norm(A@x-b)),'fea_residual':tr.residual_norm,'cfd_steps':cf.metadata['steps'],'cfd_second_order':second_order}
+ 
+ def run_endurance(duration_seconds,report_path=None,sample_interval=1.0):
+     if duration_seconds<=0: raise ValueError('duration must be positive real elapsed time')
+@@ -54,7 +56,7 @@
+         if now-last_sample>=sample_interval:rows.append(telemetry());last_sample=now
+     elapsed=time.monotonic()-start
+     rss=[r.get('rss') for r in rows if r.get('rss') is not None]
+-    report={'requested_seconds':duration_seconds,'elapsed_seconds':elapsed,'iterations':iters,'errors':errors,'invariant_failures':invariant_failures,'telemetry':rows,'rss_min':min(rss) if rss else None,'rss_max':max(rss) if rss else None,'passed':elapsed>=duration_seconds and not errors and not invariant_failures,'qualification_scope':'EXECUTED_DURATION_ONLY'}
++    report={'requested_seconds':duration_seconds,'elapsed_seconds':elapsed,'iterations':iters,'iterations_per_second':iters/max(elapsed,np.finfo(float).tiny),'cfd_first_order_iterations':(iters+1)//2,'cfd_second_order_iterations':iters//2,'errors':errors,'invariant_failures':invariant_failures,'telemetry':rows,'rss_min':min(rss) if rss else None,'rss_max':max(rss) if rss else None,'rss_drift':(rss[-1]-rss[0]) if len(rss)>=2 else 0 if rss else None,'passed':elapsed>=duration_seconds and not errors and not invariant_failures,'qualification_scope':'EXECUTED_DURATION_ONLY','cfd_order_mix':'alternating first/second order by iteration seed parity'}
+     if report_path:
+         p=Path(report_path);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(report,indent=2),encoding='utf-8')
+     return report

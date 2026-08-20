@@ -1,0 +1,11 @@
+{
+  "format": "SM35_DISCREPANCY_LEDGER_V1",
+  "open": [
+    {
+      "classification": "open",
+      "description": "combined inherited source coverage below threshold",
+      "id": "D-COVERAGE-001"
+    }
+  ],
+  "solver_discrepancies": "NOT_EXECUTED"
+}

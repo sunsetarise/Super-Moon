@@ -1,0 +1,54 @@
+{
+  "format": "SM36_PHYSICAL_EXECUTION_STATUS_V1",
+  "qualification_credit": false,
+  "tracks": [
+    {
+      "blocker": "G04",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "PETSc/MPI rank matrix and multi-node Slurm"
+    },
+    {
+      "blocker": "G05",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "OpenFOAM"
+    },
+    {
+      "blocker": "G06",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "SU2"
+    },
+    {
+      "blocker": "G07",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "OCCT STEP/IGES/CAD"
+    },
+    {
+      "blocker": "G08",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "real CUDA"
+    },
+    {
+      "blocker": "G09",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "24-hour endurance"
+    },
+    {
+      "blocker": "G09",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "72-hour endurance"
+    },
+    {
+      "blocker": "G10",
+      "evidence_ids": [],
+      "state": "NOT_EXECUTED",
+      "track": "independent second-machine reproduction"
+    }
+  ]
+}

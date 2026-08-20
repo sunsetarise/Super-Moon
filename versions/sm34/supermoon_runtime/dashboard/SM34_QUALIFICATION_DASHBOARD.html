@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Super Moon 34 New Universe — Qualification</title>
+<style>
+:root{color-scheme:dark;--bg:#030610;--panel:#0a1224;--line:#20395f;--text:#eef6ff;--blue:#38a8ff;--amber:#ffbf47;--red:#ff647c}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0,#102a52 0,transparent 35%),var(--bg);font:15px/1.5 Inter,system-ui;color:var(--text)}main{max-width:1180px;margin:auto;padding:40px 24px}h1{font-size:clamp(32px,6vw,70px);margin:0;letter-spacing:-.04em}h1 span{color:var(--blue)}.subtitle{color:#9db6d7;max-width:760px}.status{display:inline-flex;border:1px solid #795e20;color:var(--amber);padding:8px 12px;border-radius:999px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:28px}.card{background:linear-gradient(150deg,#0c1830,#070d1b);border:1px solid var(--line);border-radius:18px;padding:20px}.weight{color:var(--blue);font-size:30px;font-weight:800}.bar{height:7px;background:#17233a;border-radius:10px;overflow:hidden}.bar i{display:block;width:0;height:100%;background:var(--red)}small{color:#88a0c1}.truth{margin-top:24px;padding:20px;border-left:3px solid var(--amber);background:#151207}
+</style>
+</head>
+<body><main><div class="status">BLOCKED · REAL EXECUTION REQUIRED</div><h1>SUPER MOON 34 <span>NEW UNIVERSE</span></h1><p class="subtitle">Additive HPC and civil-aerospace qualification. Local implementation tests pass; physical PETSc/MPI, dual-CFD, CAD, cluster, GPU, endurance and second-machine gates remain open.</p><section class="grid" id="gates"></section><div class="truth"><strong>Truth boundary:</strong> zero local mocks, shortened loops, CPU fallbacks, or generated logs count as physical qualification.</div></main>
+<script>
+const gates=[['W01','PETSc + MPI',20],['W02','OpenFOAM + SU2',15],['W03','OCCT + CadQuery',12],['W04','External HPC',12],['W05','Real GPU',12],['W06','24h + 72h Endurance',10],['W07','Second Machine',10],['W08','Governance + Evidence',9]];
+document.querySelector('#gates').innerHTML=gates.map(([id,name,w])=>`<article class="card"><small>${id}</small><div class="weight">${w} pts</div><h2>${name}</h2><div class="bar"><i></i></div><p>NOT EXECUTED · blocker open</p></article>`).join('');
+</script></body></html>
+

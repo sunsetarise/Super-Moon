@@ -1,0 +1,467 @@
+{
+  "classes": 56,
+  "methods": 73,
+  "modules": 28,
+  "rows": [
+    {
+      "bytes": 822,
+      "classes": [],
+      "functions": [],
+      "methods": [],
+      "module": "__init__.py"
+    },
+    {
+      "bytes": 1397,
+      "classes": [
+        "ChangeImpactAnalyzer"
+      ],
+      "functions": [],
+      "methods": [
+        "add_dependency",
+        "add_test",
+        "add_qualification",
+        "affected",
+        "plan"
+      ],
+      "module": "change_impact.py"
+    },
+    {
+      "bytes": 1477,
+      "classes": [
+        "CouplingResult"
+      ],
+      "functions": [
+        "fixed_point_cosim",
+        "conservative_transfer_error"
+      ],
+      "methods": [],
+      "module": "cosimulation.py"
+    },
+    {
+      "bytes": 2549,
+      "classes": [
+        "DomainRoutePolicy"
+      ],
+      "functions": [
+        "aircraft_structural_policy",
+        "cfd_policy",
+        "sparse_policy",
+        "cad_policy",
+        "gpu_training_policy"
+      ],
+      "methods": [],
+      "module": "domain_routes.py"
+    },
+    {
+      "bytes": 2043,
+      "classes": [
+        "RiskClass",
+        "ScaleClass",
+        "QualificationLevel",
+        "MaturityLevel",
+        "ConfidenceClass",
+        "ReproducibilityClass",
+        "WorkflowMode",
+        "ClaimLevel",
+        "FailureCode"
+      ],
+      "functions": [],
+      "methods": [],
+      "module": "enums.py"
+    },
+    {
+      "bytes": 818,
+      "classes": [
+        "ErrorBudget"
+      ],
+      "functions": [],
+      "methods": [
+        "__post_init__",
+        "conservative_sum",
+        "rss",
+        "dominant",
+        "fractions"
+      ],
+      "module": "error_budget.py"
+    },
+    {
+      "bytes": 3375,
+      "classes": [
+        "EvidenceRecord",
+        "ClaimRecord",
+        "EvidenceEngine",
+        "CapabilityQualification",
+        "QualificationLedger"
+      ],
+      "functions": [],
+      "methods": [
+        "__init__",
+        "add_evidence",
+        "add_claim",
+        "evaluate",
+        "to_dict",
+        "__init__",
+        "set",
+        "get",
+        "require"
+      ],
+      "module": "evidence.py"
+    },
+    {
+      "bytes": 2856,
+      "classes": [
+        "PolynomialSurrogate",
+        "RBFModel"
+      ],
+      "functions": [
+        "_powers",
+        "fit_polynomial_surrogate",
+        "fit_rbf",
+        "multifidelity_linear",
+        "select_max_uncertainty"
+      ],
+      "methods": [
+        "predict",
+        "inside_domain",
+        "predict"
+      ],
+      "module": "experiment.py"
+    },
+    {
+      "bytes": 2630,
+      "classes": [
+        "ModelCard",
+        "ToolCard",
+        "DecisionCard",
+        "ModePolicy"
+      ],
+      "functions": [
+        "review_gates",
+        "enforce_mode"
+      ],
+      "methods": [],
+      "module": "governance.py"
+    },
+    {
+      "bytes": 2339,
+      "classes": [
+        "ResourceEstimate",
+        "HPCRoute"
+      ],
+      "functions": [
+        "route_hpc",
+        "strong_scaling",
+        "weak_scaling",
+        "load_imbalance"
+      ],
+      "methods": [
+        "memory_bytes"
+      ],
+      "module": "hpc_routing.py"
+    },
+    {
+      "bytes": 2664,
+      "classes": [
+        "BenchmarkManager",
+        "EnduranceManager"
+      ],
+      "functions": [
+        "current_rss_bytes"
+      ],
+      "methods": [
+        "run",
+        "run"
+      ],
+      "module": "managers.py"
+    },
+    {
+      "bytes": 1500,
+      "classes": [
+        "ParameterRange",
+        "ModelValidityDomain"
+      ],
+      "functions": [],
+      "methods": [
+        "__post_init__",
+        "contains",
+        "assess"
+      ],
+      "module": "model_validity.py"
+    },
+    {
+      "bytes": 1340,
+      "classes": [
+        "NormalizedResult"
+      ],
+      "functions": [
+        "compare_results"
+      ],
+      "methods": [],
+      "module": "multisolver.py"
+    },
+    {
+      "bytes": 1450,
+      "classes": [],
+      "functions": [
+        "constraint_violation",
+        "verify_candidate",
+        "pareto_nondominated",
+        "probabilistic_constraint"
+      ],
+      "methods": [],
+      "module": "optimization_governance.py"
+    },
+    {
+      "bytes": 3355,
+      "classes": [
+        "WorkflowNode",
+        "NodeRun",
+        "WorkflowGraph",
+        "ExperimentPlan"
+      ],
+      "functions": [
+        "factorial_sweep",
+        "new_run_id"
+      ],
+      "methods": [
+        "__init__",
+        "add",
+        "order",
+        "execute",
+        "validate"
+      ],
+      "module": "orchestration.py"
+    },
+    {
+      "bytes": 2591,
+      "classes": [],
+      "functions": [
+        "_positive",
+        "reynolds",
+        "mach",
+        "prandtl",
+        "peclet",
+        "courant",
+        "froude",
+        "knudsen",
+        "biot",
+        "fourier",
+        "strouhal",
+        "grashof",
+        "rayleigh",
+        "weber",
+        "nondimensional_summary"
+      ],
+      "methods": [],
+      "module": "physics_numbers.py"
+    },
+    {
+      "bytes": 653,
+      "classes": [],
+      "functions": [
+        "compare_precision"
+      ],
+      "methods": [],
+      "module": "precision.py"
+    },
+    {
+      "bytes": 4927,
+      "classes": [
+        "Dimension",
+        "EquationDimensionalCheck",
+        "ProblemDefinition",
+        "EquationGraph",
+        "Regime"
+      ],
+      "functions": [
+        "detect_cfd_regime",
+        "detect_structural_regime"
+      ],
+      "methods": [
+        "__mul__",
+        "__truediv__",
+        "__pow__",
+        "compatible",
+        "passed",
+        "enforce",
+        "validate",
+        "__init__",
+        "add_node",
+        "add_dependency",
+        "topological_order",
+        "missing_dependencies"
+      ],
+      "module": "problem.py"
+    },
+    {
+      "bytes": 1775,
+      "classes": [
+        "ArtifactRecord",
+        "ProvenanceGraph"
+      ],
+      "functions": [
+        "sha256_bytes",
+        "sha256_file"
+      ],
+      "methods": [
+        "from_file",
+        "__init__",
+        "add_artifact",
+        "add_edge",
+        "trace_to",
+        "to_dict"
+      ],
+      "module": "provenance.py"
+    },
+    {
+      "bytes": 1272,
+      "classes": [
+        "QualificationState"
+      ],
+      "functions": [
+        "change_requires_requalification"
+      ],
+      "methods": [
+        "invalidate",
+        "downgrade"
+      ],
+      "module": "qualification.py"
+    },
+    {
+      "bytes": 1061,
+      "classes": [
+        "MachineReadableReport"
+      ],
+      "functions": [
+        "executive_summary"
+      ],
+      "methods": [
+        "to_dict",
+        "to_json"
+      ],
+      "module": "reporting.py"
+    },
+    {
+      "bytes": 1402,
+      "classes": [
+        "RunManifest"
+      ],
+      "functions": [
+        "environment_fingerprint",
+        "hash_json",
+        "build_release_evidence"
+      ],
+      "methods": [
+        "__post_init__",
+        "to_dict"
+      ],
+      "module": "reproducibility_ext.py"
+    },
+    {
+      "bytes": 3323,
+      "classes": [],
+      "functions": [
+        "adjoint_gradient",
+        "pod_snapshots",
+        "dmd",
+        "bayesian_grid_calibration",
+        "mahalanobis"
+      ],
+      "methods": [],
+      "module": "research_math.py"
+    },
+    {
+      "bytes": 4785,
+      "classes": [
+        "RiskProfile",
+        "RiskAssessment"
+      ],
+      "functions": [
+        "validate_weights",
+        "classify_cri",
+        "assess_risk",
+        "classify_scale",
+        "decision_matrix"
+      ],
+      "methods": [
+        "__post_init__"
+      ],
+      "module": "risk.py"
+    },
+    {
+      "bytes": 4611,
+      "classes": [
+        "SolverCandidate",
+        "RouteRequest",
+        "RouteDecision",
+        "SolverRoutingEngine"
+      ],
+      "functions": [
+        "pareto_front"
+      ],
+      "methods": [
+        "objective",
+        "__init__",
+        "route"
+      ],
+      "module": "routing.py"
+    },
+    {
+      "bytes": 4040,
+      "classes": [
+        "QualifiedTool",
+        "QualifiedToolRegistry",
+        "ToolExecution",
+        "SubprocessToolAdapter"
+      ],
+      "functions": [],
+      "methods": [
+        "supports_domain",
+        "__init__",
+        "register",
+        "get",
+        "list",
+        "candidates",
+        "best",
+        "as_dict",
+        "__init__",
+        "validate_input",
+        "execute",
+        "hash_outputs"
+      ],
+      "module": "tools.py"
+    },
+    {
+      "bytes": 2108,
+      "classes": [],
+      "functions": [
+        "transform_lhs_unit",
+        "lhs_samples",
+        "local_sensitivity",
+        "complex_step_gradient",
+        "reliability_monte_carlo",
+        "robust_objective"
+      ],
+      "methods": [],
+      "module": "uq_advanced.py"
+    },
+    {
+      "bytes": 3173,
+      "classes": [
+        "Discrepancy"
+      ],
+      "functions": [
+        "discrepancy",
+        "observed_order",
+        "richardson_extrapolate",
+        "grid_convergence_index",
+        "linear_residual",
+        "validation_metrics",
+        "confidence_score"
+      ],
+      "methods": [],
+      "module": "verification.py"
+    }
+  ],
+  "top_level_functions": 75
+}

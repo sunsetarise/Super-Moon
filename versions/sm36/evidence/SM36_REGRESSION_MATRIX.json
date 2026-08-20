@@ -1,0 +1,66 @@
+{
+  "format": "SM36_REGRESSION_MATRIX_V1",
+  "passed": true,
+  "suites": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/2530b218b415/work/sm35_inherited_reconstruction/tests",
+        "-p",
+        "test*.py"
+      ],
+      "elapsed_monotonic_seconds": 0.42300150399751146,
+      "ended_utc": "2026-08-20T12:32:47.766802+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "started_utc": "2026-08-20T12:32:47.343811+00:00",
+      "stderr": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.029s\n\nOK\n",
+      "stdout": "",
+      "version": 34
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/2530b218b415/work/sm36_inherited_sm35/sm35/tests",
+        "-p",
+        "test*.py"
+      ],
+      "elapsed_monotonic_seconds": 0.09482830300112255,
+      "ended_utc": "2026-08-20T12:32:47.861737+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "started_utc": "2026-08-20T12:32:47.766923+00:00",
+      "stderr": ".........................usage: supermoon35 [-h] {status,capabilities,score} ...\nsupermoon35: error: the following arguments are required: command\n..........\n----------------------------------------------------------------------\nRan 35 tests in 0.012s\n\nOK\n",
+      "stdout": "",
+      "version": 35
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/workspace/scratch/2530b218b415/work/sm36_tree/tests",
+        "-p",
+        "test*.py"
+      ],
+      "elapsed_monotonic_seconds": 14.549449474998255,
+      "ended_utc": "2026-08-20T12:33:02.411267+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "started_utc": "2026-08-20T12:32:47.861838+00:00",
+      "stderr": "......................usage: supermoon34 [-h] [--version]\n                   {backends,capabilities,qualification,selftest,compile-requirements}\n                   ...\nsupermoon34: error: the following arguments are required: command\n......................usage: supermoon36 [-h] {status,capabilities,score,registry,methodology} ...\nsupermoon36: error: the following arguments are required: command\n...........................\n----------------------------------------------------------------------\nRan 71 tests in 13.768s\n\nOK\n",
+      "stdout": "",
+      "version": 36
+    }
+  ]
+}

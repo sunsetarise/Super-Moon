@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.sqlite3 binary
+*.bin binary
+*.gz binary
+*.7z binary
+
+# GitHub rejects ordinary Git objects over 100 MB. The complete merged release
+# remains in assets as requested and is therefore tracked with Git LFS.
+assets/*.txt.gz filter=lfs diff=lfs merge=lfs -text
+

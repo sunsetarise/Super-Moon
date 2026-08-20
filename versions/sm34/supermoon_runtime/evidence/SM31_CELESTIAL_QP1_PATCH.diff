@@ -1,0 +1,83 @@
+--- sm31_qp1_original/src/supermoon31/cfd.py	2026-08-19 12:13:56.211814483 +0000
++++ sm31_qp1_work/src/supermoon31/cfd.py	2026-08-19 12:06:54.058006362 +0000
+@@ -99,9 +99,21 @@
+     F=(SR[...,None]*FL-SL[...,None]*FR+SL[...,None]*SR[...,None]*(UR-UL))/den[...,None];return np.where((SL>=0)[...,None],FL,np.where((SR<=0)[...,None],FR,F))
+ 
+ def reconstruct(U):
++    """MUSCL/minmod reconstruction for a ghost-extended 1-D state array.
++
++    Shape contract: for M cell states, slopes are defined on M-2 interior
++    cells and the returned left/right states describe exactly M-3
++    interfaces.  In :func:`euler_1d`, ``M=N+4`` (two copied boundary
++    cells on each side), therefore reconstruction returns ``N+1``
++    interfaces: the two physical boundary faces plus ``N-1`` interior
++    faces.
++    """
+     U=np.asarray(U,float)
+     if U.ndim!=2 or U.shape[0]<4 or U.shape[1]!=3 or not np.all(np.isfinite(U)): raise ValueError('finite N x 3 state with N>=4 required')
+-    dL=U[1:-1]-U[:-2];dR=U[2:]-U[1:-1];s=minmod(dL,dR);UL=U[1:-2]+.5*s[:-1];UR=U[2:-1]-.5*s[1:];return UL,UR
++    dL=U[1:-1]-U[:-2];dR=U[2:]-U[1:-1];s=minmod(dL,dR)
++    UL=U[1:-2]+.5*s[:-1];UR=U[2:-1]-.5*s[1:]
++    if UL.shape!=UR.shape or UL.shape!=(U.shape[0]-3,U.shape[1]): raise RuntimeError('INVARIANT_VIOLATION: MUSCL interface reconstruction shape mismatch')
++    return UL,UR
+ 
+ def euler_1d(x,U0,t_end,cfl=.45,gamma=1.4,scheme='rusanov',second_order=True,max_steps=100000):
+     x=np.asarray(x,float);U=np.asarray(U0,float).copy();t_end=float(t_end);cfl=float(cfl);max_steps=int(max_steps);gamma=float(gamma)
+@@ -121,7 +133,14 @@
+         if dt<=0 or not np.isfinite(dt): raise FloatingPointError('NUMERICAL_BREAKDOWN: invalid time step')
+         old=U.copy();Ug=np.vstack([U[0],U[0],U,U[-1],U[-1]])
+         if second_order:
+-            UL,UR=reconstruct(Ug);Fi=solver(UL,UR,gamma);U=U-dt/dx*(Fi[2:2+len(U)]-Fi[1:1+len(U)])
++            UL,UR=reconstruct(Ug);Fi=solver(UL,UR,gamma)
++            # Fi has N+1 physical-face fluxes.  Cell i is bounded by
++            # faces i and i+1, so the finite-volume divergence must pair
++            # Fi[1:] with Fi[:-1].  The former Fi[2:2+N]-Fi[1:1+N]
++            # mixed an N-1 slice with an N slice and caused the confirmed
++            # (59,3) vs (60,3) broadcasting failure for N=60.
++            if Fi.shape!=(len(U)+1,3): raise RuntimeError('INVARIANT_VIOLATION: expected N+1 interface fluxes')
++            U=U-dt/dx*(Fi[1:]-Fi[:-1])
+         else:
+             Fi=solver(Ug[1:-1],Ug[2:],gamma);U=U-dt/dx*(Fi[1:len(U)+1]-Fi[:len(U)])
+         _,rr,_,pp=_state(U,gamma,'advanced state');min_rho=min(min_rho,float(np.min(rr)));min_p=min(min_p,float(np.min(pp)));max_cfl=max(max_cfl,float(speed*dt/dx))
+--- sm31_qp1_original/src/supermoon31/cad.py	2026-08-19 12:13:56.211024750 +0000
++++ sm31_qp1_work/src/supermoon31/cad.py	2026-08-19 12:06:54.058151918 +0000
+@@ -58,7 +58,14 @@
+     def derivative(self,u,h=1e-6): return (self.evaluate(u+h)-self.evaluate(u-h))/(2*h)
+     def curvature(self,u,h=1e-5):
+         d1=(self.evaluate(u+h)-self.evaluate(u-h))/(2*h); d2=(self.evaluate(u+h)-2*self.evaluate(u)+self.evaluate(u-h))/h**2
+-        n=np.linalg.norm(d1); return float(np.linalg.norm(np.cross(d1,d2))/max(n**3,1e-300)) if self.control.shape[1]==3 else float(abs(np.cross(d1,d2))/max(n**3,1e-300))
++        n=np.linalg.norm(d1); den=max(n**3,1e-300)
++        if self.control.shape[1]==3: return float(np.linalg.norm(np.cross(d1,d2))/den)
++        if self.control.shape[1]==2:
++            # Explicit planar scalar cross product.  NumPy deprecated
++            # np.cross on 2-component vectors; this is mathematically
++            # identical to |x' y'' - y' x''| and warning-free.
++            cross2=d1[0]*d2[1]-d1[1]*d2[0]; return float(abs(cross2)/den)
++        raise ValueError('curvature requires 2-D or 3-D control points')
+ 
+ @dataclass
+ class NURBSCurve(BSplineCurve):
+--- sm31_qp1_original/src/supermoon31/endurance.py	2026-08-19 12:13:56.212537267 +0000
++++ sm31_qp1_work/src/supermoon31/endurance.py	2026-08-19 12:11:09.923440121 +0000
+@@ -17,8 +17,10 @@
+ def mixed_iteration(seed=0):
+     rng=np.random.default_rng(seed); A=rng.normal(size=(12,12));A=A.T@A+np.eye(12);b=rng.normal(size=12);x,h=mixed_precision_refinement(A,b)
+     tr=truss2d([[0,0],[1,0],[1,1]],[(0,1),(1,2),(0,2)],2e11,1e-4,{5:-1e3},[0,1,3])
+-    xx=np.linspace(0,1,40);cf=euler_1d(xx,sod_initial(xx),.002,second_order=False)
+-    return {'linear_residual':float(np.linalg.norm(A@x-b)),'fea_residual':tr.residual_norm,'cfd_steps':cf.metadata['steps']}
++    # Qualification Patch 1 deliberately exercises both Euler orders during
++    # endurance: even seeds use first order, odd seeds use repaired MUSCL.
++    second_order=bool(int(seed)%2);xx=np.linspace(0,1,40);cf=euler_1d(xx,sod_initial(xx),.002,second_order=second_order)
++    return {'linear_residual':float(np.linalg.norm(A@x-b)),'fea_residual':tr.residual_norm,'cfd_steps':cf.metadata['steps'],'cfd_second_order':second_order}
+ 
+ def run_endurance(duration_seconds,report_path=None,sample_interval=1.0):
+     if duration_seconds<=0: raise ValueError('duration must be positive real elapsed time')
+@@ -54,7 +56,7 @@
+         if now-last_sample>=sample_interval:rows.append(telemetry());last_sample=now
+     elapsed=time.monotonic()-start
+     rss=[r.get('rss') for r in rows if r.get('rss') is not None]
+-    report={'requested_seconds':duration_seconds,'elapsed_seconds':elapsed,'iterations':iters,'errors':errors,'invariant_failures':invariant_failures,'telemetry':rows,'rss_min':min(rss) if rss else None,'rss_max':max(rss) if rss else None,'passed':elapsed>=duration_seconds and not errors and not invariant_failures,'qualification_scope':'EXECUTED_DURATION_ONLY'}
++    report={'requested_seconds':duration_seconds,'elapsed_seconds':elapsed,'iterations':iters,'iterations_per_second':iters/max(elapsed,np.finfo(float).tiny),'cfd_first_order_iterations':(iters+1)//2,'cfd_second_order_iterations':iters//2,'errors':errors,'invariant_failures':invariant_failures,'telemetry':rows,'rss_min':min(rss) if rss else None,'rss_max':max(rss) if rss else None,'rss_drift':(rss[-1]-rss[0]) if len(rss)>=2 else 0 if rss else None,'passed':elapsed>=duration_seconds and not errors and not invariant_failures,'qualification_scope':'EXECUTED_DURATION_ONLY','cfd_order_mix':'alternating first/second order by iteration seed parity'}
+     if report_path:
+         p=Path(report_path);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(report,indent=2),encoding='utf-8')
+     return report

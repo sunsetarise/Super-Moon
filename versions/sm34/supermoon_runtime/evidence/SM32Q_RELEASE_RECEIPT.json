@@ -1,0 +1,22 @@
+{
+  "authoritative_runtime": "SM32 + supermoon32.qualified",
+  "branch_coverage_percent": 98.17708333333333,
+  "certification_acceptance": "NOT_CLAIMED",
+  "completed_endurance_seconds": [
+    10,
+    15
+  ],
+  "created_unix": 1787160455.0988,
+  "format": "SM32Q_RELEASE_RECEIPT_V1",
+  "previous_gzip_bytes": 87658945,
+  "previous_gzip_sha256": "831cfccd92167b121b88e658408e2e2bbf6331a269c3cb005d3698dfb9178121",
+  "previous_member_preserved_byte_for_byte": true,
+  "qualification_status": "PASS_WITH_LIMITATIONS",
+  "qualified_payload_manifest_entries": 48,
+  "qualified_payload_manifest_sha256": "ee522a91fff0dfc67a4e329afea99a7423beea7fc5e173f129daf0a7b54118ca",
+  "qualified_tests_passed": 130,
+  "real_external_qualified_tool_execution": "NOT_EXECUTED_NO_TOOL_PROVIDED",
+  "release": "SUPER MOON 32.0 OMEGA \u2014 QUALIFIED RESEARCH AUTOMATION VERIFICATION ORCHESTRATION CORE",
+  "statement_coverage_percent": 99.58847736625515,
+  "tests_total_passed": 323
+}

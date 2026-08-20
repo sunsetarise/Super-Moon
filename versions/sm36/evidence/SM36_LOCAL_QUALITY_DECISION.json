@@ -1,0 +1,28 @@
+{
+  "combined": {
+    "branches": 1136,
+    "covered_branches": 1027,
+    "covered_statements": 3691,
+    "statements": 3810
+  },
+  "combined_branch_percent": 90.40492957746478,
+  "combined_pass": true,
+  "combined_statement_percent": 96.8766404199475,
+  "exclusions_valid": true,
+  "format": "SM36_LOCAL_QUALITY_DECISION_V1",
+  "fuzz_failures": 0,
+  "fuzz_pass": true,
+  "mutation_pass": true,
+  "mutation_percent": 100.0,
+  "new_branch_percent": 95.2,
+  "new_code": {
+    "branches": 500,
+    "covered_branches": 476,
+    "covered_statements": 1416,
+    "statements": 1427
+  },
+  "new_code_pass": true,
+  "new_statement_percent": 99.229152067274,
+  "passed": true,
+  "release_effect": "G03_TECHNICAL_THRESHOLDS_PASS_REVIEW_PENDING"
+}

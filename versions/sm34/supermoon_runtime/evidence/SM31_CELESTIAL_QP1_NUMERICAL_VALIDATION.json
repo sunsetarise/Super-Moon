@@ -1,0 +1,48 @@
+{
+  "rusanov_first": {
+    "steps": 92,
+    "min_density": 0.12500000037003314,
+    "min_pressure": 0.10000000041443706,
+    "finite": true,
+    "cfl_max": 0.4500000000000001
+  },
+  "rusanov_second": {
+    "steps": 96,
+    "min_density": 0.125,
+    "min_pressure": 0.1,
+    "finite": true,
+    "cfl_max": 0.4500000000000001
+  },
+  "hll_first": {
+    "steps": 93,
+    "min_density": 0.12500000042685291,
+    "min_pressure": 0.10000000047807527,
+    "finite": true,
+    "cfl_max": 0.4500000000000001
+  },
+  "hll_second": {
+    "steps": 96,
+    "min_density": 0.125,
+    "min_pressure": 0.1,
+    "finite": true,
+    "cfl_max": 0.4500000000000001
+  },
+  "uniform_first": {
+    "max_abs_state_error": 0.0,
+    "mass_abs_error": 0.0,
+    "momentum_abs_error": 0.0,
+    "energy_abs_error": 0.0
+  },
+  "uniform_second": {
+    "max_abs_state_error": 0.0,
+    "mass_abs_error": 0.0,
+    "momentum_abs_error": 0.0,
+    "energy_abs_error": 0.0
+  },
+  "second_vs_first_difference_l2": 0.6109364545119409,
+  "bspline_2d_curvature": {
+    "value": 0.9999999439715951,
+    "warnings": 0,
+    "warning_messages": []
+  }
+}
